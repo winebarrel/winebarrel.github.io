@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 30 May 2026 16:01:16 GMT</lastBuildDate>
+<lastBuildDate>Sat, 30 May 2026 16:06:35 GMT</lastBuildDate>
 <item>
   <title>vscode-tfrename</title>
   <link>https://github.com/winebarrel/vscode-tfrename</link>
@@ -85,14 +85,6 @@
   <guid isPermaLink="true">https://github.com/winebarrel/pgls-vscode</guid>
   <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
   <description>VSCode client for the pgls PostgreSQL language server.</description>
-  <category>PostgreSQL</category>
-</item>
-<item>
-  <title>pgls-example</title>
-  <link>https://github.com/winebarrel/pgls-example</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/pgls-example</guid>
-  <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
-  <description>Minimal playground for trying out pgls (PostgreSQL language server) in .sql and .go files.</description>
   <category>PostgreSQL</category>
 </item>
 <item>
@@ -406,6 +398,14 @@
   <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
   <description>Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.</description>
   <category>Go tool</category>
+</item>
+<item>
+  <title>json2hcl</title>
+  <link>https://github.com/winebarrel/json2hcl</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/json2hcl</guid>
+  <pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate>
+  <description>A tool to convert JSON to HCL.</description>
+  <category>Other</category>
 </item>
 </channel>
 </rss>

@@ -990,22 +990,6 @@
     "created": "2022-06-05"
   },
   {
-    "name": "docker-pkg-build",
-    "url": "https://github.com/winebarrel/docker-pkg-build",
-    "categories": [
-      "Docker / Container"
-    ],
-    "language": "Makefile",
-    "languages": [
-      "Makefile",
-      "C"
-    ],
-    "description": "This is a example to make a rpm/deb in Docker.",
-    "stars": 1,
-    "updated": "2016-09-05",
-    "created": "2016-09-04"
-  },
-  {
     "name": "docker-credential-ecr-login-env",
     "url": "https://github.com/winebarrel/docker-credential-ecr-login-env",
     "categories": [
@@ -1051,21 +1035,6 @@
     "stars": 0,
     "updated": "2016-12-25",
     "created": "2016-12-25"
-  },
-  {
-    "name": "elixir_counter",
-    "url": "https://github.com/winebarrel/elixir_counter",
-    "categories": [
-      "Elixir"
-    ],
-    "language": "Elixir",
-    "languages": [
-      "Elixir"
-    ],
-    "description": "Elixir Counter Server (GenSever example)",
-    "stars": 0,
-    "updated": "2016-03-22",
-    "created": "2016-03-22"
   },
   {
     "name": "ruby-ripmime",
@@ -2206,21 +2175,6 @@
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
     "updated": "2026-05-26",
-    "created": "2026-05-05"
-  },
-  {
-    "name": "pgls-example",
-    "url": "https://github.com/winebarrel/pgls-example",
-    "categories": [
-      "PostgreSQL"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go"
-    ],
-    "description": "Minimal playground for trying out pgls (PostgreSQL language server) in .sql and .go files.",
-    "stars": 0,
-    "updated": "2026-05-06",
     "created": "2026-05-05"
   },
   {
