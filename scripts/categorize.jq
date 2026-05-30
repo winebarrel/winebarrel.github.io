@@ -1,5 +1,6 @@
 def topics_arr: [.repositoryTopics[]?.name // empty];
 def lang: (.primaryLanguage.name // "none");
+def top_langs: ([(.languages // [])[] | {name: .node.name, size}] | sort_by(-.size) | .[0:2] | map(.name));
 def name_lc: (.name | ascii_downcase);
 def desc_lc: ((.description // "") | ascii_downcase);
 def topics_str: (topics_arr | join(",") | ascii_downcase);
@@ -27,7 +28,7 @@ def category:
   elif ($h | test("\\bemail\\b|\\bsmtp\\b|\\bimap\\b|\\bmime\\b|\\bmail\\b|ripmime")) then "Email"
   elif ($h | test("benchmark|perf|load test|stress|profil")) then "Benchmark / Perf"
   elif ($h | test("dns\\b|route53|domain|nameserver|networking|\\btcp\\b|keepalive")) then "DNS / Network"
-  elif ($h | test("\\boauth\\b|\\bauth\\b|login|credential|crypt|tls|ssl|cert|password|secret")) then "Auth / Security"
+  elif ($h | test("authentication|oauth|\\bauth\\b|login|credential|crypt|tls|ssl|cert|password|secret")) then "Auth / Security"
   elif ($h | test("log\\b|logging|fluentd|fluent-bit|syslog")) then "Logging"
   elif ($h | test("monitor|metric|prometheus|datadog|new relic|nagios|mackerel")) then "Monitoring"
   elif ($h | test("html|css|web\\b|browser|chrome-extension|safari-extension|browser-extension")) then "Web / Browser"
@@ -48,6 +49,7 @@ def category:
     description: (.description // ""),
     categories: [category],
     language: lang,
+    languages: top_langs,
     stars: .stargazerCount,
     updated: (.pushedAt | split("T")[0]),
     created: (.createdAt | split("T")[0]),

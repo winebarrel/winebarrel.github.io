@@ -283,7 +283,7 @@
         <h3><a href="${t.url}">${highlight(t.name, state.q)}</a></h3>
         <div class="cats">${catChips}</div>
         <div class="meta">
-          ${t.language && t.language !== 'none' ? `<span class="lang"><span class="lang-dot" style="background:${langColors[t.language] || '#9aa0a6'}"></span>${escapeHtml(t.language)}</span>` : ''}
+          ${(t.languages && t.languages.length ? t.languages : (t.language && t.language !== 'none' ? [t.language] : [])).map(l => `<span class="lang"><span class="lang-dot" style="background:${langColors[l] || '#9aa0a6'}"></span>${escapeHtml(l)}</span>`).join('')}
           ${t.stars ? `<span class="stars">★ ${t.stars}</span>` : ''}
           ${t.created ? `<span class="created" title="published">${t.created}</span>` : ''}
           ${t.updated ? `<span class="updated" title="last push">${t.updated}</span>` : ''}

@@ -6,6 +6,10 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Yacc"
+    ],
     "description": "ddbcli is an interactive command-line client of Amazon DynamoDB.",
     "stars": 40,
     "updated": "2019-10-18",
@@ -18,6 +22,9 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
     "updated": "2026-05-25",
@@ -30,6 +37,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "HTML"
+    ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 39,
     "updated": "2026-05-22",
@@ -42,6 +53,9 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Fluentd input plugin for AWS ELB Access Logs.",
     "stars": 17,
     "updated": "2018-04-05",
@@ -54,6 +68,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Follow tail messages of CloudWatch Logs.",
     "stars": 8,
     "updated": "2018-01-11",
@@ -66,6 +84,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
     "updated": "2026-05-25",
@@ -78,6 +100,10 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "HCL"
+    ],
     "description": "AWS SAM app that sends slowqueries from CloudWatch Logs to Elasticsearch.",
     "stars": 5,
     "updated": "2020-02-11",
@@ -90,6 +116,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "`tee` command for CloudWatch Logs.",
     "stars": 4,
     "updated": "2017-07-13",
@@ -102,6 +132,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Golang library for using AWS Parameters and Secrets Lambda Extension.",
     "stars": 4,
     "updated": "2025-11-24",
@@ -114,6 +148,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
     "updated": "2026-05-29",
@@ -126,6 +164,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Get CloudWatch metrics.",
     "stars": 3,
     "updated": "2018-02-20",
@@ -138,6 +180,10 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "HTML"
+    ],
     "description": "CloudWatch Logs Event Viewer.",
     "stars": 3,
     "updated": "2016-10-03",
@@ -150,6 +196,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
     "updated": "2026-05-29",
@@ -162,6 +212,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
     "updated": "2026-05-22",
@@ -174,6 +228,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
     "updated": "2026-05-25",
@@ -186,6 +244,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Get DynamoDB Item.",
     "stars": 1,
     "updated": "2016-11-14",
@@ -198,6 +260,10 @@
       "AWS"
     ],
     "language": "Rust",
+    "languages": [
+      "Rust",
+      "Makefile"
+    ],
     "description": "tee command for CloudWatch Logs.",
     "stars": 1,
     "updated": "2022-06-25",
@@ -210,6 +276,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "HCL"
+    ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
     "updated": "2026-05-29",
@@ -222,6 +292,10 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Dockerfile"
+    ],
     "description": "AWS SAM Ruby runtime with MySQL.",
     "stars": 1,
     "updated": "2019-12-08",
@@ -234,6 +308,9 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Attach AWS Elastic Network Interfaces (ENI) from command line",
     "stars": 0,
     "updated": "2022-06-05",
@@ -246,6 +323,10 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Handle EC2 Spot Instance termination notifications",
     "stars": 0,
     "updated": "2022-06-05",
@@ -258,6 +339,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
     "updated": "2026-05-29",
@@ -270,6 +355,9 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Query AWS EC2 Spot Instance price history from CLI",
     "stars": 0,
     "updated": "2022-06-05",
@@ -282,6 +370,9 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "DynamoDB Streams client.",
     "stars": 0,
     "updated": "2014-11-21",
@@ -294,6 +385,9 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Acquire and report AWS EC2 usage statistics",
     "stars": 0,
     "updated": "2022-06-05",
@@ -306,6 +400,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
     "updated": "2026-05-22",
@@ -318,6 +416,10 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
     "updated": "2026-05-29",
@@ -330,6 +432,10 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "HCL"
+    ],
     "description": "Collect PostgreSQL slow query logs to Elasticsearch",
     "stars": 0,
     "updated": "2020-02-11",
@@ -342,6 +448,10 @@
       "AWS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Yacc"
+    ],
     "description": "CLI tool for Amazon SimpleDB management",
     "stars": 0,
     "updated": "2022-06-05",
@@ -354,10 +464,29 @@
       "AWS"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Dockerfile"
+    ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
     "updated": "2026-05-25",
     "created": "2025-02-22"
+  },
+  {
+    "name": "google_drive-persistent_session",
+    "url": "https://github.com/winebarrel/google_drive-persistent_session",
+    "categories": [
+      "Auth / Security"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Persist credential for google-drive-ruby.",
+    "stars": 6,
+    "updated": "2022-09-11",
+    "created": "2015-02-17"
   },
   {
     "name": "goth-esa",
@@ -366,6 +495,10 @@
       "Auth / Security"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Goth provider for esa.",
     "stars": 1,
     "updated": "2026-03-09",
@@ -378,6 +511,10 @@
       "Auth / Security"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Ruby"
+    ],
     "description": "Ruby bindings for AES encryption",
     "stars": 0,
     "updated": "2022-06-05",
@@ -390,6 +527,10 @@
       "Auth / Security"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
     "updated": "2026-05-15",
@@ -402,6 +543,10 @@
       "Auth / Security"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Dockerfile"
+    ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
     "updated": "2026-05-27",
@@ -414,6 +559,9 @@
       "Auth / Security"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Persist Google Drive credentials for google-drive-ruby",
     "stars": 0,
     "updated": "2015-02-17",
@@ -426,6 +574,10 @@
       "Auth / Security"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Dockerfile"
+    ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
     "updated": "2026-05-22",
@@ -438,6 +590,10 @@
       "Auth / Security"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Mask 1Password CLI password using ANSI color.",
     "stars": 0,
     "updated": "2026-04-13",
@@ -450,6 +606,7 @@
       "C"
     ],
     "language": "C",
+    "languages": [],
     "description": "Ruby bindings for Libarchive. ",
     "stars": 2,
     "updated": "2022-06-05",
@@ -462,6 +619,7 @@
       "C"
     ],
     "language": "C",
+    "languages": [],
     "description": "This is a library to transmit the file descriptor between the processes.",
     "stars": 1,
     "updated": "2022-06-05",
@@ -474,6 +632,10 @@
       "C"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Ruby"
+    ],
     "description": "Ruby library for running Lua scripts",
     "stars": 0,
     "updated": "2022-06-05",
@@ -486,6 +648,10 @@
       "CLI"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "CLI for esa.io.",
     "stars": 19,
     "updated": "2026-05-25",
@@ -498,6 +664,10 @@
       "CLI"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "HAProxy Unix Socket commands CLI",
     "stars": 8,
     "updated": "2017-01-24",
@@ -510,6 +680,9 @@
       "CLI"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Amazon Kinesis cli for put JSON data.",
     "stars": 2,
     "updated": "2015-01-12",
@@ -522,6 +695,10 @@
       "CLI"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "CLI to get airtable records.",
     "stars": 1,
     "updated": "2026-05-14",
@@ -534,6 +711,10 @@
       "CLI"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Sort NDJSON/JSON Lines data by key",
     "stars": 0,
     "updated": "2021-08-22",
@@ -546,6 +727,10 @@
       "CLI"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Amazon Kinesis cli for put JSON data.",
     "stars": 0,
     "updated": "2015-02-02",
@@ -558,6 +743,10 @@
       "CLI"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "CLI to convert currency using Yahoo! finance API.",
     "stars": 0,
     "updated": "2026-04-06",
@@ -570,6 +759,10 @@
       "CLI"
     ],
     "language": "Rust",
+    "languages": [
+      "Rust",
+      "Makefile"
+    ],
     "description": "Convert CSV/TSV/xSV to JSON Lines",
     "stars": 0,
     "updated": "2020-06-30",
@@ -582,6 +775,10 @@
       "Chat / Slack"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Notify message to Slack channel.",
     "stars": 6,
     "updated": "2016-10-22",
@@ -594,6 +791,9 @@
       "Chat / Slack"
     ],
     "language": "TypeScript",
+    "languages": [
+      "TypeScript"
+    ],
     "description": "Slack Bot using Bolt.",
     "stars": 0,
     "updated": "2022-05-29",
@@ -606,6 +806,10 @@
       "Compression"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Ruby"
+    ],
     "description": "Ruby bindings for FastLZ compression library",
     "stars": 0,
     "updated": "2022-06-05",
@@ -618,6 +822,10 @@
       "Compression"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Ruby"
+    ],
     "description": "Ruby bindings for LibLZF compression library",
     "stars": 0,
     "updated": "2022-06-05",
@@ -630,6 +838,10 @@
       "Compression"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Ruby"
+    ],
     "description": "Ruby bindings for LZO compression library",
     "stars": 0,
     "updated": "2022-06-05",
@@ -642,6 +854,10 @@
       "Compression"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Ruby"
+    ],
     "description": "Ruby bindings for QuickLZ compression library",
     "stars": 0,
     "updated": "2022-06-05",
@@ -654,6 +870,10 @@
       "Compression"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Roff"
+    ],
     "description": "Ruby bindings for libtar archive manipulation",
     "stars": 0,
     "updated": "2022-06-05",
@@ -666,6 +886,10 @@
       "DNS / Network"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Dockerfile"
+    ],
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 0,
     "updated": "2026-05-14",
@@ -678,6 +902,10 @@
       "DNS / Network"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Makefile"
+    ],
     "description": "TCP keepalive extension for Ruby sockets",
     "stars": 0,
     "updated": "2022-06-05",
@@ -690,6 +918,9 @@
       "Database"
     ],
     "language": "Perl",
+    "languages": [
+      "Perl"
+    ],
     "description": "",
     "stars": 3,
     "updated": "2021-05-30",
@@ -702,6 +933,10 @@
       "Database"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "SendGrid v3 Mail Send API Ruby Client that validates API request body using JSON Schema.",
     "stars": 1,
     "updated": "2021-03-16",
@@ -714,6 +949,10 @@
       "Database"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Yacc"
+    ],
     "description": "ActiveRecord adapter for Tokyo Cabinet/Tyrant databases",
     "stars": 0,
     "updated": "2022-06-05",
@@ -726,6 +965,10 @@
       "Database"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "go get github.com/winebarrel/conds",
     "stars": 0,
     "updated": "2026-01-25",
@@ -738,6 +981,9 @@
       "Database"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Ruby implementation of ping utility",
     "stars": 0,
     "updated": "2022-06-05",
@@ -750,6 +996,10 @@
       "Docker / Container"
     ],
     "language": "Makefile",
+    "languages": [
+      "Makefile",
+      "C"
+    ],
     "description": "This is a example to make a rpm/deb in Docker.",
     "stars": 1,
     "updated": "2016-09-05",
@@ -762,6 +1012,10 @@
       "Docker / Container"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Wrapper command for docker-credential-ecr-login to add environment variables.",
     "stars": 0,
     "updated": "2026-05-14",
@@ -774,6 +1028,10 @@
       "Docker / Container"
     ],
     "language": "Dockerfile",
+    "languages": [
+      "Dockerfile",
+      "Makefile"
+    ],
     "description": "Stone Docker Image",
     "stars": 0,
     "updated": "2021-11-22",
@@ -786,6 +1044,9 @@
       "Docker / Container"
     ],
     "language": "Makefile",
+    "languages": [
+      "Makefile"
+    ],
     "description": "rtail-server docker image",
     "stars": 0,
     "updated": "2016-12-25",
@@ -798,6 +1059,9 @@
       "Elixir"
     ],
     "language": "Elixir",
+    "languages": [
+      "Elixir"
+    ],
     "description": "Elixir Counter Server (GenSever example)",
     "stars": 0,
     "updated": "2016-03-22",
@@ -810,6 +1074,10 @@
       "Email"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Ruby"
+    ],
     "description": "Ruby bindings for ripmime MIME parser",
     "stars": 0,
     "updated": "2022-06-05",
@@ -822,6 +1090,10 @@
       "Git / GitHub"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "AppleScript"
+    ],
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
     "updated": "2026-05-22",
@@ -834,6 +1106,9 @@
       "Git / GitHub"
     ],
     "language": "TypeScript",
+    "languages": [
+      "TypeScript"
+    ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
     "updated": "2026-05-25",
@@ -846,6 +1121,10 @@
       "Git / GitHub"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "List up CODEOWNERS of all repositories.",
     "stars": 1,
     "updated": "2026-04-06",
@@ -858,6 +1137,9 @@
       "Git / GitHub"
     ],
     "language": "TypeScript",
+    "languages": [
+      "TypeScript"
+    ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
     "updated": "2026-05-25",
@@ -870,6 +1152,9 @@
       "Git / GitHub"
     ],
     "language": "Elixir",
+    "languages": [
+      "Elixir"
+    ],
     "description": "It is Elixir sysvbanner port from https://github.com/uffejakobsen/sysvbanner.",
     "stars": 0,
     "updated": "2016-01-17",
@@ -882,6 +1167,10 @@
       "Git / GitHub"
     ],
     "language": "Rust",
+    "languages": [
+      "Rust",
+      "Makefile"
+    ],
     "description": "CLI to download assets from GitHub release.",
     "stars": 0,
     "updated": "2021-11-29",
@@ -894,6 +1183,10 @@
       "Git / GitHub"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Ruby"
+    ],
     "description": "It is Go sysvbanner port from https://github.com/uffejakobsen/sysvbanner.",
     "stars": 0,
     "updated": "2017-02-14",
@@ -906,6 +1199,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Parallel file copy command using dd.",
     "stars": 16,
     "updated": "2016-03-10",
@@ -918,6 +1215,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "PLpgSQL"
+    ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
     "updated": "2026-05-21",
@@ -930,6 +1231,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Write a histogram in Terminal.",
     "stars": 9,
     "updated": "2026-02-23",
@@ -942,6 +1247,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "utsusemi is a proxy server that automatically switches backend.",
     "stars": 3,
     "updated": "2017-11-28",
@@ -954,6 +1263,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
     "updated": "2026-05-14",
@@ -966,6 +1279,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Run shell script command using Amazon Simple Systems Management Service.",
     "stars": 2,
     "updated": "2016-08-03",
@@ -978,6 +1295,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Execute a command in a temporary directory.",
     "stars": 2,
     "updated": "2021-04-07",
@@ -990,6 +1311,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.",
     "stars": 1,
     "updated": "2026-04-06",
@@ -1002,6 +1327,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Go library for generating random strings",
     "stars": 1,
     "updated": "2025-11-24",
@@ -1014,6 +1343,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Rendering files using Sigil templating.",
     "stars": 1,
     "updated": "2022-08-01",
@@ -1026,6 +1359,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "A library to replace string placeholders with environment variables.",
     "stars": 0,
     "updated": "2025-11-20",
@@ -1038,6 +1375,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "jsonast is a library that parses JSON and converts it to AST.",
     "stars": 0,
     "updated": "2026-01-06",
@@ -1050,6 +1391,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
     "updated": "2026-05-27",
@@ -1062,6 +1407,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "ppcat is a tool to format JSON in the middle of text.",
     "stars": 0,
     "updated": "2026-02-23",
@@ -1074,6 +1423,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "sglob is a small globbing library for string.",
     "stars": 0,
     "updated": "2025-11-20",
@@ -1086,6 +1439,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "A library that recursively dumps structure information.",
     "stars": 0,
     "updated": "2025-11-24",
@@ -1098,6 +1455,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Time Calculator.",
     "stars": 0,
     "updated": "2026-04-06",
@@ -1110,6 +1471,10 @@
       "Go tool"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "xjsonl is a tool to convert xSV to JSON Lines.",
     "stars": 0,
     "updated": "2020-06-29",
@@ -1122,6 +1487,10 @@
       "JS / TS"
     ],
     "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
     "updated": "2026-05-28",
@@ -1134,6 +1503,10 @@
       "JS / TS"
     ],
     "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
     "updated": "2026-05-24",
@@ -1146,6 +1519,10 @@
       "JS / TS"
     ],
     "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "HTML"
+    ],
     "description": "Sticky notes widget library for JavaScript",
     "stars": 0,
     "updated": "2022-06-05",
@@ -1158,6 +1535,9 @@
       "KVS / Cache"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Consistent hashing library for distributed caching",
     "stars": 0,
     "updated": "2022-06-05",
@@ -1170,6 +1550,10 @@
       "Logging"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Fluentd output plugin for Amazon Kinesis Firehose.",
     "stars": 10,
     "updated": "2016-07-15",
@@ -1182,6 +1566,10 @@
       "Logging"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Fluentd input plugin for Munin node.",
     "stars": 4,
     "updated": "2015-09-16",
@@ -1194,6 +1582,10 @@
       "Logging"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "C"
+    ],
     "description": "Postfix Status Line Log Parser implemented by C.",
     "stars": 4,
     "updated": "2017-03-05",
@@ -1206,6 +1598,10 @@
       "Logging"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Aggregate log records by time.",
     "stars": 1,
     "updated": "2016-06-30",
@@ -1218,6 +1614,9 @@
       "Logging"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Fluentd plugin to decode Raven data.",
     "stars": 1,
     "updated": "2015-05-27",
@@ -1230,6 +1629,10 @@
       "Logging"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Fluentd output plugin for rtail.",
     "stars": 0,
     "updated": "2016-12-25",
@@ -1242,6 +1645,10 @@
       "Monitoring"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
     "updated": "2026-05-15",
@@ -1254,6 +1661,10 @@
       "Monitoring"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "fstaid is a daemon that monitors the health condition of the server and executes the script if there is any problem.",
     "stars": 6,
     "updated": "2017-08-25",
@@ -1266,6 +1677,10 @@
       "Monitoring"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
     "updated": "2026-05-15",
@@ -1278,6 +1693,10 @@
       "Monitoring"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "gRPC health check server implementation",
     "stars": 0,
     "updated": "2021-09-07",
@@ -1290,6 +1709,9 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1114,
     "updated": "2026-05-28",
@@ -1302,6 +1724,10 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Dockerfile"
+    ],
     "description": "",
     "stars": 24,
     "updated": "2025-11-24",
@@ -1314,6 +1740,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "genlog is MySQL General Query Log parser.",
     "stars": 12,
     "updated": "2026-02-23",
@@ -1326,6 +1756,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
     "updated": "2026-05-26",
@@ -1338,6 +1772,10 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Dockerfile"
+    ],
     "description": "Highlight problematic MySQL explain results.",
     "stars": 9,
     "updated": "2025-11-24",
@@ -1350,6 +1788,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Shell"
+    ],
     "description": "binrpt is a daemon that reads MySQL binlog and executes replication SQL.",
     "stars": 8,
     "updated": "2024-08-27",
@@ -1362,6 +1804,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
     "updated": "2026-05-29",
@@ -1374,6 +1820,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "pgslap is a PostgreSQL load testing tool like mysqlslap.",
     "stars": 7,
     "updated": "2025-04-08",
@@ -1386,6 +1836,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
     "updated": "2026-05-14",
@@ -1398,6 +1852,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "qlap is a MySQL load testing tool like mysqlslap.",
     "stars": 6,
     "updated": "2025-04-08",
@@ -1410,6 +1868,9 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Plug-in that colorize the bad query for Arproxy.",
     "stars": 3,
     "updated": "2015-05-15",
@@ -1422,6 +1883,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Shell"
+    ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
     "updated": "2026-05-22",
@@ -1434,6 +1899,9 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Filtering framework for Mysql2.",
     "stars": 2,
     "updated": "2015-05-16",
@@ -1446,6 +1914,9 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Plug-in that colorize the bad query for Mysql2QueryFilter.",
     "stars": 2,
     "updated": "2015-05-16",
@@ -1458,6 +1929,10 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "C"
+    ],
     "description": "Execute MySQL PASSWORD() function in Ruby.",
     "stars": 2,
     "updated": "2019-05-16",
@@ -1470,6 +1945,9 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Dump type information of non-standard MySQL primary keys",
     "stars": 1,
     "updated": "2014-11-18",
@@ -1482,6 +1960,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 1,
     "updated": "2026-05-25",
@@ -1494,6 +1976,10 @@
       "MySQL"
     ],
     "language": "Rust",
+    "languages": [
+      "Rust",
+      "Makefile"
+    ],
     "description": "MySQL General Query Log parser.",
     "stars": 1,
     "updated": "2021-06-29",
@@ -1506,6 +1992,10 @@
       "MySQL"
     ],
     "language": "C",
+    "languages": [
+      "C",
+      "Ruby"
+    ],
     "description": "TCP keepalive extension for Mysql2 gem",
     "stars": 0,
     "updated": "2022-06-05",
@@ -1518,6 +2008,9 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Logging plug-in for Mysql2QueryFilter.",
     "stars": 0,
     "updated": "2015-05-16",
@@ -1530,6 +2023,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "pt-fingerprint for JSON Lines.",
     "stars": 0,
     "updated": "2020-07-20",
@@ -1542,6 +2039,10 @@
       "MySQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "qrnlog is a qrn log normalization tool.",
     "stars": 0,
     "updated": "2020-07-15",
@@ -1554,6 +2055,10 @@
       "MySQL"
     ],
     "language": "C++",
+    "languages": [
+      "C++",
+      "Ruby"
+    ],
     "description": "Ruby bindings for MySQL binary log replication API",
     "stars": 0,
     "updated": "2022-06-05",
@@ -1566,6 +2071,10 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Go"
+    ],
     "description": "Ruby bindings for Percona Toolkit query fingerprint",
     "stars": 0,
     "updated": "2021-03-16",
@@ -1578,6 +2087,10 @@
       "MySQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Lightweight MySQL client built on mysql command",
     "stars": 0,
     "updated": "2017-03-08",
@@ -1590,6 +2103,10 @@
       "Other"
     ],
     "language": "HCL",
+    "languages": [
+      "HCL",
+      "Go"
+    ],
     "description": "A tool to convert JSON to HCL.",
     "stars": 5,
     "updated": "2026-04-20",
@@ -1602,6 +2119,10 @@
       "Other"
     ],
     "language": "HTML",
+    "languages": [
+      "HTML",
+      "TypeScript"
+    ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
     "updated": "2026-05-30",
@@ -1614,6 +2135,10 @@
       "Other"
     ],
     "language": "Yacc",
+    "languages": [
+      "Yacc",
+      "Ruby"
+    ],
     "description": "Brace expansion library for string patterns",
     "stars": 0,
     "updated": "2022-06-05",
@@ -1626,6 +2151,10 @@
       "PostgreSQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Shell"
+    ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 14,
     "updated": "2026-05-30",
@@ -1638,6 +2167,10 @@
       "PostgreSQL"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "",
     "stars": 9,
     "updated": "2025-11-24",
@@ -1650,6 +2183,10 @@
       "PostgreSQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Parser to extract SQL from postgresql.log",
     "stars": 2,
     "updated": "2026-02-24",
@@ -1662,6 +2199,10 @@
       "PostgreSQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
     "updated": "2026-05-26",
@@ -1674,6 +2215,9 @@
       "PostgreSQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go"
+    ],
     "description": "Minimal playground for trying out pgls (PostgreSQL language server) in .sql and .go files.",
     "stars": 0,
     "updated": "2026-05-06",
@@ -1686,6 +2230,10 @@
       "PostgreSQL"
     ],
     "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
     "updated": "2026-05-29",
@@ -1698,6 +2246,10 @@
       "PostgreSQL"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "psqlfmt is a PostgreSQL SQL formatter.",
     "stars": 0,
     "updated": "2026-05-22",
@@ -1710,6 +2262,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "C"
+    ],
     "description": "Ruby bindings for jq.",
     "stars": 84,
     "updated": "2022-12-28",
@@ -1722,6 +2278,7 @@
       "Ruby gem"
     ],
     "language": "C++",
+    "languages": [],
     "description": "Ruby bindings for HandlerSocket-Plugin",
     "stars": 35,
     "updated": "2022-06-05",
@@ -1734,6 +2291,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "",
     "stars": 10,
     "updated": "2020-07-08",
@@ -1746,22 +2307,13 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "This is a simple client of Zabbix API.",
     "stars": 8,
     "updated": "2016-03-04",
     "created": "2014-08-30"
-  },
-  {
-    "name": "google_drive-persistent_session",
-    "url": "https://github.com/winebarrel/google_drive-persistent_session",
-    "categories": [
-      "Ruby gem"
-    ],
-    "language": "Ruby",
-    "description": "Persist credential for google-drive-ruby.",
-    "stars": 6,
-    "updated": "2022-09-11",
-    "created": "2015-02-17"
   },
   {
     "name": "erbh",
@@ -1770,6 +2322,9 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Simple ERB helper.",
     "stars": 4,
     "updated": "2022-01-15",
@@ -1782,6 +2337,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "ath is a interactive Amazon Athena shell.",
     "stars": 3,
     "updated": "2017-07-07",
@@ -1794,6 +2353,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "HTML"
+    ],
     "description": "It is an application for testing Elasticsearch index.",
     "stars": 3,
     "updated": "2018-04-04",
@@ -1806,6 +2369,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "It is Ruby code matcher.",
     "stars": 3,
     "updated": "2026-05-26",
@@ -1818,6 +2385,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Sort Array/Hash/Enumerable recursively.",
     "stars": 2,
     "updated": "2016-08-21",
@@ -1830,6 +2401,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "EasyCron API Ruby Client.",
     "stars": 2,
     "updated": "2016-12-04",
@@ -1842,6 +2417,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "String matcher to ignore whitespace.",
     "stars": 2,
     "updated": "2026-02-16",
@@ -1854,6 +2433,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
     "updated": "2026-05-25",
@@ -1866,6 +2449,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Pretty print a sorted hash by key.",
     "stars": 1,
     "updated": "2016-08-19",
@@ -1878,6 +2465,9 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Configuration file parser for Python 2.7 basic configuration file.",
     "stars": 1,
     "updated": "2015-06-13",
@@ -1890,6 +2480,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Yacc"
+    ],
     "description": "MongoDB adapter for ActiveRecord",
     "stars": 0,
     "updated": "2022-06-05",
@@ -1902,6 +2496,9 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "STDOUT output plug-in for Arproxy.",
     "stars": 0,
     "updated": "2015-05-11",
@@ -1914,6 +2511,10 @@
       "Ruby gem"
     ],
     "language": "C++",
+    "languages": [
+      "C++",
+      "C"
+    ],
     "description": "Ruby bindings for Bayon clustering library",
     "stars": 0,
     "updated": "2022-06-05",
@@ -1926,6 +2527,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Output plugin for InfluxDB.",
     "stars": 0,
     "updated": "2015-07-18",
@@ -1938,6 +2543,9 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "KeychainStore for Google API Client.",
     "stars": 0,
     "updated": "2015-03-09",
@@ -1950,6 +2558,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Add methods to manipulate the order of the entries in the Hash object.",
     "stars": 0,
     "updated": "2017-04-16",
@@ -1962,6 +2574,9 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "It is a library to convert from JavaScript to JSON.",
     "stars": 0,
     "updated": "2014-03-16",
@@ -1974,6 +2589,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Librato API Client for for Ruby.",
     "stars": 0,
     "updated": "2015-09-17",
@@ -1986,6 +2605,9 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Ruby port of Lispy",
     "stars": 0,
     "updated": "2014-12-20",
@@ -1998,6 +2620,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "ObjectFlatten converts the hash to an array of key-value pairs.",
     "stars": 0,
     "updated": "2015-07-12",
@@ -2010,6 +2636,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Rack middleware to change temporary directory of file upload.",
     "stars": 0,
     "updated": "2017-07-27",
@@ -2022,6 +2652,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "It is unofficial low level ruby client library for InfluxDB.",
     "stars": 0,
     "updated": "2015-07-18",
@@ -2034,6 +2668,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "It is array of hashes matcher.",
     "stars": 0,
     "updated": "2021-03-16",
@@ -2046,6 +2684,10 @@
       "Ruby gem"
     ],
     "language": "Makefile",
+    "languages": [
+      "Makefile",
+      "C"
+    ],
     "description": "Ruby bindings for mawk text processing",
     "stars": 0,
     "updated": "2022-06-05",
@@ -2058,6 +2700,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "C"
+    ],
     "description": "Cause SEGV in Ruby.",
     "stars": 0,
     "updated": "2016-09-23",
@@ -2070,6 +2716,10 @@
       "Ruby gem"
     ],
     "language": "C++",
+    "languages": [
+      "C++",
+      "Ruby"
+    ],
     "description": "Ruby bindings for Google Sparse Hash library",
     "stars": 0,
     "updated": "2022-06-05",
@@ -2082,6 +2732,10 @@
       "Ruby gem"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
     "updated": "2026-05-24",
@@ -2094,6 +2748,10 @@
       "Rust tool"
     ],
     "language": "Rust",
+    "languages": [
+      "Rust",
+      "Makefile"
+    ],
     "description": "Sort JSON Lines using External merge sort",
     "stars": 5,
     "updated": "2024-11-25",
@@ -2106,6 +2764,10 @@
       "Rust tool"
     ],
     "language": "Rust",
+    "languages": [
+      "Rust",
+      "Makefile"
+    ],
     "description": "Read two NDJSON files and combine lines with common member values.",
     "stars": 1,
     "updated": "2023-05-08",
@@ -2118,6 +2780,9 @@
       "Rust tool"
     ],
     "language": "Rust",
+    "languages": [
+      "Rust"
+    ],
     "description": "Rust external merge sort library.",
     "stars": 0,
     "updated": "2021-08-22",
@@ -2130,6 +2795,9 @@
       "Rust tool"
     ],
     "language": "Rust",
+    "languages": [
+      "Rust"
+    ],
     "description": "Rust external merge sort library using sort_by_cached_key.",
     "stars": 0,
     "updated": "2021-08-29",
@@ -2142,6 +2810,10 @@
       "Rust tool"
     ],
     "language": "Rust",
+    "languages": [
+      "Rust",
+      "Makefile"
+    ],
     "description": "Remove duplicate key member lines from sorted NDJSON.",
     "stars": 0,
     "updated": "2021-08-30",
@@ -2154,6 +2826,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "HCL"
+    ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
     "updated": "2026-05-25",
@@ -2166,6 +2842,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "PLpgSQL"
+    ],
     "description": "Terraform provider for Redash.",
     "stars": 9,
     "updated": "2026-05-14",
@@ -2178,6 +2858,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 4,
     "updated": "2026-05-28",
@@ -2190,6 +2874,10 @@
       "Terraform"
     ],
     "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
     "updated": "2026-05-24",
@@ -2202,6 +2890,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
     "stars": 2,
     "updated": "2026-04-27",
@@ -2214,6 +2906,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
     "updated": "2026-05-14",
@@ -2226,6 +2922,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider for running one-shot commands.",
     "stars": 1,
     "updated": "2026-04-27",
@@ -2238,6 +2938,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
     "updated": "2026-05-14",
@@ -2250,6 +2954,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
     "updated": "2026-05-29",
@@ -2262,6 +2970,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "tflocalexpand is a tool to expand Terraform locals references into their underlying expressions.",
     "stars": 1,
     "updated": "2026-05-24",
@@ -2274,6 +2986,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
     "stars": 0,
     "updated": "2026-05-25",
@@ -2286,6 +3002,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
     "updated": "2026-05-27",
@@ -2298,6 +3018,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
     "updated": "2026-05-29",
@@ -2310,6 +3034,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider for multi-pattern string replacement",
     "stars": 0,
     "updated": "2026-05-14",
@@ -2322,6 +3050,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider for AWS Route53 DNS",
     "stars": 0,
     "updated": "2021-02-19",
@@ -2334,6 +3066,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider of the function to pause.",
     "stars": 0,
     "updated": "2026-04-27",
@@ -2346,6 +3082,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform provider for Statuspage.io.",
     "stars": 0,
     "updated": "2026-03-04",
@@ -2358,6 +3098,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
     "stars": 0,
     "updated": "2026-05-27",
@@ -2370,6 +3114,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Flatten Terraform modules into the parent with moved blocks for state migration.",
     "stars": 0,
     "updated": "2026-05-29",
@@ -2382,6 +3130,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 0,
     "updated": "2026-05-25",
@@ -2394,6 +3146,10 @@
       "Terraform"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
     "updated": "2026-05-30",
@@ -2406,6 +3162,10 @@
       "Terraform"
     ],
     "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
     "updated": "2026-05-30",
@@ -2418,6 +3178,10 @@
       "Utility"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
     "updated": "2026-05-14",
@@ -2430,6 +3194,10 @@
       "Web / Browser"
     ],
     "language": "Go",
+    "languages": [
+      "Go",
+      "Dockerfile"
+    ],
     "description": "A web application that redirects human-readable URLs to esa.io posts.",
     "stars": 0,
     "updated": "2026-04-06",
@@ -2442,6 +3210,10 @@
       "macOS / iOS"
     ],
     "language": "Swift",
+    "languages": [
+      "Swift",
+      "Makefile"
+    ],
     "description": "PagerCall is a utility app that shows PagerDuty status on the menu bar.",
     "stars": 10,
     "updated": "2025-12-21",
@@ -2454,6 +3226,10 @@
       "macOS / iOS"
     ],
     "language": "Swift",
+    "languages": [
+      "Swift",
+      "Makefile"
+    ],
     "description": "Small vertical battery icon on menu bar.",
     "stars": 2,
     "updated": "2026-02-15",
@@ -2466,6 +3242,10 @@
       "macOS / iOS"
     ],
     "language": "Swift",
+    "languages": [
+      "Swift",
+      "JavaScript"
+    ],
     "description": "「はてブフィルター」は指定されたキーワードを含む はてなブックマーク (https://b.hatena.ne.jp/) のエントリを非表示にするSafari機能拡張です。",
     "stars": 1,
     "updated": "2026-01-31",
@@ -2478,6 +3258,10 @@
       "macOS / iOS"
     ],
     "language": "Swift",
+    "languages": [
+      "Swift",
+      "Makefile"
+    ],
     "description": "Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.",
     "stars": 1,
     "updated": "2025-12-21",
@@ -2490,6 +3274,9 @@
       "macOS / iOS"
     ],
     "language": "Swift",
+    "languages": [
+      "Swift"
+    ],
     "description": "iOS向けのシンプルな画像リサイズアプリです。",
     "stars": 0,
     "updated": "2026-04-27",
@@ -2502,6 +3289,9 @@
       "macOS / iOS"
     ],
     "language": "Swift",
+    "languages": [
+      "Swift"
+    ],
     "description": "気象庁の府県天気予報とAMeDAS観測値を地図上にオーバーレイ表示するiOSアプリ",
     "stars": 0,
     "updated": "2026-04-29",
@@ -2514,6 +3304,9 @@
       "macOS / iOS"
     ],
     "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
     "description": "Emulate ps awxuf on macOS (BSD style)",
     "stars": 0,
     "updated": "2022-06-05",

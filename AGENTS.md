@@ -39,12 +39,16 @@ Sorted by `(categories[0] asc, stars desc, name asc)`. Each entry:
   "url":         "https://github.com/ridgepole/ridgepole",
   "categories":  ["Database"],
   "language":    "Ruby",
+  "languages":   ["Ruby", "Shell"],
   "description": "Manage DB schema with a Ruby DSL",
   "stars":       800,
   "updated":     "2024-01-01",
   "created":     "2014-01-01"
 }
 ```
+
+`language` is GitHub's primary language; `languages` is the top 2 by byte size
+(used for card display only — the filter and pie chart still use `language`).
 
 `categories` is an array — a tool can belong to multiple categories.
 The **first element is the "primary" category** and decides which section the
