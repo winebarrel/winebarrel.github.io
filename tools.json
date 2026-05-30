@@ -1,0 +1,1702 @@
+[
+  {
+    "name": "ddbcli",
+    "url": "https://github.com/winebarrel/ddbcli",
+    "category": "AWS",
+    "language": "Ruby",
+    "description": "ddbcli is an interactive command-line client of Amazon DynamoDB.",
+    "stars": 40,
+    "updated": "2019-10-18",
+    "created": "2014-10-11"
+  },
+  {
+    "name": "faraday_middleware-aws-sigv4",
+    "url": "https://github.com/winebarrel/faraday_middleware-aws-sigv4",
+    "category": "AWS",
+    "language": "Ruby",
+    "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
+    "stars": 40,
+    "updated": "2026-05-25",
+    "created": "2017-09-11"
+  },
+  {
+    "name": "cronplan",
+    "url": "https://github.com/winebarrel/cronplan",
+    "category": "AWS",
+    "language": "Go",
+    "description": "Cron expression parser for Amazon EventBridge.",
+    "stars": 39,
+    "updated": "2026-05-22",
+    "created": "2022-10-16"
+  },
+  {
+    "name": "fluent-plugin-elb-access-log",
+    "url": "https://github.com/winebarrel/fluent-plugin-elb-access-log",
+    "category": "AWS",
+    "language": "Ruby",
+    "description": "Fluentd input plugin for AWS ELB Access Logs.",
+    "stars": 17,
+    "updated": "2018-04-05",
+    "created": "2015-05-24"
+  },
+  {
+    "name": "cwlogs-tailf",
+    "url": "https://github.com/winebarrel/cwlogs-tailf",
+    "category": "AWS",
+    "language": "Go",
+    "description": "Follow tail messages of CloudWatch Logs.",
+    "stars": 8,
+    "updated": "2018-01-11",
+    "created": "2016-05-12"
+  },
+  {
+    "name": "sev",
+    "url": "https://github.com/winebarrel/sev",
+    "category": "AWS",
+    "language": "Go",
+    "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
+    "stars": 6,
+    "updated": "2026-05-25",
+    "created": "2024-07-04"
+  },
+  {
+    "name": "sam-rds-slowquery-to-es",
+    "url": "https://github.com/winebarrel/sam-rds-slowquery-to-es",
+    "category": "AWS",
+    "language": "Ruby",
+    "description": "AWS SAM app that sends slowqueries from CloudWatch Logs to Elasticsearch.",
+    "stars": 5,
+    "updated": "2020-02-11",
+    "created": "2019-09-23"
+  },
+  {
+    "name": "cwlogs-tee",
+    "url": "https://github.com/winebarrel/cwlogs-tee",
+    "category": "AWS",
+    "language": "Go",
+    "description": "`tee` command for CloudWatch Logs.",
+    "stars": 4,
+    "updated": "2017-07-13",
+    "created": "2016-08-03"
+  },
+  {
+    "name": "secretlamb",
+    "url": "https://github.com/winebarrel/secretlamb",
+    "category": "AWS",
+    "language": "Go",
+    "description": "Golang library for using AWS Parameters and Secrets Lambda Extension.",
+    "stars": 4,
+    "updated": "2025-11-24",
+    "created": "2024-02-05"
+  },
+  {
+    "name": "apt-transport-s3-go",
+    "url": "https://github.com/winebarrel/apt-transport-s3-go",
+    "category": "AWS",
+    "language": "Go",
+    "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
+    "stars": 3,
+    "updated": "2026-05-29",
+    "created": "2022-02-23"
+  },
+  {
+    "name": "cloudwatch-metric2",
+    "url": "https://github.com/winebarrel/cloudwatch-metric2",
+    "category": "AWS",
+    "language": "Go",
+    "description": "Get CloudWatch metrics.",
+    "stars": 3,
+    "updated": "2018-02-20",
+    "created": "2016-12-28"
+  },
+  {
+    "name": "logs_flow",
+    "url": "https://github.com/winebarrel/logs_flow",
+    "category": "AWS",
+    "language": "Ruby",
+    "description": "CloudWatch Logs Event Viewer.",
+    "stars": 3,
+    "updated": "2016-10-03",
+    "created": "2015-11-08"
+  },
+  {
+    "name": "ssocreds",
+    "url": "https://github.com/winebarrel/ssocreds",
+    "category": "AWS",
+    "language": "Go",
+    "description": "A tool to get temporary credentials from AWS SSO.",
+    "stars": 3,
+    "updated": "2026-05-29",
+    "created": "2022-05-29"
+  },
+  {
+    "name": "las",
+    "url": "https://github.com/winebarrel/las",
+    "category": "AWS",
+    "language": "Go",
+    "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
+    "stars": 2,
+    "updated": "2026-05-22",
+    "created": "2024-01-05"
+  },
+  {
+    "name": "sqsf",
+    "url": "https://github.com/winebarrel/sqsf",
+    "category": "AWS",
+    "language": "Go",
+    "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
+    "stars": 2,
+    "updated": "2026-05-25",
+    "created": "2022-09-19"
+  },
+  {
+    "name": "agg",
+    "url": "https://github.com/winebarrel/agg",
+    "category": "AWS",
+    "language": "Go",
+    "description": "Aggregate log records by time.",
+    "stars": 1,
+    "updated": "2016-06-30",
+    "created": "2016-06-26"
+  },
+  {
+    "name": "atget",
+    "url": "https://github.com/winebarrel/atget",
+    "category": "AWS",
+    "language": "Go",
+    "description": "CLI to get airtable records.",
+    "stars": 1,
+    "updated": "2026-05-14",
+    "created": "2023-08-18"
+  },
+  {
+    "name": "ddget",
+    "url": "https://github.com/winebarrel/ddget",
+    "category": "AWS",
+    "language": "Go",
+    "description": "Get DynamoDB Item.",
+    "stars": 1,
+    "updated": "2016-11-14",
+    "created": "2016-11-10"
+  },
+  {
+    "name": "lee",
+    "url": "https://github.com/winebarrel/lee",
+    "category": "AWS",
+    "language": "Rust",
+    "description": "tee command for CloudWatch Logs.",
+    "stars": 1,
+    "updated": "2022-06-25",
+    "created": "2020-07-12"
+  },
+  {
+    "name": "sam-with-mysql",
+    "url": "https://github.com/winebarrel/sam-with-mysql",
+    "category": "AWS",
+    "language": "Ruby",
+    "description": "AWS SAM Ruby runtime with MySQL.",
+    "stars": 1,
+    "updated": "2019-12-08",
+    "created": "2019-12-07"
+  },
+  {
+    "name": "def2env",
+    "url": "https://github.com/winebarrel/def2env",
+    "category": "AWS",
+    "language": "Go",
+    "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
+    "stars": 0,
+    "updated": "2026-05-29",
+    "created": "2025-07-17"
+  },
+  {
+    "name": "dynamodb-streams-client",
+    "url": "https://github.com/winebarrel/dynamodb-streams-client",
+    "category": "AWS",
+    "language": "Ruby",
+    "description": "DynamoDB Streams client.",
+    "stars": 0,
+    "updated": "2014-11-21",
+    "created": "2014-11-21"
+  },
+  {
+    "name": "quetaro",
+    "url": "https://github.com/quetarohq/quetaro",
+    "category": "AWS",
+    "language": "Go",
+    "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
+    "stars": 0,
+    "updated": "2026-05-29",
+    "created": "2022-10-10"
+  },
+  {
+    "name": "rdslog",
+    "url": "https://github.com/winebarrel/rdslog",
+    "category": "AWS",
+    "language": "Go",
+    "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
+    "stars": 0,
+    "updated": "2026-05-22",
+    "created": "2025-04-14"
+  },
+  {
+    "name": "s3lock",
+    "url": "https://github.com/winebarrel/s3lock",
+    "category": "AWS",
+    "language": "Go",
+    "description": "s3lock is a locking command using S3.",
+    "stars": 0,
+    "updated": "2026-05-29",
+    "created": "2026-02-07"
+  },
+  {
+    "name": "ssowrap",
+    "url": "https://github.com/winebarrel/ssowrap",
+    "category": "AWS",
+    "language": "Go",
+    "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
+    "stars": 0,
+    "updated": "2026-05-25",
+    "created": "2025-02-22"
+  },
+  {
+    "name": "Libarchive-Ruby",
+    "url": "https://github.com/winebarrel/Libarchive-Ruby",
+    "category": "C",
+    "language": "C",
+    "description": "Ruby bindings for Libarchive. ",
+    "stars": 2,
+    "updated": "2022-06-05",
+    "created": "2010-12-11"
+  },
+  {
+    "name": "fdpass",
+    "url": "https://github.com/winebarrel/fdpass",
+    "category": "C",
+    "language": "C",
+    "description": "This is a library to transmit the file descriptor between the processes.",
+    "stars": 1,
+    "updated": "2022-06-05",
+    "created": "2011-01-01"
+  },
+  {
+    "name": "kasa",
+    "url": "https://github.com/winebarrel/kasa",
+    "category": "CLI",
+    "language": "Go",
+    "description": "CLI for esa.io.",
+    "stars": 19,
+    "updated": "2026-05-25",
+    "created": "2021-11-30"
+  },
+  {
+    "name": "haproxycmd",
+    "url": "https://github.com/winebarrel/haproxycmd",
+    "category": "CLI",
+    "language": "Go",
+    "description": "HAProxy Unix Socket commands CLI",
+    "stars": 8,
+    "updated": "2017-01-24",
+    "created": "2016-07-01"
+  },
+  {
+    "name": "kinesis_cat",
+    "url": "https://github.com/winebarrel/kinesis_cat",
+    "category": "CLI",
+    "language": "Ruby",
+    "description": "Amazon Kinesis cli for put JSON data.",
+    "stars": 2,
+    "updated": "2015-01-12",
+    "created": "2015-01-12"
+  },
+  {
+    "name": "kinesis-cat-go",
+    "url": "https://github.com/winebarrel/kinesis-cat-go",
+    "category": "CLI",
+    "language": "Go",
+    "description": "Amazon Kinesis cli for put JSON data.",
+    "stars": 0,
+    "updated": "2015-02-02",
+    "created": "2015-01-14"
+  },
+  {
+    "name": "mer",
+    "url": "https://github.com/winebarrel/mer",
+    "category": "CLI",
+    "language": "Go",
+    "description": "CLI to convert currency using Yahoo! finance API.",
+    "stars": 0,
+    "updated": "2026-04-06",
+    "created": "2023-12-24"
+  },
+  {
+    "name": "slack-notify",
+    "url": "https://github.com/winebarrel/slack-notify",
+    "category": "Chat / Slack",
+    "language": "Go",
+    "description": "Notify message to Slack channel.",
+    "stars": 6,
+    "updated": "2016-10-22",
+    "created": "2016-05-25"
+  },
+  {
+    "name": "slack-bot",
+    "url": "https://github.com/winebarrel/slack-bot",
+    "category": "Chat / Slack",
+    "language": "TypeScript",
+    "description": "Slack Bot using Bolt.",
+    "stars": 0,
+    "updated": "2022-05-29",
+    "created": "2022-05-29"
+  },
+  {
+    "name": "kodama",
+    "url": "https://github.com/winebarrel/kodama",
+    "category": "DNS / Network",
+    "language": "Go",
+    "description": "kodama is a DNS server that returns any private IP address.",
+    "stars": 0,
+    "updated": "2026-05-14",
+    "created": "2025-12-13"
+  },
+  {
+    "name": "pt-online-schema-change-fast-rebuild-constraints",
+    "url": "https://github.com/winebarrel/pt-online-schema-change-fast-rebuild-constraints",
+    "category": "Database",
+    "language": "Perl",
+    "description": "",
+    "stars": 3,
+    "updated": "2021-05-30",
+    "created": "2016-11-02"
+  },
+  {
+    "name": "kani_laser",
+    "url": "https://github.com/winebarrel/kani_laser",
+    "category": "Database",
+    "language": "Ruby",
+    "description": "SendGrid v3 Mail Send API Ruby Client that validates API request body using JSON Schema.",
+    "stars": 1,
+    "updated": "2021-03-16",
+    "created": "2019-12-30"
+  },
+  {
+    "name": "conds",
+    "url": "https://github.com/winebarrel/conds",
+    "category": "Database",
+    "language": "Go",
+    "description": "go get github.com/winebarrel/conds",
+    "stars": 0,
+    "updated": "2026-01-25",
+    "created": "2026-01-24"
+  },
+  {
+    "name": "docker-pkg-build",
+    "url": "https://github.com/winebarrel/docker-pkg-build",
+    "category": "Docker / Container",
+    "language": "Makefile",
+    "description": "This is a example to make a rpm/deb in Docker.",
+    "stars": 1,
+    "updated": "2016-09-05",
+    "created": "2016-09-04"
+  },
+  {
+    "name": "docker-credential-ecr-login-env",
+    "url": "https://github.com/winebarrel/docker-credential-ecr-login-env",
+    "category": "Docker / Container",
+    "language": "Go",
+    "description": "Wrapper command for docker-credential-ecr-login to add environment variables.",
+    "stars": 0,
+    "updated": "2026-05-14",
+    "created": "2023-03-04"
+  },
+  {
+    "name": "docker-stone",
+    "url": "https://github.com/winebarrel/docker-stone",
+    "category": "Docker / Container",
+    "language": "Dockerfile",
+    "description": "Stone Docker Image",
+    "stars": 0,
+    "updated": "2021-11-22",
+    "created": "2021-10-24"
+  },
+  {
+    "name": "orderedmap",
+    "url": "https://github.com/winebarrel/orderedmap",
+    "category": "Docker / Container",
+    "language": "Go",
+    "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
+    "stars": 0,
+    "updated": "2026-05-14",
+    "created": "2026-02-28"
+  },
+  {
+    "name": "rtail-docker-image",
+    "url": "https://github.com/winebarrel/rtail-docker-image",
+    "category": "Docker / Container",
+    "language": "Makefile",
+    "description": "rtail-server docker image",
+    "stars": 0,
+    "updated": "2016-12-25",
+    "created": "2016-12-25"
+  },
+  {
+    "name": "elixir_counter",
+    "url": "https://github.com/winebarrel/elixir_counter",
+    "category": "Elixir",
+    "language": "Elixir",
+    "description": "Elixir Counter Server (GenSever example)",
+    "stars": 0,
+    "updated": "2016-03-22",
+    "created": "2016-03-22"
+  },
+  {
+    "name": "lastcmt",
+    "url": "https://github.com/winebarrel/lastcmt",
+    "category": "Git / GitHub",
+    "language": "Go",
+    "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
+    "stars": 4,
+    "updated": "2026-05-22",
+    "created": "2025-11-08"
+  },
+  {
+    "name": "github-actions-issue-link",
+    "url": "https://github.com/winebarrel/github-actions-issue-link",
+    "category": "Git / GitHub",
+    "language": "TypeScript",
+    "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
+    "stars": 2,
+    "updated": "2026-05-25",
+    "created": "2023-03-11"
+  },
+  {
+    "name": "codeowners",
+    "url": "https://github.com/winebarrel/codeowners",
+    "category": "Git / GitHub",
+    "language": "Go",
+    "description": "List up CODEOWNERS of all repositories.",
+    "stars": 1,
+    "updated": "2026-04-06",
+    "created": "2024-09-03"
+  },
+  {
+    "name": "github-hide-finish-comment",
+    "url": "https://github.com/winebarrel/github-hide-finish-comment",
+    "category": "Git / GitHub",
+    "language": "TypeScript",
+    "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
+    "stars": 1,
+    "updated": "2026-05-25",
+    "created": "2024-02-11"
+  },
+  {
+    "name": "elixir-sysvbanner",
+    "url": "https://github.com/winebarrel/elixir-sysvbanner",
+    "category": "Git / GitHub",
+    "language": "Elixir",
+    "description": "It is Elixir sysvbanner port from https://github.com/uffejakobsen/sysvbanner.",
+    "stars": 0,
+    "updated": "2016-01-17",
+    "created": "2016-01-17"
+  },
+  {
+    "name": "gh-reldl",
+    "url": "https://github.com/winebarrel/gh-reldl",
+    "category": "Git / GitHub",
+    "language": "Rust",
+    "description": "CLI to download assets from GitHub release.",
+    "stars": 0,
+    "updated": "2021-11-29",
+    "created": "2021-11-28"
+  },
+  {
+    "name": "sysvbanner-go",
+    "url": "https://github.com/winebarrel/sysvbanner-go",
+    "category": "Git / GitHub",
+    "language": "Go",
+    "description": "It is Go sysvbanner port from https://github.com/uffejakobsen/sysvbanner.",
+    "stars": 0,
+    "updated": "2017-02-14",
+    "created": "2015-01-16"
+  },
+  {
+    "name": "ddcp",
+    "url": "https://github.com/winebarrel/ddcp",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "Parallel file copy command using dd.",
+    "stars": 16,
+    "updated": "2016-03-10",
+    "created": "2016-03-02"
+  },
+  {
+    "name": "redash-go",
+    "url": "https://github.com/winebarrel/redash-go",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "Redash API client for Go that supports almost all APIs.",
+    "stars": 13,
+    "updated": "2026-05-21",
+    "created": "2023-02-05"
+  },
+  {
+    "name": "hyst",
+    "url": "https://github.com/winebarrel/hyst",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "Write a histogram in Terminal.",
+    "stars": 9,
+    "updated": "2026-02-23",
+    "created": "2016-06-15"
+  },
+  {
+    "name": "utsusemi",
+    "url": "https://github.com/winebarrel/utsusemi",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "utsusemi is a proxy server that automatically switches backend.",
+    "stars": 3,
+    "updated": "2017-11-28",
+    "created": "2017-11-27"
+  },
+  {
+    "name": "json2go",
+    "url": "https://github.com/winebarrel/json2go",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "json2go is a tool to convert JSON to Go struct.",
+    "stars": 2,
+    "updated": "2026-05-14",
+    "created": "2026-01-01"
+  },
+  {
+    "name": "runss",
+    "url": "https://github.com/winebarrel/runss",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "Run shell script command using Amazon Simple Systems Management Service.",
+    "stars": 2,
+    "updated": "2016-08-03",
+    "created": "2016-08-01"
+  },
+  {
+    "name": "tempwork",
+    "url": "https://github.com/winebarrel/tempwork",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "Execute a command in a temporary directory.",
+    "stars": 2,
+    "updated": "2021-04-07",
+    "created": "2016-09-03"
+  },
+  {
+    "name": "kuu",
+    "url": "https://github.com/winebarrel/kuu",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.",
+    "stars": 1,
+    "updated": "2026-04-06",
+    "created": "2024-04-01"
+  },
+  {
+    "name": "randstr",
+    "url": "https://github.com/winebarrel/randstr",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "Go library for generating random strings",
+    "stars": 1,
+    "updated": "2025-11-24",
+    "created": "2021-04-07"
+  },
+  {
+    "name": "render",
+    "url": "https://github.com/winebarrel/render",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "Rendering files using Sigil templating.",
+    "stars": 1,
+    "updated": "2022-08-01",
+    "created": "2022-07-30"
+  },
+  {
+    "name": "esub",
+    "url": "https://github.com/winebarrel/esub",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "A library to replace string placeholders with environment variables.",
+    "stars": 0,
+    "updated": "2025-11-20",
+    "created": "2025-06-10"
+  },
+  {
+    "name": "jsonast",
+    "url": "https://github.com/winebarrel/jsonast",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "jsonast is a library that parses JSON and converts it to AST.",
+    "stars": 0,
+    "updated": "2026-01-06",
+    "created": "2026-01-03"
+  },
+  {
+    "name": "plsort",
+    "url": "https://github.com/winebarrel/plsort",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
+    "stars": 0,
+    "updated": "2026-05-27",
+    "created": "2025-05-18"
+  },
+  {
+    "name": "ppcat",
+    "url": "https://github.com/winebarrel/ppcat",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "ppcat is a tool to format JSON in the middle of text.",
+    "stars": 0,
+    "updated": "2026-02-23",
+    "created": "2023-02-11"
+  },
+  {
+    "name": "sglob",
+    "url": "https://github.com/winebarrel/sglob",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "sglob is a small globbing library for string.",
+    "stars": 0,
+    "updated": "2025-11-20",
+    "created": "2025-09-06"
+  },
+  {
+    "name": "tipper",
+    "url": "https://github.com/winebarrel/tipper",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "A library that recursively dumps structure information.",
+    "stars": 0,
+    "updated": "2025-11-24",
+    "created": "2024-02-19"
+  },
+  {
+    "name": "tm",
+    "url": "https://github.com/winebarrel/tm",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "Time Calculator.",
+    "stars": 0,
+    "updated": "2026-04-06",
+    "created": "2023-12-23"
+  },
+  {
+    "name": "xjsonl",
+    "url": "https://github.com/winebarrel/xjsonl",
+    "category": "Go tool",
+    "language": "Go",
+    "description": "xjsonl is a tool to convert xSV to JSON Lines.",
+    "stars": 0,
+    "updated": "2020-06-29",
+    "created": "2020-06-19"
+  },
+  {
+    "name": "fluent-plugin-kinesis-firehose",
+    "url": "https://github.com/winebarrel/fluent-plugin-kinesis-firehose",
+    "category": "Logging",
+    "language": "Ruby",
+    "description": "Fluentd output plugin for Amazon Kinesis Firehose.",
+    "stars": 10,
+    "updated": "2016-07-15",
+    "created": "2015-10-11"
+  },
+  {
+    "name": "fluent-plugin-munin-node",
+    "url": "https://github.com/winebarrel/fluent-plugin-munin-node",
+    "category": "Logging",
+    "language": "Ruby",
+    "description": "Fluentd input plugin for Munin node.",
+    "stars": 4,
+    "updated": "2015-09-16",
+    "created": "2015-09-13"
+  },
+  {
+    "name": "postfix_status_line",
+    "url": "https://github.com/winebarrel/postfix_status_line",
+    "category": "Logging",
+    "language": "Ruby",
+    "description": "Postfix Status Line Log Parser implemented by C.",
+    "stars": 4,
+    "updated": "2017-03-05",
+    "created": "2015-12-21"
+  },
+  {
+    "name": "fluent-plugin-raven-decoder",
+    "url": "https://github.com/winebarrel/fluent-plugin-raven-decoder",
+    "category": "Logging",
+    "language": "Ruby",
+    "description": "Fluentd plugin to decode Raven data.",
+    "stars": 1,
+    "updated": "2015-05-27",
+    "created": "2015-05-20"
+  },
+  {
+    "name": "fluent-plugin-rtail",
+    "url": "https://github.com/winebarrel/fluent-plugin-rtail",
+    "category": "Logging",
+    "language": "Ruby",
+    "description": "Fluentd output plugin for rtail.",
+    "stars": 0,
+    "updated": "2016-12-25",
+    "created": "2016-12-25"
+  },
+  {
+    "name": "ddcost",
+    "url": "https://github.com/winebarrel/ddcost",
+    "category": "Monitoring",
+    "language": "Go",
+    "description": "A tool that shows a breakdown of Datadog costs in a table.",
+    "stars": 13,
+    "updated": "2026-05-15",
+    "created": "2023-06-03"
+  },
+  {
+    "name": "fstaid",
+    "url": "https://github.com/winebarrel/fstaid",
+    "category": "Monitoring",
+    "language": "Go",
+    "description": "fstaid is a daemon that monitors the health condition of the server and executes the script if there is any problem.",
+    "stars": 6,
+    "updated": "2017-08-25",
+    "created": "2016-06-05"
+  },
+  {
+    "name": "ddusage",
+    "url": "https://github.com/winebarrel/ddusage",
+    "category": "Monitoring",
+    "language": "Go",
+    "description": "A tool that shows a breakdown of Datadog usages in a table.",
+    "stars": 1,
+    "updated": "2026-05-15",
+    "created": "2023-12-19"
+  },
+  {
+    "name": "ridgepole",
+    "url": "https://github.com/ridgepole/ridgepole",
+    "category": "MySQL",
+    "language": "Ruby",
+    "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
+    "stars": 1114,
+    "updated": "2026-05-28",
+    "created": "2014-06-29"
+  },
+  {
+    "name": "active_record_mysql_xverify",
+    "url": "https://github.com/winebarrel/active_record_mysql_xverify",
+    "category": "MySQL",
+    "language": "Ruby",
+    "description": "",
+    "stars": 24,
+    "updated": "2025-11-24",
+    "created": "2018-11-15"
+  },
+  {
+    "name": "genlog",
+    "url": "https://github.com/winebarrel/genlog",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "genlog is MySQL General Query Log parser.",
+    "stars": 12,
+    "updated": "2026-02-23",
+    "created": "2020-05-27"
+  },
+  {
+    "name": "qube",
+    "url": "https://github.com/winebarrel/qube",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "qube is a DB load testing tool.",
+    "stars": 11,
+    "updated": "2026-05-26",
+    "created": "2023-10-29"
+  },
+  {
+    "name": "mysql_casual_explain",
+    "url": "https://github.com/winebarrel/mysql_casual_explain",
+    "category": "MySQL",
+    "language": "Ruby",
+    "description": "Highlight problematic MySQL explain results.",
+    "stars": 9,
+    "updated": "2025-11-24",
+    "created": "2020-08-05"
+  },
+  {
+    "name": "binrpt",
+    "url": "https://github.com/winebarrel/binrpt",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "binrpt is a daemon that reads MySQL binlog and executes replication SQL.",
+    "stars": 8,
+    "updated": "2024-08-27",
+    "created": "2020-10-16"
+  },
+  {
+    "name": "qrev",
+    "url": "https://github.com/winebarrel/qrev",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "qrev is a SQL execution history management tool.",
+    "stars": 8,
+    "updated": "2026-05-29",
+    "created": "2025-10-11"
+  },
+  {
+    "name": "pgslap",
+    "url": "https://github.com/winebarrel/pgslap",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "pgslap is a PostgreSQL load testing tool like mysqlslap.",
+    "stars": 7,
+    "updated": "2025-04-08",
+    "created": "2021-07-21"
+  },
+  {
+    "name": "qb",
+    "url": "https://github.com/winebarrel/qb",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
+    "stars": 6,
+    "updated": "2026-05-14",
+    "created": "2022-05-08"
+  },
+  {
+    "name": "qlap",
+    "url": "https://github.com/winebarrel/qlap",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "qlap is a MySQL load testing tool like mysqlslap.",
+    "stars": 6,
+    "updated": "2025-04-08",
+    "created": "2021-01-11"
+  },
+  {
+    "name": "arproxy-plugin-mysql_casual_log",
+    "url": "https://github.com/winebarrel/arproxy-plugin-mysql_casual_log",
+    "category": "MySQL",
+    "language": "Ruby",
+    "description": "Plug-in that colorize the bad query for Arproxy.",
+    "stars": 3,
+    "updated": "2015-05-15",
+    "created": "2015-05-15"
+  },
+  {
+    "name": "myschema",
+    "url": "https://github.com/winebarrel/myschema",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "Declarative schema management for MySQL.",
+    "stars": 3,
+    "updated": "2026-05-22",
+    "created": "2026-05-02"
+  },
+  {
+    "name": "mysql2_query_filter",
+    "url": "https://github.com/winebarrel/mysql2_query_filter",
+    "category": "MySQL",
+    "language": "Ruby",
+    "description": "Filtering framework for Mysql2.",
+    "stars": 2,
+    "updated": "2015-05-16",
+    "created": "2015-05-09"
+  },
+  {
+    "name": "mysql2_query_filter-plugin-casual_log",
+    "url": "https://github.com/winebarrel/mysql2_query_filter-plugin-casual_log",
+    "category": "MySQL",
+    "language": "Ruby",
+    "description": "Plug-in that colorize the bad query for Mysql2QueryFilter.",
+    "stars": 2,
+    "updated": "2015-05-16",
+    "created": "2015-05-09"
+  },
+  {
+    "name": "mysql_make_scrambled_password",
+    "url": "https://github.com/winebarrel/mysql_make_scrambled_password",
+    "category": "MySQL",
+    "language": "Ruby",
+    "description": "Execute MySQL PASSWORD() function in Ruby.",
+    "stars": 2,
+    "updated": "2019-05-16",
+    "created": "2016-06-23"
+  },
+  {
+    "name": "xgl",
+    "url": "https://github.com/winebarrel/xgl",
+    "category": "MySQL",
+    "language": "Rust",
+    "description": "MySQL General Query Log parser.",
+    "stars": 1,
+    "updated": "2021-06-29",
+    "created": "2021-01-06"
+  },
+  {
+    "name": "mysql2_query_filter-plugin-log",
+    "url": "https://github.com/winebarrel/mysql2_query_filter-plugin-log",
+    "category": "MySQL",
+    "language": "Ruby",
+    "description": "Logging plug-in for Mysql2QueryFilter.",
+    "stars": 0,
+    "updated": "2015-05-16",
+    "created": "2015-05-09"
+  },
+  {
+    "name": "qm",
+    "url": "https://github.com/winebarrel/qm",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "pt-fingerprint for JSON Lines.",
+    "stars": 0,
+    "updated": "2020-07-20",
+    "created": "2020-07-20"
+  },
+  {
+    "name": "qrnlog",
+    "url": "https://github.com/winebarrel/qrnlog",
+    "category": "MySQL",
+    "language": "Go",
+    "description": "qrnlog is a qrn log normalization tool.",
+    "stars": 0,
+    "updated": "2020-07-15",
+    "created": "2020-07-13"
+  },
+  {
+    "name": "ruby-handlersocket",
+    "url": "https://github.com/winebarrel/ruby-handlersocket",
+    "category": "Other",
+    "language": "C++",
+    "description": "Ruby bindings for HandlerSocket-Plugin",
+    "stars": 35,
+    "updated": "2022-06-05",
+    "created": "2010-08-28"
+  },
+  {
+    "name": "json2hcl",
+    "url": "https://github.com/winebarrel/json2hcl",
+    "category": "Other",
+    "language": "HCL",
+    "description": "A tool to convert JSON to HCL.",
+    "stars": 5,
+    "updated": "2026-04-20",
+    "created": "2024-03-31"
+  },
+  {
+    "name": "pt",
+    "url": "https://github.com/winebarrel/pt",
+    "category": "Other",
+    "language": "Jsonnet",
+    "description": "My presentations",
+    "stars": 0,
+    "updated": "2023-11-26",
+    "created": "2023-11-12"
+  },
+  {
+    "name": "pistachio",
+    "url": "https://github.com/winebarrel/pistachio",
+    "category": "PostgreSQL",
+    "language": "Go",
+    "description": "pistachio is a declarative schema management tool for PostgreSQL.",
+    "stars": 14,
+    "updated": "2026-05-30",
+    "created": "2026-02-21"
+  },
+  {
+    "name": "active_record_postgresql_xverify",
+    "url": "https://github.com/winebarrel/active_record_postgresql_xverify",
+    "category": "PostgreSQL",
+    "language": "Ruby",
+    "description": "",
+    "stars": 9,
+    "updated": "2025-11-24",
+    "created": "2019-06-05"
+  },
+  {
+    "name": "poslog",
+    "url": "https://github.com/winebarrel/poslog",
+    "category": "PostgreSQL",
+    "language": "Go",
+    "description": "Parser to extract SQL from postgresql.log",
+    "stars": 2,
+    "updated": "2026-02-24",
+    "created": "2022-05-30"
+  },
+  {
+    "name": "pgls",
+    "url": "https://github.com/winebarrel/pgls",
+    "category": "PostgreSQL",
+    "language": "Go",
+    "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
+    "stars": 1,
+    "updated": "2026-05-26",
+    "created": "2026-05-05"
+  },
+  {
+    "name": "pgls-example",
+    "url": "https://github.com/winebarrel/pgls-example",
+    "category": "PostgreSQL",
+    "language": "Go",
+    "description": "Minimal playground for trying out pgls (PostgreSQL language server) in .sql and .go files.",
+    "stars": 0,
+    "updated": "2026-05-06",
+    "created": "2026-05-05"
+  },
+  {
+    "name": "pgls-vscode",
+    "url": "https://github.com/winebarrel/pgls-vscode",
+    "category": "PostgreSQL",
+    "language": "TypeScript",
+    "description": "VSCode client for the pgls PostgreSQL language server.",
+    "stars": 0,
+    "updated": "2026-05-29",
+    "created": "2026-05-05"
+  },
+  {
+    "name": "psqlfmt",
+    "url": "https://github.com/winebarrel/psqlfmt",
+    "category": "PostgreSQL",
+    "language": "Go",
+    "description": "psqlfmt is a PostgreSQL SQL formatter.",
+    "stars": 0,
+    "updated": "2026-05-22",
+    "created": "2026-04-14"
+  },
+  {
+    "name": "ruby-jq",
+    "url": "https://github.com/winebarrel/ruby-jq",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Ruby bindings for jq.",
+    "stars": 84,
+    "updated": "2022-12-28",
+    "created": "2014-11-20"
+  },
+  {
+    "name": "fluent-plugin-filter-parse-postfix",
+    "url": "https://github.com/winebarrel/fluent-plugin-filter-parse-postfix",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "",
+    "stars": 10,
+    "updated": "2020-07-08",
+    "created": "2015-12-21"
+  },
+  {
+    "name": "zabbix-client",
+    "url": "https://github.com/winebarrel/zabbix-client",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "This is a simple client of Zabbix API.",
+    "stars": 8,
+    "updated": "2016-03-04",
+    "created": "2014-08-30"
+  },
+  {
+    "name": "google_drive-persistent_session",
+    "url": "https://github.com/winebarrel/google_drive-persistent_session",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Persist credential for google-drive-ruby.",
+    "stars": 6,
+    "updated": "2022-09-11",
+    "created": "2015-02-17"
+  },
+  {
+    "name": "erbh",
+    "url": "https://github.com/winebarrel/erbh",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Simple ERB helper.",
+    "stars": 4,
+    "updated": "2022-01-15",
+    "created": "2016-04-10"
+  },
+  {
+    "name": "ath",
+    "url": "https://github.com/winebarrel/ath",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "ath is a interactive Amazon Athena shell.",
+    "stars": 3,
+    "updated": "2017-07-07",
+    "created": "2017-07-01"
+  },
+  {
+    "name": "es-desk",
+    "url": "https://github.com/winebarrel/es-desk",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "It is an application for testing Elasticsearch index.",
+    "stars": 3,
+    "updated": "2018-04-04",
+    "created": "2017-11-28"
+  },
+  {
+    "name": "rspec-match_ruby",
+    "url": "https://github.com/winebarrel/rspec-match_ruby",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "It is Ruby code matcher.",
+    "stars": 3,
+    "updated": "2026-05-26",
+    "created": "2017-12-13"
+  },
+  {
+    "name": "deep_sort",
+    "url": "https://github.com/winebarrel/deep_sort",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Sort Array/Hash/Enumerable recursively.",
+    "stars": 2,
+    "updated": "2016-08-21",
+    "created": "2016-08-19"
+  },
+  {
+    "name": "easycron",
+    "url": "https://github.com/winebarrel/easycron",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "EasyCron API Ruby Client.",
+    "stars": 2,
+    "updated": "2016-12-04",
+    "created": "2016-12-04"
+  },
+  {
+    "name": "rspec-match_fuzzy",
+    "url": "https://github.com/winebarrel/rspec-match_fuzzy",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "String matcher to ignore whitespace.",
+    "stars": 2,
+    "updated": "2026-02-16",
+    "created": "2016-04-09"
+  },
+  {
+    "name": "hash_modern_inspect",
+    "url": "https://github.com/winebarrel/hash_modern_inspect",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Inspect Hash object as modern format.",
+    "stars": 1,
+    "updated": "2026-05-25",
+    "created": "2016-04-09"
+  },
+  {
+    "name": "pp_sort_hash",
+    "url": "https://github.com/winebarrel/pp_sort_hash",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Pretty print a sorted hash by key.",
+    "stars": 1,
+    "updated": "2016-08-19",
+    "created": "2016-08-19"
+  },
+  {
+    "name": "pycf",
+    "url": "https://github.com/winebarrel/pycf",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Configuration file parser for Python 2.7 basic configuration file.",
+    "stars": 1,
+    "updated": "2015-06-13",
+    "created": "2015-06-13"
+  },
+  {
+    "name": "arproxy-plugin-stdout",
+    "url": "https://github.com/winebarrel/arproxy-plugin-stdout",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "STDOUT output plug-in for Arproxy.",
+    "stars": 0,
+    "updated": "2015-05-11",
+    "created": "2015-05-11"
+  },
+  {
+    "name": "fluent-plugin-rinflux",
+    "url": "https://github.com/winebarrel/fluent-plugin-rinflux",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Output plugin for InfluxDB.",
+    "stars": 0,
+    "updated": "2015-07-18",
+    "created": "2015-07-18"
+  },
+  {
+    "name": "google-api_client-keychain_store",
+    "url": "https://github.com/winebarrel/google-api_client-keychain_store",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "KeychainStore for Google API Client.",
+    "stars": 0,
+    "updated": "2015-03-09",
+    "created": "2015-02-21"
+  },
+  {
+    "name": "hash_order_helper",
+    "url": "https://github.com/winebarrel/hash_order_helper",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Add methods to manipulate the order of the entries in the Hash object.",
+    "stars": 0,
+    "updated": "2017-04-16",
+    "created": "2016-04-10"
+  },
+  {
+    "name": "js2json",
+    "url": "https://github.com/winebarrel/js2json",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "It is a library to convert from JavaScript to JSON.",
+    "stars": 0,
+    "updated": "2014-03-16",
+    "created": "2014-03-16"
+  },
+  {
+    "name": "librato-client",
+    "url": "https://github.com/winebarrel/librato-client",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Librato API Client for for Ruby.",
+    "stars": 0,
+    "updated": "2015-09-17",
+    "created": "2015-08-08"
+  },
+  {
+    "name": "lisp.rb",
+    "url": "https://github.com/winebarrel/lisp.rb",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Ruby port of Lispy",
+    "stars": 0,
+    "updated": "2014-12-20",
+    "created": "2014-12-20"
+  },
+  {
+    "name": "object_flatten",
+    "url": "https://github.com/winebarrel/object_flatten",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "ObjectFlatten converts the hash to an array of key-value pairs.",
+    "stars": 0,
+    "updated": "2015-07-12",
+    "created": "2015-07-12"
+  },
+  {
+    "name": "rack_custom_tmpdir",
+    "url": "https://github.com/winebarrel/rack_custom_tmpdir",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Rack middleware to change temporary directory of file upload.",
+    "stars": 0,
+    "updated": "2017-07-27",
+    "created": "2017-07-27"
+  },
+  {
+    "name": "rinflux",
+    "url": "https://github.com/winebarrel/rinflux",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "It is unofficial low level ruby client library for InfluxDB.",
+    "stars": 0,
+    "updated": "2015-07-18",
+    "created": "2015-07-18"
+  },
+  {
+    "name": "rspec-match_table",
+    "url": "https://github.com/winebarrel/rspec-match_table",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "It is array of hashes matcher.",
+    "stars": 0,
+    "updated": "2021-03-16",
+    "created": "2017-12-27"
+  },
+  {
+    "name": "segv",
+    "url": "https://github.com/winebarrel/segv",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Cause SEGV in Ruby.",
+    "stars": 0,
+    "updated": "2016-09-23",
+    "created": "2016-09-23"
+  },
+  {
+    "name": "udiff",
+    "url": "https://github.com/winebarrel/udiff",
+    "category": "Ruby gem",
+    "language": "Ruby",
+    "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
+    "stars": 0,
+    "updated": "2026-05-24",
+    "created": "2026-03-22"
+  },
+  {
+    "name": "jlsort",
+    "url": "https://github.com/winebarrel/jlsort",
+    "category": "Rust tool",
+    "language": "Rust",
+    "description": "Sort JSON Lines using External merge sort",
+    "stars": 5,
+    "updated": "2024-11-25",
+    "created": "2021-08-14"
+  },
+  {
+    "name": "jljoin",
+    "url": "https://github.com/winebarrel/jljoin",
+    "category": "Rust tool",
+    "language": "Rust",
+    "description": "Read two NDJSON files and combine lines with common member values.",
+    "stars": 1,
+    "updated": "2023-05-08",
+    "created": "2021-08-28"
+  },
+  {
+    "name": "ex_merge_sort",
+    "url": "https://github.com/winebarrel/ex_merge_sort",
+    "category": "Rust tool",
+    "language": "Rust",
+    "description": "Rust external merge sort library.",
+    "stars": 0,
+    "updated": "2021-08-22",
+    "created": "2021-08-14"
+  },
+  {
+    "name": "ex_merge_sort_by_key",
+    "url": "https://github.com/winebarrel/ex_merge_sort_by_key",
+    "category": "Rust tool",
+    "language": "Rust",
+    "description": "Rust external merge sort library using sort_by_cached_key.",
+    "stars": 0,
+    "updated": "2021-08-29",
+    "created": "2021-08-22"
+  },
+  {
+    "name": "jluniq",
+    "url": "https://github.com/winebarrel/jluniq",
+    "category": "Rust tool",
+    "language": "Rust",
+    "description": "Remove duplicate key member lines from sorted NDJSON.",
+    "stars": 0,
+    "updated": "2021-08-30",
+    "created": "2021-08-29"
+  },
+  {
+    "name": "goth-esa",
+    "url": "https://github.com/winebarrel/goth-esa",
+    "category": "Security / Crypto",
+    "language": "Go",
+    "description": "Goth provider for esa.",
+    "stars": 1,
+    "updated": "2026-03-09",
+    "created": "2021-11-21"
+  },
+  {
+    "name": "dap",
+    "url": "https://github.com/winebarrel/dap",
+    "category": "Security / Crypto",
+    "language": "Go",
+    "description": "Digest authentication proxy that stores authentication information in a cookie.",
+    "stars": 0,
+    "updated": "2026-05-15",
+    "created": "2025-12-27"
+  },
+  {
+    "name": "gap",
+    "url": "https://github.com/winebarrel/gap",
+    "category": "Security / Crypto",
+    "language": "Go",
+    "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
+    "stars": 0,
+    "updated": "2026-05-27",
+    "created": "2025-08-31"
+  },
+  {
+    "name": "kap",
+    "url": "https://github.com/winebarrel/kap",
+    "category": "Security / Crypto",
+    "language": "Go",
+    "description": "Simple HTTP proxy with Auth key.",
+    "stars": 0,
+    "updated": "2026-05-22",
+    "created": "2025-09-01"
+  },
+  {
+    "name": "opmsk",
+    "url": "https://github.com/winebarrel/opmsk",
+    "category": "Security / Crypto",
+    "language": "Go",
+    "description": "Mask 1Password CLI password using ANSI color.",
+    "stars": 0,
+    "updated": "2026-04-13",
+    "created": "2023-02-27"
+  },
+  {
+    "name": "terraform-provider-lambdazip",
+    "url": "https://github.com/winebarrel/terraform-provider-lambdazip",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider creating zip file for AWS Lambda.",
+    "stars": 10,
+    "updated": "2026-05-25",
+    "created": "2024-02-03"
+  },
+  {
+    "name": "terraform-provider-redash",
+    "url": "https://github.com/winebarrel/terraform-provider-redash",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider for Redash.",
+    "stars": 9,
+    "updated": "2026-05-14",
+    "created": "2023-02-26"
+  },
+  {
+    "name": "terraform-provider-iamencode",
+    "url": "https://github.com/winebarrel/terraform-provider-iamencode",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider with user-defined functions that validate an IAM policy document",
+    "stars": 4,
+    "updated": "2026-05-28",
+    "created": "2026-05-18"
+  },
+  {
+    "name": "vscode-tfstate-show",
+    "url": "https://github.com/winebarrel/vscode-tfstate-show",
+    "category": "Terraform",
+    "language": "TypeScript",
+    "description": "Run terraform state show in VSCode.",
+    "stars": 3,
+    "updated": "2026-05-24",
+    "created": "2023-12-17"
+  },
+  {
+    "name": "terraform-provider-cronplan",
+    "url": "https://github.com/winebarrel/terraform-provider-cronplan",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
+    "stars": 2,
+    "updated": "2026-04-27",
+    "created": "2023-09-30"
+  },
+  {
+    "name": "terraform-provider-firebaseremoteconfig",
+    "url": "https://github.com/winebarrel/terraform-provider-firebaseremoteconfig",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider for Firebase Remote Config.",
+    "stars": 1,
+    "updated": "2026-05-14",
+    "created": "2025-07-09"
+  },
+  {
+    "name": "terraform-provider-oneshot",
+    "url": "https://github.com/winebarrel/terraform-provider-oneshot",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider for running one-shot commands.",
+    "stars": 1,
+    "updated": "2026-04-27",
+    "created": "2024-09-21"
+  },
+  {
+    "name": "terraform-provider-op",
+    "url": "https://github.com/winebarrel/terraform-provider-op",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider for 1Password CLI.",
+    "stars": 1,
+    "updated": "2026-05-14",
+    "created": "2023-08-20"
+  },
+  {
+    "name": "terraform-provider-rds",
+    "url": "https://github.com/winebarrel/terraform-provider-rds",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "It is a provider to get the amount of memory for each instance class of RDS.",
+    "stars": 1,
+    "updated": "2026-05-29",
+    "created": "2022-07-16"
+  },
+  {
+    "name": "tflocalexpand",
+    "url": "https://github.com/winebarrel/tflocalexpand",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "tflocalexpand is a tool to expand Terraform locals references into their underlying expressions.",
+    "stars": 1,
+    "updated": "2026-05-24",
+    "created": "2026-05-22"
+  },
+  {
+    "name": "iampd2j",
+    "url": "https://github.com/winebarrel/iampd2j",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
+    "stars": 0,
+    "updated": "2026-05-25",
+    "created": "2026-05-20"
+  },
+  {
+    "name": "terraform-provider-googlesheets",
+    "url": "https://github.com/winebarrel/terraform-provider-googlesheets",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider for retrieving data from Google Sheets.",
+    "stars": 0,
+    "updated": "2026-05-27",
+    "created": "2025-04-17"
+  },
+  {
+    "name": "terraform-provider-lambdaconfig",
+    "url": "https://github.com/winebarrel/terraform-provider-lambdaconfig",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider for AWS Lambda function concurrency configuration.",
+    "stars": 0,
+    "updated": "2026-05-29",
+    "created": "2025-04-05"
+  },
+  {
+    "name": "terraform-provider-sleep",
+    "url": "https://github.com/winebarrel/terraform-provider-sleep",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider of the function to pause.",
+    "stars": 0,
+    "updated": "2026-04-27",
+    "created": "2025-08-21"
+  },
+  {
+    "name": "terraform-provider-statuspage",
+    "url": "https://github.com/winebarrel/terraform-provider-statuspage",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Terraform provider for Statuspage.io.",
+    "stars": 0,
+    "updated": "2026-03-04",
+    "created": "2026-03-01"
+  },
+  {
+    "name": "tfdsprune",
+    "url": "https://github.com/winebarrel/tfdsprune",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
+    "stars": 0,
+    "updated": "2026-05-27",
+    "created": "2026-05-27"
+  },
+  {
+    "name": "tflat",
+    "url": "https://github.com/winebarrel/tflat",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Flatten Terraform modules into the parent with moved blocks for state migration.",
+    "stars": 0,
+    "updated": "2026-05-29",
+    "created": "2026-05-22"
+  },
+  {
+    "name": "tfrename",
+    "url": "https://github.com/winebarrel/tfrename",
+    "category": "Terraform",
+    "language": "Go",
+    "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
+    "stars": 0,
+    "updated": "2026-05-30",
+    "created": "2026-05-22"
+  },
+  {
+    "name": "vscode-reopen-folder",
+    "url": "https://github.com/winebarrel/vscode-reopen-folder",
+    "category": "Web / Browser",
+    "language": "TypeScript",
+    "description": "VS Code Extension that reopens the specified folder or parent folder.",
+    "stars": 1,
+    "updated": "2026-05-28",
+    "created": "2023-03-18"
+  },
+  {
+    "name": "vscode-right-click-filter",
+    "url": "https://github.com/winebarrel/vscode-right-click-filter",
+    "category": "Web / Browser",
+    "language": "TypeScript",
+    "description": "VS Code extension to filter text by selected text.",
+    "stars": 1,
+    "updated": "2026-05-24",
+    "created": "2024-01-14"
+  },
+  {
+    "name": "esaop",
+    "url": "https://github.com/winebarrel/esaop",
+    "category": "Web / Browser",
+    "language": "Go",
+    "description": "A web application that redirects human-readable URLs to esa.io posts.",
+    "stars": 0,
+    "updated": "2026-04-06",
+    "created": "2022-01-19"
+  },
+  {
+    "name": "PagerCall",
+    "url": "https://github.com/winebarrel/PagerCall",
+    "category": "macOS",
+    "language": "Swift",
+    "description": "PagerCall is a utility app that shows PagerDuty status on the menu bar.",
+    "stars": 10,
+    "updated": "2025-12-21",
+    "created": "2024-09-30"
+  },
+  {
+    "name": "VerticalBattery",
+    "url": "https://github.com/winebarrel/VerticalBattery",
+    "category": "macOS",
+    "language": "Swift",
+    "description": "Small vertical battery icon on menu bar.",
+    "stars": 2,
+    "updated": "2026-02-15",
+    "created": "2025-01-13"
+  },
+  {
+    "name": "HatebuFilter",
+    "url": "https://github.com/winebarrel/HatebuFilter",
+    "category": "macOS",
+    "language": "Swift",
+    "description": "「はてブフィルター」は指定されたキーワードを含む はてなブックマーク (https://b.hatena.ne.jp/) のエントリを非表示にするSafari機能拡張です。",
+    "stars": 1,
+    "updated": "2026-01-31",
+    "created": "2026-01-25"
+  },
+  {
+    "name": "Pullse",
+    "url": "https://github.com/winebarrel/Pullse",
+    "category": "macOS",
+    "language": "Swift",
+    "description": "Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.",
+    "stars": 1,
+    "updated": "2025-12-21",
+    "created": "2024-11-17"
+  },
+  {
+    "name": "SimpleResize",
+    "url": "https://github.com/winebarrel/SimpleResize",
+    "category": "macOS",
+    "language": "Swift",
+    "description": "iOS向けのシンプルな画像リサイズアプリです。",
+    "stars": 0,
+    "updated": "2026-04-27",
+    "created": "2026-03-20"
+  }
+]

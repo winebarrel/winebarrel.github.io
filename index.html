@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>winebarrel's tools</title>
+<meta name="description" content="Tools by winebarrel, grouped by category.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>winebarrel's tools</h1>
+  <p class="lede">
+    Tools and libraries by
+    <a href="https://github.com/winebarrel">@winebarrel</a>,
+    <a href="https://github.com/ridgepole">@ridgepole</a>, and
+    <a href="https://github.com/quetarohq">@quetarohq</a>.
+  </p>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Search by name or description…" autocomplete="off" spellcheck="false">
+    <div id="sort" class="sort" role="radiogroup" aria-label="sort">
+      <button type="button" class="sort-btn" data-sort="category">Category</button>
+      <button type="button" class="sort-btn" data-sort="newest">Newest</button>
+      <button type="button" class="sort-btn" data-sort="oldest">Oldest</button>
+    </div>
+    <span id="result-count" class="result-count"></span>
+  </div>
+  <nav id="cat-filter" class="filter-row" aria-label="filter by category"></nav>
+  <nav id="lang-filter" class="filter-row filter-row-sub" aria-label="filter by language"></nav>
+</header>
+
+<section id="stats" class="stats">
+  <figure>
+    <figcaption>By category</figcaption>
+    <div class="pie-wrap">
+      <svg viewBox="0 0 200 200" class="pie" id="pie-cat" aria-label="category distribution"></svg>
+      <ul class="legend" id="legend-cat"></ul>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>By language</figcaption>
+    <div class="pie-wrap">
+      <svg viewBox="0 0 200 200" class="pie" id="pie-lang" aria-label="language distribution"></svg>
+      <ul class="legend" id="legend-lang"></ul>
+    </div>
+  </figure>
+</section>
+
+<main id="app">
+  <p class="loading">loading…</p>
+</main>
+
+<footer>
+  <p>
+    Source: <a href="https://github.com/winebarrel/winebarrel.github.io">winebarrel.github.io</a>
+  </p>
+</footer>
+
+<script>
+(async () => {
+  const res = await fetch('tools.json', {cache: 'no-cache'});
+  const tools = await res.json();
+
+  const langColors = {
+    'Ruby': '#701516',
+    'Go': '#00ADD8',
+    'C': '#555555',
+    'Rust': '#dea584',
+    'Swift': '#F05138',
+    'TypeScript': '#3178c6',
+    'JavaScript': '#f1e05a',
+    'Elixir': '#6e4a7e',
+    'Makefile': '#427819',
+    'Dockerfile': '#384d54',
+    'C++': '#f34b7d',
+    'Jsonnet': '#0064bd',
+    'Shell': '#89e051',
+    'HCL': '#844FBA',
+    'Yacc': '#4B6C4B',
+    'Python': '#3572A5',
+    'Perl': '#0298c3',
+  };
+
+  const order = [
+    'Terraform', 'AWS', 'Kubernetes', 'Docker / Container',
+    'MySQL', 'PostgreSQL', 'Database', 'KVS / Cache',
+    'macOS', 'CLI', 'Git / GitHub',
+    'Logging', 'Monitoring', 'Benchmark / Perf',
+    'Security / Crypto', 'DNS / Network', 'Chat / Slack', 'Web / Browser',
+    'Ruby gem', 'Go tool', 'Rust tool', 'Elixir', 'JS / TS', 'C',
+    'Other'
+  ];
+
+  const catCount = new Map(), langCount = new Map();
+  for (const t of tools) {
+    catCount.set(t.category, (catCount.get(t.category) || 0) + 1);
+    const l = t.language && t.language !== 'none' ? t.language : null;
+    if (l) langCount.set(l, (langCount.get(l) || 0) + 1);
+  }
+  const cats = [...catCount.keys()].sort((a, b) => {
+    const ia = order.indexOf(a), ib = order.indexOf(b);
+    return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
+  });
+  const langs = [...langCount.keys()].sort((a, b) => langCount.get(b) - langCount.get(a));
+
+  const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+  const state = {
+    q: '',
+    cats: new Set(),
+    langs: new Set(),
+    sort: 'category',
+  };
+
+  // hydrate from URL hash
+  const params = new URLSearchParams(location.hash.slice(1));
+  state.q = params.get('q') || '';
+  if (params.get('cat')) params.get('cat').split(',').filter(Boolean).forEach(c => state.cats.add(c));
+  if (params.get('lang')) params.get('lang').split(',').filter(Boolean).forEach(l => state.langs.add(l));
+  if (['category', 'newest', 'oldest'].includes(params.get('sort'))) state.sort = params.get('sort');
+
+  const search = document.getElementById('search');
+  search.value = state.q;
+
+  const catFilter = document.getElementById('cat-filter');
+  catFilter.innerHTML = cats.map(c =>
+    `<button type="button" class="chip" data-kind="cat" data-value="${c}">${c} <span class="count">${catCount.get(c)}</span></button>`
+  ).join('');
+
+  const langFilter = document.getElementById('lang-filter');
+  langFilter.innerHTML = langs.map(l => {
+    const color = langColors[l] || '#9aa0a6';
+    return `<button type="button" class="chip chip-lang" data-kind="lang" data-value="${l}"><span class="lang-dot" style="background:${color}"></span>${l} <span class="count">${langCount.get(l)}</span></button>`;
+  }).join('');
+
+  const app = document.getElementById('app');
+  const resultCount = document.getElementById('result-count');
+
+  // category color palette (golden-angle HSL for distinct hues)
+  const catColors = new Map();
+  cats.forEach((c, i) => {
+    const hue = (i * 137.508) % 360;
+    catColors.set(c, `hsl(${hue.toFixed(1)}, 55%, 55%)`);
+  });
+
+  function renderPie(svgEl, legendEl, data, kind, activeSet) {
+    const total = data.reduce((a, b) => a + b.value, 0);
+    const r = 80, cx = 100, cy = 100;
+    let acc = 0;
+    const slices = data.map(d => {
+      const a0 = (acc / total) * 2 * Math.PI - Math.PI / 2;
+      acc += d.value;
+      const a1 = (acc / total) * 2 * Math.PI - Math.PI / 2;
+      const x0 = cx + r * Math.cos(a0), y0 = cy + r * Math.sin(a0);
+      const x1 = cx + r * Math.cos(a1), y1 = cy + r * Math.sin(a1);
+      const large = (a1 - a0) > Math.PI ? 1 : 0;
+      const isActive = activeSet.size === 0 || activeSet.has(d.name);
+      let path;
+      if (data.length === 1) {
+        path = `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${d.color}" class="slice ${isActive ? '' : 'dim'}" data-name="${escapeAttr(d.name)}" data-kind="${kind}"><title>${escapeAttr(d.name)}: ${d.value}</title></circle>`;
+      } else {
+        path = `<path d="M ${cx} ${cy} L ${x0.toFixed(2)} ${y0.toFixed(2)} A ${r} ${r} 0 ${large} 1 ${x1.toFixed(2)} ${y1.toFixed(2)} Z" fill="${d.color}" class="slice ${isActive ? '' : 'dim'}" data-name="${escapeAttr(d.name)}" data-kind="${kind}"><title>${escapeAttr(d.name)}: ${d.value} (${(d.value / total * 100).toFixed(1)}%)</title></path>`;
+      }
+      return path;
+    }).join('');
+    svgEl.innerHTML = slices;
+    legendEl.innerHTML = data.map(d => {
+      const isActive = activeSet.size === 0 || activeSet.has(d.name);
+      return `<li class="${isActive ? '' : 'dim'}" data-name="${escapeAttr(d.name)}" data-kind="${kind}">
+        <span class="swatch" style="background:${d.color}"></span>
+        <span class="legend-name">${escapeHtml(d.name)}</span>
+        <span class="legend-count">${d.value}</span>
+      </li>`;
+    }).join('');
+  }
+  function escapeAttr(s) {
+    return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function renderStats() {
+    const filtered = tools.filter(matches);
+    const catData = new Map(), langData = new Map();
+    for (const t of filtered) {
+      catData.set(t.category, (catData.get(t.category) || 0) + 1);
+      const l = t.language && t.language !== 'none' ? t.language : null;
+      if (l) langData.set(l, (langData.get(l) || 0) + 1);
+    }
+    const catArr = cats.filter(c => catData.has(c)).map(c => ({
+      name: c, value: catData.get(c), color: catColors.get(c)
+    }));
+    const langArr = [...langData.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([l, v]) => ({ name: l, value: v, color: langColors[l] || '#9aa0a6' }));
+
+    if (catArr.length) renderPie(
+      document.getElementById('pie-cat'),
+      document.getElementById('legend-cat'),
+      catArr, 'cat', state.cats);
+    if (langArr.length) renderPie(
+      document.getElementById('pie-lang'),
+      document.getElementById('legend-lang'),
+      langArr, 'lang', state.langs);
+  }
+
+  function syncHash() {
+    const p = new URLSearchParams();
+    if (state.q) p.set('q', state.q);
+    if (state.cats.size) p.set('cat', [...state.cats].join(','));
+    if (state.langs.size) p.set('lang', [...state.langs].join(','));
+    if (state.sort !== 'category') p.set('sort', state.sort);
+    const s = p.toString();
+    history.replaceState(null, '', s ? '#' + s : location.pathname);
+  }
+
+  function highlight(text, q) {
+    if (!q) return escapeHtml(text);
+    const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+    return escapeHtml(text).replace(re, '<mark>$1</mark>');
+  }
+  function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+
+  function matches(t) {
+    if (state.cats.size && !state.cats.has(t.category)) return false;
+    if (state.langs.size && !state.langs.has(t.language)) return false;
+    if (state.q) {
+      const q = state.q.toLowerCase();
+      const hay = `${t.name} ${t.description || ''} ${t.category} ${t.language || ''}`.toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }
+
+  function cardHtml(t) {
+    return `
+      <li class="card">
+        <h3><a href="${t.url}">${highlight(t.name, state.q)}</a></h3>
+        <div class="meta">
+          ${t.language && t.language !== 'none' ? `<span class="lang"><span class="lang-dot" style="background:${langColors[t.language] || '#9aa0a6'}"></span>${escapeHtml(t.language)}</span>` : ''}
+          ${t.stars ? `<span class="stars">★ ${t.stars}</span>` : ''}
+          ${t.created ? `<span class="created" title="published">${t.created}</span>` : ''}
+          ${t.updated ? `<span class="updated" title="last push">${t.updated}</span>` : ''}
+        </div>
+        <p>${t.description ? highlight(t.description, state.q) : ''}</p>
+      </li>
+    `;
+  }
+
+  function render() {
+    for (const btn of catFilter.querySelectorAll('.chip')) {
+      btn.classList.toggle('active', state.cats.has(btn.dataset.value));
+    }
+    for (const btn of langFilter.querySelectorAll('.chip')) {
+      btn.classList.toggle('active', state.langs.has(btn.dataset.value));
+    }
+    for (const btn of document.querySelectorAll('.sort-btn')) {
+      btn.classList.toggle('active', state.sort === btn.dataset.sort);
+    }
+
+    renderStats();
+
+    const filtered = tools.filter(matches);
+    resultCount.textContent = `${filtered.length} / ${tools.length}`;
+
+    if (filtered.length === 0) {
+      app.innerHTML = `<p class="loading">no results.</p>`;
+      return;
+    }
+
+    if (state.sort === 'category') {
+      const grouped = new Map();
+      for (const t of filtered) {
+        if (!grouped.has(t.category)) grouped.set(t.category, []);
+        grouped.get(t.category).push(t);
+      }
+      const visible = [...grouped.keys()].sort((a, b) => {
+        const ia = order.indexOf(a), ib = order.indexOf(b);
+        return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib);
+      });
+      app.innerHTML = visible.map(c => {
+        const items = grouped.get(c).sort((a, b) => (b.stars || 0) - (a.stars || 0));
+        return `
+          <section id="${slug(c)}">
+            <h2>${c} <span class="count">${items.length}</span></h2>
+            <ul class="cards">${items.map(cardHtml).join('')}</ul>
+          </section>
+        `;
+      }).join('');
+    } else {
+      const dir = state.sort === 'newest' ? -1 : 1;
+      const sorted = [...filtered].sort((a, b) => {
+        const ad = a.created || '', bd = b.created || '';
+        if (ad === bd) return a.name.localeCompare(b.name);
+        return ad < bd ? -1 * dir : 1 * dir;
+      });
+      const byYear = new Map();
+      for (const t of sorted) {
+        const y = (t.created || '????').slice(0, 4);
+        if (!byYear.has(y)) byYear.set(y, []);
+        byYear.get(y).push(t);
+      }
+      app.innerHTML = [...byYear.entries()].map(([y, items]) => `
+        <section id="y-${y}">
+          <h2>${y} <span class="count">${items.length}</span></h2>
+          <ul class="cards">${items.map(cardHtml).join('')}</ul>
+        </section>
+      `).join('');
+    }
+  }
+
+  // events
+  let debounce;
+  search.addEventListener('input', e => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => {
+      state.q = e.target.value.trim();
+      syncHash();
+      render();
+    }, 80);
+  });
+
+  function toggleChip(set, value) {
+    if (set.has(value)) set.delete(value); else set.add(value);
+  }
+  catFilter.addEventListener('click', e => {
+    const btn = e.target.closest('.chip');
+    if (!btn) return;
+    toggleChip(state.cats, btn.dataset.value);
+    syncHash();
+    render();
+  });
+  langFilter.addEventListener('click', e => {
+    const btn = e.target.closest('.chip');
+    if (!btn) return;
+    toggleChip(state.langs, btn.dataset.value);
+    syncHash();
+    render();
+  });
+  document.getElementById('sort').addEventListener('click', e => {
+    const btn = e.target.closest('.sort-btn');
+    if (!btn) return;
+    state.sort = btn.dataset.sort;
+    syncHash();
+    render();
+  });
+
+  function handleStatClick(e) {
+    const el = e.target.closest('[data-kind][data-name]');
+    if (!el) return;
+    const set = el.dataset.kind === 'cat' ? state.cats : state.langs;
+    toggleChip(set, el.dataset.name);
+    syncHash();
+    render();
+  }
+  document.getElementById('stats').addEventListener('click', handleStatClick);
+
+  // keyboard shortcut: '/' to focus search
+  document.addEventListener('keydown', e => {
+    if (e.key === '/' && document.activeElement !== search) {
+      e.preventDefault();
+      search.focus();
+      search.select();
+    }
+    if (e.key === 'Escape' && document.activeElement === search) {
+      search.value = '';
+      state.q = '';
+      syncHash();
+      render();
+    }
+  });
+
+  render();
+})().catch(e => {
+  document.getElementById('app').innerHTML = `<p class="loading">failed to load: ${e}</p>`;
+});
+</script>
+</body>
+</html>
