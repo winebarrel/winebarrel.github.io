@@ -161,9 +161,22 @@ mark {
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
 }
+.stats .stats-wide { grid-column: 1 / -1; }
 @media (max-width: 720px) {
   .stats { grid-template-columns: 1fr; }
 }
+.bars {
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+.bars .bar {
+  cursor: pointer;
+  transition: opacity .15s;
+}
+.bars .bar.dim { opacity: .25; }
+.bars text { fill: var(--muted); font-size: 10px; }
+.bars .grid { stroke: var(--border); stroke-width: 1; }
 .stats figure {
   margin: 0;
   border: 1px solid var(--border);

@@ -71,6 +71,10 @@
       <ul class="legend" id="legend-lang"></ul>
     </div>
   </figure>
+  <figure class="stats-wide">
+    <figcaption>Created per month (stacked by language)</figcaption>
+    <svg class="bars" id="bars-created" aria-label="repositories created per month, stacked by language" preserveAspectRatio="none"></svg>
+  </figure>
 </section>
 
 <main id="app">
@@ -241,6 +245,109 @@
       document.getElementById('pie-lang'),
       document.getElementById('legend-lang'),
       langArr, 'lang', state.langs);
+
+    renderBars(document.getElementById('bars-created'), filtered, state.langs);
+  }
+
+  function renderBars(svgEl, filtered, activeLangs) {
+    // bucket by YYYY-MM, then by language
+    const buckets = new Map();
+    const allMonths = new Set();
+    const allLangsSeen = new Set();
+    for (const t of filtered) {
+      const ym = (t.created || '').slice(0, 7);
+      if (!ym) continue;
+      const l = (t.language && t.language !== 'none') ? t.language : 'Other';
+      allLangsSeen.add(l);
+      if (!buckets.has(ym)) buckets.set(ym, new Map());
+      const m = buckets.get(ym);
+      m.set(l, (m.get(l) || 0) + 1);
+    }
+    // full range from earliest to latest tool overall (not just filtered)
+    let minYM = null, maxYM = null;
+    for (const t of tools) {
+      const ym = (t.created || '').slice(0, 7);
+      if (!ym) continue;
+      if (!minYM || ym < minYM) minYM = ym;
+      if (!maxYM || ym > maxYM) maxYM = ym;
+    }
+    if (!minYM) { svgEl.innerHTML = ''; return; }
+    const months = [];
+    let [y, m] = minYM.split('-').map(Number);
+    const [ey, em] = maxYM.split('-').map(Number);
+    while (y < ey || (y === ey && m <= em)) {
+      months.push(`${y}-${String(m).padStart(2, '0')}`);
+      m++; if (m > 12) { m = 1; y++; }
+    }
+    allMonths.clear(); months.forEach(x => allMonths.add(x));
+
+    const W = 1040, H = 200;
+    const PAD_L = 28, PAD_R = 8, PAD_T = 10, PAD_B = 24;
+    const plotW = W - PAD_L - PAD_R;
+    const plotH = H - PAD_T - PAD_B;
+    const barGap = 1;
+    const barW = (plotW - barGap * (months.length - 1)) / months.length;
+
+    let maxTotal = 0;
+    for (const m of months) {
+      const b = buckets.get(m);
+      if (!b) continue;
+      let s = 0; for (const v of b.values()) s += v;
+      if (s > maxTotal) maxTotal = s;
+    }
+    if (maxTotal === 0) maxTotal = 1;
+    // round up y_max to a tidy step
+    const step = maxTotal <= 5 ? 1 : maxTotal <= 10 ? 2 : maxTotal <= 30 ? 5 : 10;
+    const yMax = Math.ceil(maxTotal / step) * step;
+
+    // language stacking order: by total count desc (stable across re-renders)
+    const langTotals = new Map();
+    for (const b of buckets.values()) {
+      for (const [l, v] of b) langTotals.set(l, (langTotals.get(l) || 0) + v);
+    }
+    const langOrder = [...langTotals.entries()].sort((a, b) => b[1] - a[1]).map(([l]) => l);
+
+    svgEl.setAttribute('viewBox', `0 0 ${W} ${H}`);
+
+    const parts = [];
+    // gridlines + y labels
+    for (let v = 0; v <= yMax; v += step) {
+      const yy = PAD_T + plotH - (v / yMax) * plotH;
+      parts.push(`<line class="grid" x1="${PAD_L}" y1="${yy}" x2="${W - PAD_R}" y2="${yy}"/>`);
+      parts.push(`<text x="${PAD_L - 4}" y="${yy + 3}" text-anchor="end">${v}</text>`);
+    }
+    // bars
+    for (let i = 0; i < months.length; i++) {
+      const ym = months[i];
+      const b = buckets.get(ym);
+      if (!b) continue;
+      const x = PAD_L + i * (barW + barGap);
+      let cum = 0;
+      for (const lang of langOrder) {
+        const n = b.get(lang) || 0;
+        if (!n) continue;
+        const h = (n / yMax) * plotH;
+        const y = PAD_T + plotH - ((cum + n) / yMax) * plotH;
+        const color = langColors[lang] || '#9aa0a6';
+        const isActive = activeLangs.size === 0 || activeLangs.has(lang);
+        parts.push(`<rect class="bar ${isActive ? '' : 'dim'}" x="${x.toFixed(2)}" y="${y.toFixed(2)}" width="${barW.toFixed(2)}" height="${h.toFixed(2)}" fill="${color}" data-name="${escapeAttr(lang)}" data-kind="lang"><title>${ym} · ${escapeAttr(lang)}: ${n}</title></rect>`);
+        cum += n;
+      }
+    }
+    // x-axis year ticks (Jan of each year + last year)
+    const yearsSeen = new Set();
+    for (let i = 0; i < months.length; i++) {
+      const ym = months[i];
+      const yr = ym.slice(0, 4);
+      if (ym.endsWith('-01') || i === 0) {
+        if (yearsSeen.has(yr)) continue;
+        yearsSeen.add(yr);
+        const x = PAD_L + i * (barW + barGap) + barW / 2;
+        parts.push(`<text x="${x.toFixed(2)}" y="${H - PAD_B + 14}" text-anchor="middle">${yr}</text>`);
+      }
+    }
+
+    svgEl.innerHTML = parts.join('');
   }
 
   function syncHash() {
