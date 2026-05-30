@@ -37,12 +37,38 @@ header, main, footer {
   padding: 0 1.25rem;
 }
 header { padding-top: 3rem; padding-bottom: 1rem; }
+.hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.hero-text { flex: 1; min-width: 0; }
+.avatar-link { flex-shrink: 0; display: block; }
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  display: block;
+}
+.avatar-link:hover .avatar {
+  border-color: var(--accent);
+}
+
 header h1 {
   font-size: 2rem;
   margin: 0 0 .5rem;
   letter-spacing: -0.01em;
 }
-header .lede { color: var(--muted); margin: 0 0 1.5rem; }
+header .lede { color: var(--muted); margin: 0 0 .35rem; }
+header .profiles {
+  color: var(--muted);
+  margin: 0 0 1.5rem;
+  font-size: .85rem;
+}
+header .profiles a {
+  margin: 0 .15rem;
+}
 
 .controls {
   display: flex;
