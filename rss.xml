@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 30 May 2026 12:58:25 GMT</lastBuildDate>
+<lastBuildDate>Sat, 30 May 2026 13:06:59 GMT</lastBuildDate>
 <item>
   <title>vscode-tfrename</title>
   <link>https://github.com/winebarrel/vscode-tfrename</link>
@@ -125,7 +125,7 @@
   <guid isPermaLink="true">https://github.com/winebarrel/SimpleResize</guid>
   <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
   <description>iOS向けのシンプルな画像リサイズアプリです。</description>
-  <category>macOS</category>
+  <category>macOS / iOS</category>
 </item>
 <item>
   <title>terraform-provider-statuspage</title>
@@ -165,7 +165,7 @@
   <guid isPermaLink="true">https://github.com/winebarrel/HatebuFilter</guid>
   <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
   <description>「はてブフィルター」は指定されたキーワードを含む はてなブックマーク (https://b.hatena.ne.jp/) のエントリを非表示にするSafari機能拡張です。</description>
-  <category>macOS</category>
+  <category>macOS / iOS</category>
 </item>
 <item>
   <title>conds</title>
@@ -325,7 +325,7 @@
   <guid isPermaLink="true">https://github.com/winebarrel/VerticalBattery</guid>
   <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
   <description>Small vertical battery icon on menu bar.</description>
-  <category>macOS</category>
+  <category>macOS / iOS</category>
 </item>
 <item>
   <title>Pullse</title>
@@ -333,7 +333,7 @@
   <guid isPermaLink="true">https://github.com/winebarrel/Pullse</guid>
   <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
   <description>Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.</description>
-  <category>macOS</category>
+  <category>macOS / iOS</category>
 </item>
 <item>
   <title>PagerCall</title>
@@ -341,7 +341,7 @@
   <guid isPermaLink="true">https://github.com/winebarrel/PagerCall</guid>
   <pubDate>Mon, 30 Sep 2024 00:00:00 GMT</pubDate>
   <description>PagerCall is a utility app that shows PagerDuty status on the menu bar.</description>
-  <category>macOS</category>
+  <category>macOS / iOS</category>
 </item>
 <item>
   <title>terraform-provider-oneshot</title>

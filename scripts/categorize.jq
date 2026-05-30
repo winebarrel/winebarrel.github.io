@@ -17,7 +17,7 @@ def category:
   elif ($h | test("redis|memcached|kvs")) then "KVS / Cache"
   elif ($h | test("database|schema|migration|\\bdb\\b|sql\\b")) then "Database"
   elif ($h | test("slack|chatwork|discord|chat-")) then "Chat / Slack"
-  elif ($h | test("macos|mac os|osx|alfred|spotlight|applescript|menubar")) or ($l == "Swift") then "macOS"
+  elif ($h | test("macos|mac os|osx|alfred|spotlight|applescript|menubar")) or ($l == "Swift") then "macOS / iOS"
   elif ($h | test("docker|container|oci\\b|image-")) then "Docker / Container"
   elif ($h | test("github|git-|ghq|pull request|\\bpr\\b")) then "Git / GitHub"
   elif ($h | test("benchmark|perf|load test|stress|profil")) then "Benchmark / Perf"

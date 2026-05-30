@@ -2007,7 +2007,7 @@
     "name": "PagerCall",
     "url": "https://github.com/winebarrel/PagerCall",
     "categories": [
-      "macOS"
+      "macOS / iOS"
     ],
     "language": "Swift",
     "description": "PagerCall is a utility app that shows PagerDuty status on the menu bar.",
@@ -2019,7 +2019,7 @@
     "name": "VerticalBattery",
     "url": "https://github.com/winebarrel/VerticalBattery",
     "categories": [
-      "macOS"
+      "macOS / iOS"
     ],
     "language": "Swift",
     "description": "Small vertical battery icon on menu bar.",
@@ -2031,7 +2031,7 @@
     "name": "HatebuFilter",
     "url": "https://github.com/winebarrel/HatebuFilter",
     "categories": [
-      "macOS"
+      "macOS / iOS"
     ],
     "language": "Swift",
     "description": "「はてブフィルター」は指定されたキーワードを含む はてなブックマーク (https://b.hatena.ne.jp/) のエントリを非表示にするSafari機能拡張です。",
@@ -2043,7 +2043,7 @@
     "name": "Pullse",
     "url": "https://github.com/winebarrel/Pullse",
     "categories": [
-      "macOS"
+      "macOS / iOS"
     ],
     "language": "Swift",
     "description": "Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.",
@@ -2055,7 +2055,7 @@
     "name": "SimpleResize",
     "url": "https://github.com/winebarrel/SimpleResize",
     "categories": [
-      "macOS"
+      "macOS / iOS"
     ],
     "language": "Swift",
     "description": "iOS向けのシンプルな画像リサイズアプリです。",
