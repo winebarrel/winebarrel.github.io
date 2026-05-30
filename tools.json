@@ -1536,18 +1536,6 @@
     "created": "2022-06-05"
   },
   {
-    "name": "pt",
-    "url": "https://github.com/winebarrel/pt",
-    "categories": [
-      "Other"
-    ],
-    "language": "Jsonnet",
-    "description": "My presentations",
-    "stars": 0,
-    "updated": "2023-11-26",
-    "created": "2023-11-12"
-  },
-  {
     "name": "pistachio",
     "url": "https://github.com/winebarrel/pistachio",
     "categories": [
