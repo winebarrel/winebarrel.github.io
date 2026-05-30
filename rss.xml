@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 30 May 2026 14:29:30 GMT</lastBuildDate>
+<lastBuildDate>Sat, 30 May 2026 14:46:52 GMT</lastBuildDate>
 <item>
   <title>vscode-tfrename</title>
   <link>https://github.com/winebarrel/vscode-tfrename</link>
@@ -157,7 +157,7 @@
   <guid isPermaLink="true">https://github.com/winebarrel/orderedmap</guid>
   <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
   <description>A generic, thread-safe ordered map for Go that preserves insertion order using container/list.</description>
-  <category>Docker / Container</category>
+  <category>Utility</category>
 </item>
 <item>
   <title>pistachio</title>

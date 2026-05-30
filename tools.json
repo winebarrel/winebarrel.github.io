@@ -696,18 +696,6 @@
     "created": "2021-10-24"
   },
   {
-    "name": "orderedmap",
-    "url": "https://github.com/winebarrel/orderedmap",
-    "categories": [
-      "Docker / Container"
-    ],
-    "language": "Go",
-    "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
-    "stars": 0,
-    "updated": "2026-05-14",
-    "created": "2026-02-28"
-  },
-  {
     "name": "rtail-docker-image",
     "url": "https://github.com/winebarrel/rtail-docker-image",
     "categories": [
@@ -2434,6 +2422,18 @@
     "stars": 0,
     "updated": "2026-05-30",
     "created": "2026-05-30"
+  },
+  {
+    "name": "orderedmap",
+    "url": "https://github.com/winebarrel/orderedmap",
+    "categories": [
+      "Utility"
+    ],
+    "language": "Go",
+    "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
+    "stars": 0,
+    "updated": "2026-05-14",
+    "created": "2026-02-28"
   },
   {
     "name": "esaop",
