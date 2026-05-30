@@ -24,3 +24,6 @@ jq -s 'add' "$tmp/winebarrel.json" "$tmp/ridgepole.json" "$tmp/quetarohq.json" \
   > "$repo_dir/tools.json"
 
 echo "tools.json entries: $(jq 'length' "$repo_dir/tools.json")"
+
+echo "building rss.xml…"
+"$script_dir/build-rss.sh"

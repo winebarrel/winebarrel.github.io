@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>winebarrel's tools</title>
+<link>https://winebarrel.github.io/</link>
+<description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
+<language>en</language>
+<atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Sat, 30 May 2026 09:07:45 GMT</lastBuildDate>
+<item>
+  <title>tfdsprune</title>
+  <link>https://github.com/winebarrel/tfdsprune</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/tfdsprune</guid>
+  <pubDate>Wed, 27 May 2026 00:00:00 GMT</pubDate>
+  <description>tfdsprune is a tool to remove unused Terraform data source definitions.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>tfrename</title>
+  <link>https://github.com/winebarrel/tfrename</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/tfrename</guid>
+  <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+  <description>Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>tflat</title>
+  <link>https://github.com/winebarrel/tflat</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/tflat</guid>
+  <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+  <description>Flatten Terraform modules into the parent with moved blocks for state migration.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>tflocalexpand</title>
+  <link>https://github.com/winebarrel/tflocalexpand</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/tflocalexpand</guid>
+  <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+  <description>tflocalexpand is a tool to expand Terraform locals references into their underlying expressions.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>iampd2j</title>
+  <link>https://github.com/winebarrel/iampd2j</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/iampd2j</guid>
+  <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+  <description>Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>terraform-provider-iamencode</title>
+  <link>https://github.com/winebarrel/terraform-provider-iamencode</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-iamencode</guid>
+  <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+  <description>Terraform provider with user-defined functions that validate an IAM policy document</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>pgls-vscode</title>
+  <link>https://github.com/winebarrel/pgls-vscode</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/pgls-vscode</guid>
+  <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+  <description>VSCode client for the pgls PostgreSQL language server.</description>
+  <category>PostgreSQL</category>
+</item>
+<item>
+  <title>pgls-example</title>
+  <link>https://github.com/winebarrel/pgls-example</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/pgls-example</guid>
+  <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+  <description>Minimal playground for trying out pgls (PostgreSQL language server) in .sql and .go files.</description>
+  <category>PostgreSQL</category>
+</item>
+<item>
+  <title>pgls</title>
+  <link>https://github.com/winebarrel/pgls</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/pgls</guid>
+  <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+  <description>A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.</description>
+  <category>PostgreSQL</category>
+</item>
+<item>
+  <title>myschema</title>
+  <link>https://github.com/winebarrel/myschema</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/myschema</guid>
+  <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+  <description>Declarative schema management for MySQL.</description>
+  <category>MySQL</category>
+</item>
+<item>
+  <title>psqlfmt</title>
+  <link>https://github.com/winebarrel/psqlfmt</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/psqlfmt</guid>
+  <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+  <description>psqlfmt is a PostgreSQL SQL formatter.</description>
+  <category>PostgreSQL</category>
+</item>
+<item>
+  <title>udiff</title>
+  <link>https://github.com/winebarrel/udiff</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/udiff</guid>
+  <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+  <description>Pure Ruby unified diff library. No external dependencies, no shelling out to diff.</description>
+  <category>Ruby gem</category>
+</item>
+<item>
+  <title>SimpleResize</title>
+  <link>https://github.com/winebarrel/SimpleResize</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/SimpleResize</guid>
+  <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+  <description>iOS向けのシンプルな画像リサイズアプリです。</description>
+  <category>macOS</category>
+</item>
+<item>
+  <title>terraform-provider-statuspage</title>
+  <link>https://github.com/winebarrel/terraform-provider-statuspage</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-statuspage</guid>
+  <pubDate>Sun, 01 Mar 2026 00:00:00 GMT</pubDate>
+  <description>Terraform provider for Statuspage.io.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>orderedmap</title>
+  <link>https://github.com/winebarrel/orderedmap</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/orderedmap</guid>
+  <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+  <description>A generic, thread-safe ordered map for Go that preserves insertion order using container/list.</description>
+  <category>Docker / Container</category>
+</item>
+<item>
+  <title>pistachio</title>
+  <link>https://github.com/winebarrel/pistachio</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/pistachio</guid>
+  <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
+  <description>pistachio is a declarative schema management tool for PostgreSQL.</description>
+  <category>PostgreSQL</category>
+</item>
+<item>
+  <title>s3lock</title>
+  <link>https://github.com/winebarrel/s3lock</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/s3lock</guid>
+  <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
+  <description>s3lock is a locking command using S3.</description>
+  <category>AWS</category>
+</item>
+<item>
+  <title>HatebuFilter</title>
+  <link>https://github.com/winebarrel/HatebuFilter</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/HatebuFilter</guid>
+  <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
+  <description>「はてブフィルター」は指定されたキーワードを含む はてなブックマーク (https://b.hatena.ne.jp/) のエントリを非表示にするSafari機能拡張です。</description>
+  <category>macOS</category>
+</item>
+<item>
+  <title>conds</title>
+  <link>https://github.com/winebarrel/conds</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/conds</guid>
+  <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
+  <description>go get github.com/winebarrel/conds</description>
+  <category>Database</category>
+</item>
+<item>
+  <title>jsonast</title>
+  <link>https://github.com/winebarrel/jsonast</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/jsonast</guid>
+  <pubDate>Sat, 03 Jan 2026 00:00:00 GMT</pubDate>
+  <description>jsonast is a library that parses JSON and converts it to AST.</description>
+  <category>Go tool</category>
+</item>
+<item>
+  <title>json2go</title>
+  <link>https://github.com/winebarrel/json2go</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/json2go</guid>
+  <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+  <description>json2go is a tool to convert JSON to Go struct.</description>
+  <category>Go tool</category>
+</item>
+<item>
+  <title>dap</title>
+  <link>https://github.com/winebarrel/dap</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/dap</guid>
+  <pubDate>Sat, 27 Dec 2025 00:00:00 GMT</pubDate>
+  <description>Digest authentication proxy that stores authentication information in a cookie.</description>
+  <category>Security / Crypto</category>
+</item>
+<item>
+  <title>kodama</title>
+  <link>https://github.com/winebarrel/kodama</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/kodama</guid>
+  <pubDate>Sat, 13 Dec 2025 00:00:00 GMT</pubDate>
+  <description>kodama is a DNS server that returns any private IP address.</description>
+  <category>DNS / Network</category>
+</item>
+<item>
+  <title>lastcmt</title>
+  <link>https://github.com/winebarrel/lastcmt</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/lastcmt</guid>
+  <pubDate>Sat, 08 Nov 2025 00:00:00 GMT</pubDate>
+  <description>lastcmt is a CLI that comments on a pull request and minimizes previous comments.</description>
+  <category>Git / GitHub</category>
+</item>
+<item>
+  <title>qrev</title>
+  <link>https://github.com/winebarrel/qrev</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/qrev</guid>
+  <pubDate>Sat, 11 Oct 2025 00:00:00 GMT</pubDate>
+  <description>qrev is a SQL execution history management tool.</description>
+  <category>MySQL</category>
+</item>
+<item>
+  <title>sglob</title>
+  <link>https://github.com/winebarrel/sglob</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/sglob</guid>
+  <pubDate>Sat, 06 Sep 2025 00:00:00 GMT</pubDate>
+  <description>sglob is a small globbing library for string.</description>
+  <category>Go tool</category>
+</item>
+<item>
+  <title>kap</title>
+  <link>https://github.com/winebarrel/kap</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/kap</guid>
+  <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
+  <description>Simple HTTP proxy with Auth key.</description>
+  <category>Security / Crypto</category>
+</item>
+<item>
+  <title>gap</title>
+  <link>https://github.com/winebarrel/gap</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/gap</guid>
+  <pubDate>Sun, 31 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Simple HTTP proxy with Google Oauth2 access token verification.</description>
+  <category>Security / Crypto</category>
+</item>
+<item>
+  <title>terraform-provider-sleep</title>
+  <link>https://github.com/winebarrel/terraform-provider-sleep</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-sleep</guid>
+  <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
+  <description>Terraform provider of the function to pause.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>def2env</title>
+  <link>https://github.com/winebarrel/def2env</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/def2env</guid>
+  <pubDate>Thu, 17 Jul 2025 00:00:00 GMT</pubDate>
+  <description>def2env is a tool that extracts environment variables from ECS task definitions and executes commands.</description>
+  <category>AWS</category>
+</item>
+<item>
+  <title>terraform-provider-firebaseremoteconfig</title>
+  <link>https://github.com/winebarrel/terraform-provider-firebaseremoteconfig</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-firebaseremoteconfig</guid>
+  <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
+  <description>Terraform provider for Firebase Remote Config.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>esub</title>
+  <link>https://github.com/winebarrel/esub</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/esub</guid>
+  <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
+  <description>A library to replace string placeholders with environment variables.</description>
+  <category>Go tool</category>
+</item>
+<item>
+  <title>plsort</title>
+  <link>https://github.com/winebarrel/plsort</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/plsort</guid>
+  <pubDate>Sun, 18 May 2025 00:00:00 GMT</pubDate>
+  <description>plsort is a tool that sorts YouTube playlist items in lexicographic order by title.</description>
+  <category>Go tool</category>
+</item>
+<item>
+  <title>terraform-provider-googlesheets</title>
+  <link>https://github.com/winebarrel/terraform-provider-googlesheets</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-googlesheets</guid>
+  <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
+  <description>Terraform provider for retrieving data from Google Sheets.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>rdslog</title>
+  <link>https://github.com/winebarrel/rdslog</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/rdslog</guid>
+  <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
+  <description>rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.</description>
+  <category>AWS</category>
+</item>
+<item>
+  <title>terraform-provider-lambdaconfig</title>
+  <link>https://github.com/winebarrel/terraform-provider-lambdaconfig</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-lambdaconfig</guid>
+  <pubDate>Sat, 05 Apr 2025 00:00:00 GMT</pubDate>
+  <description>Terraform provider for AWS Lambda function concurrency configuration.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>ssowrap</title>
+  <link>https://github.com/winebarrel/ssowrap</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/ssowrap</guid>
+  <pubDate>Sat, 22 Feb 2025 00:00:00 GMT</pubDate>
+  <description>ssowrap is a single binary tool that run a command using AWS SSO credentials.</description>
+  <category>AWS</category>
+</item>
+<item>
+  <title>VerticalBattery</title>
+  <link>https://github.com/winebarrel/VerticalBattery</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/VerticalBattery</guid>
+  <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
+  <description>Small vertical battery icon on menu bar.</description>
+  <category>macOS</category>
+</item>
+<item>
+  <title>Pullse</title>
+  <link>https://github.com/winebarrel/Pullse</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/Pullse</guid>
+  <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
+  <description>Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.</description>
+  <category>macOS</category>
+</item>
+<item>
+  <title>PagerCall</title>
+  <link>https://github.com/winebarrel/PagerCall</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/PagerCall</guid>
+  <pubDate>Mon, 30 Sep 2024 00:00:00 GMT</pubDate>
+  <description>PagerCall is a utility app that shows PagerDuty status on the menu bar.</description>
+  <category>macOS</category>
+</item>
+<item>
+  <title>terraform-provider-oneshot</title>
+  <link>https://github.com/winebarrel/terraform-provider-oneshot</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-oneshot</guid>
+  <pubDate>Sat, 21 Sep 2024 00:00:00 GMT</pubDate>
+  <description>Terraform provider for running one-shot commands.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>codeowners</title>
+  <link>https://github.com/winebarrel/codeowners</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/codeowners</guid>
+  <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
+  <description>List up CODEOWNERS of all repositories.</description>
+  <category>Git / GitHub</category>
+</item>
+<item>
+  <title>sev</title>
+  <link>https://github.com/winebarrel/sev</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/sev</guid>
+  <pubDate>Thu, 04 Jul 2024 00:00:00 GMT</pubDate>
+  <description>A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.</description>
+  <category>AWS</category>
+</item>
+<item>
+  <title>kuu</title>
+  <link>https://github.com/winebarrel/kuu</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/kuu</guid>
+  <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+  <description>Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.</description>
+  <category>Go tool</category>
+</item>
+<item>
+  <title>json2hcl</title>
+  <link>https://github.com/winebarrel/json2hcl</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/json2hcl</guid>
+  <pubDate>Sun, 31 Mar 2024 00:00:00 GMT</pubDate>
+  <description>A tool to convert JSON to HCL.</description>
+  <category>Other</category>
+</item>
+<item>
+  <title>tipper</title>
+  <link>https://github.com/winebarrel/tipper</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/tipper</guid>
+  <pubDate>Mon, 19 Feb 2024 00:00:00 GMT</pubDate>
+  <description>A library that recursively dumps structure information.</description>
+  <category>Go tool</category>
+</item>
+<item>
+  <title>github-hide-finish-comment</title>
+  <link>https://github.com/winebarrel/github-hide-finish-comment</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/github-hide-finish-comment</guid>
+  <pubDate>Sun, 11 Feb 2024 00:00:00 GMT</pubDate>
+  <description>Hide comment checkbox for &quot;Finish your review&quot; on GitHub.</description>
+  <category>Git / GitHub</category>
+</item>
+<item>
+  <title>secretlamb</title>
+  <link>https://github.com/winebarrel/secretlamb</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/secretlamb</guid>
+  <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
+  <description>Golang library for using AWS Parameters and Secrets Lambda Extension.</description>
+  <category>AWS</category>
+</item>
+<item>
+  <title>terraform-provider-lambdazip</title>
+  <link>https://github.com/winebarrel/terraform-provider-lambdazip</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-lambdazip</guid>
+  <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+  <description>Terraform provider creating zip file for AWS Lambda.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>vscode-right-click-filter</title>
+  <link>https://github.com/winebarrel/vscode-right-click-filter</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/vscode-right-click-filter</guid>
+  <pubDate>Sun, 14 Jan 2024 00:00:00 GMT</pubDate>
+  <description>VS Code extension to filter text by selected text.</description>
+  <category>Web / Browser</category>
+</item>
+</channel>
+</rss>
+

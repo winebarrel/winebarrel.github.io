@@ -13,8 +13,11 @@ Published at https://winebarrel.github.io/ via GitHub Pages
 index.html              page markup + inline JS that fetches tools.json and renders
 style.css               styles (light/dark via prefers-color-scheme)
 tools.json              data — array of tool objects, sorted by category then stars
+og.png                  Open Graph preview image (1200x630)
+rss.xml                 RSS 2.0 feed of newest tools (top 50 by `created`)
 scripts/categorize.jq   jq script that assigns a category to each repo
-scripts/regenerate.sh   refetches all repos and rewrites tools.json
+scripts/regenerate.sh   refetches all repos and rewrites tools.json (+ rss.xml)
+scripts/build-rss.sh    generates rss.xml from tools.json
 ```
 
 No build step. To preview locally:
@@ -63,6 +66,12 @@ jq 'sort_by(.categories[0], -.stars, .name)' tools.json > tools.json.new && mv t
 ```
 
 Validate it parses: `jq . tools.json > /dev/null`.
+
+After editing `tools.json`, rebuild the RSS feed:
+
+```sh
+./scripts/build-rss.sh
+```
 
 ### Refresh from GitHub (bulk)
 
