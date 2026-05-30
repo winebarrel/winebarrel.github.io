@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 30 May 2026 14:51:39 GMT</lastBuildDate>
+<lastBuildDate>Sat, 30 May 2026 15:41:26 GMT</lastBuildDate>
 <item>
   <title>vscode-tfrename</title>
   <link>https://github.com/winebarrel/vscode-tfrename</link>
@@ -213,7 +213,7 @@
   <guid isPermaLink="true">https://github.com/winebarrel/dap</guid>
   <pubDate>Sat, 27 Dec 2025 00:00:00 GMT</pubDate>
   <description>Digest authentication proxy that stores authentication information in a cookie.</description>
-  <category>Security / Crypto</category>
+  <category>Auth / Security</category>
 </item>
 <item>
   <title>kodama</title>
@@ -253,7 +253,7 @@
   <guid isPermaLink="true">https://github.com/winebarrel/kap</guid>
   <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
   <description>Simple HTTP proxy with Auth key.</description>
-  <category>Security / Crypto</category>
+  <category>Auth / Security</category>
 </item>
 <item>
   <title>gap</title>
@@ -261,7 +261,7 @@
   <guid isPermaLink="true">https://github.com/winebarrel/gap</guid>
   <pubDate>Sun, 31 Aug 2025 00:00:00 GMT</pubDate>
   <description>Simple HTTP proxy with Google Oauth2 access token verification.</description>
-  <category>Security / Crypto</category>
+  <category>Auth / Security</category>
 </item>
 <item>
   <title>terraform-provider-sleep</title>

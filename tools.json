@@ -360,6 +360,90 @@
     "created": "2025-02-22"
   },
   {
+    "name": "goth-esa",
+    "url": "https://github.com/winebarrel/goth-esa",
+    "categories": [
+      "Auth / Security"
+    ],
+    "language": "Go",
+    "description": "Goth provider for esa.",
+    "stars": 1,
+    "updated": "2026-03-09",
+    "created": "2021-11-21"
+  },
+  {
+    "name": "aes-ruby",
+    "url": "https://github.com/winebarrel/aes-ruby",
+    "categories": [
+      "Auth / Security"
+    ],
+    "language": "C",
+    "description": "Ruby bindings for AES encryption",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
+    "name": "dap",
+    "url": "https://github.com/winebarrel/dap",
+    "categories": [
+      "Auth / Security"
+    ],
+    "language": "Go",
+    "description": "Digest authentication proxy that stores authentication information in a cookie.",
+    "stars": 0,
+    "updated": "2026-05-15",
+    "created": "2025-12-27"
+  },
+  {
+    "name": "gap",
+    "url": "https://github.com/winebarrel/gap",
+    "categories": [
+      "Auth / Security"
+    ],
+    "language": "Go",
+    "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
+    "stars": 0,
+    "updated": "2026-05-27",
+    "created": "2025-08-31"
+  },
+  {
+    "name": "google_drive-enable_session",
+    "url": "https://github.com/winebarrel/google_drive-enable_session",
+    "categories": [
+      "Auth / Security"
+    ],
+    "language": "Ruby",
+    "description": "Persist Google Drive credentials for google-drive-ruby",
+    "stars": 0,
+    "updated": "2015-02-17",
+    "created": "2015-02-15"
+  },
+  {
+    "name": "kap",
+    "url": "https://github.com/winebarrel/kap",
+    "categories": [
+      "Auth / Security"
+    ],
+    "language": "Go",
+    "description": "Simple HTTP proxy with Auth key.",
+    "stars": 0,
+    "updated": "2026-05-22",
+    "created": "2025-09-01"
+  },
+  {
+    "name": "opmsk",
+    "url": "https://github.com/winebarrel/opmsk",
+    "categories": [
+      "Auth / Security"
+    ],
+    "language": "Go",
+    "description": "Mask 1Password CLI password using ANSI color.",
+    "stars": 0,
+    "updated": "2026-04-13",
+    "created": "2023-02-27"
+  },
+  {
     "name": "Libarchive-Ruby",
     "url": "https://github.com/winebarrel/Libarchive-Ruby",
     "categories": [
@@ -2062,90 +2146,6 @@
     "stars": 0,
     "updated": "2021-08-30",
     "created": "2021-08-29"
-  },
-  {
-    "name": "goth-esa",
-    "url": "https://github.com/winebarrel/goth-esa",
-    "categories": [
-      "Security / Crypto"
-    ],
-    "language": "Go",
-    "description": "Goth provider for esa.",
-    "stars": 1,
-    "updated": "2026-03-09",
-    "created": "2021-11-21"
-  },
-  {
-    "name": "aes-ruby",
-    "url": "https://github.com/winebarrel/aes-ruby",
-    "categories": [
-      "Security / Crypto"
-    ],
-    "language": "C",
-    "description": "Ruby bindings for AES encryption",
-    "stars": 0,
-    "updated": "2022-06-05",
-    "created": "2022-06-05"
-  },
-  {
-    "name": "dap",
-    "url": "https://github.com/winebarrel/dap",
-    "categories": [
-      "Security / Crypto"
-    ],
-    "language": "Go",
-    "description": "Digest authentication proxy that stores authentication information in a cookie.",
-    "stars": 0,
-    "updated": "2026-05-15",
-    "created": "2025-12-27"
-  },
-  {
-    "name": "gap",
-    "url": "https://github.com/winebarrel/gap",
-    "categories": [
-      "Security / Crypto"
-    ],
-    "language": "Go",
-    "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
-    "stars": 0,
-    "updated": "2026-05-27",
-    "created": "2025-08-31"
-  },
-  {
-    "name": "google_drive-enable_session",
-    "url": "https://github.com/winebarrel/google_drive-enable_session",
-    "categories": [
-      "Security / Crypto"
-    ],
-    "language": "Ruby",
-    "description": "Persist Google Drive credentials for google-drive-ruby",
-    "stars": 0,
-    "updated": "2015-02-17",
-    "created": "2015-02-15"
-  },
-  {
-    "name": "kap",
-    "url": "https://github.com/winebarrel/kap",
-    "categories": [
-      "Security / Crypto"
-    ],
-    "language": "Go",
-    "description": "Simple HTTP proxy with Auth key.",
-    "stars": 0,
-    "updated": "2026-05-22",
-    "created": "2025-09-01"
-  },
-  {
-    "name": "opmsk",
-    "url": "https://github.com/winebarrel/opmsk",
-    "categories": [
-      "Security / Crypto"
-    ],
-    "language": "Go",
-    "description": "Mask 1Password CLI password using ANSI color.",
-    "stars": 0,
-    "updated": "2026-04-13",
-    "created": "2023-02-27"
   },
   {
     "name": "terraform-provider-lambdazip",

@@ -27,7 +27,7 @@ def category:
   elif ($h | test("\\bemail\\b|\\bsmtp\\b|\\bimap\\b|\\bmime\\b|\\bmail\\b|ripmime")) then "Email"
   elif ($h | test("benchmark|perf|load test|stress|profil")) then "Benchmark / Perf"
   elif ($h | test("dns\\b|route53|domain|nameserver|networking|\\btcp\\b|keepalive")) then "DNS / Network"
-  elif ($h | test("crypt|tls|ssl|cert|password|secret|auth")) then "Security / Crypto"
+  elif ($h | test("\\boauth\\b|\\bauth\\b|login|credential|crypt|tls|ssl|cert|password|secret")) then "Auth / Security"
   elif ($h | test("log\\b|logging|fluentd|fluent-bit|syslog")) then "Logging"
   elif ($h | test("monitor|metric|prometheus|datadog|new relic|nagios|mackerel")) then "Monitoring"
   elif ($h | test("html|css|web\\b|browser|chrome-extension|safari-extension|browser-extension")) then "Web / Browser"
