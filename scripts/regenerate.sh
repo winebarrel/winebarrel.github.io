@@ -19,8 +19,8 @@ gh repo list quetarohq  --limit 100 --no-archived          --json "$fields" > "$
 echo "categorizing…"
 jq -s 'add' "$tmp/winebarrel.json" "$tmp/ridgepole.json" "$tmp/quetarohq.json" \
   | jq -f "$script_dir/categorize.jq" \
-  | jq '[.[] | select(.include) | {name, url, category, language, description, stars, updated, created}]
-        | sort_by(.category, -.stars, .name)' \
+  | jq '[.[] | select(.include) | {name, url, categories, language, description, stars, updated, created}]
+        | sort_by(.categories[0], -.stars, .name)' \
   > "$repo_dir/tools.json"
 
 echo "tools.json entries: $(jq 'length' "$repo_dir/tools.json")"

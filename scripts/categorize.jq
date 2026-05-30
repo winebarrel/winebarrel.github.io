@@ -40,7 +40,7 @@ def category:
     name,
     url,
     description: (.description // ""),
-    category: category,
+    categories: [category],
     language: lang,
     stars: .stargazerCount,
     updated: (.pushedAt | split("T")[0]),

@@ -239,6 +239,28 @@ ul.cards {
   font-size: 1rem;
   font-weight: 600;
 }
+.card .cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .25rem;
+  margin-top: .05rem;
+}
+.cat-chip {
+  font: inherit;
+  font-size: .7rem;
+  line-height: 1;
+  padding: .2rem .5rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--cat-color, var(--muted)) 50%, transparent);
+  background: color-mix(in srgb, var(--cat-color, var(--muted)) 15%, transparent);
+  color: var(--fg);
+  cursor: pointer;
+  transition: background .12s, color .12s;
+}
+.cat-chip:hover {
+  background: var(--cat-color, var(--accent));
+  color: #fff;
+}
 .card h3 a { color: var(--fg); }
 .card h3 a:hover { color: var(--accent); }
 .card .meta {

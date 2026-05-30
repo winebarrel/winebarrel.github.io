@@ -28,13 +28,13 @@ python3 -m http.server 8000
 
 ## `tools.json` schema
 
-Sorted by `(category asc, stars desc, name asc)`. Each entry:
+Sorted by `(categories[0] asc, stars desc, name asc)`. Each entry:
 
 ```json
 {
   "name":        "ridgepole",
   "url":         "https://github.com/ridgepole/ridgepole",
-  "category":    "Database",
+  "categories":  ["Database"],
   "language":    "Ruby",
   "description": "Manage DB schema with a Ruby DSL",
   "stars":       800,
@@ -43,8 +43,13 @@ Sorted by `(category asc, stars desc, name asc)`. Each entry:
 }
 ```
 
-`category` must match one of the categories the page knows about. The canonical
-display order lives in the `order` array inside `index.html` — if you add a new
+`categories` is an array — a tool can belong to multiple categories.
+The **first element is the "primary" category** and decides which section the
+card appears in when sorted by category. Filtering matches if **any** category
+in the array is selected.
+
+Category names must match one the page knows about. The canonical display
+order lives in the `order` array inside `index.html` — if you add a new
 category, also add it there so it sorts where you want.
 
 ## Updating the data
@@ -54,7 +59,7 @@ category, also add it there so it sorts where you want.
 Open `tools.json` and edit the relevant entry. Keep the file sorted afterwards:
 
 ```sh
-jq 'sort_by(.category, -.stars, .name)' tools.json > tools.json.new && mv tools.json.new tools.json
+jq 'sort_by(.categories[0], -.stars, .name)' tools.json > tools.json.new && mv tools.json.new tools.json
 ```
 
 Validate it parses: `jq . tools.json > /dev/null`.
@@ -93,9 +98,10 @@ falls back to `primaryLanguage`, and finally puts the repo in `Other`. The match
 order matters — earlier branches win. Tweak the regexes there if a repo lands
 in the wrong bucket.
 
-If you want to override a category without changing the heuristic, just edit
-`category` in `tools.json` directly. The next `regenerate.sh` run will overwrite
-that, so for sticky overrides change `categorize.jq` instead.
+If you want to override or add categories without changing the heuristic, just
+edit `categories` in `tools.json` directly (e.g. `["AWS", "CLI"]`). The next
+`regenerate.sh` run will overwrite that, so for sticky overrides change
+`categorize.jq` instead.
 
 ## Page conventions
 

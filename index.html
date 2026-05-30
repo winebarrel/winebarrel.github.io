@@ -102,9 +102,19 @@
     'Other'
   ];
 
+  // Normalize: ensure every tool has a non-empty `categories` array.
+  for (const t of tools) {
+    if (!Array.isArray(t.categories) || t.categories.length === 0) {
+      t.categories = [t.category || 'Other'];
+    }
+  }
+  const primaryCat = t => t.categories[0];
+
   const catCount = new Map(), langCount = new Map();
   for (const t of tools) {
-    catCount.set(t.category, (catCount.get(t.category) || 0) + 1);
+    for (const c of t.categories) {
+      catCount.set(c, (catCount.get(c) || 0) + 1);
+    }
     const l = t.language && t.language !== 'none' ? t.language : null;
     if (l) langCount.set(l, (langCount.get(l) || 0) + 1);
   }
@@ -192,7 +202,9 @@
     const filtered = tools.filter(matches);
     const catData = new Map(), langData = new Map();
     for (const t of filtered) {
-      catData.set(t.category, (catData.get(t.category) || 0) + 1);
+      for (const c of t.categories) {
+        catData.set(c, (catData.get(c) || 0) + 1);
+      }
       const l = t.language && t.language !== 'none' ? t.language : null;
       if (l) langData.set(l, (langData.get(l) || 0) + 1);
     }
@@ -233,20 +245,25 @@
   }
 
   function matches(t) {
-    if (state.cats.size && !state.cats.has(t.category)) return false;
+    if (state.cats.size && !t.categories.some(c => state.cats.has(c))) return false;
     if (state.langs.size && !state.langs.has(t.language)) return false;
     if (state.q) {
       const q = state.q.toLowerCase();
-      const hay = `${t.name} ${t.description || ''} ${t.category} ${t.language || ''}`.toLowerCase();
+      const hay = `${t.name} ${t.description || ''} ${t.categories.join(' ')} ${t.language || ''}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
   }
 
   function cardHtml(t) {
+    const catChips = t.categories.map(c => {
+      const color = catColors.get(c) || '#9aa0a6';
+      return `<button type="button" class="cat-chip" data-kind="cat" data-value="${escapeAttr(c)}" style="--cat-color:${color}">${escapeHtml(c)}</button>`;
+    }).join('');
     return `
       <li class="card">
         <h3><a href="${t.url}">${highlight(t.name, state.q)}</a></h3>
+        <div class="cats">${catChips}</div>
         <div class="meta">
           ${t.language && t.language !== 'none' ? `<span class="lang"><span class="lang-dot" style="background:${langColors[t.language] || '#9aa0a6'}"></span>${escapeHtml(t.language)}</span>` : ''}
           ${t.stars ? `<span class="stars">★ ${t.stars}</span>` : ''}
@@ -282,8 +299,9 @@
     if (state.sort === 'category') {
       const grouped = new Map();
       for (const t of filtered) {
-        if (!grouped.has(t.category)) grouped.set(t.category, []);
-        grouped.get(t.category).push(t);
+        const c = primaryCat(t);
+        if (!grouped.has(c)) grouped.set(c, []);
+        grouped.get(c).push(t);
       }
       const visible = [...grouped.keys()].sort((a, b) => {
         const ia = order.indexOf(a), ib = order.indexOf(b);
@@ -365,6 +383,15 @@
     render();
   }
   document.getElementById('stats').addEventListener('click', handleStatClick);
+
+  document.getElementById('app').addEventListener('click', e => {
+    const btn = e.target.closest('.cat-chip');
+    if (!btn) return;
+    e.preventDefault();
+    toggleChip(state.cats, btn.dataset.value);
+    syncHash();
+    render();
+  });
 
   // keyboard shortcut: '/' to focus search
   document.addEventListener('keydown', e => {
