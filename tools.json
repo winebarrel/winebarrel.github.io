@@ -228,6 +228,18 @@
     "created": "2020-07-12"
   },
   {
+    "name": "quetaro",
+    "url": "https://github.com/quetarohq/quetaro",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
+    "stars": 1,
+    "updated": "2026-05-29",
+    "created": "2022-10-10"
+  },
+  {
     "name": "sam-with-mysql",
     "url": "https://github.com/winebarrel/sam-with-mysql",
     "categories": [
@@ -262,18 +274,6 @@
     "stars": 0,
     "updated": "2014-11-21",
     "created": "2014-11-21"
-  },
-  {
-    "name": "quetaro",
-    "url": "https://github.com/quetarohq/quetaro",
-    "categories": [
-      "AWS"
-    ],
-    "language": "Go",
-    "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
-    "stars": 0,
-    "updated": "2026-05-29",
-    "created": "2022-10-10"
   },
   {
     "name": "rdslog",
@@ -1942,6 +1942,18 @@
     "stars": 0,
     "updated": "2026-05-30",
     "created": "2026-05-22"
+  },
+  {
+    "name": "vscode-tfrename",
+    "url": "https://github.com/winebarrel/vscode-tfrename",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "TypeScript",
+    "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
+    "stars": 0,
+    "updated": "2026-05-30",
+    "created": "2026-05-30"
   },
   {
     "name": "vscode-reopen-folder",

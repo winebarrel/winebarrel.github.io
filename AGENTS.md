@@ -93,6 +93,7 @@ when **all** of these hold:
 - not archived (already filtered out by `gh repo list --no-archived`)
 - not a fork (filtered by `--source`)
 - name does **not** start with `homebrew-` (these are Homebrew tap repos, not tools themselves)
+- name does **not** end with `.github.io` (these are GitHub Pages sites, including this one)
 - AND one of:
   - `stargazerCount >= 3`, or
   - has at least one topic, or

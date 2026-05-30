@@ -46,5 +46,5 @@ def category:
     updated: (.pushedAt | split("T")[0]),
     created: (.createdAt | split("T")[0]),
     topics: topics_arr,
-    include: (((.name | startswith("homebrew-")) | not) and (.stargazerCount >= 3 or (topics_arr | length) > 0 or ((.description // "") | length) > 10))
+    include: (((.name | startswith("homebrew-")) | not) and ((.name | endswith(".github.io")) | not) and (.stargazerCount >= 3 or (topics_arr | length) > 0 or ((.description // "") | length) > 10))
 } ]
