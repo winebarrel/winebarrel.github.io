@@ -11,7 +11,7 @@ def category:
   topics_arr as $t |
   if ($h | test("terraform|terraformer|\\btf\\b|tflint|tfstate")) then "Terraform"
   elif ($h | test("kubernetes|k8s|kubectl|helm\\b")) then "Kubernetes"
-  elif ($h | test("\\baws\\b|s3|ec2|dynamodb|cloudwatch|lambda|cloudformation|ecs|rds|iam")) then "AWS"
+  elif ($h | test("\\baws\\b|\\bs3\\b|\\bec2\\b|dynamodb|cloudwatch|\\blambda\\b|cloudformation|\\becs\\b|\\brds\\b|\\biam\\b")) then "AWS"
   elif ($h | test("mysql|mariadb")) then "MySQL"
   elif ($h | test("postgres|postgresql|pgsql")) then "PostgreSQL"
   elif ($h | test("redis|memcached|kvs")) then "KVS / Cache"

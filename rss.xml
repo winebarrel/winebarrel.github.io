@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 30 May 2026 09:11:18 GMT</lastBuildDate>
+<lastBuildDate>Sat, 30 May 2026 12:58:25 GMT</lastBuildDate>
 <item>
   <title>vscode-tfrename</title>
   <link>https://github.com/winebarrel/vscode-tfrename</link>
@@ -14,6 +14,14 @@
   <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
   <description>VS Code extension that renames Terraform resources via the tfrename CLI.</description>
   <category>Terraform</category>
+</item>
+<item>
+  <title>amzcard</title>
+  <link>https://github.com/winebarrel/amzcard</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/amzcard</guid>
+  <pubDate>Sat, 30 May 2026 00:00:00 GMT</pubDate>
+  <description>Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards</description>
+  <category>Other</category>
 </item>
 <item>
   <title>tfdsprune</title>
@@ -398,14 +406,6 @@
   <pubDate>Mon, 05 Feb 2024 00:00:00 GMT</pubDate>
   <description>Golang library for using AWS Parameters and Secrets Lambda Extension.</description>
   <category>AWS</category>
-</item>
-<item>
-  <title>terraform-provider-lambdazip</title>
-  <link>https://github.com/winebarrel/terraform-provider-lambdazip</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-lambdazip</guid>
-  <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
-  <description>Terraform provider creating zip file for AWS Lambda.</description>
-  <category>Terraform</category>
 </item>
 </channel>
 </rss>

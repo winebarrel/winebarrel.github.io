@@ -180,30 +180,6 @@
     "created": "2022-09-19"
   },
   {
-    "name": "agg",
-    "url": "https://github.com/winebarrel/agg",
-    "categories": [
-      "AWS"
-    ],
-    "language": "Go",
-    "description": "Aggregate log records by time.",
-    "stars": 1,
-    "updated": "2016-06-30",
-    "created": "2016-06-26"
-  },
-  {
-    "name": "atget",
-    "url": "https://github.com/winebarrel/atget",
-    "categories": [
-      "AWS"
-    ],
-    "language": "Go",
-    "description": "CLI to get airtable records.",
-    "stars": 1,
-    "updated": "2026-05-14",
-    "created": "2023-08-18"
-  },
-  {
     "name": "ddget",
     "url": "https://github.com/winebarrel/ddget",
     "categories": [
@@ -370,6 +346,18 @@
     "stars": 2,
     "updated": "2015-01-12",
     "created": "2015-01-12"
+  },
+  {
+    "name": "atget",
+    "url": "https://github.com/winebarrel/atget",
+    "categories": [
+      "CLI"
+    ],
+    "language": "Go",
+    "description": "CLI to get airtable records.",
+    "stars": 1,
+    "updated": "2026-05-14",
+    "created": "2023-08-18"
   },
   {
     "name": "kinesis-cat-go",
@@ -876,6 +864,18 @@
     "created": "2015-12-21"
   },
   {
+    "name": "agg",
+    "url": "https://github.com/winebarrel/agg",
+    "categories": [
+      "Logging"
+    ],
+    "language": "Go",
+    "description": "Aggregate log records by time.",
+    "stars": 1,
+    "updated": "2016-06-30",
+    "created": "2016-06-26"
+  },
+  {
     "name": "fluent-plugin-raven-decoder",
     "url": "https://github.com/winebarrel/fluent-plugin-raven-decoder",
     "categories": [
@@ -1186,6 +1186,18 @@
     "stars": 5,
     "updated": "2026-04-20",
     "created": "2024-03-31"
+  },
+  {
+    "name": "amzcard",
+    "url": "https://github.com/winebarrel/amzcard",
+    "categories": [
+      "Other"
+    ],
+    "language": "HTML",
+    "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
+    "stars": 0,
+    "updated": "2026-05-30",
+    "created": "2026-05-30"
   },
   {
     "name": "pt",
