@@ -228,6 +228,30 @@
     "created": "2019-12-07"
   },
   {
+    "name": "attach-eni",
+    "url": "https://github.com/winebarrel/attach-eni",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "description": "Attach AWS Elastic Network Interfaces (ENI) from command line",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
+    "name": "autognosis",
+    "url": "https://github.com/winebarrel/autognosis",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "description": "Handle EC2 Spot Instance termination notifications",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
     "name": "def2env",
     "url": "https://github.com/winebarrel/def2env",
     "categories": [
@@ -240,6 +264,18 @@
     "created": "2025-07-17"
   },
   {
+    "name": "describe-spot-price-history",
+    "url": "https://github.com/winebarrel/describe-spot-price-history",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "description": "Query AWS EC2 Spot Instance price history from CLI",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
     "name": "dynamodb-streams-client",
     "url": "https://github.com/winebarrel/dynamodb-streams-client",
     "categories": [
@@ -250,6 +286,18 @@
     "stars": 0,
     "updated": "2014-11-21",
     "created": "2014-11-21"
+  },
+  {
+    "name": "ec2-usage-report",
+    "url": "https://github.com/winebarrel/ec2-usage-report",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "description": "Acquire and report AWS EC2 usage statistics",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   },
   {
     "name": "rdslog",
@@ -274,6 +322,30 @@
     "stars": 0,
     "updated": "2026-05-29",
     "created": "2026-02-07"
+  },
+  {
+    "name": "sam-rds-postgresql-slowquery-to-es",
+    "url": "https://github.com/winebarrel/sam-rds-postgresql-slowquery-to-es",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "description": "Collect PostgreSQL slow query logs to Elasticsearch",
+    "stars": 0,
+    "updated": "2020-02-11",
+    "created": "2020-02-11"
+  },
+  {
+    "name": "sdbcli",
+    "url": "https://github.com/winebarrel/sdbcli",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "description": "CLI tool for Amazon SimpleDB management",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   },
   {
     "name": "ssowrap",
@@ -310,6 +382,18 @@
     "stars": 1,
     "updated": "2022-06-05",
     "created": "2011-01-01"
+  },
+  {
+    "name": "rua",
+    "url": "https://github.com/winebarrel/rua",
+    "categories": [
+      "C"
+    ],
+    "language": "C",
+    "description": "Ruby library for running Lua scripts",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   },
   {
     "name": "kasa",
@@ -360,6 +444,18 @@
     "created": "2023-08-18"
   },
   {
+    "name": "jsrt",
+    "url": "https://github.com/winebarrel/jsrt",
+    "categories": [
+      "CLI"
+    ],
+    "language": "Go",
+    "description": "Sort NDJSON/JSON Lines data by key",
+    "stars": 0,
+    "updated": "2021-08-22",
+    "created": "2021-08-22"
+  },
+  {
     "name": "kinesis-cat-go",
     "url": "https://github.com/winebarrel/kinesis-cat-go",
     "categories": [
@@ -382,6 +478,18 @@
     "stars": 0,
     "updated": "2026-04-06",
     "created": "2023-12-24"
+  },
+  {
+    "name": "xjr",
+    "url": "https://github.com/winebarrel/xjr",
+    "categories": [
+      "CLI"
+    ],
+    "language": "Rust",
+    "description": "Convert CSV/TSV/xSV to JSON Lines",
+    "stars": 0,
+    "updated": "2020-06-30",
+    "created": "2020-06-28"
   },
   {
     "name": "slack-notify",
@@ -408,6 +516,66 @@
     "created": "2022-05-29"
   },
   {
+    "name": "fastlz-ruby",
+    "url": "https://github.com/winebarrel/fastlz-ruby",
+    "categories": [
+      "Compression"
+    ],
+    "language": "C",
+    "description": "Ruby bindings for FastLZ compression library",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
+    "name": "lzf-ruby",
+    "url": "https://github.com/winebarrel/lzf-ruby",
+    "categories": [
+      "Compression"
+    ],
+    "language": "C",
+    "description": "Ruby bindings for LibLZF compression library",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
+    "name": "lzo-ruby",
+    "url": "https://github.com/winebarrel/lzo-ruby",
+    "categories": [
+      "Compression"
+    ],
+    "language": "C",
+    "description": "Ruby bindings for LZO compression library",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
+    "name": "quicklz-ruby",
+    "url": "https://github.com/winebarrel/quicklz-ruby",
+    "categories": [
+      "Compression"
+    ],
+    "language": "C",
+    "description": "Ruby bindings for QuickLZ compression library",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
+    "name": "tar-ruby",
+    "url": "https://github.com/winebarrel/tar-ruby",
+    "categories": [
+      "Compression"
+    ],
+    "language": "C",
+    "description": "Ruby bindings for libtar archive manipulation",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
     "name": "kodama",
     "url": "https://github.com/winebarrel/kodama",
     "categories": [
@@ -418,6 +586,18 @@
     "stars": 0,
     "updated": "2026-05-14",
     "created": "2025-12-13"
+  },
+  {
+    "name": "socket-keepalive",
+    "url": "https://github.com/winebarrel/socket-keepalive",
+    "categories": [
+      "DNS / Network"
+    ],
+    "language": "C",
+    "description": "TCP keepalive extension for Ruby sockets",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   },
   {
     "name": "pt-online-schema-change-fast-rebuild-constraints",
@@ -444,6 +624,18 @@
     "created": "2019-12-30"
   },
   {
+    "name": "activetokyocabinet",
+    "url": "https://github.com/winebarrel/activetokyocabinet",
+    "categories": [
+      "Database"
+    ],
+    "language": "Ruby",
+    "description": "ActiveRecord adapter for Tokyo Cabinet/Tyrant databases",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
     "name": "conds",
     "url": "https://github.com/winebarrel/conds",
     "categories": [
@@ -454,6 +646,18 @@
     "stars": 0,
     "updated": "2026-01-25",
     "created": "2026-01-24"
+  },
+  {
+    "name": "rping",
+    "url": "https://github.com/winebarrel/rping",
+    "categories": [
+      "Database"
+    ],
+    "language": "Ruby",
+    "description": "Ruby implementation of ping utility",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   },
   {
     "name": "docker-pkg-build",
@@ -526,6 +730,18 @@
     "stars": 0,
     "updated": "2016-03-22",
     "created": "2016-03-22"
+  },
+  {
+    "name": "ruby-ripmime",
+    "url": "https://github.com/winebarrel/ruby-ripmime",
+    "categories": [
+      "Email"
+    ],
+    "language": "C",
+    "description": "Ruby bindings for ripmime MIME parser",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   },
   {
     "name": "lastcmt",
@@ -828,6 +1044,54 @@
     "created": "2020-06-19"
   },
   {
+    "name": "vscode-reopen-folder",
+    "url": "https://github.com/winebarrel/vscode-reopen-folder",
+    "categories": [
+      "JS / TS"
+    ],
+    "language": "TypeScript",
+    "description": "VS Code Extension that reopens the specified folder or parent folder.",
+    "stars": 1,
+    "updated": "2026-05-28",
+    "created": "2023-03-18"
+  },
+  {
+    "name": "vscode-right-click-filter",
+    "url": "https://github.com/winebarrel/vscode-right-click-filter",
+    "categories": [
+      "JS / TS"
+    ],
+    "language": "TypeScript",
+    "description": "VS Code extension to filter text by selected text.",
+    "stars": 1,
+    "updated": "2026-05-24",
+    "created": "2024-01-14"
+  },
+  {
+    "name": "sticky",
+    "url": "https://github.com/winebarrel/sticky",
+    "categories": [
+      "JS / TS"
+    ],
+    "language": "JavaScript",
+    "description": "Sticky notes widget library for JavaScript",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
+    "name": "kedama",
+    "url": "https://github.com/winebarrel/kedama",
+    "categories": [
+      "KVS / Cache"
+    ],
+    "language": "Ruby",
+    "description": "Consistent hashing library for distributed caching",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
     "name": "fluent-plugin-kinesis-firehose",
     "url": "https://github.com/winebarrel/fluent-plugin-kinesis-firehose",
     "categories": [
@@ -934,6 +1198,18 @@
     "stars": 1,
     "updated": "2026-05-15",
     "created": "2023-12-19"
+  },
+  {
+    "name": "grpc-healthcheck-server",
+    "url": "https://github.com/winebarrel/grpc-healthcheck-server",
+    "categories": [
+      "Monitoring"
+    ],
+    "language": "Go",
+    "description": "gRPC health check server implementation",
+    "stars": 0,
+    "updated": "2021-09-07",
+    "created": "2021-09-07"
   },
   {
     "name": "ridgepole",
@@ -1116,6 +1392,30 @@
     "created": "2016-06-23"
   },
   {
+    "name": "activerecord-mysql-pkdump",
+    "url": "https://github.com/winebarrel/activerecord-mysql-pkdump",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "Ruby",
+    "description": "Dump type information of non-standard MySQL primary keys",
+    "stars": 1,
+    "updated": "2014-11-18",
+    "created": "2014-11-17"
+  },
+  {
+    "name": "dbping",
+    "url": "https://github.com/winebarrel/dbping",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "Go",
+    "description": "PING utility for databases (MySQL/PostgreSQL)",
+    "stars": 1,
+    "updated": "2026-05-25",
+    "created": "2024-11-18"
+  },
+  {
     "name": "xgl",
     "url": "https://github.com/winebarrel/xgl",
     "categories": [
@@ -1126,6 +1426,18 @@
     "stars": 1,
     "updated": "2021-06-29",
     "created": "2021-01-06"
+  },
+  {
+    "name": "mysql2-keepalive",
+    "url": "https://github.com/winebarrel/mysql2-keepalive",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "C",
+    "description": "TCP keepalive extension for Mysql2 gem",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   },
   {
     "name": "mysql2_query_filter-plugin-log",
@@ -1164,16 +1476,40 @@
     "created": "2020-07-13"
   },
   {
-    "name": "ruby-handlersocket",
-    "url": "https://github.com/winebarrel/ruby-handlersocket",
+    "name": "ruby-binlog",
+    "url": "https://github.com/winebarrel/ruby-binlog",
     "categories": [
-      "Other"
+      "MySQL"
     ],
     "language": "C++",
-    "description": "Ruby bindings for HandlerSocket-Plugin",
-    "stars": 35,
+    "description": "Ruby bindings for MySQL binary log replication API",
+    "stars": 0,
     "updated": "2022-06-05",
-    "created": "2010-08-28"
+    "created": "2022-06-05"
+  },
+  {
+    "name": "ruby-pt-fingerprint",
+    "url": "https://github.com/winebarrel/ruby-pt-fingerprint",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "Ruby",
+    "description": "Ruby bindings for Percona Toolkit query fingerprint",
+    "stars": 0,
+    "updated": "2021-03-16",
+    "created": "2021-03-16"
+  },
+  {
+    "name": "tiny_mysql",
+    "url": "https://github.com/winebarrel/tiny_mysql",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "Ruby",
+    "description": "Lightweight MySQL client built on mysql command",
+    "stars": 0,
+    "updated": "2017-03-08",
+    "created": "2017-03-03"
   },
   {
     "name": "json2hcl",
@@ -1198,6 +1534,18 @@
     "stars": 0,
     "updated": "2026-05-30",
     "created": "2026-05-30"
+  },
+  {
+    "name": "bracecomp",
+    "url": "https://github.com/winebarrel/bracecomp",
+    "categories": [
+      "Other"
+    ],
+    "language": "Yacc",
+    "description": "Brace expansion library for string patterns",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   },
   {
     "name": "pt",
@@ -1306,6 +1654,18 @@
     "stars": 84,
     "updated": "2022-12-28",
     "created": "2014-11-20"
+  },
+  {
+    "name": "ruby-handlersocket",
+    "url": "https://github.com/winebarrel/ruby-handlersocket",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "C++",
+    "description": "Ruby bindings for HandlerSocket-Plugin",
+    "stars": 35,
+    "updated": "2022-06-05",
+    "created": "2010-08-28"
   },
   {
     "name": "fluent-plugin-filter-parse-postfix",
@@ -1464,6 +1824,18 @@
     "created": "2015-06-13"
   },
   {
+    "name": "activerecord-alt-mongo-adapter",
+    "url": "https://github.com/winebarrel/activerecord-alt-mongo-adapter",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "description": "MongoDB adapter for ActiveRecord",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
     "name": "arproxy-plugin-stdout",
     "url": "https://github.com/winebarrel/arproxy-plugin-stdout",
     "categories": [
@@ -1474,6 +1846,18 @@
     "stars": 0,
     "updated": "2015-05-11",
     "created": "2015-05-11"
+  },
+  {
+    "name": "bayon-ruby",
+    "url": "https://github.com/winebarrel/bayon-ruby",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "C++",
+    "description": "Ruby bindings for Bayon clustering library",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   },
   {
     "name": "fluent-plugin-rinflux",
@@ -1596,6 +1980,18 @@
     "created": "2017-12-27"
   },
   {
+    "name": "ruby-mawk",
+    "url": "https://github.com/winebarrel/ruby-mawk",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Makefile",
+    "description": "Ruby bindings for mawk text processing",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
     "name": "segv",
     "url": "https://github.com/winebarrel/segv",
     "categories": [
@@ -1606,6 +2002,18 @@
     "stars": 0,
     "updated": "2016-09-23",
     "created": "2016-09-23"
+  },
+  {
+    "name": "sparsehash-ruby",
+    "url": "https://github.com/winebarrel/sparsehash-ruby",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "C++",
+    "description": "Ruby bindings for Google Sparse Hash library",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2020-07-02"
   },
   {
     "name": "udiff",
@@ -1692,6 +2100,18 @@
     "created": "2021-11-21"
   },
   {
+    "name": "aes-ruby",
+    "url": "https://github.com/winebarrel/aes-ruby",
+    "categories": [
+      "Security / Crypto"
+    ],
+    "language": "C",
+    "description": "Ruby bindings for AES encryption",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
+  },
+  {
     "name": "dap",
     "url": "https://github.com/winebarrel/dap",
     "categories": [
@@ -1714,6 +2134,18 @@
     "stars": 0,
     "updated": "2026-05-27",
     "created": "2025-08-31"
+  },
+  {
+    "name": "google_drive-enable_session",
+    "url": "https://github.com/winebarrel/google_drive-enable_session",
+    "categories": [
+      "Security / Crypto"
+    ],
+    "language": "Ruby",
+    "description": "Persist Google Drive credentials for google-drive-ruby",
+    "stars": 0,
+    "updated": "2015-02-17",
+    "created": "2015-02-15"
   },
   {
     "name": "kap",
@@ -1896,6 +2328,30 @@
     "created": "2025-04-05"
   },
   {
+    "name": "terraform-provider-multireplace",
+    "url": "https://github.com/winebarrel/terraform-provider-multireplace",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "description": "Terraform provider for multi-pattern string replacement",
+    "stars": 0,
+    "updated": "2026-05-14",
+    "created": "2025-07-12"
+  },
+  {
+    "name": "terraform-provider-route53",
+    "url": "https://github.com/winebarrel/terraform-provider-route53",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "description": "Terraform provider for AWS Route53 DNS",
+    "stars": 0,
+    "updated": "2021-02-19",
+    "created": "2021-02-19"
+  },
+  {
     "name": "terraform-provider-sleep",
     "url": "https://github.com/winebarrel/terraform-provider-sleep",
     "categories": [
@@ -1944,6 +2400,18 @@
     "created": "2026-05-22"
   },
   {
+    "name": "tfquiet",
+    "url": "https://github.com/winebarrel/tfquiet",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "description": "Terraform plan output formatter to reduce noise",
+    "stars": 0,
+    "updated": "2026-05-25",
+    "created": "2026-05-24"
+  },
+  {
     "name": "tfrename",
     "url": "https://github.com/winebarrel/tfrename",
     "categories": [
@@ -1966,30 +2434,6 @@
     "stars": 0,
     "updated": "2026-05-30",
     "created": "2026-05-30"
-  },
-  {
-    "name": "vscode-reopen-folder",
-    "url": "https://github.com/winebarrel/vscode-reopen-folder",
-    "categories": [
-      "Web / Browser"
-    ],
-    "language": "TypeScript",
-    "description": "VS Code Extension that reopens the specified folder or parent folder.",
-    "stars": 1,
-    "updated": "2026-05-28",
-    "created": "2023-03-18"
-  },
-  {
-    "name": "vscode-right-click-filter",
-    "url": "https://github.com/winebarrel/vscode-right-click-filter",
-    "categories": [
-      "Web / Browser"
-    ],
-    "language": "TypeScript",
-    "description": "VS Code extension to filter text by selected text.",
-    "stars": 1,
-    "updated": "2026-05-24",
-    "created": "2024-01-14"
   },
   {
     "name": "esaop",
@@ -2062,5 +2506,29 @@
     "stars": 0,
     "updated": "2026-04-27",
     "created": "2026-03-20"
+  },
+  {
+    "name": "TenkiMap",
+    "url": "https://github.com/winebarrel/TenkiMap",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "description": "気象庁の府県天気予報とAMeDAS観測値を地図上にオーバーレイ表示するiOSアプリ",
+    "stars": 0,
+    "updated": "2026-04-29",
+    "created": "2026-04-25"
+  },
+  {
+    "name": "ps_f",
+    "url": "https://github.com/winebarrel/ps_f",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Ruby",
+    "description": "Emulate ps awxuf on macOS (BSD style)",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2022-06-05"
   }
 ]

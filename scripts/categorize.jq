@@ -9,7 +9,9 @@ def category:
   hay as $h |
   lang as $l |
   topics_arr as $t |
-  if ($h | test("terraform|terraformer|\\btf\\b|tflint|tfstate")) then "Terraform"
+  .name as $n |
+  if $n == "rping" then "Database"
+  elif ($h | test("terraform|terraformer|\\btf\\b|tflint|tfstate")) then "Terraform"
   elif ($h | test("kubernetes|k8s|kubectl|helm\\b")) then "Kubernetes"
   elif ($h | test("\\baws\\b|\\bs3\\b|\\bec2\\b|dynamodb|cloudwatch|\\blambda\\b|cloudformation|\\becs\\b|\\brds\\b|\\biam\\b")) then "AWS"
   elif ($h | test("mysql|mariadb")) then "MySQL"
@@ -20,13 +22,16 @@ def category:
   elif ($h | test("macos|mac os|osx|alfred|spotlight|applescript|menubar")) or ($l == "Swift") then "macOS / iOS"
   elif ($h | test("docker|container|oci\\b|image-")) then "Docker / Container"
   elif ($h | test("github|git-|ghq|pull request|\\bpr\\b")) then "Git / GitHub"
+  elif ($h | test("compression|\\blzf\\b|\\blzo\\b|quicklz|fastlz|libtar|\\btar\\b|\\bgzip\\b|deflate|zlib")) then "Compression"
+  elif ($h | test("\\bemail\\b|\\bsmtp\\b|\\bimap\\b|\\bmime\\b|\\bmail\\b|ripmime")) then "Email"
   elif ($h | test("benchmark|perf|load test|stress|profil")) then "Benchmark / Perf"
-  elif ($h | test("dns\\b|route53|domain|nameserver")) then "DNS / Network"
+  elif ($h | test("dns\\b|route53|domain|nameserver|networking|\\btcp\\b|keepalive")) then "DNS / Network"
   elif ($h | test("crypt|tls|ssl|cert|password|secret|auth")) then "Security / Crypto"
   elif ($h | test("log\\b|logging|fluentd|fluent-bit|syslog")) then "Logging"
   elif ($h | test("monitor|metric|prometheus|datadog|new relic|nagios|mackerel")) then "Monitoring"
-  elif ($h | test("html|css|web\\b|browser|chrome|extension")) then "Web / Browser"
+  elif ($h | test("html|css|web\\b|browser|chrome-extension|safari-extension|browser-extension")) then "Web / Browser"
   elif ($h | test("cli\\b|command-line|command line")) then "CLI"
+  elif ($n | endswith("-ruby")) or ($n | startswith("ruby-")) then "Ruby gem"
   elif $l == "Ruby" then "Ruby gem"
   elif $l == "Go" then "Go tool"
   elif $l == "Rust" then "Rust tool"
