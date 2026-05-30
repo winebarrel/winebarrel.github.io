@@ -148,7 +148,7 @@
     q: '',
     cats: new Set(),
     langs: new Set(),
-    sort: 'category',
+    sort: 'newest',
   };
 
   // hydrate from URL hash
@@ -248,7 +248,7 @@
     if (state.q) p.set('q', state.q);
     if (state.cats.size) p.set('cat', [...state.cats].join(','));
     if (state.langs.size) p.set('lang', [...state.langs].join(','));
-    if (state.sort !== 'category') p.set('sort', state.sort);
+    if (state.sort !== 'newest') p.set('sort', state.sort);
     const s = p.toString();
     history.replaceState(null, '', s ? '#' + s : location.pathname);
   }
