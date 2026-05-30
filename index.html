@@ -33,6 +33,7 @@
       <button type="button" class="sort-btn" data-sort="category">Category</button>
       <button type="button" class="sort-btn" data-sort="newest">Newest</button>
       <button type="button" class="sort-btn" data-sort="oldest">Oldest</button>
+      <button type="button" class="sort-btn" data-sort="stars">Stars</button>
     </div>
     <span id="result-count" class="result-count"></span>
   </div>
@@ -138,7 +139,7 @@
   state.q = params.get('q') || '';
   if (params.get('cat')) params.get('cat').split(',').filter(Boolean).forEach(c => state.cats.add(c));
   if (params.get('lang')) params.get('lang').split(',').filter(Boolean).forEach(l => state.langs.add(l));
-  if (['category', 'newest', 'oldest'].includes(params.get('sort'))) state.sort = params.get('sort');
+  if (['category', 'newest', 'oldest', 'stars'].includes(params.get('sort'))) state.sort = params.get('sort');
 
   const search = document.getElementById('search');
   search.value = state.q;
@@ -316,6 +317,16 @@
           </section>
         `;
       }).join('');
+    } else if (state.sort === 'stars') {
+      const sorted = [...filtered].sort((a, b) => {
+        const d = (b.stars || 0) - (a.stars || 0);
+        return d !== 0 ? d : a.name.localeCompare(b.name);
+      });
+      app.innerHTML = `
+        <section>
+          <ul class="cards">${sorted.map(cardHtml).join('')}</ul>
+        </section>
+      `;
     } else {
       const dir = state.sort === 'newest' ? -1 : 1;
       const sorted = [...filtered].sort((a, b) => {
