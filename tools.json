@@ -190,6 +190,22 @@
     "created": "2015-11-08"
   },
   {
+    "name": "rdsauth",
+    "url": "https://github.com/kanmu/rdsauth",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
+    "stars": 3,
+    "updated": "2026-05-28",
+    "created": "2024-12-04"
+  },
+  {
     "name": "ssocreds",
     "url": "https://github.com/winebarrel/ssocreds",
     "categories": [
@@ -206,6 +222,22 @@
     "created": "2022-05-29"
   },
   {
+    "name": "demitas2",
+    "url": "https://github.com/kanmu/demitas2",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Wrapper for ecspresso that creates task definitions at run time.",
+    "stars": 2,
+    "updated": "2026-03-16",
+    "created": "2022-05-22"
+  },
+  {
     "name": "las",
     "url": "https://github.com/winebarrel/las",
     "categories": [
@@ -218,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-05-22",
+    "updated": "2026-05-30",
     "created": "2024-01-05"
   },
   {
@@ -406,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-05-22",
+    "updated": "2026-05-30",
     "created": "2025-04-14"
   },
   {
@@ -975,6 +1007,22 @@
     "created": "2026-01-24"
   },
   {
+    "name": "dbtyp",
+    "url": "https://github.com/kanmu/dbtyp",
+    "categories": [
+      "Database"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "dbtyp is a library that associates types with *sql.DB",
+    "stars": 0,
+    "updated": "2026-01-23",
+    "created": "2026-01-17"
+  },
+  {
     "name": "rping",
     "url": "https://github.com/winebarrel/rping",
     "categories": [
@@ -1274,6 +1322,22 @@
     "created": "2016-09-03"
   },
   {
+    "name": "jhol",
+    "url": "https://github.com/kanmu/jhol",
+    "categories": [
+      "Go tool"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Go language library to check Japanese holidays using Google Calendar.",
+    "stars": 1,
+    "updated": "2026-05-25",
+    "created": "2023-06-17"
+  },
+  {
     "name": "kuu",
     "url": "https://github.com/winebarrel/kuu",
     "categories": [
@@ -1386,6 +1450,22 @@
     "created": "2023-02-11"
   },
   {
+    "name": "pperr",
+    "url": "https://github.com/kanmu/pperr",
+    "categories": [
+      "Go tool"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Pretty print for pkg/errors.",
+    "stars": 0,
+    "updated": "2025-11-24",
+    "created": "2022-02-19"
+  },
+  {
     "name": "sglob",
     "url": "https://github.com/winebarrel/sglob",
     "categories": [
@@ -1462,7 +1542,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-05-28",
+    "updated": "2026-05-31",
     "created": "2023-03-18"
   },
   {
@@ -1638,6 +1718,22 @@
     "stars": 6,
     "updated": "2017-08-25",
     "created": "2017-04-10"
+  },
+  {
+    "name": "ddcat",
+    "url": "https://github.com/kanmu/ddcat",
+    "categories": [
+      "Monitoring"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "CLI to display Datadog Logs.",
+    "stars": 3,
+    "updated": "2024-07-01",
+    "created": "2023-07-26"
   },
   {
     "name": "ddusage",
@@ -2094,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-05-30",
+    "updated": "2026-05-31",
     "created": "2026-05-30"
   },
   {
@@ -2126,7 +2222,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 14,
-    "updated": "2026-05-30",
+    "updated": "2026-05-31",
     "created": "2026-02-21"
   },
   {
