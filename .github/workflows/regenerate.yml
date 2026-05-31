@@ -1,0 +1,44 @@
+name: Regenerate tools.json
+
+on:
+  schedule:
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run regenerate.sh
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/regenerate.sh
+
+      - name: Create pull request if changed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet tools.json rss.xml; then
+            echo "no changes"
+            exit 0
+          fi
+
+          branch="auto/regenerate-$(date -u +%Y%m%d)"
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add tools.json rss.xml
+          git commit -m "Regenerate tools.json"
+          git push -u origin "$branch"
+
+          gh pr create \
+            --title "Regenerate tools.json" \
+            --body "Automated refresh from GitHub. Review the diff and re-curate manually before merging." \
+            --base main \
+            --head "$branch"
