@@ -502,7 +502,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-05-25",
+    "updated": "2026-06-01",
     "created": "2025-02-22"
   },
   {
@@ -3331,6 +3331,21 @@
     "stars": 0,
     "updated": "2026-04-27",
     "created": "2026-03-20"
+  },
+  {
+    "name": "TenkiMap",
+    "url": "https://github.com/winebarrel/TenkiMap",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift"
+    ],
+    "description": "気象庁の府県天気予報とAMeDAS観測値を地図上にオーバーレイ表示するiOSアプリ",
+    "stars": 0,
+    "updated": "2026-04-29",
+    "created": "2026-04-25"
   },
   {
     "name": "ps_f",
