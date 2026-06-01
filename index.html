@@ -44,7 +44,10 @@
     </div>
   </div>
   <div class="controls">
-    <input id="search" type="search" placeholder="Search by name or description…" autocomplete="off" spellcheck="false">
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search by name or description…" autocomplete="off" spellcheck="false">
+      <button type="button" id="search-clear" class="search-clear" aria-label="Clear search" hidden>×</button>
+    </div>
     <div id="sort" class="sort" role="radiogroup" aria-label="sort">
       <button type="button" class="sort-btn" data-sort="category">Category</button>
       <button type="button" class="sort-btn" data-sort="newest">Newest</button>
@@ -164,7 +167,10 @@
   if (['category', 'newest', 'oldest', 'stars'].includes(params.get('sort'))) state.sort = params.get('sort');
 
   const search = document.getElementById('search');
+  const searchClear = document.getElementById('search-clear');
   search.value = state.q;
+  const updateClearBtn = () => { searchClear.hidden = search.value === ''; };
+  updateClearBtn();
 
   const catFilter = document.getElementById('cat-filter');
   catFilter.innerHTML = cats.map(c =>
@@ -477,12 +483,21 @@
   // events
   let debounce;
   search.addEventListener('input', e => {
+    updateClearBtn();
     clearTimeout(debounce);
     debounce = setTimeout(() => {
       state.q = e.target.value.trim();
       syncHash();
       render();
     }, 80);
+  });
+  searchClear.addEventListener('click', () => {
+    search.value = '';
+    state.q = '';
+    updateClearBtn();
+    syncHash();
+    render();
+    search.focus();
   });
 
   function toggleChip(set, value) {
@@ -539,6 +554,7 @@
     if (e.key === 'Escape' && document.activeElement === search) {
       search.value = '';
       state.q = '';
+      updateClearBtn();
       syncHash();
       render();
     }
