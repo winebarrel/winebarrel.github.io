@@ -129,8 +129,15 @@ edit `categories` in `tools.json` directly (e.g. `["AWS", "CLI"]`). The next
 
 ## Deploying
 
-GitHub Pages serves from `main` root automatically (user site convention). Just
-`git push` — the site rebuilds within ~1 minute. Status:
+GitHub Pages is built via `.github/workflows/pages.yml` (Pages source must be set
+to "GitHub Actions" in repo settings). The workflow rewrites `?v=DEV` in
+`index.html` to `?v=<short-sha>` before publishing, so a new commit busts the
+CSS cache automatically. Just `git push` — the action rebuilds within ~1 minute.
+
+Local dev still works fine: `style.css?v=DEV` resolves to the same file when
+served from `python3 -m http.server`.
+
+Status:
 
 ```sh
 gh api repos/winebarrel/winebarrel.github.io/pages --jq '.status'
