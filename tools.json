@@ -90,7 +90,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-05-25",
+    "updated": "2026-06-01",
     "created": "2024-07-04"
   },
   {
@@ -1128,7 +1128,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-05-25",
+    "updated": "2026-06-01",
     "created": "2023-03-11"
   },
   {
@@ -1334,7 +1334,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-05-25",
+    "updated": "2026-06-01",
     "created": "2023-06-17"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-05-31",
+    "updated": "2026-06-01",
     "created": "2026-05-30"
   },
   {
