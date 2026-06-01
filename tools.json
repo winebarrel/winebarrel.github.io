@@ -1558,7 +1558,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-05-24",
+    "updated": "2026-05-31",
     "created": "2024-01-14"
   },
   {
@@ -2930,7 +2930,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-05-24",
+    "updated": "2026-05-31",
     "created": "2023-12-17"
   },
   {
@@ -3331,21 +3331,6 @@
     "stars": 0,
     "updated": "2026-04-27",
     "created": "2026-03-20"
-  },
-  {
-    "name": "TenkiMap",
-    "url": "https://github.com/winebarrel/TenkiMap",
-    "categories": [
-      "macOS / iOS"
-    ],
-    "language": "Swift",
-    "languages": [
-      "Swift"
-    ],
-    "description": "気象庁の府県天気予報とAMeDAS観測値を地図上にオーバーレイ表示するiOSアプリ",
-    "stars": 0,
-    "updated": "2026-04-29",
-    "created": "2026-04-25"
   },
   {
     "name": "ps_f",

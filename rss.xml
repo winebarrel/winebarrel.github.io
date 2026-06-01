@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 31 May 2026 16:41:19 GMT</lastBuildDate>
+<lastBuildDate>Mon, 01 Jun 2026 00:45:29 GMT</lastBuildDate>
 <item>
   <title>vscode-tfrename</title>
   <link>https://github.com/winebarrel/vscode-tfrename</link>
@@ -102,14 +102,6 @@
   <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
   <description>Declarative schema management for MySQL.</description>
   <category>MySQL</category>
-</item>
-<item>
-  <title>TenkiMap</title>
-  <link>https://github.com/winebarrel/TenkiMap</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/TenkiMap</guid>
-  <pubDate>Sat, 25 Apr 2026 00:00:00 GMT</pubDate>
-  <description>気象庁の府県天気予報とAMeDAS観測値を地図上にオーバーレイ表示するiOSアプリ</description>
-  <category>macOS / iOS</category>
 </item>
 <item>
   <title>psqlfmt</title>
@@ -406,6 +398,14 @@
   <pubDate>Thu, 04 Jul 2024 00:00:00 GMT</pubDate>
   <description>A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.</description>
   <category>AWS</category>
+</item>
+<item>
+  <title>kuu</title>
+  <link>https://github.com/winebarrel/kuu</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/kuu</guid>
+  <pubDate>Mon, 01 Apr 2024 00:00:00 GMT</pubDate>
+  <description>Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.</description>
+  <category>Go tool</category>
 </item>
 </channel>
 </rss>
