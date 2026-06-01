@@ -130,6 +130,8 @@ header .profiles a {
   font-size: .85rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+  min-width: 5.5rem;
+  text-align: right;
 }
 
 .sort {
