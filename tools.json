@@ -202,7 +202,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-05-28",
+    "updated": "2026-06-04",
     "created": "2024-12-04"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2025-04-14"
   },
   {
@@ -1827,7 +1827,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2023-10-29"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2026-05-30"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-06-01",
+    "updated": "2026-06-04",
     "created": "2026-05-05"
   },
   {
@@ -3218,7 +3218,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-02",
+    "updated": "2026-06-04",
     "created": "2026-05-30"
   },
   {
