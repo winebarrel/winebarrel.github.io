@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2022-02-23"
   },
   {
@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2022-05-29"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2024-01-05"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-06-03",
+    "updated": "2026-06-05",
     "created": "2022-12-08"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2025-07-17"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2026-02-07"
   },
   {
@@ -1238,7 +1238,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-05-21",
+    "updated": "2026-06-05",
     "created": "2023-02-11"
   },
   {
@@ -1875,7 +1875,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2025-10-11"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-04",
+    "updated": "2026-06-05",
     "created": "2026-05-30"
   },
   {
@@ -3010,7 +3010,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2022-07-16"
   },
   {
@@ -3074,7 +3074,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-06-03",
+    "updated": "2026-06-04",
     "created": "2025-04-05"
   },
   {
