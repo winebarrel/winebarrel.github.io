@@ -43,7 +43,14 @@ header { padding-top: 3rem; padding-bottom: 1rem; }
   gap: 1rem;
 }
 .hero-text { flex: 1; min-width: 0; }
-.avatar-link { flex-shrink: 0; display: block; }
+.hero-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  flex-shrink: 0;
+}
+.avatar-link { display: block; }
 .avatar {
   width: 80px;
   height: 80px;
@@ -53,6 +60,26 @@ header { padding-top: 3rem; padding-bottom: 1rem; }
 }
 .avatar-link:hover .avatar {
   border-color: var(--accent);
+}
+.x-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  color: var(--fg);
+  background: var(--card-bg);
+}
+.x-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.x-icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
 }
 
 header h1 {
