@@ -50,7 +50,6 @@ header { padding-top: 3rem; padding-bottom: 1rem; }
   gap: .5rem;
   flex-shrink: 0;
 }
-.avatar-link { display: block; }
 .avatar {
   width: 80px;
   height: 80px;
@@ -58,10 +57,11 @@ header { padding-top: 3rem; padding-bottom: 1rem; }
   border: 1px solid var(--border);
   display: block;
 }
-.avatar-link:hover .avatar {
-  border-color: var(--accent);
+.social-links {
+  display: flex;
+  gap: .4rem;
 }
-.x-link {
+.social-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -72,11 +72,11 @@ header { padding-top: 3rem; padding-bottom: 1rem; }
   color: var(--fg);
   background: var(--card-bg);
 }
-.x-link:hover {
+.social-link:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
-.x-icon {
+.social-icon {
   width: 14px;
   height: 14px;
   fill: currentColor;
