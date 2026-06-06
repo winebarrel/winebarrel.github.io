@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-06-04",
+    "updated": "2026-06-05",
     "created": "2026-02-07"
   },
   {
@@ -1875,7 +1875,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-06-04",
+    "updated": "2026-06-06",
     "created": "2025-10-11"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-05",
+    "updated": "2026-06-06",
     "created": "2026-05-30"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-06-04",
+    "updated": "2026-06-06",
     "created": "2026-05-05"
   },
   {
@@ -3218,7 +3218,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-04",
+    "updated": "2026-06-05",
     "created": "2026-05-30"
   },
   {
