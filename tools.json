@@ -1542,7 +1542,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-05-31",
+    "updated": "2026-06-07",
     "created": "2023-03-18"
   },
   {
@@ -1954,7 +1954,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-06-02",
+    "updated": "2026-06-07",
     "created": "2026-05-02"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-06",
+    "updated": "2026-06-07",
     "created": "2026-05-30"
   },
   {
@@ -2914,7 +2914,7 @@
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 4,
-    "updated": "2026-05-28",
+    "updated": "2026-06-07",
     "created": "2026-05-18"
   },
   {
@@ -3042,7 +3042,7 @@
     ],
     "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
     "stars": 0,
-    "updated": "2026-05-25",
+    "updated": "2026-06-07",
     "created": "2026-05-20"
   },
   {
@@ -3154,7 +3154,7 @@
     ],
     "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
     "stars": 0,
-    "updated": "2026-05-27",
+    "updated": "2026-06-07",
     "created": "2026-05-27"
   },
   {
@@ -3170,7 +3170,7 @@
     ],
     "description": "Flatten Terraform modules into the parent with moved blocks for state migration.",
     "stars": 0,
-    "updated": "2026-05-29",
+    "updated": "2026-06-07",
     "created": "2026-05-22"
   },
   {
@@ -3186,7 +3186,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 0,
-    "updated": "2026-05-25",
+    "updated": "2026-06-07",
     "created": "2026-05-24"
   },
   {
@@ -3202,7 +3202,7 @@
     ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
-    "updated": "2026-05-30",
+    "updated": "2026-06-07",
     "created": "2026-05-22"
   },
   {
@@ -3234,7 +3234,7 @@
     ],
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
-    "updated": "2026-05-14",
+    "updated": "2026-06-07",
     "created": "2026-02-28"
   },
   {
