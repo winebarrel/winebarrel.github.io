@@ -27,7 +27,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
-    "updated": "2026-06-02",
+    "updated": "2026-06-08",
     "created": "2017-09-11"
   },
   {
@@ -90,7 +90,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-06-01",
+    "updated": "2026-06-08",
     "created": "2024-07-04"
   },
   {
@@ -266,7 +266,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-06-01",
+    "updated": "2026-06-08",
     "created": "2022-09-19"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-06-05",
+    "updated": "2026-06-08",
     "created": "2022-12-08"
   },
   {
@@ -502,7 +502,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-06-01",
+    "updated": "2026-06-08",
     "created": "2025-02-22"
   },
   {
@@ -565,7 +565,7 @@
     ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
-    "updated": "2026-05-15",
+    "updated": "2026-06-08",
     "created": "2025-12-27"
   },
   {
@@ -924,7 +924,7 @@
     ],
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 0,
-    "updated": "2026-05-14",
+    "updated": "2026-06-08",
     "created": "2025-12-13"
   },
   {
@@ -1128,7 +1128,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-06-01",
+    "updated": "2026-06-08",
     "created": "2023-03-11"
   },
   {
@@ -1159,7 +1159,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-05-25",
+    "updated": "2026-06-08",
     "created": "2024-02-11"
   },
   {
@@ -1334,7 +1334,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-06-01",
+    "updated": "2026-06-08",
     "created": "2023-06-17"
   },
   {
@@ -1430,7 +1430,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-06-02",
+    "updated": "2026-06-08",
     "created": "2025-05-18"
   },
   {
@@ -1558,7 +1558,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-05-31",
+    "updated": "2026-06-07",
     "created": "2024-01-14"
   },
   {
@@ -1779,7 +1779,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1114,
-    "updated": "2026-05-28",
+    "updated": "2026-06-08",
     "created": "2014-05-04"
   },
   {
@@ -2031,7 +2031,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 1,
-    "updated": "2026-06-02",
+    "updated": "2026-06-08",
     "created": "2024-11-18"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-07",
+    "updated": "2026-06-08",
     "created": "2026-05-30"
   },
   {
@@ -2489,7 +2489,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-05-25",
+    "updated": "2026-06-08",
     "created": "2016-04-09"
   },
   {
@@ -2788,7 +2788,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-06-02",
+    "updated": "2026-06-07",
     "created": "2026-03-22"
   },
   {
@@ -2914,7 +2914,7 @@
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 4,
-    "updated": "2026-06-07",
+    "updated": "2026-06-08",
     "created": "2026-05-18"
   },
   {
@@ -2930,7 +2930,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-05-31",
+    "updated": "2026-06-07",
     "created": "2023-12-17"
   },
   {
