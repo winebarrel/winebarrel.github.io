@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-06-04",
+    "updated": "2026-06-08",
     "created": "2022-02-23"
   },
   {
@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-06-04",
+    "updated": "2026-06-08",
     "created": "2022-05-29"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-06-04",
+    "updated": "2026-06-09",
     "created": "2024-01-05"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-06-04",
+    "updated": "2026-06-08",
     "created": "2025-07-17"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-06-04",
+    "updated": "2026-06-08",
     "created": "2025-04-14"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-06-05",
+    "updated": "2026-06-08",
     "created": "2026-02-07"
   },
   {
@@ -612,7 +612,7 @@
     ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
-    "updated": "2026-05-22",
+    "updated": "2026-06-08",
     "created": "2025-09-01"
   },
   {
@@ -1286,7 +1286,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-05-14",
+    "updated": "2026-06-09",
     "created": "2026-01-01"
   },
   {
@@ -1779,7 +1779,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1114,
-    "updated": "2026-06-08",
+    "updated": "2026-06-09",
     "created": "2014-05-04"
   },
   {
@@ -1827,7 +1827,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-06-04",
+    "updated": "2026-06-08",
     "created": "2023-10-29"
   },
   {
@@ -1875,7 +1875,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-06-06",
+    "updated": "2026-06-08",
     "created": "2025-10-11"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-09",
     "created": "2026-05-30"
   },
   {
@@ -2222,7 +2222,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 14,
-    "updated": "2026-05-31",
+    "updated": "2026-06-09",
     "created": "2026-02-21"
   },
   {
@@ -2270,7 +2270,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-06-02",
+    "updated": "2026-06-09",
     "created": "2026-05-05"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-06-06",
+    "updated": "2026-06-08",
     "created": "2026-05-05"
   },
   {
@@ -2425,7 +2425,7 @@
     ],
     "description": "It is Ruby code matcher.",
     "stars": 3,
-    "updated": "2026-05-26",
+    "updated": "2026-06-08",
     "created": "2017-12-13"
   },
   {
@@ -2788,7 +2788,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-06-07",
+    "updated": "2026-06-08",
     "created": "2026-03-22"
   },
   {
@@ -3010,7 +3010,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-06-04",
+    "updated": "2026-06-08",
     "created": "2022-07-16"
   },
   {
@@ -3074,7 +3074,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-06-04",
+    "updated": "2026-06-08",
     "created": "2025-04-05"
   },
   {
@@ -3186,7 +3186,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 0,
-    "updated": "2026-06-07",
+    "updated": "2026-06-09",
     "created": "2026-05-24"
   },
   {
@@ -3218,7 +3218,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-05",
+    "updated": "2026-06-08",
     "created": "2026-05-30"
   },
   {
