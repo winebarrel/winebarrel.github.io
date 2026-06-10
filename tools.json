@@ -202,7 +202,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-06-04",
+    "updated": "2026-06-10",
     "created": "2024-12-04"
   },
   {
@@ -581,7 +581,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-06-01",
+    "updated": "2026-06-09",
     "created": "2025-08-31"
   },
   {
@@ -1238,7 +1238,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-06-05",
+    "updated": "2026-06-10",
     "created": "2023-02-11"
   },
   {
@@ -1430,7 +1430,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-10",
     "created": "2025-05-18"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-09",
+    "updated": "2026-06-10",
     "created": "2026-05-30"
   },
   {
@@ -2222,7 +2222,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 14,
-    "updated": "2026-06-09",
+    "updated": "2026-06-10",
     "created": "2026-02-21"
   },
   {
@@ -3058,7 +3058,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-06-02",
+    "updated": "2026-06-09",
     "created": "2025-04-17"
   },
   {
