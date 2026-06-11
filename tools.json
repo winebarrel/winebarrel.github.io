@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-06-08",
+    "updated": "2026-06-10",
     "created": "2022-02-23"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-06-09",
+    "updated": "2026-06-10",
     "created": "2024-01-05"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-06-08",
+    "updated": "2026-06-10",
     "created": "2022-12-08"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-10",
     "created": "2025-07-17"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-10",
     "created": "2025-04-14"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-10",
     "created": "2026-02-07"
   },
   {
@@ -1875,7 +1875,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-06-08",
+    "updated": "2026-06-10",
     "created": "2025-10-11"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-10",
+    "updated": "2026-06-11",
     "created": "2026-05-30"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-11",
     "created": "2026-05-05"
   },
   {
@@ -3010,7 +3010,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-06-08",
+    "updated": "2026-06-10",
     "created": "2022-07-16"
   },
   {
@@ -3218,7 +3218,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-11",
     "created": "2026-05-30"
   },
   {
