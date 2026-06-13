@@ -1402,6 +1402,21 @@
     "created": "2025-06-10"
   },
   {
+    "name": "go-gcshape-verification",
+    "url": "https://github.com/winebarrel/go-gcshape-verification",
+    "categories": [
+      "Go tool"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go"
+    ],
+    "description": "Verification code for the Go 1.18+ generics implementation (GC Shape Stenciling with dictionary passing).",
+    "stars": 0,
+    "updated": "2026-06-13",
+    "created": "2026-06-13"
+  },
+  {
     "name": "jsonast",
     "url": "https://github.com/winebarrel/jsonast",
     "categories": [
@@ -2190,7 +2205,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-12",
+    "updated": "2026-06-13",
     "created": "2026-05-30"
   },
   {
@@ -3218,7 +3233,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-11",
+    "updated": "2026-06-12",
     "created": "2026-05-30"
   },
   {
@@ -3298,7 +3313,7 @@
     ],
     "description": "「はてブフィルター」は指定されたキーワードを含む はてなブックマーク (https://b.hatena.ne.jp/) のエントリを非表示にするSafari機能拡張です。",
     "stars": 1,
-    "updated": "2026-01-31",
+    "updated": "2026-06-13",
     "created": "2026-01-25"
   },
   {
