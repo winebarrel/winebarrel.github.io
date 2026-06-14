@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-06-13",
+    "updated": "2026-06-08",
     "created": "2022-05-29"
   },
   {
@@ -1402,21 +1402,6 @@
     "created": "2025-06-10"
   },
   {
-    "name": "go-gcshape-verification-example",
-    "url": "https://github.com/winebarrel/go-gcshape-verification-example",
-    "categories": [
-      "Go tool"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go"
-    ],
-    "description": "Verification code for the Go 1.18+ generics implementation (GC Shape Stenciling with dictionary passing).",
-    "stars": 0,
-    "updated": "2026-06-14",
-    "created": "2026-06-13"
-  },
-  {
     "name": "jsonast",
     "url": "https://github.com/winebarrel/jsonast",
     "categories": [
@@ -1794,7 +1779,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1114,
-    "updated": "2026-06-14",
+    "updated": "2026-06-09",
     "created": "2014-05-04"
   },
   {
@@ -1969,7 +1954,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-06-13",
+    "updated": "2026-06-07",
     "created": "2026-05-02"
   },
   {
@@ -3089,7 +3074,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-06-13",
+    "updated": "2026-06-08",
     "created": "2025-04-05"
   },
   {

@@ -98,6 +98,7 @@ when **all** of these hold:
 - not a fork (filtered by `--source`)
 - name does **not** start with `homebrew-` (these are Homebrew tap repos, not tools themselves)
 - name does **not** end with `.github.io` (these are GitHub Pages sites, including this one)
+- name does **not** contain `example` (case-insensitive — these are demo/sample repos)
 - AND one of:
   - `stargazerCount >= 3`, or
   - has at least one topic, or
