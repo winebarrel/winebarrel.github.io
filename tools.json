@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-06-08",
+    "updated": "2026-06-13",
     "created": "2022-05-29"
   },
   {
@@ -817,6 +817,22 @@
     "created": "2016-05-25"
   },
   {
+    "name": "gemcard",
+    "url": "https://github.com/winebarrel/gemcard",
+    "categories": [
+      "Chat / Slack"
+    ],
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "HTML"
+    ],
+    "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
+    "stars": 0,
+    "updated": "2026-06-14",
+    "created": "2026-06-14"
+  },
+  {
     "name": "slack-bot",
     "url": "https://github.com/winebarrel/slack-bot",
     "categories": [
@@ -1128,7 +1144,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-06-08",
+    "updated": "2026-06-14",
     "created": "2023-03-11"
   },
   {
@@ -1159,7 +1175,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-06-08",
+    "updated": "2026-06-14",
     "created": "2024-02-11"
   },
   {
@@ -1238,7 +1254,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-06-10",
+    "updated": "2026-06-14",
     "created": "2023-02-11"
   },
   {
@@ -1542,7 +1558,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-06-07",
+    "updated": "2026-06-14",
     "created": "2023-03-18"
   },
   {
@@ -1779,7 +1795,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1114,
-    "updated": "2026-06-09",
+    "updated": "2026-06-14",
     "created": "2014-05-04"
   },
   {
@@ -1954,7 +1970,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-06-07",
+    "updated": "2026-06-13",
     "created": "2026-05-02"
   },
   {
@@ -2221,8 +2237,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
-    "stars": 14,
-    "updated": "2026-06-10",
+    "stars": 16,
+    "updated": "2026-06-14",
     "created": "2026-02-21"
   },
   {
@@ -2302,7 +2318,7 @@
     ],
     "description": "psqlfmt is a PostgreSQL SQL formatter.",
     "stars": 0,
-    "updated": "2026-06-02",
+    "updated": "2026-06-14",
     "created": "2026-04-14"
   },
   {
@@ -3074,7 +3090,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-13",
     "created": "2025-04-05"
   },
   {

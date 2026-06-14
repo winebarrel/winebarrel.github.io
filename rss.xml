@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 14 Jun 2026 00:39:55 GMT</lastBuildDate>
+<lastBuildDate>Sun, 14 Jun 2026 18:24:13 GMT</lastBuildDate>
+<item>
+  <title>gemcard</title>
+  <link>https://github.com/winebarrel/gemcard</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/gemcard</guid>
+  <pubDate>Sun, 14 Jun 2026 00:00:00 GMT</pubDate>
+  <description>Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards</description>
+  <category>Chat / Slack</category>
+</item>
 <item>
   <title>vscode-tfrename</title>
   <link>https://github.com/winebarrel/vscode-tfrename</link>
@@ -398,14 +406,6 @@
   <pubDate>Tue, 03 Sep 2024 00:00:00 GMT</pubDate>
   <description>List up CODEOWNERS of all repositories.</description>
   <category>Git / GitHub</category>
-</item>
-<item>
-  <title>sev</title>
-  <link>https://github.com/winebarrel/sev</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/sev</guid>
-  <pubDate>Thu, 04 Jul 2024 00:00:00 GMT</pubDate>
-  <description>A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.</description>
-  <category>AWS</category>
 </item>
 </channel>
 </rss>
