@@ -27,7 +27,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
-    "updated": "2026-06-08",
+    "updated": "2026-06-15",
     "created": "2017-09-11"
   },
   {
@@ -90,7 +90,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-06-08",
+    "updated": "2026-06-15",
     "created": "2024-07-04"
   },
   {
@@ -202,7 +202,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-06-10",
+    "updated": "2026-06-15",
     "created": "2024-12-04"
   },
   {
@@ -266,7 +266,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-06-08",
+    "updated": "2026-06-15",
     "created": "2022-09-19"
   },
   {
@@ -502,7 +502,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-15",
     "created": "2025-02-22"
   },
   {
@@ -829,7 +829,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-14",
+    "updated": "2026-06-15",
     "created": "2026-06-14"
   },
   {
@@ -1144,7 +1144,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-06-14",
+    "updated": "2026-06-15",
     "created": "2023-03-11"
   },
   {
@@ -1175,7 +1175,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-06-14",
+    "updated": "2026-06-15",
     "created": "2024-02-11"
   },
   {
@@ -1350,7 +1350,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-06-08",
+    "updated": "2026-06-15",
     "created": "2023-06-17"
   },
   {
@@ -1574,7 +1574,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-06-07",
+    "updated": "2026-06-14",
     "created": "2024-01-14"
   },
   {
@@ -1795,7 +1795,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1114,
-    "updated": "2026-06-14",
+    "updated": "2026-06-15",
     "created": "2014-05-04"
   },
   {
@@ -2047,7 +2047,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 1,
-    "updated": "2026-06-08",
+    "updated": "2026-06-15",
     "created": "2024-11-18"
   },
   {
@@ -2206,7 +2206,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-13",
+    "updated": "2026-06-15",
     "created": "2026-05-30"
   },
   {
@@ -2237,7 +2237,7 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
-    "stars": 16,
+    "stars": 17,
     "updated": "2026-06-14",
     "created": "2026-02-21"
   },
@@ -2505,7 +2505,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-06-08",
+    "updated": "2026-06-15",
     "created": "2016-04-09"
   },
   {
@@ -2804,7 +2804,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-06-12",
+    "updated": "2026-06-14",
     "created": "2026-03-22"
   },
   {
@@ -2946,7 +2946,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-06-07",
+    "updated": "2026-06-14",
     "created": "2023-12-17"
   },
   {
