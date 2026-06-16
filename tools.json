@@ -438,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-06-10",
+    "updated": "2026-06-15",
     "created": "2025-04-14"
   },
   {
@@ -829,7 +829,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-15",
+    "updated": "2026-06-16",
     "created": "2026-06-14"
   },
   {
@@ -1843,7 +1843,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-06-08",
+    "updated": "2026-06-15",
     "created": "2023-10-29"
   },
   {
@@ -2206,7 +2206,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-15",
+    "updated": "2026-06-16",
     "created": "2026-05-30"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-06-09",
+    "updated": "2026-06-16",
     "created": "2026-05-05"
   },
   {
@@ -2302,7 +2302,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-06-12",
+    "updated": "2026-06-15",
     "created": "2026-05-05"
   },
   {
@@ -2441,7 +2441,7 @@
     ],
     "description": "It is Ruby code matcher.",
     "stars": 3,
-    "updated": "2026-06-08",
+    "updated": "2026-06-15",
     "created": "2017-12-13"
   },
   {
@@ -3026,7 +3026,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-06-10",
+    "updated": "2026-06-16",
     "created": "2022-07-16"
   },
   {
@@ -3202,7 +3202,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 0,
-    "updated": "2026-06-09",
+    "updated": "2026-06-16",
     "created": "2026-05-24"
   },
   {
@@ -3222,6 +3222,22 @@
     "created": "2026-05-22"
   },
   {
+    "name": "tfunfold",
+    "url": "https://github.com/winebarrel/tfunfold",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "tfunfold is a tool to expand Terraform for_each / count into individual resources or modules with moved blocks.",
+    "stars": 0,
+    "updated": "2026-06-16",
+    "created": "2026-06-16"
+  },
+  {
     "name": "vscode-tfrename",
     "url": "https://github.com/winebarrel/vscode-tfrename",
     "categories": [
@@ -3234,7 +3250,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-12",
+    "updated": "2026-06-16",
     "created": "2026-05-30"
   },
   {
