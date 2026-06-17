@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-06-10",
+    "updated": "2026-06-16",
     "created": "2022-02-23"
   },
   {
@@ -234,7 +234,7 @@
     ],
     "description": "Wrapper for ecspresso that creates task definitions at run time.",
     "stars": 2,
-    "updated": "2026-03-16",
+    "updated": "2026-06-17",
     "created": "2022-05-22"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-06-10",
+    "updated": "2026-06-16",
     "created": "2026-02-07"
   },
   {
@@ -581,7 +581,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-06-09",
+    "updated": "2026-06-16",
     "created": "2025-08-31"
   },
   {
@@ -829,7 +829,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-16",
+    "updated": "2026-06-17",
     "created": "2026-06-14"
   },
   {
@@ -1446,7 +1446,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-06-10",
+    "updated": "2026-06-16",
     "created": "2025-05-18"
   },
   {
@@ -2206,7 +2206,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-16",
+    "updated": "2026-06-17",
     "created": "2026-05-30"
   },
   {
@@ -2302,7 +2302,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-06-15",
+    "updated": "2026-06-17",
     "created": "2026-05-05"
   },
   {
@@ -3074,7 +3074,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-06-09",
+    "updated": "2026-06-16",
     "created": "2025-04-17"
   },
   {
