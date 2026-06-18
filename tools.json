@@ -43,7 +43,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 39,
-    "updated": "2026-06-02",
+    "updated": "2026-06-18",
     "created": "2022-10-16"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-06-10",
+    "updated": "2026-06-18",
     "created": "2024-01-05"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-06-10",
+    "updated": "2026-06-18",
     "created": "2022-12-08"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-06-10",
+    "updated": "2026-06-18",
     "created": "2025-07-17"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-06-15",
+    "updated": "2026-06-18",
     "created": "2025-04-14"
   },
   {
@@ -565,7 +565,7 @@
     ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-18",
     "created": "2025-12-27"
   },
   {
@@ -581,7 +581,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2025-08-31"
   },
   {
@@ -829,7 +829,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-17",
+    "updated": "2026-06-18",
     "created": "2026-06-14"
   },
   {
@@ -1302,7 +1302,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-06-09",
+    "updated": "2026-06-18",
     "created": "2026-01-01"
   },
   {
@@ -1494,7 +1494,7 @@
     ],
     "description": "sglob is a small globbing library for string.",
     "stars": 0,
-    "updated": "2025-11-20",
+    "updated": "2026-06-18",
     "created": "2025-09-06"
   },
   {
@@ -1558,7 +1558,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-06-14",
+    "updated": "2026-06-17",
     "created": "2023-03-18"
   },
   {
@@ -1716,7 +1716,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-06-02",
+    "updated": "2026-06-18",
     "created": "2023-06-03"
   },
   {
@@ -1764,7 +1764,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-06-02",
+    "updated": "2026-06-17",
     "created": "2023-12-19"
   },
   {
@@ -1891,7 +1891,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-06-10",
+    "updated": "2026-06-18",
     "created": "2025-10-11"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2026-05-05"
   },
   {
@@ -2302,7 +2302,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-06-17",
+    "updated": "2026-06-18",
     "created": "2026-05-05"
   },
   {
@@ -2804,7 +2804,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-06-14",
+    "updated": "2026-06-18",
     "created": "2026-03-22"
   },
   {
@@ -2930,7 +2930,7 @@
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 4,
-    "updated": "2026-06-08",
+    "updated": "2026-06-18",
     "created": "2026-05-18"
   },
   {
@@ -3170,7 +3170,7 @@
     ],
     "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
     "stars": 0,
-    "updated": "2026-06-07",
+    "updated": "2026-06-18",
     "created": "2026-05-27"
   },
   {
@@ -3266,7 +3266,7 @@
     ],
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
-    "updated": "2026-06-07",
+    "updated": "2026-06-18",
     "created": "2026-02-28"
   },
   {
