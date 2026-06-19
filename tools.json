@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2022-02-23"
   },
   {
@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-06-13",
+    "updated": "2026-06-18",
     "created": "2022-05-29"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-06-19",
     "created": "2025-07-17"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2026-02-07"
   },
   {
@@ -612,7 +612,7 @@
     ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-18",
     "created": "2025-09-01"
   },
   {
@@ -733,7 +733,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-06-02",
+    "updated": "2026-06-18",
     "created": "2023-08-18"
   },
   {
@@ -829,7 +829,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-06-19",
     "created": "2026-06-14"
   },
   {
@@ -940,7 +940,7 @@
     ],
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 0,
-    "updated": "2026-06-08",
+    "updated": "2026-06-18",
     "created": "2025-12-13"
   },
   {
@@ -1129,7 +1129,7 @@
     ],
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
-    "updated": "2026-06-02",
+    "updated": "2026-06-18",
     "created": "2025-11-08"
   },
   {
@@ -1414,7 +1414,7 @@
     ],
     "description": "A library to replace string placeholders with environment variables.",
     "stars": 0,
-    "updated": "2025-11-20",
+    "updated": "2026-06-18",
     "created": "2025-06-10"
   },
   {
@@ -1446,7 +1446,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2025-05-18"
   },
   {
@@ -1764,7 +1764,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-06-17",
+    "updated": "2026-06-18",
     "created": "2023-12-19"
   },
   {
@@ -1970,7 +1970,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-06-13",
+    "updated": "2026-06-18",
     "created": "2026-05-02"
   },
   {
@@ -2206,7 +2206,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-17",
+    "updated": "2026-06-19",
     "created": "2026-05-30"
   },
   {
@@ -2238,7 +2238,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 17,
-    "updated": "2026-06-14",
+    "updated": "2026-06-18",
     "created": "2026-02-21"
   },
   {
@@ -2318,7 +2318,7 @@
     ],
     "description": "psqlfmt is a PostgreSQL SQL formatter.",
     "stars": 0,
-    "updated": "2026-06-14",
+    "updated": "2026-06-18",
     "created": "2026-04-14"
   },
   {
@@ -2898,7 +2898,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-05-25",
+    "updated": "2026-06-18",
     "created": "2024-02-03"
   },
   {
@@ -2914,7 +2914,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 9,
-    "updated": "2026-06-03",
+    "updated": "2026-06-18",
     "created": "2023-04-25"
   },
   {
@@ -2978,7 +2978,7 @@
     ],
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
-    "updated": "2026-05-14",
+    "updated": "2026-06-18",
     "created": "2025-07-09"
   },
   {
@@ -3010,7 +3010,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-06-02",
+    "updated": "2026-06-18",
     "created": "2023-08-20"
   },
   {
@@ -3026,7 +3026,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2022-07-16"
   },
   {
@@ -3058,7 +3058,7 @@
     ],
     "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
     "stars": 0,
-    "updated": "2026-06-07",
+    "updated": "2026-06-18",
     "created": "2026-05-20"
   },
   {
@@ -3074,7 +3074,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2025-04-17"
   },
   {
@@ -3090,7 +3090,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-06-13",
+    "updated": "2026-06-18",
     "created": "2025-04-05"
   },
   {
@@ -3106,7 +3106,7 @@
     ],
     "description": "Terraform provider for multi-pattern string replacement",
     "stars": 0,
-    "updated": "2026-05-14",
+    "updated": "2026-06-18",
     "created": "2025-07-12"
   },
   {
@@ -3186,7 +3186,7 @@
     ],
     "description": "Flatten Terraform modules into the parent with moved blocks for state migration.",
     "stars": 0,
-    "updated": "2026-06-07",
+    "updated": "2026-06-18",
     "created": "2026-05-22"
   },
   {
@@ -3202,7 +3202,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 0,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2026-05-24"
   },
   {
@@ -3218,7 +3218,7 @@
     ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
-    "updated": "2026-06-07",
+    "updated": "2026-06-18",
     "created": "2026-05-22"
   },
   {
@@ -3234,7 +3234,7 @@
     ],
     "description": "tfunfold is a tool to expand Terraform for_each / count into individual resources or modules with moved blocks.",
     "stars": 0,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2026-06-16"
   },
   {
@@ -3250,7 +3250,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-16",
+    "updated": "2026-06-18",
     "created": "2026-05-30"
   },
   {
@@ -3314,7 +3314,7 @@
     ],
     "description": "Small vertical battery icon on menu bar.",
     "stars": 2,
-    "updated": "2026-02-15",
+    "updated": "2026-06-18",
     "created": "2025-01-13"
   },
   {
@@ -3330,7 +3330,7 @@
     ],
     "description": "「はてブフィルター」は指定されたキーワードを含む はてなブックマーク (https://b.hatena.ne.jp/) のエントリを非表示にするSafari機能拡張です。",
     "stars": 1,
-    "updated": "2026-06-13",
+    "updated": "2026-06-18",
     "created": "2026-01-25"
   },
   {
@@ -3346,7 +3346,7 @@
     ],
     "description": "Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.",
     "stars": 1,
-    "updated": "2025-12-21",
+    "updated": "2026-06-18",
     "created": "2024-11-17"
   },
   {
