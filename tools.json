@@ -817,22 +817,6 @@
     "created": "2016-05-25"
   },
   {
-    "name": "gemcard",
-    "url": "https://github.com/winebarrel/gemcard",
-    "categories": [
-      "Chat / Slack"
-    ],
-    "language": "TypeScript",
-    "languages": [
-      "TypeScript",
-      "HTML"
-    ],
-    "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
-    "stars": 0,
-    "updated": "2026-06-20",
-    "created": "2026-06-14"
-  },
-  {
     "name": "slack-bot",
     "url": "https://github.com/winebarrel/slack-bot",
     "categories": [
@@ -3284,6 +3268,22 @@
     "stars": 0,
     "updated": "2026-06-20",
     "created": "2022-01-19"
+  },
+  {
+    "name": "gemcard",
+    "url": "https://github.com/winebarrel/gemcard",
+    "categories": [
+      "Web / Browser"
+    ],
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "HTML"
+    ],
+    "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
+    "stars": 0,
+    "updated": "2026-06-20",
+    "created": "2026-06-14"
   },
   {
     "name": "PagerCall",

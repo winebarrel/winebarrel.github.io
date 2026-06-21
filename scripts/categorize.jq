@@ -13,6 +13,7 @@ def category:
   .name as $n |
   if $n == "rping" then "Database"
   elif $n == "orderedmap" then "Utility"
+  elif $n == "gemcard" then "Web / Browser"
   elif ($h | test("terraform|terraformer|\\btf\\b|tflint|tfstate")) then "Terraform"
   elif ($h | test("kubernetes|k8s|kubectl|helm\\b")) then "Kubernetes"
   elif ($h | test("\\baws\\b|\\bs3\\b|\\bec2\\b|dynamodb|cloudwatch|\\blambda\\b|cloudformation|\\becs\\b|\\brds\\b|\\biam\\b")) then "AWS"
