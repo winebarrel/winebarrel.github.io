@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 21 Jun 2026 11:26:08 GMT</lastBuildDate>
+<lastBuildDate>Sun, 21 Jun 2026 18:26:41 GMT</lastBuildDate>
+<item>
+  <title>tfjson2hcl</title>
+  <link>https://github.com/winebarrel/tfjson2hcl</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/tfjson2hcl</guid>
+  <pubDate>Sun, 21 Jun 2026 00:00:00 GMT</pubDate>
+  <description>A tool to convert heredoc JSON in Terraform files into jsonencode({...})</description>
+  <category>Terraform</category>
+</item>
 <item>
   <title>tfunfold</title>
   <link>https://github.com/winebarrel/tfunfold</link>
@@ -398,14 +406,6 @@
   <pubDate>Mon, 30 Sep 2024 00:00:00 GMT</pubDate>
   <description>PagerCall is a utility app that shows PagerDuty status on the menu bar.</description>
   <category>macOS / iOS</category>
-</item>
-<item>
-  <title>terraform-provider-oneshot</title>
-  <link>https://github.com/winebarrel/terraform-provider-oneshot</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-oneshot</guid>
-  <pubDate>Sat, 21 Sep 2024 00:00:00 GMT</pubDate>
-  <description>Terraform provider for running one-shot commands.</description>
-  <category>Terraform</category>
 </item>
 </channel>
 </rss>

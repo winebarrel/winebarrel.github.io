@@ -1003,7 +1003,7 @@
     ],
     "description": "go get github.com/winebarrel/conds",
     "stars": 0,
-    "updated": "2026-01-25",
+    "updated": "2026-06-20",
     "created": "2026-01-24"
   },
   {
@@ -1238,7 +1238,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-06-14",
+    "updated": "2026-06-20",
     "created": "2023-02-11"
   },
   {
@@ -1256,6 +1256,22 @@
     "stars": 9,
     "updated": "2026-02-23",
     "created": "2016-06-15"
+  },
+  {
+    "name": "json2hcl",
+    "url": "https://github.com/winebarrel/json2hcl",
+    "categories": [
+      "Go tool"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "HCL"
+    ],
+    "description": "A tool to convert JSON to HCL.",
+    "stars": 6,
+    "updated": "2026-06-21",
+    "created": "2024-03-31"
   },
   {
     "name": "utsusemi",
@@ -1414,7 +1430,7 @@
     ],
     "description": "jsonast is a library that parses JSON and converts it to AST.",
     "stars": 0,
-    "updated": "2026-01-06",
+    "updated": "2026-06-20",
     "created": "2026-01-03"
   },
   {
@@ -1542,7 +1558,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-06-17",
+    "updated": "2026-06-21",
     "created": "2023-03-18"
   },
   {
@@ -1875,7 +1891,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-06-18",
+    "updated": "2026-06-21",
     "created": "2025-10-11"
   },
   {
@@ -2162,22 +2178,6 @@
     "created": "2017-03-03"
   },
   {
-    "name": "json2hcl",
-    "url": "https://github.com/winebarrel/json2hcl",
-    "categories": [
-      "Other"
-    ],
-    "language": "HCL",
-    "languages": [
-      "HCL",
-      "Go"
-    ],
-    "description": "A tool to convert JSON to HCL.",
-    "stars": 5,
-    "updated": "2026-04-20",
-    "created": "2024-03-31"
-  },
-  {
     "name": "amzcard",
     "url": "https://github.com/winebarrel/amzcard",
     "categories": [
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-20",
+    "updated": "2026-06-21",
     "created": "2026-05-30"
   },
   {
@@ -3158,6 +3158,22 @@
     "created": "2026-05-27"
   },
   {
+    "name": "tfjson2hcl",
+    "url": "https://github.com/winebarrel/tfjson2hcl",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "A tool to convert heredoc JSON in Terraform files into jsonencode({...})",
+    "stars": 0,
+    "updated": "2026-06-21",
+    "created": "2026-06-21"
+  },
+  {
     "name": "tflat",
     "url": "https://github.com/winebarrel/tflat",
     "categories": [
@@ -3282,7 +3298,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-20",
+    "updated": "2026-06-21",
     "created": "2026-06-14"
   },
   {
