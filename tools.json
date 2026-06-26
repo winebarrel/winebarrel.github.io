@@ -1843,7 +1843,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-06-22",
+    "updated": "2026-06-26",
     "created": "2023-10-29"
   },
   {
@@ -1970,7 +1970,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-06-24",
+    "updated": "2026-06-25",
     "created": "2026-05-02"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-25",
+    "updated": "2026-06-26",
     "created": "2026-05-30"
   },
   {
@@ -3298,7 +3298,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-25",
+    "updated": "2026-06-26",
     "created": "2026-06-14"
   },
   {
