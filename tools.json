@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-06-27",
     "created": "2026-02-07"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-26",
+    "updated": "2026-06-27",
     "created": "2026-05-30"
   },
   {
@@ -2222,7 +2222,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 17,
-    "updated": "2026-06-24",
+    "updated": "2026-06-27",
     "created": "2026-02-21"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-06-23",
+    "updated": "2026-06-26",
     "created": "2026-05-05"
   },
   {
@@ -3250,7 +3250,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-22",
+    "updated": "2026-06-26",
     "created": "2026-05-30"
   },
   {
@@ -3298,7 +3298,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-26",
+    "updated": "2026-06-27",
     "created": "2026-06-14"
   },
   {
