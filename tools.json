@@ -1558,7 +1558,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-06-21",
+    "updated": "2026-06-28",
     "created": "2023-03-18"
   },
   {
@@ -1794,7 +1794,7 @@
       "Ruby"
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
-    "stars": 1113,
+    "stars": 1114,
     "updated": "2026-06-22",
     "created": "2014-05-04"
   },
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-27",
+    "updated": "2026-06-28",
     "created": "2026-05-30"
   },
   {
@@ -2882,7 +2882,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-06-18",
+    "updated": "2026-06-28",
     "created": "2024-02-03"
   },
   {
@@ -3298,7 +3298,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-27",
+    "updated": "2026-06-28",
     "created": "2026-06-14"
   },
   {
