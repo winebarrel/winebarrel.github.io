@@ -43,7 +43,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 39,
-    "updated": "2026-06-24",
+    "updated": "2026-06-29",
     "created": "2022-10-16"
   },
   {
@@ -686,7 +686,7 @@
     ],
     "description": "CLI for esa.io.",
     "stars": 19,
-    "updated": "2026-06-22",
+    "updated": "2026-06-29",
     "created": "2022-01-09"
   },
   {
@@ -1113,7 +1113,7 @@
     ],
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
-    "updated": "2026-06-24",
+    "updated": "2026-06-29",
     "created": "2025-11-08"
   },
   {
@@ -1128,7 +1128,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-06-22",
+    "updated": "2026-06-29",
     "created": "2023-03-11"
   },
   {
@@ -1159,7 +1159,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-06-29",
     "created": "2024-02-11"
   },
   {
@@ -1238,7 +1238,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-06-20",
+    "updated": "2026-06-28",
     "created": "2023-02-11"
   },
   {
@@ -1350,7 +1350,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-06-29",
     "created": "2023-06-17"
   },
   {
@@ -1574,7 +1574,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-06-21",
+    "updated": "2026-06-28",
     "created": "2024-01-14"
   },
   {
@@ -1794,8 +1794,8 @@
       "Ruby"
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
-    "stars": 1114,
-    "updated": "2026-06-22",
+    "stars": 1115,
+    "updated": "2026-06-29",
     "created": "2014-05-04"
   },
   {
@@ -1970,7 +1970,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-06-25",
+    "updated": "2026-06-29",
     "created": "2026-05-02"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-28",
+    "updated": "2026-06-29",
     "created": "2026-05-30"
   },
   {
@@ -2270,7 +2270,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-06-24",
+    "updated": "2026-06-29",
     "created": "2026-05-05"
   },
   {
@@ -2489,7 +2489,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-06-29",
     "created": "2016-04-09"
   },
   {
@@ -2788,7 +2788,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-06-21",
+    "updated": "2026-06-28",
     "created": "2026-03-22"
   },
   {
@@ -2930,7 +2930,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-06-23",
+    "updated": "2026-06-28",
     "created": "2023-12-17"
   },
   {
@@ -3298,7 +3298,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-28",
+    "updated": "2026-06-29",
     "created": "2026-06-14"
   },
   {
