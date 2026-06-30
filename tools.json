@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-06-18",
+    "updated": "2026-06-29",
     "created": "2022-02-23"
   },
   {
@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-06-18",
+    "updated": "2026-06-29",
     "created": "2022-05-29"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-06-18",
+    "updated": "2026-06-29",
     "created": "2024-01-05"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-06-24",
+    "updated": "2026-06-29",
     "created": "2022-12-08"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-06-19",
+    "updated": "2026-06-30",
     "created": "2025-07-17"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-06-29",
     "created": "2025-04-14"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-06-27",
+    "updated": "2026-06-29",
     "created": "2026-02-07"
   },
   {
@@ -1716,7 +1716,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-06-18",
+    "updated": "2026-06-30",
     "created": "2023-06-03"
   },
   {
@@ -1764,7 +1764,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-06-18",
+    "updated": "2026-06-30",
     "created": "2023-12-19"
   },
   {
@@ -1843,7 +1843,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-06-26",
+    "updated": "2026-06-29",
     "created": "2023-10-29"
   },
   {
@@ -1891,7 +1891,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-06-25",
+    "updated": "2026-06-29",
     "created": "2025-10-11"
   },
   {
@@ -2190,7 +2190,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-06-29",
+    "updated": "2026-06-30",
     "created": "2026-05-30"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-06-26",
+    "updated": "2026-06-30",
     "created": "2026-05-05"
   },
   {
@@ -2302,7 +2302,7 @@
     ],
     "description": "psqlfmt is a PostgreSQL SQL formatter.",
     "stars": 0,
-    "updated": "2026-06-24",
+    "updated": "2026-06-29",
     "created": "2026-04-14"
   },
   {
@@ -2425,7 +2425,7 @@
     ],
     "description": "It is Ruby code matcher.",
     "stars": 3,
-    "updated": "2026-06-22",
+    "updated": "2026-06-29",
     "created": "2017-12-13"
   },
   {
@@ -2788,7 +2788,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-06-28",
+    "updated": "2026-06-30",
     "created": "2026-03-22"
   },
   {
@@ -2913,7 +2913,7 @@
       "Makefile"
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
-    "stars": 4,
+    "stars": 5,
     "updated": "2026-06-23",
     "created": "2026-05-18"
   },
@@ -3010,7 +3010,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-06-18",
+    "updated": "2026-06-29",
     "created": "2022-07-16"
   },
   {
@@ -3074,7 +3074,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-06-29",
     "created": "2025-04-05"
   },
   {
@@ -3250,7 +3250,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-26",
+    "updated": "2026-06-29",
     "created": "2026-05-30"
   },
   {
@@ -3298,7 +3298,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-06-29",
+    "updated": "2026-06-30",
     "created": "2026-06-14"
   },
   {
