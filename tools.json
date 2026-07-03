@@ -43,7 +43,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 39,
-    "updated": "2026-06-29",
+    "updated": "2026-07-03",
     "created": "2022-10-16"
   },
   {
@@ -138,7 +138,7 @@
     ],
     "description": "Golang library for using AWS Parameters and Secrets Lambda Extension.",
     "stars": 4,
-    "updated": "2026-06-22",
+    "updated": "2026-07-03",
     "created": "2024-02-05"
   },
   {
@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-07-02",
+    "updated": "2026-07-03",
     "created": "2022-02-23"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-07-01",
+    "updated": "2026-07-03",
     "created": "2025-04-14"
   },
   {
@@ -924,7 +924,7 @@
     ],
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-03",
     "created": "2025-12-13"
   },
   {
@@ -1238,7 +1238,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-06-28",
+    "updated": "2026-07-03",
     "created": "2023-02-11"
   },
   {
@@ -1302,7 +1302,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-06-19",
+    "updated": "2026-07-03",
     "created": "2026-01-01"
   },
   {
@@ -1414,7 +1414,7 @@
     ],
     "description": "A library to replace string placeholders with environment variables.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-03",
     "created": "2025-06-10"
   },
   {
@@ -1494,7 +1494,7 @@
     ],
     "description": "sglob is a small globbing library for string.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-03",
     "created": "2025-09-06"
   },
   {
@@ -1510,7 +1510,7 @@
     ],
     "description": "A library that recursively dumps structure information.",
     "stars": 0,
-    "updated": "2026-06-22",
+    "updated": "2026-07-03",
     "created": "2024-02-19"
   },
   {
@@ -1843,7 +1843,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-06-29",
+    "updated": "2026-07-03",
     "created": "2023-10-29"
   },
   {
@@ -1891,7 +1891,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-07-01",
+    "updated": "2026-07-03",
     "created": "2025-10-11"
   },
   {
@@ -2222,7 +2222,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 17,
-    "updated": "2026-07-01",
+    "updated": "2026-07-03",
     "created": "2026-02-21"
   },
   {
@@ -2788,7 +2788,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-06-30",
+    "updated": "2026-07-02",
     "created": "2026-03-22"
   },
   {
@@ -2978,7 +2978,7 @@
     ],
     "description": "Terraform provider for running one-shot commands.",
     "stars": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-07-03",
     "created": "2024-09-21"
   },
   {
@@ -3266,7 +3266,7 @@
     ],
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-03",
     "created": "2026-02-28"
   },
   {
