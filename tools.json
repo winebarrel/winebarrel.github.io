@@ -817,6 +817,22 @@
     "created": "2016-05-25"
   },
   {
+    "name": "Slackpad",
+    "url": "https://github.com/winebarrel/Slackpad",
+    "categories": [
+      "Chat / Slack"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift",
+      "Makefile"
+    ],
+    "description": "A macOS note-taking app that keeps notes as plain .txt files and posts to Slack as you write.",
+    "stars": 0,
+    "updated": "2026-07-04",
+    "created": "2026-07-04"
+  },
+  {
     "name": "slack-bot",
     "url": "https://github.com/winebarrel/slack-bot",
     "categories": [
@@ -2882,7 +2898,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-06-28",
+    "updated": "2026-07-04",
     "created": "2024-02-03"
   },
   {
@@ -2898,7 +2914,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 9,
-    "updated": "2026-06-18",
+    "updated": "2026-07-04",
     "created": "2023-04-25"
   },
   {
@@ -2946,7 +2962,7 @@
     ],
     "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
     "stars": 2,
-    "updated": "2026-06-22",
+    "updated": "2026-07-03",
     "created": "2023-09-30"
   },
   {
@@ -2962,7 +2978,7 @@
     ],
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
-    "updated": "2026-06-18",
+    "updated": "2026-07-03",
     "created": "2025-07-09"
   },
   {
@@ -2994,7 +3010,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-06-18",
+    "updated": "2026-07-04",
     "created": "2023-08-20"
   },
   {
