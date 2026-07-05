@@ -829,7 +829,7 @@
     ],
     "description": "A macOS note-taking app that keeps notes as plain .txt files and posts to Slack as you write.",
     "stars": 0,
-    "updated": "2026-07-04",
+    "updated": "2026-07-05",
     "created": "2026-07-04"
   },
   {
@@ -1574,7 +1574,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-06-28",
+    "updated": "2026-07-05",
     "created": "2023-03-18"
   },
   {
@@ -3314,7 +3314,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-07-02",
+    "updated": "2026-07-05",
     "created": "2026-06-14"
   },
   {
