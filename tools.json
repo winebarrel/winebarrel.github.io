@@ -27,7 +27,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
-    "updated": "2026-06-22",
+    "updated": "2026-07-06",
     "created": "2017-09-11"
   },
   {
@@ -90,7 +90,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-06-22",
+    "updated": "2026-07-06",
     "created": "2024-07-04"
   },
   {
@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-07-03",
+    "updated": "2026-07-06",
     "created": "2022-02-23"
   },
   {
@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-07-01",
+    "updated": "2026-07-06",
     "created": "2022-05-29"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-07-01",
+    "updated": "2026-07-06",
     "created": "2024-01-05"
   },
   {
@@ -266,7 +266,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-06-22",
+    "updated": "2026-07-06",
     "created": "2022-09-19"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-07-01",
+    "updated": "2026-07-06",
     "created": "2022-12-08"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-07-01",
+    "updated": "2026-07-07",
     "created": "2025-07-17"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-07-03",
+    "updated": "2026-07-06",
     "created": "2025-04-14"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-07-01",
+    "updated": "2026-07-06",
     "created": "2026-02-07"
   },
   {
@@ -502,7 +502,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-06-22",
+    "updated": "2026-07-06",
     "created": "2025-02-22"
   },
   {
@@ -825,11 +825,11 @@
     "language": "Swift",
     "languages": [
       "Swift",
-      "Makefile"
+      "Shell"
     ],
     "description": "A macOS note-taking app that keeps notes as plain .txt files and posts to Slack as you write.",
     "stars": 0,
-    "updated": "2026-07-05",
+    "updated": "2026-07-07",
     "created": "2026-07-04"
   },
   {
@@ -1144,7 +1144,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-06-29",
+    "updated": "2026-07-06",
     "created": "2023-03-11"
   },
   {
@@ -1175,7 +1175,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-06-29",
+    "updated": "2026-07-06",
     "created": "2024-02-11"
   },
   {
@@ -1366,7 +1366,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-06-29",
+    "updated": "2026-07-06",
     "created": "2023-06-17"
   },
   {
@@ -1590,7 +1590,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-06-28",
+    "updated": "2026-07-05",
     "created": "2024-01-14"
   },
   {
@@ -1811,7 +1811,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1115,
-    "updated": "2026-06-29",
+    "updated": "2026-07-06",
     "created": "2014-05-04"
   },
   {
@@ -1859,7 +1859,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-07-03",
+    "updated": "2026-07-06",
     "created": "2023-10-29"
   },
   {
@@ -1907,7 +1907,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-07-03",
+    "updated": "2026-07-06",
     "created": "2025-10-11"
   },
   {
@@ -2063,7 +2063,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-07-06",
     "created": "2024-11-18"
   },
   {
@@ -2237,8 +2237,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
-    "stars": 17,
-    "updated": "2026-07-03",
+    "stars": 18,
+    "updated": "2026-07-06",
     "created": "2026-02-21"
   },
   {
@@ -2302,7 +2302,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-07-01",
+    "updated": "2026-07-06",
     "created": "2026-05-05"
   },
   {
@@ -2441,7 +2441,7 @@
     ],
     "description": "It is Ruby code matcher.",
     "stars": 3,
-    "updated": "2026-06-29",
+    "updated": "2026-07-06",
     "created": "2017-12-13"
   },
   {
@@ -2505,7 +2505,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-06-29",
+    "updated": "2026-07-06",
     "created": "2016-04-09"
   },
   {
@@ -2804,7 +2804,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-07-02",
+    "updated": "2026-07-05",
     "created": "2026-03-22"
   },
   {
@@ -2898,7 +2898,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-07-04",
+    "updated": "2026-07-06",
     "created": "2024-02-03"
   },
   {
@@ -2946,7 +2946,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-06-28",
+    "updated": "2026-07-05",
     "created": "2023-12-17"
   },
   {
@@ -3026,7 +3026,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-07-01",
+    "updated": "2026-07-06",
     "created": "2022-07-16"
   },
   {
@@ -3090,7 +3090,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-07-01",
+    "updated": "2026-07-06",
     "created": "2025-04-05"
   },
   {
@@ -3234,7 +3234,7 @@
     ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-07",
     "created": "2026-05-22"
   },
   {
@@ -3250,7 +3250,7 @@
     ],
     "description": "tfunfold is a tool to expand Terraform for_each / count into individual resources or modules with moved blocks.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-07",
     "created": "2026-06-16"
   },
   {
@@ -3266,7 +3266,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-06-29",
+    "updated": "2026-07-06",
     "created": "2026-05-30"
   },
   {
