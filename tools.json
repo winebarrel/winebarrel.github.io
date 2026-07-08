@@ -43,7 +43,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 39,
-    "updated": "2026-07-03",
+    "updated": "2026-07-08",
     "created": "2022-10-16"
   },
   {
@@ -202,7 +202,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-07-02",
+    "updated": "2026-07-08",
     "created": "2024-12-04"
   },
   {
@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-07-06",
+    "updated": "2026-07-07",
     "created": "2022-05-29"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-07-06",
+    "updated": "2026-07-08",
     "created": "2024-01-05"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-07-06",
+    "updated": "2026-07-08",
     "created": "2022-12-08"
   },
   {
@@ -565,7 +565,7 @@
     ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-08",
     "created": "2025-12-27"
   },
   {
@@ -581,7 +581,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-06-30",
+    "updated": "2026-07-07",
     "created": "2025-08-31"
   },
   {
@@ -733,7 +733,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-06-18",
+    "updated": "2026-07-07",
     "created": "2023-08-18"
   },
   {
@@ -940,7 +940,7 @@
     ],
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 0,
-    "updated": "2026-07-03",
+    "updated": "2026-07-08",
     "created": "2025-12-13"
   },
   {
@@ -1066,7 +1066,7 @@
     ],
     "description": "Wrapper command for docker-credential-ecr-login to add environment variables.",
     "stars": 0,
-    "updated": "2026-06-22",
+    "updated": "2026-07-07",
     "created": "2023-03-04"
   },
   {
@@ -1462,7 +1462,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-06-30",
+    "updated": "2026-07-08",
     "created": "2025-05-18"
   },
   {
@@ -1732,7 +1732,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-06-30",
+    "updated": "2026-07-07",
     "created": "2023-06-03"
   },
   {
@@ -1780,7 +1780,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-06-30",
+    "updated": "2026-07-07",
     "created": "2023-12-19"
   },
   {
@@ -1939,7 +1939,7 @@
     ],
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
-    "updated": "2026-06-22",
+    "updated": "2026-07-08",
     "created": "2022-05-08"
   },
   {
@@ -2238,7 +2238,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 18,
-    "updated": "2026-07-06",
+    "updated": "2026-07-08",
     "created": "2026-02-21"
   },
   {
@@ -2302,7 +2302,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-07-06",
+    "updated": "2026-07-08",
     "created": "2026-05-05"
   },
   {
@@ -2914,7 +2914,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 9,
-    "updated": "2026-07-04",
+    "updated": "2026-07-08",
     "created": "2023-04-25"
   },
   {
@@ -2930,7 +2930,7 @@
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 5,
-    "updated": "2026-07-02",
+    "updated": "2026-07-08",
     "created": "2026-05-18"
   },
   {
@@ -3010,7 +3010,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-07-04",
+    "updated": "2026-07-07",
     "created": "2023-08-20"
   },
   {
@@ -3026,7 +3026,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-07-06",
+    "updated": "2026-07-07",
     "created": "2022-07-16"
   },
   {
@@ -3074,7 +3074,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-06-30",
+    "updated": "2026-07-07",
     "created": "2025-04-17"
   },
   {
@@ -3090,7 +3090,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-07-06",
+    "updated": "2026-07-08",
     "created": "2025-04-05"
   },
   {
@@ -3266,7 +3266,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-07-06",
+    "updated": "2026-07-08",
     "created": "2026-05-30"
   },
   {
@@ -3330,7 +3330,7 @@
     ],
     "description": "PagerCall is a utility app that shows PagerDuty status on the menu bar.",
     "stars": 10,
-    "updated": "2026-06-22",
+    "updated": "2026-07-08",
     "created": "2024-09-30"
   },
   {
