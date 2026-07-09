@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-07-06",
+    "updated": "2026-07-09",
     "created": "2022-02-23"
   },
   {
@@ -202,7 +202,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-07-08",
+    "updated": "2026-07-09",
     "created": "2024-12-04"
   },
   {
@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-07-07",
+    "updated": "2026-07-09",
     "created": "2022-05-29"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-07-08",
+    "updated": "2026-07-09",
     "created": "2024-01-05"
   },
   {
@@ -314,7 +314,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-07-08",
+    "updated": "2026-07-09",
     "created": "2022-12-08"
   },
   {
@@ -377,7 +377,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-07-07",
+    "updated": "2026-07-09",
     "created": "2025-07-17"
   },
   {
@@ -438,7 +438,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-07-06",
+    "updated": "2026-07-09",
     "created": "2025-04-14"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-07-06",
+    "updated": "2026-07-09",
     "created": "2026-02-07"
   },
   {
@@ -612,7 +612,7 @@
     ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-08",
     "created": "2025-09-01"
   },
   {
@@ -1810,7 +1810,7 @@
       "Ruby"
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
-    "stars": 1115,
+    "stars": 1116,
     "updated": "2026-07-06",
     "created": "2014-05-04"
   },
@@ -1907,7 +1907,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-07-06",
+    "updated": "2026-07-09",
     "created": "2025-10-11"
   },
   {
@@ -1986,7 +1986,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-06-29",
+    "updated": "2026-07-09",
     "created": "2026-05-02"
   },
   {
@@ -2238,7 +2238,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 18,
-    "updated": "2026-07-08",
+    "updated": "2026-07-09",
     "created": "2026-02-21"
   },
   {
@@ -3026,7 +3026,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-07-07",
+    "updated": "2026-07-09",
     "created": "2022-07-16"
   },
   {
@@ -3090,7 +3090,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-07-08",
+    "updated": "2026-07-09",
     "created": "2025-04-05"
   },
   {
@@ -3218,7 +3218,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 0,
-    "updated": "2026-06-19",
+    "updated": "2026-07-08",
     "created": "2026-05-24"
   },
   {
@@ -3330,7 +3330,7 @@
     ],
     "description": "PagerCall is a utility app that shows PagerDuty status on the menu bar.",
     "stars": 10,
-    "updated": "2026-07-08",
+    "updated": "2026-07-09",
     "created": "2024-09-30"
   },
   {
