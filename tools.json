@@ -234,7 +234,7 @@
     ],
     "description": "Wrapper for ecspresso that creates task definitions at run time.",
     "stars": 2,
-    "updated": "2026-06-22",
+    "updated": "2026-07-10",
     "created": "2022-05-22"
   },
   {
@@ -581,7 +581,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-07-07",
+    "updated": "2026-07-09",
     "created": "2025-08-31"
   },
   {
@@ -1254,7 +1254,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-07-03",
+    "updated": "2026-07-10",
     "created": "2023-02-11"
   },
   {
@@ -1462,7 +1462,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-07-08",
+    "updated": "2026-07-09",
     "created": "2025-05-18"
   },
   {
@@ -1907,7 +1907,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-07-09",
+    "updated": "2026-07-10",
     "created": "2025-10-11"
   },
   {
@@ -2238,7 +2238,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 18,
-    "updated": "2026-07-09",
+    "updated": "2026-07-10",
     "created": "2026-02-21"
   },
   {
@@ -2898,7 +2898,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-07-06",
+    "updated": "2026-07-10",
     "created": "2024-02-03"
   },
   {
@@ -3074,7 +3074,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-07-07",
+    "updated": "2026-07-09",
     "created": "2025-04-17"
   },
   {
@@ -3330,7 +3330,7 @@
     ],
     "description": "PagerCall is a utility app that shows PagerDuty status on the menu bar.",
     "stars": 10,
-    "updated": "2026-07-09",
+    "updated": "2026-07-10",
     "created": "2024-09-30"
   },
   {
