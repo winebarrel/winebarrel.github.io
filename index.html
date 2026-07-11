@@ -591,6 +591,33 @@
   const modalBody = document.getElementById('readme-body');
   const readmeCache = new Map();
 
+  // Persist rendered READMEs across sessions so revisits don't re-hit the API
+  // (unauthenticated GitHub API is limited to 60 requests/hour per IP).
+  const README_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days
+  const lsKey = repo => `readme:v1:${repo}`;
+  function getStoredReadme(repo) {
+    try {
+      const raw = localStorage.getItem(lsKey(repo));
+      if (!raw) return null;
+      const { html, ts } = JSON.parse(raw);
+      if (!html || Date.now() - ts > README_TTL) { localStorage.removeItem(lsKey(repo)); return null; }
+      return html;
+    } catch { return null; }
+  }
+  function setStoredReadme(repo, html) {
+    let payload;
+    try { payload = JSON.stringify({ html, ts: Date.now() }); } catch { return; }
+    try {
+      localStorage.setItem(lsKey(repo), payload);
+    } catch {
+      // quota exceeded — evict other cached READMEs and retry once
+      try {
+        for (const k of Object.keys(localStorage)) if (k.startsWith('readme:')) localStorage.removeItem(k);
+        localStorage.setItem(lsKey(repo), payload);
+      } catch { /* give up on persisting */ }
+    }
+  }
+
   // Absolute already? (scheme, protocol-relative, in-page anchor, mailto/data)
   function isAbsUrl(v) {
     return /^(https?:)?\/\//i.test(v) || v.startsWith('#') ||
@@ -626,6 +653,8 @@
     const repo = `${m[1]}/${m[2]}`;
 
     if (readmeCache.has(repo)) { modalBody.innerHTML = readmeCache.get(repo); return; }
+    const stored = getStoredReadme(repo);
+    if (stored) { readmeCache.set(repo, stored); modalBody.innerHTML = stored; return; }
     modalBody.innerHTML = `<p class="loading">loading README…</p>`;
     try {
       const res = await fetch(`https://api.github.com/repos/${repo}/readme`, {
@@ -640,6 +669,7 @@
       // resolve them against the repo so they don't 404 against our own origin.
       rewriteRelativeUrls(modalBody, repo);
       readmeCache.set(repo, modalBody.innerHTML);
+      setStoredReadme(repo, modalBody.innerHTML);
       modalBody.scrollTop = 0;
     } catch (err) {
       modalBody.innerHTML = `<p class="loading">Failed to load README. <a href="${url}" target="_blank" rel="noopener noreferrer">Open on GitHub</a>.</p>`;
