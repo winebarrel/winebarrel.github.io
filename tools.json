@@ -2302,7 +2302,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-07-08",
+    "updated": "2026-07-11",
     "created": "2026-05-05"
   },
   {
@@ -2962,7 +2962,7 @@
     ],
     "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
     "stars": 2,
-    "updated": "2026-07-03",
+    "updated": "2026-07-10",
     "created": "2023-09-30"
   },
   {
@@ -2978,7 +2978,7 @@
     ],
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
-    "updated": "2026-07-03",
+    "updated": "2026-07-10",
     "created": "2025-07-09"
   },
   {
@@ -2994,7 +2994,7 @@
     ],
     "description": "Terraform provider for running one-shot commands.",
     "stars": 1,
-    "updated": "2026-07-03",
+    "updated": "2026-07-10",
     "created": "2024-09-21"
   },
   {
@@ -3090,7 +3090,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-07-09",
+    "updated": "2026-07-11",
     "created": "2025-04-05"
   },
   {
@@ -3266,7 +3266,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-07-08",
+    "updated": "2026-07-10",
     "created": "2026-05-30"
   },
   {
@@ -3380,6 +3380,21 @@
     "stars": 1,
     "updated": "2026-06-20",
     "created": "2024-11-17"
+  },
+  {
+    "name": "CursorIME",
+    "url": "https://github.com/winebarrel/CursorIME",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift"
+    ],
+    "description": "macOS utility that shows an \"あ\" badge next to the mouse cursor while Japanese input is active",
+    "stars": 0,
+    "updated": "2026-07-10",
+    "created": "2026-07-10"
   },
   {
     "name": "SimpleResize",

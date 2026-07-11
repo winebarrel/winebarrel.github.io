@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 10 Jul 2026 18:27:48 GMT</lastBuildDate>
+<lastBuildDate>Sat, 11 Jul 2026 04:41:09 GMT</lastBuildDate>
+<item>
+  <title>CursorIME</title>
+  <link>https://github.com/winebarrel/CursorIME</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/CursorIME</guid>
+  <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+  <description>macOS utility that shows an &quot;あ&quot; badge next to the mouse cursor while Japanese input is active</description>
+  <category>macOS / iOS</category>
+</item>
 <item>
   <title>Slackpad</title>
   <link>https://github.com/winebarrel/Slackpad</link>
@@ -398,14 +406,6 @@
   <pubDate>Mon, 18 Nov 2024 00:00:00 GMT</pubDate>
   <description>PING utility for databases (MySQL/PostgreSQL)</description>
   <category>MySQL</category>
-</item>
-<item>
-  <title>Pullse</title>
-  <link>https://github.com/winebarrel/Pullse</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/Pullse</guid>
-  <pubDate>Sun, 17 Nov 2024 00:00:00 GMT</pubDate>
-  <description>Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.</description>
-  <category>macOS / iOS</category>
 </item>
 </channel>
 </rss>
