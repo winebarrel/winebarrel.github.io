@@ -100,6 +100,14 @@
   </p>
 </footer>
 
+<dialog id="readme-modal" aria-label="README">
+  <div class="readme-head">
+    <a id="readme-title" href="#" target="_blank" rel="noopener noreferrer"></a>
+    <button id="readme-close" type="button" aria-label="Close">✕</button>
+  </div>
+  <div id="readme-body" class="markdown-body"></div>
+</dialog>
+
 <script>
 (async () => {
   const res = await fetch('tools.json', {cache: 'no-cache'});
@@ -402,7 +410,10 @@
     }).join('');
     return `
       <li class="card">
-        <h3><a href="${t.url}">${highlight(t.name, state.q)}</a></h3>
+        <h3>
+          <a href="${t.url}">${highlight(t.name, state.q)}</a>
+          <button type="button" class="readme-btn" data-readme="${escapeAttr(t.url)}" data-name="${escapeAttr(t.name)}" title="View README" aria-label="View README">README</button>
+        </h3>
         <div class="cats">${catChips}</div>
         <div class="meta">
           ${(t.languages && t.languages.length ? t.languages : (t.language && t.language !== 'none' ? [t.language] : [])).map(l => `<span class="lang"><span class="lang-dot" style="background:${langColors[l] || '#9aa0a6'}"></span>${escapeHtml(l)}</span>`).join('')}
@@ -560,12 +571,78 @@
   document.getElementById('stats').addEventListener('click', handleStatClick);
 
   document.getElementById('app').addEventListener('click', e => {
+    const readmeBtn = e.target.closest('.readme-btn');
+    if (readmeBtn) {
+      e.preventDefault();
+      openReadme(readmeBtn.dataset.readme, readmeBtn.dataset.name);
+      return;
+    }
     const btn = e.target.closest('.cat-chip');
     if (!btn) return;
     e.preventDefault();
     toggleChip(state.cats, btn.dataset.value);
     syncHash();
     render();
+  });
+
+  // README modal
+  const modal = document.getElementById('readme-modal');
+  const modalTitle = document.getElementById('readme-title');
+  const modalBody = document.getElementById('readme-body');
+  const readmeCache = new Map();
+
+  async function openReadme(url, name) {
+    const m = /github\.com\/([^/]+)\/([^/]+)/.exec(url || '');
+    modalTitle.textContent = name || 'README';
+    modalTitle.href = url || '#';
+    modal.showModal();
+    modalBody.scrollTop = 0;
+    if (!m) { modalBody.innerHTML = `<p class="loading">Invalid repository URL.</p>`; return; }
+    const repo = `${m[1]}/${m[2]}`;
+
+    if (readmeCache.has(repo)) { modalBody.innerHTML = readmeCache.get(repo); return; }
+    modalBody.innerHTML = `<p class="loading">loading README…</p>`;
+    try {
+      const res = await fetch(`https://api.github.com/repos/${repo}/readme`, {
+        headers: { Accept: 'application/vnd.github.html+json' },
+      });
+      if (res.status === 404) { modalBody.innerHTML = `<p class="loading">No README found for this repository.</p>`; return; }
+      if (res.status === 403) { modalBody.innerHTML = `<p class="loading">GitHub API rate limit reached. Please try again later, or <a href="${url}" target="_blank" rel="noopener noreferrer">open on GitHub</a>.</p>`; return; }
+      if (!res.ok) { modalBody.innerHTML = `<p class="loading">Failed to load README (HTTP ${res.status}).</p>`; return; }
+      const html = await res.text();
+      readmeCache.set(repo, html);
+      // If the same repo modal is still open, render it.
+      modalBody.innerHTML = html;
+      modalBody.scrollTop = 0;
+    } catch (err) {
+      modalBody.innerHTML = `<p class="loading">Failed to load README. <a href="${url}" target="_blank" rel="noopener noreferrer">Open on GitHub</a>.</p>`;
+    }
+  }
+
+  function closeReadme() { modal.close(); }
+  document.getElementById('readme-close').addEventListener('click', closeReadme);
+  // click outside the content (on the backdrop) closes
+  modal.addEventListener('click', e => {
+    if (e.target === modal) closeReadme();
+  });
+  modal.addEventListener('close', () => { modalBody.innerHTML = ''; });
+  // keep README links from navigating the page away
+  modalBody.addEventListener('click', e => {
+    const a = e.target.closest('a[href]');
+    if (!a) return;
+    const href = a.getAttribute('href');
+    if (href.startsWith('#')) {
+      // in-page anchor: scroll within the modal (GitHub prefixes ids with user-content-)
+      e.preventDefault();
+      const slug = href.slice(1);
+      const target = modalBody.querySelector(`#user-content-${CSS.escape(slug)}`) ||
+                     modalBody.querySelector(`#${CSS.escape(slug)}`);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      // external link: open in a new tab, never leave this page
+      e.preventDefault();
+      window.open(a.href, '_blank', 'noopener,noreferrer');
+    }
   });
 
   // keyboard shortcut: '/' to focus search
