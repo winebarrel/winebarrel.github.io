@@ -2930,7 +2930,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-07-10",
+    "updated": "2026-07-11",
     "created": "2024-02-03"
   },
   {
@@ -3427,6 +3427,21 @@
     "stars": 0,
     "updated": "2026-07-10",
     "created": "2026-07-10"
+  },
+  {
+    "name": "Neco",
+    "url": "https://github.com/winebarrel/Neco",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift"
+    ],
+    "description": "An oneko / xneko-style desktop pet: a cat that chases your mouse cursor, for macOS.",
+    "stars": 0,
+    "updated": "2026-07-11",
+    "created": "2026-07-11"
   },
   {
     "name": "SimpleResize",
