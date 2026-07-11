@@ -616,6 +616,10 @@
     const m = /github\.com\/([^/]+)\/([^/]+)/.exec(url || '');
     modalTitle.textContent = name || 'README';
     modalTitle.href = url || '#';
+    // lock the page behind the modal so its scrollbar doesn't double up
+    const sw = window.innerWidth - document.documentElement.clientWidth;
+    document.body.style.overflow = 'hidden';
+    if (sw > 0) document.body.style.paddingRight = `${sw}px`;
     modal.showModal();
     modalBody.scrollTop = 0;
     if (!m) { modalBody.innerHTML = `<p class="loading">Invalid repository URL.</p>`; return; }
@@ -648,7 +652,11 @@
   modal.addEventListener('click', e => {
     if (e.target === modal) closeReadme();
   });
-  modal.addEventListener('close', () => { modalBody.innerHTML = ''; });
+  modal.addEventListener('close', () => {
+    modalBody.innerHTML = '';
+    document.body.style.overflow = '';
+    document.body.style.paddingRight = '';
+  });
   // keep README links from navigating the page away
   modalBody.addEventListener('click', e => {
     const a = e.target.closest('a[href]');

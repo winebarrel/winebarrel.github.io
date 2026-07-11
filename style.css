@@ -282,6 +282,24 @@ mark {
   overflow-y: auto;
   font-size: .8rem;
 }
+/* subtle, thin scrollbars for the in-page scroll areas */
+.legend, #readme-body {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted) 45%, transparent) transparent;
+}
+.legend::-webkit-scrollbar,
+#readme-body::-webkit-scrollbar { width: 8px; height: 8px; }
+.legend::-webkit-scrollbar-track,
+#readme-body::-webkit-scrollbar-track { background: transparent; }
+.legend::-webkit-scrollbar-thumb,
+#readme-body::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--muted) 40%, transparent);
+  border-radius: 4px;
+}
+.legend::-webkit-scrollbar-thumb:hover,
+#readme-body::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--muted) 65%, transparent);
+}
 .legend li {
   display: flex;
   align-items: center;
@@ -428,7 +446,9 @@ ul.cards {
   cursor: pointer;
 }
 #readme-close:hover { border-color: var(--accent); color: var(--accent); }
-.markdown-body {
+/* scroll container is the outer #readme-body only — GitHub wraps content in a
+   nested .markdown-body article, so scoping overflow here avoids a double bar */
+#readme-body {
   padding: 1.25rem 1.5rem 2rem;
   overflow-y: auto;
   max-height: calc(88vh - 3.5rem);
