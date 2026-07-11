@@ -591,6 +591,27 @@
   const modalBody = document.getElementById('readme-body');
   const readmeCache = new Map();
 
+  // Absolute already? (scheme, protocol-relative, in-page anchor, mailto/data)
+  function isAbsUrl(v) {
+    return /^(https?:)?\/\//i.test(v) || v.startsWith('#') ||
+           v.startsWith('mailto:') || v.startsWith('data:') || v.startsWith('tel:');
+  }
+  function rewriteRelativeUrls(root, repo) {
+    const clean = v => v.replace(/^\.\//, '').replace(/^\//, '');
+    root.querySelectorAll('img[src]').forEach(img => {
+      const v = img.getAttribute('src');
+      if (v && !isAbsUrl(v)) {
+        img.setAttribute('src', `https://raw.githubusercontent.com/${repo}/HEAD/${clean(v)}`);
+      }
+    });
+    root.querySelectorAll('a[href]').forEach(a => {
+      const v = a.getAttribute('href');
+      if (v && !isAbsUrl(v)) {
+        a.setAttribute('href', `https://github.com/${repo}/blob/HEAD/${clean(v)}`);
+      }
+    });
+  }
+
   async function openReadme(url, name) {
     const m = /github\.com\/([^/]+)\/([^/]+)/.exec(url || '');
     modalTitle.textContent = name || 'README';
@@ -610,9 +631,11 @@
       if (res.status === 403) { modalBody.innerHTML = `<p class="loading">GitHub API rate limit reached. Please try again later, or <a href="${url}" target="_blank" rel="noopener noreferrer">open on GitHub</a>.</p>`; return; }
       if (!res.ok) { modalBody.innerHTML = `<p class="loading">Failed to load README (HTTP ${res.status}).</p>`; return; }
       const html = await res.text();
-      readmeCache.set(repo, html);
-      // If the same repo modal is still open, render it.
       modalBody.innerHTML = html;
+      // GitHub leaves same-repo relative paths (images, file links) untouched;
+      // resolve them against the repo so they don't 404 against our own origin.
+      rewriteRelativeUrls(modalBody, repo);
+      readmeCache.set(repo, modalBody.innerHTML);
       modalBody.scrollTop = 0;
     } catch (err) {
       modalBody.innerHTML = `<p class="loading">Failed to load README. <a href="${url}" target="_blank" rel="noopener noreferrer">Open on GitHub</a>.</p>`;
