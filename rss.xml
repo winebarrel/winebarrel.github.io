@@ -6,7 +6,23 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 11 Jul 2026 04:41:09 GMT</lastBuildDate>
+<lastBuildDate>Sat, 11 Jul 2026 08:29:04 GMT</lastBuildDate>
+<item>
+  <title>ddmcproxy</title>
+  <link>https://github.com/winebarrel/ddmcproxy</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/ddmcproxy</guid>
+  <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+  <description>A multi-org proxy for the Datadog MCP server: mirrors every Datadog MCP tool and adds an org argument so a single client connection can target multiple Datadog organizations.</description>
+  <category>Monitoring</category>
+</item>
+<item>
+  <title>awsapimcproxy</title>
+  <link>https://github.com/winebarrel/awsapimcproxy</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/awsapimcproxy</guid>
+  <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
+  <description>A multi-profile proxy for the AWS API MCP server: runs one aws-api-mcp-server per AWS profile and adds a profile argument to every tool so a single client connection can target multiple AWS profiles.</description>
+  <category>AWS</category>
+</item>
 <item>
   <title>CursorIME</title>
   <link>https://github.com/winebarrel/CursorIME</link>
@@ -390,22 +406,6 @@
   <pubDate>Mon, 13 Jan 2025 00:00:00 GMT</pubDate>
   <description>Small vertical battery icon on menu bar.</description>
   <category>macOS / iOS</category>
-</item>
-<item>
-  <title>rdsauth</title>
-  <link>https://github.com/kanmu/rdsauth</link>
-  <guid isPermaLink="true">https://github.com/kanmu/rdsauth</guid>
-  <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
-  <description>rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.</description>
-  <category>AWS</category>
-</item>
-<item>
-  <title>dbping</title>
-  <link>https://github.com/winebarrel/dbping</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/dbping</guid>
-  <pubDate>Mon, 18 Nov 2024 00:00:00 GMT</pubDate>
-  <description>PING utility for databases (MySQL/PostgreSQL)</description>
-  <category>MySQL</category>
 </item>
 </channel>
 </rss>
