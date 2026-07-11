@@ -462,6 +462,14 @@ ul.cards {
 }
 .markdown-body h1:first-child, .markdown-body h2:first-child { margin-top: 0; }
 .markdown-body img { max-width: 100%; height: auto; }
+/* GitHub's #gh-light/dark-mode-only image trick — hide the non-matching one.
+   (<picture>+prefers-color-scheme images are handled natively by the browser.) */
+@media (prefers-color-scheme: light) {
+  .markdown-body img[src$="#gh-dark-mode-only"] { display: none; }
+}
+@media (prefers-color-scheme: dark) {
+  .markdown-body img[src$="#gh-light-mode-only"] { display: none; }
+}
 .markdown-body pre {
   background: var(--card-bg);
   border: 1px solid var(--border);
