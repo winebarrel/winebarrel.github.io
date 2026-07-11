@@ -318,6 +318,22 @@ main h2 .count {
   margin-left: .5rem;
   font-variant-numeric: tabular-nums;
 }
+main h3.month {
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--muted);
+  margin: 1.25rem 0 .6rem;
+}
+main h3.month:first-of-type { margin-top: 0; }
+main h3.month .count {
+  font-size: .75rem;
+  color: var(--muted);
+  font-weight: normal;
+  margin-left: .35rem;
+  font-variant-numeric: tabular-nums;
+}
 
 ul.cards {
   list-style: none;

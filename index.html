@@ -473,18 +473,34 @@
         if (ad === bd) return a.name.localeCompare(b.name);
         return ad < bd ? -1 * dir : 1 * dir;
       });
+      const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                          'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
       const byYear = new Map();
       for (const t of sorted) {
         const y = (t.created || '????').slice(0, 4);
-        if (!byYear.has(y)) byYear.set(y, []);
-        byYear.get(y).push(t);
+        const mo = (t.created || '').slice(5, 7);
+        if (!byYear.has(y)) byYear.set(y, new Map());
+        const byMonth = byYear.get(y);
+        if (!byMonth.has(mo)) byMonth.set(mo, []);
+        byMonth.get(mo).push(t);
       }
-      app.innerHTML = [...byYear.entries()].map(([y, items]) => `
-        <section id="y-${y}">
-          <h2>${y} <span class="count">${items.length}</span></h2>
-          <ul class="cards">${items.map(cardHtml).join('')}</ul>
-        </section>
-      `).join('');
+      app.innerHTML = [...byYear.entries()].map(([y, byMonth]) => {
+        const yearCount = [...byMonth.values()].reduce((n, a) => n + a.length, 0);
+        const months = [...byMonth.entries()].map(([mo, items]) => {
+          const idx = parseInt(mo, 10) - 1;
+          const label = idx >= 0 && idx < 12 ? monthNames[idx] : '??';
+          return `
+            <h3 class="month">${label} <span class="count">${items.length}</span></h3>
+            <ul class="cards">${items.map(cardHtml).join('')}</ul>
+          `;
+        }).join('');
+        return `
+          <section id="y-${y}">
+            <h2>${y} <span class="count">${yearCount}</span></h2>
+            ${months}
+          </section>
+        `;
+      }).join('');
     }
   }
 
