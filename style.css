@@ -81,6 +81,16 @@ header { padding-top: 3rem; padding-bottom: 1rem; }
   height: 14px;
   fill: currentColor;
 }
+.neko-toggle {
+  padding: 0;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+}
+.neko-toggle.active {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 16%, var(--card-bg));
+}
 
 header h1 {
   font-size: 2rem;
