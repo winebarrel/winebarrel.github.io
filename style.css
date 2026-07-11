@@ -461,6 +461,25 @@ ul.cards {
   margin-top: 1.4em;
 }
 .markdown-body h1:first-child, .markdown-body h2:first-child { margin-top: 0; }
+/* GitHub heading permalink anchor: it follows the heading as an inline element,
+   so it drops onto its own line. Pull it into the left gutter and reveal the
+   chain icon on hover (the anchor keeps its id target for TOC scrolling). */
+.markdown-body .markdown-heading { position: relative; }
+.markdown-body .anchor {
+  position: absolute;
+  left: -1.25rem;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.markdown-body .octicon-link {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  visibility: hidden;
+}
+.markdown-body .markdown-heading:hover .octicon-link { visibility: visible; }
 .markdown-body img { max-width: 100%; height: auto; }
 /* GitHub's #gh-light/dark-mode-only image trick — hide the non-matching one.
    (<picture>+prefers-color-scheme images are handled natively by the browser.) */
