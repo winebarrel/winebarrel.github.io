@@ -503,6 +503,54 @@ ul.cards {
   border-radius: 4px;
 }
 .markdown-body pre code { background: none; padding: 0; }
+
+/* Syntax highlighting: GitHub already tokenizes fenced code blocks into Primer
+   .pl-* spans, so we only supply the colors. Values mirror GitHub's light/dark
+   default themes. Light is the default; dark overrides below. */
+.markdown-body .pl-c, .markdown-body .pl-c span { color: #6e7781; }
+.markdown-body .pl-c1, .markdown-body .pl-s .pl-v { color: #0550ae; }
+.markdown-body .pl-e, .markdown-body .pl-en { color: #8250df; }
+.markdown-body .pl-smi, .markdown-body .pl-s .pl-s1 { color: #24292f; }
+.markdown-body .pl-ent { color: #116329; }
+.markdown-body .pl-k { color: #cf222e; }
+.markdown-body .pl-s, .markdown-body .pl-pds, .markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr, .markdown-body .pl-sr .pl-cce, .markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra { color: #0a3069; }
+.markdown-body .pl-v, .markdown-body .pl-smw { color: #953800; }
+.markdown-body .pl-bu { color: #82071e; }
+.markdown-body .pl-ii { color: #f6f8fa; background-color: #82071e; }
+.markdown-body .pl-c2 { color: #f6f8fa; background-color: #cf222e; }
+.markdown-body .pl-ml { color: #3b2300; }
+.markdown-body .pl-mh, .markdown-body .pl-mh .pl-en, .markdown-body .pl-ms { color: #0550ae; font-weight: bold; }
+.markdown-body .pl-mi { color: #24292f; font-style: italic; }
+.markdown-body .pl-mb { color: #24292f; font-weight: bold; }
+.markdown-body .pl-md { color: #82071e; background-color: #ffebe9; }
+.markdown-body .pl-mi1 { color: #116329; background-color: #dafbe1; }
+.markdown-body .pl-mc { color: #953800; background-color: #ffd8b5; }
+.markdown-body .pl-mdr { color: #8250df; font-weight: bold; }
+.markdown-body .pl-corl { color: #0550ae; text-decoration: underline; }
+@media (prefers-color-scheme: dark) {
+  .markdown-body .pl-c, .markdown-body .pl-c span { color: #8b949e; }
+  .markdown-body .pl-c1, .markdown-body .pl-s .pl-v { color: #79c0ff; }
+  .markdown-body .pl-e, .markdown-body .pl-en { color: #d2a8ff; }
+  .markdown-body .pl-smi, .markdown-body .pl-s .pl-s1 { color: #c9d1d9; }
+  .markdown-body .pl-ent { color: #7ee787; }
+  .markdown-body .pl-k { color: #ff7b72; }
+  .markdown-body .pl-s, .markdown-body .pl-pds, .markdown-body .pl-s .pl-pse .pl-s1,
+  .markdown-body .pl-sr, .markdown-body .pl-sr .pl-cce, .markdown-body .pl-sr .pl-sre,
+  .markdown-body .pl-sr .pl-sra { color: #a5d6ff; }
+  .markdown-body .pl-v, .markdown-body .pl-smw { color: #ffa657; }
+  .markdown-body .pl-bu { color: #f85149; }
+  .markdown-body .pl-ml { color: #f2cc60; }
+  .markdown-body .pl-mh, .markdown-body .pl-mh .pl-en, .markdown-body .pl-ms { color: #79c0ff; }
+  .markdown-body .pl-mi { color: #c9d1d9; }
+  .markdown-body .pl-mb { color: #c9d1d9; }
+  .markdown-body .pl-md { color: #ffdcd7; background-color: #67060c; }
+  .markdown-body .pl-mi1 { color: #aff5b4; background-color: #033a16; }
+  .markdown-body .pl-mc { color: #ffdfb6; background-color: #5a1e02; }
+  .markdown-body .pl-mdr { color: #d2a8ff; }
+  .markdown-body .pl-corl { color: #a5d6ff; }
+}
 .markdown-body table {
   border-collapse: collapse;
   display: block;
