@@ -595,7 +595,7 @@
   // Persist rendered READMEs across sessions so revisits don't re-hit the API
   // (unauthenticated GitHub API is limited to 60 requests/hour per IP).
   const README_TTL = 7 * 24 * 60 * 60 * 1000; // 7 days
-  const lsKey = repo => `readme:v1:${repo}`;
+  const lsKey = repo => `readme:v2:${repo}`;
   function getStoredReadme(repo) {
     try {
       const raw = localStorage.getItem(lsKey(repo));
@@ -624,17 +624,31 @@
     return /^(https?:)?\/\//i.test(v) || v.startsWith('#') ||
            v.startsWith('mailto:') || v.startsWith('data:') || v.startsWith('tel:');
   }
+  // GitHub bakes user-uploaded assets into README HTML as short-lived signed
+  // private-user-images URLs (JWT expires in ~5 min), which breaks once we cache
+  // the HTML. Rewrite them back to the stable public user-attachments URL, which
+  // redirects to a freshly-signed asset on every request.
+  function stabilizeAsset(v) {
+    const m = /private-user-images\.githubusercontent\.com\/[^"'\s]*?([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})/i.exec(v || '');
+    return m ? `https://github.com/user-attachments/assets/${m[1]}` : null;
+  }
   function rewriteRelativeUrls(root, repo) {
     const clean = v => v.replace(/^\.\//, '').replace(/^\//, '');
     root.querySelectorAll('img[src]').forEach(img => {
       const v = img.getAttribute('src');
-      if (v && !isAbsUrl(v)) {
+      const stable = stabilizeAsset(v);
+      if (stable) {
+        img.setAttribute('src', stable);
+      } else if (v && !isAbsUrl(v)) {
         img.setAttribute('src', `https://raw.githubusercontent.com/${repo}/HEAD/${clean(v)}`);
       }
     });
     root.querySelectorAll('a[href]').forEach(a => {
       const v = a.getAttribute('href');
-      if (v && !isAbsUrl(v)) {
+      const stable = stabilizeAsset(v);
+      if (stable) {
+        a.setAttribute('href', stable);
+      } else if (v && !isAbsUrl(v)) {
         a.setAttribute('href', `https://github.com/${repo}/blob/HEAD/${clean(v)}`);
       }
     });
