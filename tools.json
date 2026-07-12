@@ -581,7 +581,7 @@
     ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
-    "updated": "2026-07-08",
+    "updated": "2026-07-12",
     "created": "2025-12-27"
   },
   {
@@ -1270,7 +1270,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-07-10",
+    "updated": "2026-07-12",
     "created": "2023-02-11"
   },
   {
@@ -1590,7 +1590,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-07-05",
+    "updated": "2026-07-12",
     "created": "2023-03-18"
   },
   {
@@ -2269,7 +2269,7 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
-    "stars": 18,
+    "stars": 19,
     "updated": "2026-07-10",
     "created": "2026-02-21"
   },
@@ -2334,7 +2334,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-07-11",
+    "updated": "2026-07-12",
     "created": "2026-05-05"
   },
   {
@@ -3010,7 +3010,7 @@
     ],
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
-    "updated": "2026-07-10",
+    "updated": "2026-07-12",
     "created": "2025-07-09"
   },
   {
@@ -3090,7 +3090,7 @@
     ],
     "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-12",
     "created": "2026-05-20"
   },
   {
@@ -3138,7 +3138,7 @@
     ],
     "description": "Terraform provider for multi-pattern string replacement",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-12",
     "created": "2025-07-12"
   },
   {
@@ -3266,7 +3266,7 @@
     ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
-    "updated": "2026-07-07",
+    "updated": "2026-07-12",
     "created": "2026-05-22"
   },
   {
@@ -3298,7 +3298,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-07-10",
+    "updated": "2026-07-12",
     "created": "2026-05-30"
   },
   {
@@ -3440,7 +3440,7 @@
     ],
     "description": "An oneko / xneko-style desktop pet: a cat that chases your mouse cursor, for macOS.",
     "stars": 0,
-    "updated": "2026-07-11",
+    "updated": "2026-07-12",
     "created": "2026-07-11"
   },
   {
