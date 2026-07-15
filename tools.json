@@ -202,7 +202,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-07-09",
+    "updated": "2026-07-15",
     "created": "2024-12-04"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-07-13",
+    "updated": "2026-07-15",
     "created": "2024-01-05"
   },
   {
@@ -393,7 +393,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-07-13",
+    "updated": "2026-07-15",
     "created": "2025-07-17"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-07-13",
+    "updated": "2026-07-15",
     "created": "2025-04-14"
   },
   {
@@ -470,7 +470,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-07-13",
+    "updated": "2026-07-15",
     "created": "2026-02-07"
   },
   {
@@ -581,7 +581,7 @@
     ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
-    "updated": "2026-07-12",
+    "updated": "2026-07-15",
     "created": "2025-12-27"
   },
   {
@@ -597,7 +597,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-07-09",
+    "updated": "2026-07-15",
     "created": "2025-08-31"
   },
   {
@@ -628,7 +628,7 @@
     ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
-    "updated": "2026-07-08",
+    "updated": "2026-07-15",
     "created": "2025-09-01"
   },
   {
@@ -749,7 +749,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-07-07",
+    "updated": "2026-07-15",
     "created": "2023-08-18"
   },
   {
@@ -956,7 +956,7 @@
     ],
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 1,
-    "updated": "2026-07-08",
+    "updated": "2026-07-15",
     "created": "2025-12-13"
   },
   {
@@ -1145,7 +1145,7 @@
     ],
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
-    "updated": "2026-06-29",
+    "updated": "2026-07-15",
     "created": "2025-11-08"
   },
   {
@@ -1334,7 +1334,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-07-03",
+    "updated": "2026-07-15",
     "created": "2026-01-01"
   },
   {
@@ -1478,7 +1478,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-07-09",
+    "updated": "2026-07-15",
     "created": "2025-05-18"
   },
   {
@@ -1748,7 +1748,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-07-07",
+    "updated": "2026-07-15",
     "created": "2023-06-03"
   },
   {
@@ -1796,7 +1796,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-07-07",
+    "updated": "2026-07-15",
     "created": "2023-12-19"
   },
   {
@@ -1939,7 +1939,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-07-13",
+    "updated": "2026-07-15",
     "created": "2025-10-11"
   },
   {
@@ -2018,7 +2018,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-07-09",
+    "updated": "2026-07-15",
     "created": "2026-05-02"
   },
   {
@@ -2238,7 +2238,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-07-02",
+    "updated": "2026-07-15",
     "created": "2026-05-30"
   },
   {
@@ -2270,7 +2270,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 18,
-    "updated": "2026-07-13",
+    "updated": "2026-07-15",
     "created": "2026-02-21"
   },
   {
@@ -3090,7 +3090,7 @@
     ],
     "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
     "stars": 0,
-    "updated": "2026-07-12",
+    "updated": "2026-07-15",
     "created": "2026-05-20"
   },
   {
@@ -3122,7 +3122,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-07-13",
+    "updated": "2026-07-14",
     "created": "2025-04-05"
   },
   {
@@ -3202,7 +3202,7 @@
     ],
     "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-15",
     "created": "2026-05-27"
   },
   {
@@ -3218,7 +3218,7 @@
     ],
     "description": "A tool to convert heredoc JSON in Terraform files into jsonencode({...})",
     "stars": 0,
-    "updated": "2026-06-21",
+    "updated": "2026-07-15",
     "created": "2026-06-21"
   },
   {
@@ -3234,7 +3234,7 @@
     ],
     "description": "Flatten Terraform modules into the parent with moved blocks for state migration.",
     "stars": 0,
-    "updated": "2026-06-18",
+    "updated": "2026-07-15",
     "created": "2026-05-22"
   },
   {
@@ -3250,7 +3250,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 0,
-    "updated": "2026-07-08",
+    "updated": "2026-07-15",
     "created": "2026-05-24"
   },
   {
@@ -3266,7 +3266,7 @@
     ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
-    "updated": "2026-07-12",
+    "updated": "2026-07-15",
     "created": "2026-05-22"
   },
   {
@@ -3282,7 +3282,7 @@
     ],
     "description": "tfunfold is a tool to expand Terraform for_each / count into individual resources or modules with moved blocks.",
     "stars": 0,
-    "updated": "2026-07-07",
+    "updated": "2026-07-15",
     "created": "2026-06-16"
   },
   {
@@ -3314,7 +3314,7 @@
     ],
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
-    "updated": "2026-07-03",
+    "updated": "2026-07-15",
     "created": "2026-02-28"
   },
   {
