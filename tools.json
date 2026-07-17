@@ -470,7 +470,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-07-17",
     "created": "2026-02-07"
   },
   {
@@ -1478,7 +1478,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-07-17",
     "created": "2025-05-18"
   },
   {
@@ -2334,7 +2334,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-07-14",
+    "updated": "2026-07-17",
     "created": "2026-05-05"
   },
   {
@@ -2930,7 +2930,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-07-16",
+    "updated": "2026-07-17",
     "created": "2024-02-03"
   },
   {
@@ -3106,7 +3106,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-07-17",
     "created": "2025-04-17"
   },
   {
