@@ -314,7 +314,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-07-09",
+    "updated": "2026-07-17",
     "created": "2022-12-08"
   },
   {
@@ -454,7 +454,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-07-17",
     "created": "2025-04-14"
   },
   {
@@ -2270,7 +2270,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 18,
-    "updated": "2026-07-16",
+    "updated": "2026-07-18",
     "created": "2026-02-21"
   },
   {
@@ -3058,7 +3058,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-07-16",
+    "updated": "2026-07-17",
     "created": "2022-07-16"
   },
   {
