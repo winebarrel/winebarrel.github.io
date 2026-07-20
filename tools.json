@@ -27,7 +27,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2017-09-11"
   },
   {
@@ -90,7 +90,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2024-07-04"
   },
   {
@@ -138,7 +138,7 @@
     ],
     "description": "Golang library for using AWS Parameters and Secrets Lambda Extension.",
     "stars": 4,
-    "updated": "2026-07-03",
+    "updated": "2026-07-20",
     "created": "2024-02-05"
   },
   {
@@ -234,7 +234,7 @@
     ],
     "description": "Wrapper for ecspresso that creates task definitions at run time.",
     "stars": 2,
-    "updated": "2026-07-10",
+    "updated": "2026-07-20",
     "created": "2022-05-22"
   },
   {
@@ -266,7 +266,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2022-09-19"
   },
   {
@@ -518,7 +518,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2025-02-22"
   },
   {
@@ -549,7 +549,7 @@
     ],
     "description": "Goth provider for esa.",
     "stars": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2021-11-21"
   },
   {
@@ -702,7 +702,7 @@
     ],
     "description": "CLI for esa.io.",
     "stars": 19,
-    "updated": "2026-06-29",
+    "updated": "2026-07-20",
     "created": "2022-01-09"
   },
   {
@@ -797,7 +797,7 @@
     ],
     "description": "CLI to convert currency using Yahoo! finance API.",
     "stars": 0,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2023-12-24"
   },
   {
@@ -1160,7 +1160,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2023-03-11"
   },
   {
@@ -1176,7 +1176,7 @@
     ],
     "description": "List up CODEOWNERS of all repositories.",
     "stars": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2024-09-03"
   },
   {
@@ -1191,7 +1191,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2024-02-11"
   },
   {
@@ -1286,7 +1286,7 @@
     ],
     "description": "Write a histogram in Terminal.",
     "stars": 9,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2016-06-15"
   },
   {
@@ -1302,7 +1302,7 @@
     ],
     "description": "A tool to convert JSON to HCL.",
     "stars": 6,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2024-03-31"
   },
   {
@@ -1382,7 +1382,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2023-06-17"
   },
   {
@@ -1398,7 +1398,7 @@
     ],
     "description": "Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.",
     "stars": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2024-04-01"
   },
   {
@@ -1414,7 +1414,7 @@
     ],
     "description": "Go library for generating random strings",
     "stars": 1,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2021-04-07"
   },
   {
@@ -1542,7 +1542,7 @@
     ],
     "description": "A library that recursively dumps structure information.",
     "stars": 0,
-    "updated": "2026-07-03",
+    "updated": "2026-07-20",
     "created": "2024-02-19"
   },
   {
@@ -1558,7 +1558,7 @@
     ],
     "description": "Time Calculator.",
     "stars": 0,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2023-12-23"
   },
   {
@@ -1606,7 +1606,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-07-13",
+    "updated": "2026-07-19",
     "created": "2024-01-14"
   },
   {
@@ -1843,7 +1843,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1116,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2014-05-04"
   },
   {
@@ -1875,7 +1875,7 @@
     ],
     "description": "genlog is MySQL General Query Log parser.",
     "stars": 12,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2020-05-27"
   },
   {
@@ -2095,7 +2095,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 1,
-    "updated": "2026-07-13",
+    "updated": "2026-07-20",
     "created": "2024-11-18"
   },
   {
@@ -2537,7 +2537,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-07-06",
+    "updated": "2026-07-20",
     "created": "2016-04-09"
   },
   {
@@ -2836,7 +2836,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-07-19",
     "created": "2026-03-22"
   },
   {
@@ -2978,7 +2978,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-07-13",
+    "updated": "2026-07-19",
     "created": "2023-12-17"
   },
   {
@@ -2994,7 +2994,7 @@
     ],
     "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
     "stars": 2,
-    "updated": "2026-07-10",
+    "updated": "2026-07-20",
     "created": "2023-09-30"
   },
   {
@@ -3170,7 +3170,7 @@
     ],
     "description": "Terraform provider of the function to pause.",
     "stars": 0,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2025-08-21"
   },
   {
@@ -3330,7 +3330,7 @@
     ],
     "description": "A web application that redirects human-readable URLs to esa.io posts.",
     "stars": 0,
-    "updated": "2026-06-22",
+    "updated": "2026-07-20",
     "created": "2022-01-19"
   },
   {
