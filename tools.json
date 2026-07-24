@@ -377,7 +377,7 @@
     ],
     "description": "A multi-profile proxy for the AWS API MCP server: runs one aws-api-mcp-server per AWS profile and adds a profile argument to every tool so a single client connection can target multiple AWS profiles.",
     "stars": 0,
-    "updated": "2026-07-11",
+    "updated": "2026-07-24",
     "created": "2026-07-11"
   },
   {
@@ -597,7 +597,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-07-23",
+    "updated": "2026-07-24",
     "created": "2025-08-31"
   },
   {
@@ -1590,7 +1590,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-07-20",
+    "updated": "2026-07-24",
     "created": "2023-03-18"
   },
   {
@@ -2334,7 +2334,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-07-21",
+    "updated": "2026-07-24",
     "created": "2026-05-05"
   },
   {
@@ -3298,7 +3298,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-07-21",
+    "updated": "2026-07-24",
     "created": "2026-05-30"
   },
   {
