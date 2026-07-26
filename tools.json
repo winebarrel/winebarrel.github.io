@@ -1191,7 +1191,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-07-20",
+    "updated": "2026-07-26",
     "created": "2024-02-11"
   },
   {
@@ -1590,7 +1590,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-07-24",
+    "updated": "2026-07-26",
     "created": "2023-03-18"
   },
   {
@@ -1606,7 +1606,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-07-19",
+    "updated": "2026-07-26",
     "created": "2024-01-14"
   },
   {
@@ -2238,7 +2238,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-07-21",
+    "updated": "2026-07-26",
     "created": "2026-05-30"
   },
   {
@@ -2978,7 +2978,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-07-19",
+    "updated": "2026-07-26",
     "created": "2023-12-17"
   },
   {
@@ -3346,7 +3346,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-07-21",
+    "updated": "2026-07-26",
     "created": "2026-06-14"
   },
   {
