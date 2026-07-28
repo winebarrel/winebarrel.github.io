@@ -393,7 +393,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 0,
-    "updated": "2026-07-27",
+    "updated": "2026-07-28",
     "created": "2026-07-27"
   },
   {
@@ -486,7 +486,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-07-27",
+    "updated": "2026-07-28",
     "created": "2026-02-07"
   },
   {
@@ -613,7 +613,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-07-24",
+    "updated": "2026-07-28",
     "created": "2025-08-31"
   },
   {
@@ -1764,7 +1764,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-07-16",
+    "updated": "2026-07-28",
     "created": "2023-06-03"
   },
   {
@@ -1859,7 +1859,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1116,
-    "updated": "2026-07-27",
+    "updated": "2026-07-28",
     "created": "2014-05-04"
   },
   {
@@ -2254,7 +2254,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-07-26",
+    "updated": "2026-07-28",
     "created": "2026-05-30"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 19,
-    "updated": "2026-07-27",
+    "updated": "2026-07-28",
     "created": "2026-02-21"
   },
   {
@@ -2334,7 +2334,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-07-21",
+    "updated": "2026-07-28",
     "created": "2026-05-05"
   },
   {
@@ -2946,7 +2946,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-07-25",
+    "updated": "2026-07-28",
     "created": "2024-02-03"
   },
   {
@@ -2977,7 +2977,7 @@
       "Makefile"
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
-    "stars": 5,
+    "stars": 6,
     "updated": "2026-07-16",
     "created": "2026-05-18"
   },
@@ -3362,7 +3362,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-07-26",
+    "updated": "2026-07-28",
     "created": "2026-06-14"
   },
   {
