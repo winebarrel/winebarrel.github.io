@@ -377,7 +377,7 @@
     ],
     "description": "A multi-profile proxy for the AWS API MCP server: runs one aws-api-mcp-server per AWS profile and adds a profile argument to every tool so a single client connection can target multiple AWS profiles.",
     "stars": 0,
-    "updated": "2026-07-24",
+    "updated": "2026-07-27",
     "created": "2026-07-11"
   },
   {
@@ -470,7 +470,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-07-21",
+    "updated": "2026-07-27",
     "created": "2026-02-07"
   },
   {
@@ -644,7 +644,7 @@
     ],
     "description": "Mask 1Password CLI password using ANSI color.",
     "stars": 0,
-    "updated": "2026-07-20",
+    "updated": "2026-07-27",
     "created": "2023-02-27"
   },
   {
@@ -1891,7 +1891,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-07-20",
+    "updated": "2026-07-27",
     "created": "2023-10-29"
   },
   {
@@ -2018,7 +2018,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-07-21",
+    "updated": "2026-07-27",
     "created": "2026-05-02"
   },
   {
@@ -2473,7 +2473,7 @@
     ],
     "description": "It is Ruby code matcher.",
     "stars": 3,
-    "updated": "2026-07-20",
+    "updated": "2026-07-27",
     "created": "2017-12-13"
   },
   {
