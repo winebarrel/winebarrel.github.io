@@ -381,6 +381,22 @@
     "created": "2026-07-11"
   },
   {
+    "name": "clterm",
+    "url": "https://github.com/winebarrel/clterm",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "HTML"
+    ],
+    "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
+    "stars": 0,
+    "updated": "2026-07-27",
+    "created": "2026-07-27"
+  },
+  {
     "name": "def2env",
     "url": "https://github.com/winebarrel/def2env",
     "categories": [
