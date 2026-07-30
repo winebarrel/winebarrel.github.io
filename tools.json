@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "created": "2022-02-23"
   },
   {
@@ -202,7 +202,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-07-29",
+    "updated": "2026-07-30",
     "created": "2024-12-04"
   },
   {
@@ -218,7 +218,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "created": "2022-05-29"
   },
   {
@@ -250,7 +250,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "created": "2024-01-05"
   },
   {
@@ -282,7 +282,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-07-28",
+    "updated": "2026-07-30",
     "created": "2026-07-27"
   },
   {
@@ -409,7 +409,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "created": "2025-07-17"
   },
   {
@@ -470,7 +470,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "created": "2025-04-14"
   },
   {
@@ -486,7 +486,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "created": "2026-02-07"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 19,
-    "updated": "2026-07-29",
+    "updated": "2026-07-30",
     "created": "2026-02-21"
   },
   {
@@ -2350,7 +2350,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-07-24",
+    "updated": "2026-07-30",
     "created": "2026-05-05"
   },
   {
@@ -3026,7 +3026,7 @@
     ],
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
-    "updated": "2026-07-25",
+    "updated": "2026-07-30",
     "created": "2025-07-09"
   },
   {
@@ -3074,7 +3074,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "created": "2022-07-16"
   },
   {
@@ -3138,7 +3138,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-07-28",
+    "updated": "2026-07-29",
     "created": "2025-04-05"
   },
   {
@@ -3154,7 +3154,7 @@
     ],
     "description": "Terraform provider for multi-pattern string replacement",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-07-30",
     "created": "2025-07-12"
   },
   {
@@ -3314,7 +3314,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-07-25",
+    "updated": "2026-07-30",
     "created": "2026-05-30"
   },
   {
