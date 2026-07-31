@@ -282,7 +282,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-07-30",
+    "updated": "2026-07-31",
     "created": "2026-07-27"
   },
   {
@@ -330,7 +330,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-07-29",
+    "updated": "2026-07-30",
     "created": "2022-12-08"
   },
   {
@@ -1286,7 +1286,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-07-25",
+    "updated": "2026-07-31",
     "created": "2023-02-11"
   },
   {
@@ -2034,7 +2034,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-07-27",
+    "updated": "2026-07-31",
     "created": "2026-05-02"
   },
   {
@@ -2286,7 +2286,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 19,
-    "updated": "2026-07-30",
+    "updated": "2026-07-31",
     "created": "2026-02-21"
   },
   {
@@ -3138,7 +3138,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-07-29",
+    "updated": "2026-07-30",
     "created": "2025-04-05"
   },
   {
