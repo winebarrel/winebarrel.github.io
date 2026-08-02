@@ -1606,7 +1606,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-07-26",
+    "updated": "2026-08-02",
     "created": "2023-03-18"
   },
   {
@@ -1859,7 +1859,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1116,
-    "updated": "2026-08-01",
+    "updated": "2026-08-02",
     "created": "2014-05-04"
   },
   {
@@ -2285,8 +2285,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
-    "stars": 19,
-    "updated": "2026-08-01",
+    "stars": 20,
+    "updated": "2026-08-02",
     "created": "2026-02-21"
   },
   {
