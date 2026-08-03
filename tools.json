@@ -90,7 +90,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2024-07-04"
   },
   {
@@ -138,7 +138,7 @@
     ],
     "description": "Golang library for using AWS Parameters and Secrets Lambda Extension.",
     "stars": 4,
-    "updated": "2026-07-20",
+    "updated": "2026-08-03",
     "created": "2024-02-05"
   },
   {
@@ -266,7 +266,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2022-09-19"
   },
   {
@@ -381,6 +381,22 @@
     "created": "2013-01-26"
   },
   {
+    "name": "aws-get-web-identity-token",
+    "url": "https://github.com/winebarrel/aws-get-web-identity-token",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
+    "stars": 0,
+    "updated": "2026-08-03",
+    "created": "2026-08-03"
+  },
+  {
     "name": "awsapimcproxy",
     "url": "https://github.com/winebarrel/awsapimcproxy",
     "categories": [
@@ -393,7 +409,7 @@
     ],
     "description": "A multi-profile proxy for the AWS API MCP server: runs one aws-api-mcp-server per AWS profile and adds a profile argument to every tool so a single client connection can target multiple AWS profiles.",
     "stars": 0,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2026-07-11"
   },
   {
@@ -534,7 +550,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2025-02-22"
   },
   {
@@ -718,7 +734,7 @@
     ],
     "description": "CLI for esa.io.",
     "stars": 19,
-    "updated": "2026-07-20",
+    "updated": "2026-08-03",
     "created": "2022-01-09"
   },
   {
@@ -813,7 +829,7 @@
     ],
     "description": "CLI to convert currency using Yahoo! finance API.",
     "stars": 0,
-    "updated": "2026-07-20",
+    "updated": "2026-08-03",
     "created": "2023-12-24"
   },
   {
@@ -1176,7 +1192,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2023-03-11"
   },
   {
@@ -1207,7 +1223,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2024-02-11"
   },
   {
@@ -1398,7 +1414,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2023-06-17"
   },
   {
@@ -1622,7 +1638,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-07-26",
+    "updated": "2026-08-02",
     "created": "2024-01-14"
   },
   {
@@ -2111,7 +2127,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 1,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2024-11-18"
   },
   {
@@ -2286,7 +2302,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 20,
-    "updated": "2026-08-02",
+    "updated": "2026-08-03",
     "created": "2026-02-21"
   },
   {
@@ -2994,7 +3010,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-07-26",
+    "updated": "2026-08-02",
     "created": "2023-12-17"
   },
   {

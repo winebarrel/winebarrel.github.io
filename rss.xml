@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 02 Aug 2026 18:16:46 GMT</lastBuildDate>
+<lastBuildDate>Mon, 03 Aug 2026 18:31:45 GMT</lastBuildDate>
+<item>
+  <title>aws-get-web-identity-token</title>
+  <link>https://github.com/winebarrel/aws-get-web-identity-token</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/aws-get-web-identity-token</guid>
+  <pubDate>Mon, 03 Aug 2026 00:00:00 GMT</pubDate>
+  <description>Get a web identity token (JWT) from AWS STS GetWebIdentityToken</description>
+  <category>AWS</category>
+</item>
 <item>
   <title>clterm</title>
   <link>https://github.com/winebarrel/clterm</link>
@@ -398,14 +406,6 @@
   <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
   <description>rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.</description>
   <category>AWS</category>
-</item>
-<item>
-  <title>terraform-provider-lambdaconfig</title>
-  <link>https://github.com/winebarrel/terraform-provider-lambdaconfig</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-lambdaconfig</guid>
-  <pubDate>Sat, 05 Apr 2025 00:00:00 GMT</pubDate>
-  <description>Terraform provider for AWS Lambda function concurrency configuration.</description>
-  <category>Terraform</category>
 </item>
 </channel>
 </rss>
