@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 03 Aug 2026 18:31:45 GMT</lastBuildDate>
+<lastBuildDate>Tue, 04 Aug 2026 18:29:08 GMT</lastBuildDate>
 <item>
   <title>aws-get-web-identity-token</title>
   <link>https://github.com/winebarrel/aws-get-web-identity-token</link>

@@ -154,7 +154,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-07-31",
+    "updated": "2026-08-03",
     "created": "2022-02-23"
   },
   {
@@ -282,7 +282,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-07-31",
+    "updated": "2026-08-04",
     "created": "2026-07-27"
   },
   {
@@ -502,7 +502,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-08-01",
+    "updated": "2026-08-03",
     "created": "2026-02-07"
   },
   {
@@ -1844,7 +1844,7 @@
     ],
     "description": "A multi-org proxy for the Datadog MCP server: mirrors every Datadog MCP tool and adds an org argument so a single client connection can target multiple Datadog organizations.",
     "stars": 0,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2026-07-11"
   },
   {
@@ -1923,7 +1923,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-07-27",
+    "updated": "2026-08-03",
     "created": "2023-10-29"
   },
   {
@@ -1971,7 +1971,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-07-31",
+    "updated": "2026-08-03",
     "created": "2025-10-11"
   },
   {
@@ -2270,7 +2270,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-07-28",
+    "updated": "2026-08-04",
     "created": "2026-05-30"
   },
   {
@@ -2302,7 +2302,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL.",
     "stars": 20,
-    "updated": "2026-08-03",
+    "updated": "2026-08-04",
     "created": "2026-02-21"
   },
   {
@@ -2366,7 +2366,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-07-30",
+    "updated": "2026-08-03",
     "created": "2026-05-05"
   },
   {
@@ -2962,7 +2962,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-07-28",
+    "updated": "2026-08-03",
     "created": "2024-02-03"
   },
   {
@@ -3330,7 +3330,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-07-30",
+    "updated": "2026-08-03",
     "created": "2026-05-30"
   },
   {
@@ -3378,7 +3378,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-01",
+    "updated": "2026-08-04",
     "created": "2026-06-14"
   },
   {
