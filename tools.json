@@ -202,7 +202,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-07-30",
+    "updated": "2026-08-05",
     "created": "2024-12-04"
   },
   {
@@ -282,7 +282,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-08-04",
+    "updated": "2026-08-05",
     "created": "2026-07-27"
   },
   {
@@ -330,7 +330,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-07-31",
+    "updated": "2026-08-05",
     "created": "2022-12-08"
   },
   {
@@ -629,7 +629,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-07-29",
+    "updated": "2026-08-05",
     "created": "2025-08-31"
   },
   {
@@ -1510,7 +1510,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-07-28",
+    "updated": "2026-08-05",
     "created": "2025-05-18"
   },
   {
@@ -1622,7 +1622,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-08-02",
+    "updated": "2026-08-05",
     "created": "2023-03-18"
   },
   {
@@ -1875,7 +1875,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1116,
-    "updated": "2026-08-02",
+    "updated": "2026-08-05",
     "created": "2014-05-04"
   },
   {
@@ -2288,22 +2288,6 @@
     "stars": 0,
     "updated": "2022-06-05",
     "created": "2011-09-05"
-  },
-  {
-    "name": "pistachio",
-    "url": "https://github.com/winebarrel/pistachio",
-    "categories": [
-      "PostgreSQL"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Shell"
-    ],
-    "description": "pistachio is a declarative schema management tool for PostgreSQL.",
-    "stars": 20,
-    "updated": "2026-08-04",
-    "created": "2026-02-21"
   },
   {
     "name": "active_record_postgresql_xverify",
@@ -2950,6 +2934,22 @@
     "created": "2021-08-29"
   },
   {
+    "name": "pistachio",
+    "url": "https://github.com/winebarrel/pistachio",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Shell"
+    ],
+    "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
+    "stars": 20,
+    "updated": "2026-08-05",
+    "created": "2026-02-21"
+  },
+  {
     "name": "terraform-provider-lambdazip",
     "url": "https://github.com/winebarrel/terraform-provider-lambdazip",
     "categories": [
@@ -3138,7 +3138,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-07-28",
+    "updated": "2026-08-04",
     "created": "2025-04-17"
   },
   {
@@ -3378,7 +3378,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-04",
+    "updated": "2026-08-05",
     "created": "2026-06-14"
   },
   {
