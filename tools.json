@@ -282,7 +282,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-08-05",
+    "updated": "2026-08-07",
     "created": "2026-07-27"
   },
   {
@@ -502,7 +502,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-08-06",
+    "updated": "2026-08-07",
     "created": "2026-02-07"
   },
   {
@@ -1875,7 +1875,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1116,
-    "updated": "2026-08-07",
+    "updated": "2026-08-08",
     "created": "2014-05-04"
   },
   {
@@ -2350,7 +2350,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-08-03",
+    "updated": "2026-08-07",
     "created": "2026-05-05"
   },
   {
@@ -2946,7 +2946,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 21,
-    "updated": "2026-08-07",
+    "updated": "2026-08-08",
     "created": "2026-02-21"
   },
   {
@@ -3330,7 +3330,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-08-03",
+    "updated": "2026-08-07",
     "created": "2026-05-30"
   },
   {
@@ -3378,7 +3378,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-07",
+    "updated": "2026-08-08",
     "created": "2026-06-14"
   },
   {
@@ -3457,7 +3457,7 @@
     ],
     "description": "Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.",
     "stars": 1,
-    "updated": "2026-06-20",
+    "updated": "2026-08-08",
     "created": "2024-11-17"
   },
   {
