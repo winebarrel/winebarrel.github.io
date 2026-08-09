@@ -402,6 +402,23 @@
     "archived": false
   },
   {
+    "name": "awsmcproxy",
+    "url": "https://github.com/winebarrel/awsmcproxy",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
+    "stars": 2,
+    "updated": "2026-08-09",
+    "created": "2026-08-09",
+    "archived": false
+  },
+  {
     "name": "demitas2",
     "url": "https://github.com/kanmu/demitas2",
     "categories": [
@@ -447,7 +464,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-08-05",
+    "updated": "2026-08-09",
     "created": "2024-01-05",
     "archived": false
   },
@@ -484,23 +501,6 @@
     "updated": "2018-08-15",
     "created": "2018-08-13",
     "archived": true
-  },
-  {
-    "name": "awsmcproxy",
-    "url": "https://github.com/winebarrel/awsmcproxy",
-    "categories": [
-      "AWS"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Makefile"
-    ],
-    "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
-    "stars": 1,
-    "updated": "2026-08-09",
-    "created": "2026-08-09",
-    "archived": false
   },
   {
     "name": "clterm",
@@ -700,7 +700,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-08-05",
+    "updated": "2026-08-09",
     "created": "2025-07-17",
     "archived": false
   },
@@ -798,7 +798,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-08-05",
+    "updated": "2026-08-09",
     "created": "2025-04-14",
     "archived": false
   },
@@ -2192,7 +2192,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-08-05",
+    "updated": "2026-08-09",
     "created": "2023-03-18",
     "archived": false
   },
@@ -2443,7 +2443,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-08-07",
+    "updated": "2026-08-09",
     "created": "2023-06-03",
     "archived": false
   },
@@ -2797,7 +2797,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-07-31",
+    "updated": "2026-08-09",
     "created": "2026-05-02",
     "archived": false
   },
@@ -4318,7 +4318,7 @@
     ],
     "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2026-05-27",
     "archived": false
   },
@@ -4335,7 +4335,7 @@
     ],
     "description": "A tool to convert heredoc JSON in Terraform files into jsonencode({...})",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2026-06-21",
     "archived": false
   },
@@ -4369,7 +4369,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2026-05-24",
     "archived": false
   },
@@ -4437,7 +4437,7 @@
     ],
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2026-02-28",
     "archived": false
   },
