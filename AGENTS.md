@@ -137,6 +137,11 @@ edit `categories` in `tools.json` directly (e.g. `["AWS", "CLI"]`). The next
 
 ## Deploying
 
+**Commit and push directly to `main`.** Don't open a feature branch or a pull
+request for routine changes (data edits, categorization fixes, style tweaks) —
+`main` is what GitHub Pages publishes, so anything on a branch is invisible
+until it lands there.
+
 GitHub Pages is built via `.github/workflows/pages.yml` (Pages source must be set
 to "GitHub Actions" in repo settings). The workflow rewrites `?v=DEV` in
 `index.html` to `?v=<short-sha>` before publishing, so a new commit busts the
