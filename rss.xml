@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 09 Aug 2026 04:39:35 GMT</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 09:31:25 GMT</lastBuildDate>
+<item>
+  <title>Macstify</title>
+  <link>https://github.com/winebarrel/Macstify</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/Macstify</guid>
+  <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+  <description>A macOS screen saver that recreates Mystify Your Mind from Windows 95</description>
+  <category>macOS / iOS</category>
+</item>
 <item>
   <title>awsmcproxy</title>
   <link>https://github.com/winebarrel/awsmcproxy</link>
@@ -398,14 +406,6 @@
   <pubDate>Sun, 18 May 2025 00:00:00 GMT</pubDate>
   <description>plsort is a tool that sorts YouTube playlist items in lexicographic order by title.</description>
   <category>Go tool</category>
-</item>
-<item>
-  <title>terraform-provider-googlesheets</title>
-  <link>https://github.com/winebarrel/terraform-provider-googlesheets</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-googlesheets</guid>
-  <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
-  <description>Terraform provider for retrieving data from Google Sheets.</description>
-  <category>Terraform</category>
 </item>
 </channel>
 </rss>

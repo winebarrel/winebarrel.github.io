@@ -486,6 +486,23 @@
     "archived": true
   },
   {
+    "name": "awsmcproxy",
+    "url": "https://github.com/winebarrel/awsmcproxy",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
+    "stars": 1,
+    "updated": "2026-08-09",
+    "created": "2026-08-09",
+    "archived": false
+  },
+  {
     "name": "clterm",
     "url": "https://github.com/winebarrel/clterm",
     "categories": [
@@ -632,7 +649,7 @@
     ],
     "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
     "stars": 0,
-    "updated": "2026-08-05",
+    "updated": "2026-08-09",
     "created": "2026-08-03",
     "archived": false
   },
@@ -652,23 +669,6 @@
     "updated": "2026-08-09",
     "created": "2026-07-11",
     "archived": true
-  },
-  {
-    "name": "awsmcproxy",
-    "url": "https://github.com/winebarrel/awsmcproxy",
-    "categories": [
-      "AWS"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Makefile"
-    ],
-    "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
-    "stars": 0,
-    "updated": "2026-08-09",
-    "created": "2026-08-09",
-    "archived": false
   },
   {
     "name": "cwlogs-cat",
@@ -815,7 +815,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-08-07",
+    "updated": "2026-08-09",
     "created": "2026-02-07",
     "archived": false
   },
@@ -933,7 +933,7 @@
     ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2025-12-27",
     "archived": false
   },
@@ -950,7 +950,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-08-05",
+    "updated": "2026-08-09",
     "created": "2025-08-31",
     "archived": false
   },
@@ -983,7 +983,7 @@
     ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2025-09-01",
     "archived": false
   },
@@ -1129,7 +1129,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2023-08-18",
     "archived": false
   },
@@ -1383,7 +1383,7 @@
     ],
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 1,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2025-12-13",
     "archived": false
   },
@@ -1600,7 +1600,7 @@
     ],
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
-    "updated": "2026-07-20",
+    "updated": "2026-08-09",
     "created": "2025-11-08",
     "archived": false
   },
@@ -1869,7 +1869,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2026-01-01",
     "archived": false
   },
@@ -2039,7 +2039,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-08-05",
+    "updated": "2026-08-09",
     "created": "2025-05-18",
     "archived": false
   },
@@ -2494,7 +2494,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-08-07",
+    "updated": "2026-08-09",
     "created": "2023-12-19",
     "archived": false
   },
@@ -2713,7 +2713,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-08-05",
+    "updated": "2026-08-09",
     "created": "2025-10-11",
     "archived": false
   },
@@ -4199,7 +4199,7 @@
     ],
     "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2026-05-20",
     "archived": false
   },
@@ -4352,7 +4352,7 @@
     ],
     "description": "Flatten Terraform modules into the parent with moved blocks for state migration.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2026-05-22",
     "archived": false
   },
@@ -4386,7 +4386,7 @@
     ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
-    "updated": "2026-07-22",
+    "updated": "2026-08-09",
     "created": "2026-05-22",
     "archived": false
   },
@@ -4403,7 +4403,7 @@
     ],
     "description": "tfunfold is a tool to expand Terraform for_each / count into individual resources or modules with moved blocks.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-09",
     "created": "2026-06-16",
     "archived": false
   },
@@ -4605,6 +4605,23 @@
     "stars": 0,
     "updated": "2026-07-13",
     "created": "2026-07-10",
+    "archived": false
+  },
+  {
+    "name": "Macstify",
+    "url": "https://github.com/winebarrel/Macstify",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift",
+      "Makefile"
+    ],
+    "description": "A macOS screen saver that recreates Mystify Your Mind from Windows 95",
+    "stars": 0,
+    "updated": "2026-08-09",
+    "created": "2026-08-09",
     "archived": false
   },
   {
