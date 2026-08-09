@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 08 Aug 2026 18:05:43 GMT</lastBuildDate>
+<lastBuildDate>Sun, 09 Aug 2026 04:39:35 GMT</lastBuildDate>
+<item>
+  <title>awsmcproxy</title>
+  <link>https://github.com/winebarrel/awsmcproxy</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/awsmcproxy</guid>
+  <pubDate>Sun, 09 Aug 2026 00:00:00 GMT</pubDate>
+  <description>A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.</description>
+  <category>AWS</category>
+</item>
 <item>
   <title>aws-get-web-identity-token</title>
   <link>https://github.com/winebarrel/aws-get-web-identity-token</link>
@@ -398,14 +406,6 @@
   <pubDate>Thu, 17 Apr 2025 00:00:00 GMT</pubDate>
   <description>Terraform provider for retrieving data from Google Sheets.</description>
   <category>Terraform</category>
-</item>
-<item>
-  <title>rdslog</title>
-  <link>https://github.com/winebarrel/rdslog</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/rdslog</guid>
-  <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
-  <description>rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.</description>
-  <category>AWS</category>
 </item>
 </channel>
 </rss>

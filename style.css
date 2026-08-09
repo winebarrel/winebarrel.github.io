@@ -110,9 +110,26 @@ header .profiles a {
 .controls {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: .75rem;
   margin: .5rem 0 .75rem;
 }
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  font-size: .82rem;
+  color: var(--muted);
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+}
+.toggle input {
+  accent-color: var(--accent);
+  margin: 0;
+  cursor: pointer;
+}
+.toggle:hover { color: var(--fg); }
 .search-wrap {
   position: relative;
   flex: 1;
@@ -389,6 +406,26 @@ ul.cards {
   gap: .5rem;
 }
 .card h3 a { min-width: 0; overflow-wrap: anywhere; }
+.archived-badge {
+  font-size: .6rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  flex: none;
+  padding: .2rem .4rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, #b58900 55%, transparent);
+  background: color-mix(in srgb, #b58900 15%, transparent);
+  color: #8a6a00;
+}
+@media (prefers-color-scheme: dark) {
+  .archived-badge { color: #e0b84c; }
+}
+/* archived repos stay listed, just visually quieter */
+.card.is-archived { border-style: dashed; }
+.card.is-archived h3 a { color: var(--muted); }
+.card.is-archived h3 a:hover { color: var(--accent); }
 .readme-btn {
   font: inherit;
   font-size: .65rem;

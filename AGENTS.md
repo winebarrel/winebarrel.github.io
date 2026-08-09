@@ -43,12 +43,18 @@ Sorted by `(categories[0] asc, stars desc, name asc)`. Each entry:
   "description": "Manage DB schema with a Ruby DSL",
   "stars":       800,
   "updated":     "2024-01-01",
-  "created":     "2014-01-01"
+  "created":     "2014-01-01",
+  "archived":    false
 }
 ```
 
 `language` is GitHub's primary language; `languages` is the top 2 by byte size
 (used for card display only — the filter and pie chart still use `language`).
+
+`archived` mirrors GitHub's archived flag. Archived repos stay in `tools.json`
+and get an "Archived" badge on the card, but the page hides them by default —
+the "Hide archived" checkbox is on unless `#archived=1` is in the URL. Chip
+counts, the pie charts and the `n / m` tally all follow that setting.
 
 `categories` is an array — a tool can belong to multiple categories.
 The **first element is the "primary" category** and decides which section the
@@ -83,7 +89,7 @@ After editing `tools.json`, rebuild the RSS feed:
 ./scripts/regenerate.sh
 ```
 
-This refetches the three accounts (non-archived only), runs `categorize.jq`,
+This refetches the three accounts (archived included, forks excluded), runs `categorize.jq`,
 applies the include filter, and overwrites `tools.json`.
 
 Review the diff and re-curate manually before committing — auto-generation
@@ -94,8 +100,8 @@ will re-add things you previously removed.
 `scripts/categorize.jq` sets `include: true/false` per repo. A repo is included
 when **all** of these hold:
 
-- not archived (already filtered out by `gh repo list --no-archived`)
 - not a fork (filtered by `--source`)
+- name is not in the manual exclusion list at the top of the `include` expression
 - name does **not** start with `homebrew-` (these are Homebrew tap repos, not tools themselves)
 - name does **not** end with `.github.io` (these are GitHub Pages sites, including this one)
 - name does **not** contain `example` (case-insensitive — these are demo/sample repos)
@@ -104,7 +110,8 @@ when **all** of these hold:
   - has at least one topic, or
   - description longer than 10 chars
 
-Adjust the heuristic in `categorize.jq` if needed.
+Archived repos are **not** filtered out — they are flagged instead (see
+`archived` above). Adjust the heuristic in `categorize.jq` if needed.
 
 ## Categorization
 
@@ -123,7 +130,7 @@ edit `categories` in `tools.json` directly (e.g. `["AWS", "CLI"]`). The next
 - **UI text is English.** Descriptions can stay in whatever language GitHub returns.
 - **Language colors** mirror GitHub linguist (`langColors` object in `index.html`).
   Add new languages there if a new primary language appears.
-- **Filter state is in `location.hash`** (e.g. `#q=foo&cat=AWS,Terraform&lang=Go&sort=newest`).
+- **Filter state is in `location.hash`** (e.g. `#q=foo&cat=AWS,Terraform&lang=Go&sort=newest&archived=1`).
   Don't break that contract — links may be shared.
 - **No external dependencies / no build.** Keep it that way; the whole point is a
   zero-friction static page.

@@ -63,6 +63,9 @@
       <button type="button" class="sort-btn" data-sort="oldest">Oldest</button>
       <button type="button" class="sort-btn" data-sort="stars">Stars</button>
     </div>
+    <label class="toggle" title="Archived repositories are hidden by default">
+      <input type="checkbox" id="hide-archived" checked> Hide archived
+    </label>
     <span id="result-count" class="result-count"></span>
   </div>
   <nav id="cat-filter" class="filter-row" aria-label="filter by category"></nav>
@@ -174,6 +177,7 @@
     cats: new Set(),
     langs: new Set(),
     sort: 'newest',
+    archived: false, // include archived repos? off by default
   };
 
   // hydrate from URL hash
@@ -182,6 +186,14 @@
   if (params.get('cat')) params.get('cat').split(',').filter(Boolean).forEach(c => state.cats.add(c));
   if (params.get('lang')) params.get('lang').split(',').filter(Boolean).forEach(l => state.langs.add(l));
   if (['category', 'newest', 'oldest', 'stars'].includes(params.get('sort'))) state.sort = params.get('sort');
+  if (params.get('archived') === '1') state.archived = true;
+
+  // everything the current archived setting allows — the baseline the counts,
+  // the chart range and the "n / m" tally are measured against
+  const baseTools = () => state.archived ? tools : tools.filter(t => !t.archived);
+
+  const hideArchived = document.getElementById('hide-archived');
+  hideArchived.checked = !state.archived;
 
   const search = document.getElementById('search');
   const searchClear = document.getElementById('search-clear');
@@ -190,15 +202,25 @@
   updateClearBtn();
 
   const catFilter = document.getElementById('cat-filter');
-  catFilter.innerHTML = cats.map(c =>
-    `<button type="button" class="chip" data-kind="cat" data-value="${c}">${c} <span class="count">${catCount.get(c)}</span></button>`
-  ).join('');
-
   const langFilter = document.getElementById('lang-filter');
-  langFilter.innerHTML = langs.map(l => {
-    const color = langColors[l] || '#9aa0a6';
-    return `<button type="button" class="chip chip-lang" data-kind="lang" data-value="${l}"><span class="lang-dot" style="background:${color}"></span>${l} <span class="count">${langCount.get(l)}</span></button>`;
-  }).join('');
+
+  // Chip lists keep their full-catalog order (so the palette and layout stay
+  // put), but the counts follow the archived setting; empty chips drop out.
+  function renderFilters(base) {
+    const cc = new Map(), lc = new Map();
+    for (const t of base) {
+      for (const c of t.categories) cc.set(c, (cc.get(c) || 0) + 1);
+      const l = t.language && t.language !== 'none' ? t.language : null;
+      if (l) lc.set(l, (lc.get(l) || 0) + 1);
+    }
+    catFilter.innerHTML = cats.filter(c => cc.has(c) || state.cats.has(c)).map(c =>
+      `<button type="button" class="chip" data-kind="cat" data-value="${escapeAttr(c)}">${escapeHtml(c)} <span class="count">${cc.get(c) || 0}</span></button>`
+    ).join('');
+    langFilter.innerHTML = langs.filter(l => lc.has(l) || state.langs.has(l)).map(l => {
+      const color = langColors[l] || '#9aa0a6';
+      return `<button type="button" class="chip chip-lang" data-kind="lang" data-value="${escapeAttr(l)}"><span class="lang-dot" style="background:${color}"></span>${escapeHtml(l)} <span class="count">${lc.get(l) || 0}</span></button>`;
+    }).join('');
+  }
 
   const app = document.getElementById('app');
   const resultCount = document.getElementById('result-count');
@@ -289,7 +311,7 @@
     }
     // full range from earliest to latest tool overall (not just filtered)
     let minYM = null, maxYM = null;
-    for (const t of tools) {
+    for (const t of baseTools()) {
       const ym = (t.created || '').slice(0, 7);
       if (!ym) continue;
       if (!minYM || ym < minYM) minYM = ym;
@@ -380,6 +402,7 @@
     if (state.cats.size) p.set('cat', [...state.cats].join(','));
     if (state.langs.size) p.set('lang', [...state.langs].join(','));
     if (state.sort !== 'newest') p.set('sort', state.sort);
+    if (state.archived) p.set('archived', '1');
     const s = p.toString();
     history.replaceState(null, '', s ? '#' + s : location.pathname);
   }
@@ -394,6 +417,7 @@
   }
 
   function matches(t) {
+    if (!state.archived && t.archived) return false;
     if (state.cats.size && !t.categories.some(c => state.cats.has(c))) return false;
     if (state.langs.size && !state.langs.has(t.language)) return false;
     if (state.q) {
@@ -409,10 +433,14 @@
       const color = catColors.get(c) || '#9aa0a6';
       return `<button type="button" class="cat-chip" data-kind="cat" data-value="${escapeAttr(c)}" style="--cat-color:${color}">${escapeHtml(c)}</button>`;
     }).join('');
+    const archived = t.archived
+      ? `<span class="archived-badge" title="This repository is archived (read-only)">Archived</span>`
+      : '';
     return `
-      <li class="card">
+      <li class="card${t.archived ? ' is-archived' : ''}">
         <h3>
           <a href="${t.url}">${highlight(t.name, state.q)}</a>
+          ${archived}
           <button type="button" class="readme-btn" data-readme="${escapeAttr(t.url)}" data-name="${escapeAttr(t.name)}" title="View README" aria-label="View README">README</button>
         </h3>
         <div class="cats">${catChips}</div>
@@ -428,6 +456,8 @@
   }
 
   function render() {
+    const base = baseTools();
+    renderFilters(base);
     for (const btn of catFilter.querySelectorAll('.chip')) {
       btn.classList.toggle('active', state.cats.has(btn.dataset.value));
     }
@@ -441,7 +471,7 @@
     renderStats();
 
     const filtered = tools.filter(matches);
-    resultCount.textContent = `${filtered.length} / ${tools.length}`;
+    resultCount.textContent = `${filtered.length} / ${base.length}`;
 
     if (filtered.length === 0) {
       app.innerHTML = `<p class="loading">no results.</p>`;
@@ -550,6 +580,11 @@
     const btn = e.target.closest('.chip');
     if (!btn) return;
     toggleChip(state.langs, btn.dataset.value);
+    syncHash();
+    render();
+  });
+  hideArchived.addEventListener('change', () => {
+    state.archived = !hideArchived.checked;
     syncHash();
     render();
   });

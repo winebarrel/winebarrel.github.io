@@ -1,5 +1,39 @@
 [
   {
+    "name": "gcredstash",
+    "url": "https://github.com/winebarrel/gcredstash",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "gcredstash manages credentials using AWS Key Management Service (KMS) and DynamoDB.",
+    "stars": 72,
+    "updated": "2021-03-19",
+    "created": "2016-06-08",
+    "archived": true
+  },
+  {
+    "name": "faraday_middleware-aws-signers-v4",
+    "url": "https://github.com/winebarrel/faraday_middleware-aws-signers-v4",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
+    "description": "Faraday middleware for AWS Signature Version 4.",
+    "stars": 48,
+    "updated": "2019-09-30",
+    "created": "2015-07-26",
+    "archived": true
+  },
+  {
     "name": "ddbcli",
     "url": "https://github.com/winebarrel/ddbcli",
     "categories": [
@@ -13,7 +47,8 @@
     "description": "ddbcli is an interactive command-line client of Amazon DynamoDB.",
     "stars": 40,
     "updated": "2019-10-18",
-    "created": "2013-05-06"
+    "created": "2013-05-06",
+    "archived": false
   },
   {
     "name": "faraday_middleware-aws-sigv4",
@@ -28,7 +63,8 @@
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
     "updated": "2026-07-27",
-    "created": "2017-09-11"
+    "created": "2017-09-11",
+    "archived": false
   },
   {
     "name": "cronplan",
@@ -44,7 +80,41 @@
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 39,
     "updated": "2026-07-23",
-    "created": "2022-10-16"
+    "created": "2022-10-16",
+    "archived": false
+  },
+  {
+    "name": "ecs-exec-pf",
+    "url": "https://github.com/winebarrel/ecs-exec-pf",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Port forwarding using the ECS task container. (aws-cli wrapper)",
+    "stars": 23,
+    "updated": "2025-06-05",
+    "created": "2021-10-29",
+    "archived": true
+  },
+  {
+    "name": "lambchop",
+    "url": "https://github.com/winebarrel/lambchop",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "It is a tool that invoke AWS Lambda function from the local machine as a normally script.",
+    "stars": 21,
+    "updated": "2015-08-02",
+    "created": "2014-11-23",
+    "archived": true
   },
   {
     "name": "fluent-plugin-elb-access-log",
@@ -59,7 +129,25 @@
     "description": "Fluentd input plugin for AWS ELB Access Logs.",
     "stars": 17,
     "updated": "2018-04-05",
-    "created": "2015-05-24"
+    "created": "2015-05-24",
+    "archived": false
+  },
+  {
+    "name": "demitas",
+    "url": "https://github.com/winebarrel/demitas",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Shell"
+    ],
+    "description": "Wrapper for ecspresso that creates task definitions at run time.",
+    "stars": 10,
+    "updated": "2022-05-28",
+    "created": "2021-10-29",
+    "archived": true
   },
   {
     "name": "cwlogs-tailf",
@@ -75,7 +163,41 @@
     "description": "Follow tail messages of CloudWatch Logs.",
     "stars": 8,
     "updated": "2018-01-11",
-    "created": "2016-05-12"
+    "created": "2016-05-12",
+    "archived": false
+  },
+  {
+    "name": "aws-lambda-tw-bot",
+    "url": "https://github.com/winebarrel/aws-lambda-tw-bot",
+    "categories": [
+      "AWS"
+    ],
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript"
+    ],
+    "description": "",
+    "stars": 7,
+    "updated": "2014-11-29",
+    "created": "2014-11-29",
+    "archived": true
+  },
+  {
+    "name": "cwli",
+    "url": "https://github.com/winebarrel/cwli",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "CloudWatch Logs Insights Command-Line Client.",
+    "stars": 6,
+    "updated": "2019-04-14",
+    "created": "2019-04-14",
+    "archived": true
   },
   {
     "name": "sev",
@@ -91,7 +213,24 @@
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
     "updated": "2026-08-03",
-    "created": "2024-07-04"
+    "created": "2024-07-04",
+    "archived": false
+  },
+  {
+    "name": "lambleg",
+    "url": "https://github.com/winebarrel/lambleg",
+    "categories": [
+      "AWS"
+    ],
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript"
+    ],
+    "description": "Node module for create/invoke JavaScript function as AWS Lambda function",
+    "stars": 5,
+    "updated": "2014-12-21",
+    "created": "2014-12-05",
+    "archived": true
   },
   {
     "name": "sam-rds-slowquery-to-es",
@@ -107,7 +246,8 @@
     "description": "AWS SAM app that sends slowqueries from CloudWatch Logs to Elasticsearch.",
     "stars": 5,
     "updated": "2020-02-11",
-    "created": "2019-09-24"
+    "created": "2019-09-24",
+    "archived": false
   },
   {
     "name": "cwlogs-tee",
@@ -123,7 +263,25 @@
     "description": "`tee` command for CloudWatch Logs.",
     "stars": 4,
     "updated": "2017-07-13",
-    "created": "2016-08-03"
+    "created": "2016-08-03",
+    "archived": false
+  },
+  {
+    "name": "rds-download-log-file",
+    "url": "https://github.com/winebarrel/rds-download-log-file",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "A CLI to download RDS logs using the DownloadCompleteDBLogFile API.",
+    "stars": 4,
+    "updated": "2025-04-14",
+    "created": "2020-06-04",
+    "archived": true
   },
   {
     "name": "secretlamb",
@@ -139,7 +297,8 @@
     "description": "Golang library for using AWS Parameters and Secrets Lambda Extension.",
     "stars": 4,
     "updated": "2026-08-03",
-    "created": "2024-02-05"
+    "created": "2024-02-05",
+    "archived": false
   },
   {
     "name": "apt-transport-s3-go",
@@ -155,7 +314,24 @@
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
     "updated": "2026-08-07",
-    "created": "2022-02-23"
+    "created": "2022-02-23",
+    "archived": false
+  },
+  {
+    "name": "clala",
+    "url": "https://github.com/winebarrel/clala",
+    "categories": [
+      "AWS"
+    ],
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript"
+    ],
+    "description": "The language in which to perform a function in the AWS Lambda.",
+    "stars": 3,
+    "updated": "2014-12-21",
+    "created": "2014-12-21",
+    "archived": true
   },
   {
     "name": "cloudwatch-metric2",
@@ -171,7 +347,8 @@
     "description": "Get CloudWatch metrics.",
     "stars": 3,
     "updated": "2018-02-20",
-    "created": "2016-12-28"
+    "created": "2016-12-28",
+    "archived": false
   },
   {
     "name": "logs_flow",
@@ -187,7 +364,8 @@
     "description": "CloudWatch Logs Event Viewer.",
     "stars": 3,
     "updated": "2016-10-03",
-    "created": "2015-11-08"
+    "created": "2015-11-08",
+    "archived": false
   },
   {
     "name": "rdsauth",
@@ -203,7 +381,8 @@
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
     "updated": "2026-08-06",
-    "created": "2024-12-04"
+    "created": "2024-12-04",
+    "archived": false
   },
   {
     "name": "ssocreds",
@@ -219,7 +398,8 @@
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
     "updated": "2026-08-05",
-    "created": "2022-05-29"
+    "created": "2022-05-29",
+    "archived": false
   },
   {
     "name": "demitas2",
@@ -235,7 +415,24 @@
     "description": "Wrapper for ecspresso that creates task definitions at run time.",
     "stars": 2,
     "updated": "2026-07-20",
-    "created": "2022-05-22"
+    "created": "2022-05-22",
+    "archived": false
+  },
+  {
+    "name": "fluent-plugin-lambda",
+    "url": "https://github.com/winebarrel/fluent-plugin-lambda",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Output plugin for AWS Lambda.",
+    "stars": 2,
+    "updated": "2018-03-13",
+    "created": "2014-11-24",
+    "archived": true
   },
   {
     "name": "las",
@@ -251,7 +448,8 @@
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
     "updated": "2026-08-05",
-    "created": "2024-01-05"
+    "created": "2024-01-05",
+    "archived": false
   },
   {
     "name": "sqsf",
@@ -267,7 +465,25 @@
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
     "updated": "2026-08-03",
-    "created": "2022-09-19"
+    "created": "2022-09-19",
+    "archived": false
+  },
+  {
+    "name": "unhealthy",
+    "url": "https://github.com/winebarrel/unhealthy",
+    "categories": [
+      "AWS"
+    ],
+    "language": "HTML",
+    "languages": [
+      "HTML",
+      "Ruby"
+    ],
+    "description": "Custom AWS Personal Health Dashboard",
+    "stars": 2,
+    "updated": "2018-08-15",
+    "created": "2018-08-13",
+    "archived": true
   },
   {
     "name": "clterm",
@@ -283,7 +499,8 @@
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
     "updated": "2026-08-07",
-    "created": "2026-07-27"
+    "created": "2026-07-27",
+    "archived": false
   },
   {
     "name": "ddget",
@@ -299,7 +516,24 @@
     "description": "Get DynamoDB Item.",
     "stars": 1,
     "updated": "2016-11-14",
-    "created": "2016-11-10"
+    "created": "2016-11-10",
+    "archived": false
+  },
+  {
+    "name": "lambtail",
+    "url": "https://github.com/winebarrel/lambtail",
+    "categories": [
+      "AWS"
+    ],
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript"
+    ],
+    "description": "Node module for follow lambda function output",
+    "stars": 1,
+    "updated": "2014-12-04",
+    "created": "2014-12-04",
+    "archived": true
   },
   {
     "name": "lee",
@@ -315,7 +549,8 @@
     "description": "tee command for CloudWatch Logs.",
     "stars": 1,
     "updated": "2022-06-25",
-    "created": "2020-07-12"
+    "created": "2020-07-12",
+    "archived": false
   },
   {
     "name": "quetaro",
@@ -331,7 +566,8 @@
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
     "updated": "2026-08-05",
-    "created": "2022-12-08"
+    "created": "2022-12-08",
+    "archived": false
   },
   {
     "name": "sam-with-mysql",
@@ -347,7 +583,8 @@
     "description": "AWS SAM Ruby runtime with MySQL.",
     "stars": 1,
     "updated": "2019-12-08",
-    "created": "2019-12-08"
+    "created": "2019-12-08",
+    "archived": false
   },
   {
     "name": "attach-eni",
@@ -362,7 +599,8 @@
     "description": "Attach AWS Elastic Network Interfaces (ENI) from command line",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2012-08-19"
+    "created": "2012-08-19",
+    "archived": false
   },
   {
     "name": "autognosis",
@@ -378,7 +616,8 @@
     "description": "Handle EC2 Spot Instance termination notifications",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2013-01-26"
+    "created": "2013-01-26",
+    "archived": false
   },
   {
     "name": "aws-get-web-identity-token",
@@ -394,7 +633,8 @@
     "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
     "stars": 0,
     "updated": "2026-08-05",
-    "created": "2026-08-03"
+    "created": "2026-08-03",
+    "archived": false
   },
   {
     "name": "awsapimcproxy",
@@ -409,8 +649,43 @@
     ],
     "description": "A multi-profile proxy for the AWS API MCP server: runs one aws-api-mcp-server per AWS profile and adds a profile argument to every tool so a single client connection can target multiple AWS profiles.",
     "stars": 0,
-    "updated": "2026-08-03",
-    "created": "2026-07-11"
+    "updated": "2026-08-09",
+    "created": "2026-07-11",
+    "archived": true
+  },
+  {
+    "name": "awsmcproxy",
+    "url": "https://github.com/winebarrel/awsmcproxy",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
+    "stars": 0,
+    "updated": "2026-08-09",
+    "created": "2026-08-09",
+    "archived": false
+  },
+  {
+    "name": "cwlogs-cat",
+    "url": "https://github.com/winebarrel/cwlogs-cat",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Put message to to CloudWatch Logs.",
+    "stars": 0,
+    "updated": "2016-05-12",
+    "created": "2016-05-12",
+    "archived": true
   },
   {
     "name": "def2env",
@@ -426,7 +701,8 @@
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
     "updated": "2026-08-05",
-    "created": "2025-07-17"
+    "created": "2025-07-17",
+    "archived": false
   },
   {
     "name": "describe-spot-price-history",
@@ -441,7 +717,8 @@
     "description": "Query AWS EC2 Spot Instance price history from CLI",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2013-01-26"
+    "created": "2013-01-26",
+    "archived": false
   },
   {
     "name": "dynamodb-streams-client",
@@ -456,7 +733,8 @@
     "description": "DynamoDB Streams client.",
     "stars": 0,
     "updated": "2014-11-21",
-    "created": "2014-11-21"
+    "created": "2014-11-21",
+    "archived": false
   },
   {
     "name": "ec2-usage-report",
@@ -471,7 +749,41 @@
     "description": "Acquire and report AWS EC2 usage statistics",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2012-12-14"
+    "created": "2012-12-14",
+    "archived": false
+  },
+  {
+    "name": "fluent-plugin-dynamodb-alt",
+    "url": "https://github.com/winebarrel/fluent-plugin-dynamodb-alt",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Fluent plugin to output to DynamoDB.",
+    "stars": 0,
+    "updated": "2017-09-06",
+    "created": "2014-08-17",
+    "archived": true
+  },
+  {
+    "name": "logsf",
+    "url": "https://github.com/winebarrel/logsf",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Makefile"
+    ],
+    "description": "logsf is a tool to follow tail messages of CloudWatch Logs.",
+    "stars": 0,
+    "updated": "2020-07-13",
+    "created": "2020-07-05",
+    "archived": true
   },
   {
     "name": "rdslog",
@@ -487,7 +799,8 @@
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
     "updated": "2026-08-05",
-    "created": "2025-04-14"
+    "created": "2025-04-14",
+    "archived": false
   },
   {
     "name": "s3lock",
@@ -503,7 +816,8 @@
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
     "updated": "2026-08-07",
-    "created": "2026-02-07"
+    "created": "2026-02-07",
+    "archived": false
   },
   {
     "name": "sam-rds-postgresql-slowquery-to-es",
@@ -519,7 +833,8 @@
     "description": "Collect PostgreSQL slow query logs to Elasticsearch",
     "stars": 0,
     "updated": "2020-02-11",
-    "created": "2020-02-11"
+    "created": "2020-02-11",
+    "archived": false
   },
   {
     "name": "sdbcli",
@@ -535,7 +850,8 @@
     "description": "CLI tool for Amazon SimpleDB management",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-09-12"
+    "created": "2011-09-12",
+    "archived": false
   },
   {
     "name": "ssowrap",
@@ -551,7 +867,8 @@
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
     "updated": "2026-08-03",
-    "created": "2025-02-22"
+    "created": "2025-02-22",
+    "archived": false
   },
   {
     "name": "google_drive-persistent_session",
@@ -566,7 +883,8 @@
     "description": "Persist credential for google-drive-ruby.",
     "stars": 6,
     "updated": "2022-09-11",
-    "created": "2015-02-17"
+    "created": "2015-02-17",
+    "archived": false
   },
   {
     "name": "goth-esa",
@@ -582,7 +900,8 @@
     "description": "Goth provider for esa.",
     "stars": 1,
     "updated": "2026-07-20",
-    "created": "2021-11-21"
+    "created": "2021-11-21",
+    "archived": false
   },
   {
     "name": "aes-ruby",
@@ -598,7 +917,8 @@
     "description": "Ruby bindings for AES encryption",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2008-08-18"
+    "created": "2008-08-18",
+    "archived": false
   },
   {
     "name": "dap",
@@ -614,7 +934,8 @@
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2025-12-27"
+    "created": "2025-12-27",
+    "archived": false
   },
   {
     "name": "gap",
@@ -630,7 +951,8 @@
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
     "updated": "2026-08-05",
-    "created": "2025-08-31"
+    "created": "2025-08-31",
+    "archived": false
   },
   {
     "name": "google_drive-enable_session",
@@ -645,7 +967,8 @@
     "description": "Persist Google Drive credentials for google-drive-ruby",
     "stars": 0,
     "updated": "2015-02-17",
-    "created": "2015-02-15"
+    "created": "2015-02-15",
+    "archived": false
   },
   {
     "name": "kap",
@@ -661,7 +984,8 @@
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2025-09-01"
+    "created": "2025-09-01",
+    "archived": false
   },
   {
     "name": "opmsk",
@@ -677,7 +1001,8 @@
     "description": "Mask 1Password CLI password using ANSI color.",
     "stars": 0,
     "updated": "2026-07-27",
-    "created": "2023-02-27"
+    "created": "2023-02-27",
+    "archived": false
   },
   {
     "name": "Libarchive-Ruby",
@@ -690,7 +1015,8 @@
     "description": "Ruby bindings for Libarchive. ",
     "stars": 2,
     "updated": "2022-06-05",
-    "created": "2010-12-11"
+    "created": "2010-12-11",
+    "archived": false
   },
   {
     "name": "fdpass",
@@ -703,7 +1029,8 @@
     "description": "This is a library to transmit the file descriptor between the processes.",
     "stars": 1,
     "updated": "2022-06-05",
-    "created": "2011-01-01"
+    "created": "2011-01-01",
+    "archived": false
   },
   {
     "name": "rua",
@@ -719,7 +1046,8 @@
     "description": "Ruby library for running Lua scripts",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-01-09"
+    "created": "2011-01-09",
+    "archived": false
   },
   {
     "name": "kasa",
@@ -735,7 +1063,25 @@
     "description": "CLI for esa.io.",
     "stars": 19,
     "updated": "2026-08-03",
-    "created": "2022-01-09"
+    "created": "2022-01-09",
+    "archived": false
+  },
+  {
+    "name": "minierb",
+    "url": "https://github.com/winebarrel/minierb",
+    "categories": [
+      "CLI"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "C"
+    ],
+    "description": "Single binary ERB template processor built with mruby.",
+    "stars": 9,
+    "updated": "2024-01-29",
+    "created": "2024-01-28",
+    "archived": true
   },
   {
     "name": "haproxycmd",
@@ -751,7 +1097,8 @@
     "description": "HAProxy Unix Socket commands CLI",
     "stars": 8,
     "updated": "2017-01-24",
-    "created": "2016-07-01"
+    "created": "2016-07-01",
+    "archived": false
   },
   {
     "name": "kinesis_cat",
@@ -766,7 +1113,8 @@
     "description": "Amazon Kinesis cli for put JSON data.",
     "stars": 2,
     "updated": "2015-01-12",
-    "created": "2015-01-12"
+    "created": "2015-01-12",
+    "archived": false
   },
   {
     "name": "atget",
@@ -782,7 +1130,8 @@
     "description": "CLI to get airtable records.",
     "stars": 1,
     "updated": "2026-07-16",
-    "created": "2023-08-18"
+    "created": "2023-08-18",
+    "archived": false
   },
   {
     "name": "jsrt",
@@ -798,7 +1147,8 @@
     "description": "Sort NDJSON/JSON Lines data by key",
     "stars": 0,
     "updated": "2021-08-22",
-    "created": "2021-08-22"
+    "created": "2021-08-22",
+    "archived": false
   },
   {
     "name": "kinesis-cat-go",
@@ -814,7 +1164,8 @@
     "description": "Amazon Kinesis cli for put JSON data.",
     "stars": 0,
     "updated": "2015-02-02",
-    "created": "2015-01-14"
+    "created": "2015-01-14",
+    "archived": false
   },
   {
     "name": "mer",
@@ -830,7 +1181,8 @@
     "description": "CLI to convert currency using Yahoo! finance API.",
     "stars": 0,
     "updated": "2026-08-03",
-    "created": "2023-12-24"
+    "created": "2023-12-24",
+    "archived": false
   },
   {
     "name": "xjr",
@@ -846,7 +1198,8 @@
     "description": "Convert CSV/TSV/xSV to JSON Lines",
     "stars": 0,
     "updated": "2020-06-30",
-    "created": "2020-06-28"
+    "created": "2020-06-28",
+    "archived": false
   },
   {
     "name": "slack-notify",
@@ -862,7 +1215,25 @@
     "description": "Notify message to Slack channel.",
     "stars": 6,
     "updated": "2016-10-22",
-    "created": "2016-05-25"
+    "created": "2016-05-25",
+    "archived": false
+  },
+  {
+    "name": "slack-chatgpt-bot",
+    "url": "https://github.com/winebarrel/slack-chatgpt-bot",
+    "categories": [
+      "Chat / Slack"
+    ],
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "JavaScript"
+    ],
+    "description": "A Slack ChatGPT bot.",
+    "stars": 2,
+    "updated": "2023-12-25",
+    "created": "2023-04-08",
+    "archived": true
   },
   {
     "name": "Slackpad",
@@ -878,7 +1249,8 @@
     "description": "A macOS note-taking app that keeps notes as plain .txt files and posts to Slack as you write.",
     "stars": 0,
     "updated": "2026-07-07",
-    "created": "2026-07-04"
+    "created": "2026-07-04",
+    "archived": false
   },
   {
     "name": "slack-bot",
@@ -893,7 +1265,8 @@
     "description": "Slack Bot using Bolt.",
     "stars": 0,
     "updated": "2022-05-29",
-    "created": "2022-05-29"
+    "created": "2022-05-29",
+    "archived": false
   },
   {
     "name": "fastlz-ruby",
@@ -909,7 +1282,8 @@
     "description": "Ruby bindings for FastLZ compression library",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-01-13"
+    "created": "2011-01-13",
+    "archived": false
   },
   {
     "name": "lzf-ruby",
@@ -925,7 +1299,8 @@
     "description": "Ruby bindings for LibLZF compression library",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-01-12"
+    "created": "2011-01-12",
+    "archived": false
   },
   {
     "name": "lzo-ruby",
@@ -941,7 +1316,8 @@
     "description": "Ruby bindings for LZO compression library",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-01-10"
+    "created": "2011-01-10",
+    "archived": false
   },
   {
     "name": "quicklz-ruby",
@@ -957,7 +1333,8 @@
     "description": "Ruby bindings for QuickLZ compression library",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-01-12"
+    "created": "2011-01-12",
+    "archived": false
   },
   {
     "name": "tar-ruby",
@@ -973,7 +1350,25 @@
     "description": "Ruby bindings for libtar archive manipulation",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2008-09-10"
+    "created": "2008-09-10",
+    "archived": false
+  },
+  {
+    "name": "srvd",
+    "url": "https://github.com/winebarrel/srvd",
+    "categories": [
+      "DNS / Network"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "srvd is a configuration management tool using DNS SRV record like confd.",
+    "stars": 3,
+    "updated": "2019-04-05",
+    "created": "2018-08-02",
+    "archived": true
   },
   {
     "name": "kodama",
@@ -989,7 +1384,8 @@
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 1,
     "updated": "2026-07-16",
-    "created": "2025-12-13"
+    "created": "2025-12-13",
+    "archived": false
   },
   {
     "name": "socket-keepalive",
@@ -1005,7 +1401,8 @@
     "description": "TCP keepalive extension for Ruby sockets",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-04-08"
+    "created": "2011-04-08",
+    "archived": false
   },
   {
     "name": "pt-online-schema-change-fast-rebuild-constraints",
@@ -1020,7 +1417,8 @@
     "description": "",
     "stars": 3,
     "updated": "2021-05-30",
-    "created": "2016-11-02"
+    "created": "2016-11-02",
+    "archived": false
   },
   {
     "name": "kani_laser",
@@ -1036,7 +1434,8 @@
     "description": "SendGrid v3 Mail Send API Ruby Client that validates API request body using JSON Schema.",
     "stars": 1,
     "updated": "2021-03-16",
-    "created": "2019-12-30"
+    "created": "2019-12-30",
+    "archived": false
   },
   {
     "name": "activetokyocabinet",
@@ -1052,7 +1451,8 @@
     "description": "ActiveRecord adapter for Tokyo Cabinet/Tyrant databases",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2010-01-05"
+    "created": "2010-01-05",
+    "archived": false
   },
   {
     "name": "conds",
@@ -1068,7 +1468,8 @@
     "description": "go get github.com/winebarrel/conds",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2026-01-24"
+    "created": "2026-01-24",
+    "archived": false
   },
   {
     "name": "dbtyp",
@@ -1084,7 +1485,8 @@
     "description": "dbtyp is a library that associates types with *sql.DB",
     "stars": 0,
     "updated": "2026-01-23",
-    "created": "2026-01-17"
+    "created": "2026-01-17",
+    "archived": false
   },
   {
     "name": "rping",
@@ -1099,7 +1501,8 @@
     "description": "Ruby implementation of ping utility",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2012-01-21"
+    "created": "2012-01-21",
+    "archived": false
   },
   {
     "name": "docker-credential-ecr-login-env",
@@ -1115,7 +1518,8 @@
     "description": "Wrapper command for docker-credential-ecr-login to add environment variables.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2023-03-04"
+    "created": "2023-03-04",
+    "archived": false
   },
   {
     "name": "docker-stone",
@@ -1131,7 +1535,8 @@
     "description": "Stone Docker Image",
     "stars": 0,
     "updated": "2021-11-22",
-    "created": "2021-10-24"
+    "created": "2021-10-24",
+    "archived": false
   },
   {
     "name": "rtail-docker-image",
@@ -1146,7 +1551,8 @@
     "description": "rtail-server docker image",
     "stars": 0,
     "updated": "2016-12-25",
-    "created": "2016-12-25"
+    "created": "2016-12-25",
+    "archived": false
   },
   {
     "name": "ruby-ripmime",
@@ -1162,7 +1568,24 @@
     "description": "Ruby bindings for ripmime MIME parser",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2012-12-23"
+    "created": "2012-12-23",
+    "archived": false
+  },
+  {
+    "name": "github-old-dashboard",
+    "url": "https://github.com/winebarrel/github-old-dashboard",
+    "categories": [
+      "Git / GitHub"
+    ],
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript"
+    ],
+    "description": "Chrome extension to display old feed on GitHub dashboard.",
+    "stars": 7,
+    "updated": "2025-11-24",
+    "created": "2023-09-10",
+    "archived": true
   },
   {
     "name": "lastcmt",
@@ -1178,7 +1601,42 @@
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
     "updated": "2026-07-20",
-    "created": "2025-11-08"
+    "created": "2025-11-08",
+    "archived": false
+  },
+  {
+    "name": "cronparse",
+    "url": "https://github.com/winebarrel/cronparse",
+    "categories": [
+      "Git / GitHub"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Moved to https://github.com/winebarrel/cronplan",
+    "stars": 2,
+    "updated": "2022-10-16",
+    "created": "2022-10-08",
+    "archived": true
+  },
+  {
+    "name": "frk",
+    "url": "https://github.com/winebarrel/frk",
+    "categories": [
+      "Git / GitHub"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "frk is summary generator for your GitHub activities. (Golang port of pepabo/furik)",
+    "stars": 2,
+    "updated": "2025-05-08",
+    "created": "2022-11-13",
+    "archived": true
   },
   {
     "name": "github-actions-issue-link",
@@ -1193,7 +1651,8 @@
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
     "updated": "2026-08-03",
-    "created": "2023-03-11"
+    "created": "2023-03-11",
+    "archived": false
   },
   {
     "name": "codeowners",
@@ -1209,7 +1668,8 @@
     "description": "List up CODEOWNERS of all repositories.",
     "stars": 1,
     "updated": "2026-07-20",
-    "created": "2024-09-03"
+    "created": "2024-09-03",
+    "archived": false
   },
   {
     "name": "github-hide-finish-comment",
@@ -1224,7 +1684,42 @@
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
     "updated": "2026-08-03",
-    "created": "2024-02-11"
+    "created": "2024-02-11",
+    "archived": false
+  },
+  {
+    "name": "pru",
+    "url": "https://github.com/winebarrel/pru",
+    "categories": [
+      "Git / GitHub"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "pru is a tool that updates pull requests branch from the base branch that contains specified files.",
+    "stars": 1,
+    "updated": "2026-05-14",
+    "created": "2023-01-14",
+    "archived": true
+  },
+  {
+    "name": "pru-action",
+    "url": "https://github.com/winebarrel/pru-action",
+    "categories": [
+      "Git / GitHub"
+    ],
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "description": "GitHub action for pru.",
+    "stars": 1,
+    "updated": "2026-05-14",
+    "created": "2023-01-15",
+    "archived": true
   },
   {
     "name": "elixir-sysvbanner",
@@ -1239,7 +1734,8 @@
     "description": "It is Elixir sysvbanner port from https://github.com/uffejakobsen/sysvbanner.",
     "stars": 0,
     "updated": "2016-01-17",
-    "created": "2016-01-17"
+    "created": "2016-01-17",
+    "archived": false
   },
   {
     "name": "gh-reldl",
@@ -1255,7 +1751,8 @@
     "description": "CLI to download assets from GitHub release.",
     "stars": 0,
     "updated": "2021-11-29",
-    "created": "2021-11-28"
+    "created": "2021-11-28",
+    "archived": false
   },
   {
     "name": "sysvbanner-go",
@@ -1271,7 +1768,8 @@
     "description": "It is Go sysvbanner port from https://github.com/uffejakobsen/sysvbanner.",
     "stars": 0,
     "updated": "2017-02-14",
-    "created": "2015-01-16"
+    "created": "2015-01-16",
+    "archived": false
   },
   {
     "name": "ddcp",
@@ -1287,7 +1785,8 @@
     "description": "Parallel file copy command using dd.",
     "stars": 16,
     "updated": "2016-03-10",
-    "created": "2016-03-02"
+    "created": "2016-03-02",
+    "archived": false
   },
   {
     "name": "redash-go",
@@ -1303,7 +1802,8 @@
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
     "updated": "2026-07-31",
-    "created": "2023-02-11"
+    "created": "2023-02-11",
+    "archived": false
   },
   {
     "name": "hyst",
@@ -1319,7 +1819,8 @@
     "description": "Write a histogram in Terminal.",
     "stars": 9,
     "updated": "2026-07-20",
-    "created": "2016-06-15"
+    "created": "2016-06-15",
+    "archived": false
   },
   {
     "name": "json2hcl",
@@ -1335,7 +1836,8 @@
     "description": "A tool to convert JSON to HCL.",
     "stars": 6,
     "updated": "2026-07-20",
-    "created": "2024-03-31"
+    "created": "2024-03-31",
+    "archived": false
   },
   {
     "name": "utsusemi",
@@ -1351,7 +1853,8 @@
     "description": "utsusemi is a proxy server that automatically switches backend.",
     "stars": 3,
     "updated": "2017-11-28",
-    "created": "2017-11-27"
+    "created": "2017-11-27",
+    "archived": false
   },
   {
     "name": "json2go",
@@ -1367,7 +1870,8 @@
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
     "updated": "2026-07-16",
-    "created": "2026-01-01"
+    "created": "2026-01-01",
+    "archived": false
   },
   {
     "name": "runss",
@@ -1383,7 +1887,8 @@
     "description": "Run shell script command using Amazon Simple Systems Management Service.",
     "stars": 2,
     "updated": "2016-08-03",
-    "created": "2016-08-01"
+    "created": "2016-08-01",
+    "archived": false
   },
   {
     "name": "tempwork",
@@ -1399,7 +1904,8 @@
     "description": "Execute a command in a temporary directory.",
     "stars": 2,
     "updated": "2021-04-07",
-    "created": "2016-09-03"
+    "created": "2016-09-03",
+    "archived": false
   },
   {
     "name": "jhol",
@@ -1415,7 +1921,8 @@
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
     "updated": "2026-08-03",
-    "created": "2023-06-17"
+    "created": "2023-06-17",
+    "archived": false
   },
   {
     "name": "kuu",
@@ -1431,7 +1938,8 @@
     "description": "Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.",
     "stars": 1,
     "updated": "2026-07-20",
-    "created": "2024-04-01"
+    "created": "2024-04-01",
+    "archived": false
   },
   {
     "name": "randstr",
@@ -1447,7 +1955,8 @@
     "description": "Go library for generating random strings",
     "stars": 1,
     "updated": "2026-07-20",
-    "created": "2021-04-07"
+    "created": "2021-04-07",
+    "archived": false
   },
   {
     "name": "render",
@@ -1463,7 +1972,25 @@
     "description": "Rendering files using Sigil templating.",
     "stars": 1,
     "updated": "2022-08-01",
-    "created": "2022-07-30"
+    "created": "2022-07-30",
+    "archived": false
+  },
+  {
+    "name": "yktr",
+    "url": "https://github.com/winebarrel/yktr",
+    "categories": [
+      "Go tool"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "HTML"
+    ],
+    "description": "esaの記事を展開してブログのように表示するツールです。",
+    "stars": 1,
+    "updated": "2021-09-15",
+    "created": "2021-09-12",
+    "archived": true
   },
   {
     "name": "esub",
@@ -1479,7 +2006,8 @@
     "description": "A library to replace string placeholders with environment variables.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2025-06-10"
+    "created": "2025-06-10",
+    "archived": false
   },
   {
     "name": "jsonast",
@@ -1495,7 +2023,8 @@
     "description": "jsonast is a library that parses JSON and converts it to AST.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2026-01-03"
+    "created": "2026-01-03",
+    "archived": false
   },
   {
     "name": "plsort",
@@ -1511,7 +2040,8 @@
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
     "updated": "2026-08-05",
-    "created": "2025-05-18"
+    "created": "2025-05-18",
+    "archived": false
   },
   {
     "name": "ppcat",
@@ -1527,7 +2057,8 @@
     "description": "ppcat is a tool to format JSON in the middle of text.",
     "stars": 0,
     "updated": "2026-07-20",
-    "created": "2023-02-11"
+    "created": "2023-02-11",
+    "archived": false
   },
   {
     "name": "pperr",
@@ -1543,7 +2074,8 @@
     "description": "Pretty print for pkg/errors.",
     "stars": 0,
     "updated": "2025-11-24",
-    "created": "2022-02-19"
+    "created": "2022-02-19",
+    "archived": false
   },
   {
     "name": "sglob",
@@ -1559,7 +2091,8 @@
     "description": "sglob is a small globbing library for string.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2025-09-06"
+    "created": "2025-09-06",
+    "archived": false
   },
   {
     "name": "tipper",
@@ -1575,7 +2108,8 @@
     "description": "A library that recursively dumps structure information.",
     "stars": 0,
     "updated": "2026-07-20",
-    "created": "2024-02-19"
+    "created": "2024-02-19",
+    "archived": false
   },
   {
     "name": "tm",
@@ -1591,7 +2125,25 @@
     "description": "Time Calculator.",
     "stars": 0,
     "updated": "2026-07-20",
-    "created": "2023-12-23"
+    "created": "2023-12-23",
+    "archived": false
+  },
+  {
+    "name": "tmc",
+    "url": "https://github.com/winebarrel/tmc",
+    "categories": [
+      "Go tool"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "time calculator",
+    "stars": 0,
+    "updated": "2023-12-23",
+    "created": "2023-02-21",
+    "archived": true
   },
   {
     "name": "xjsonl",
@@ -1607,7 +2159,25 @@
     "description": "xjsonl is a tool to convert xSV to JSON Lines.",
     "stars": 0,
     "updated": "2020-06-29",
-    "created": "2020-06-19"
+    "created": "2020-06-19",
+    "archived": false
+  },
+  {
+    "name": "zabbix_timeline",
+    "url": "https://github.com/winebarrel/zabbix_timeline",
+    "categories": [
+      "JS / TS"
+    ],
+    "language": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "Ruby"
+    ],
+    "description": "Zabbix Event Timeline Viewer.",
+    "stars": 10,
+    "updated": "2018-04-25",
+    "created": "2015-12-05",
+    "archived": true
   },
   {
     "name": "vscode-reopen-folder",
@@ -1623,7 +2193,8 @@
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
     "updated": "2026-08-05",
-    "created": "2023-03-18"
+    "created": "2023-03-18",
+    "archived": false
   },
   {
     "name": "vscode-right-click-filter",
@@ -1639,7 +2210,24 @@
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
     "updated": "2026-08-02",
-    "created": "2024-01-14"
+    "created": "2024-01-14",
+    "archived": false
+  },
+  {
+    "name": "open-parent",
+    "url": "https://github.com/winebarrel/open-parent",
+    "categories": [
+      "JS / TS"
+    ],
+    "language": "TypeScript",
+    "languages": [
+      "TypeScript"
+    ],
+    "description": "VS Code extension to open parent folder of current workspace.",
+    "stars": 0,
+    "updated": "2023-03-18",
+    "created": "2023-03-18",
+    "archived": true
   },
   {
     "name": "sticky",
@@ -1655,7 +2243,8 @@
     "description": "Sticky notes widget library for JavaScript",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-03-04"
+    "created": "2011-03-04",
+    "archived": false
   },
   {
     "name": "kedama",
@@ -1670,7 +2259,8 @@
     "description": "Consistent hashing library for distributed caching",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-04-17"
+    "created": "2011-04-17",
+    "archived": false
   },
   {
     "name": "fluent-plugin-kinesis-firehose",
@@ -1686,7 +2276,42 @@
     "description": "Fluentd output plugin for Amazon Kinesis Firehose.",
     "stars": 10,
     "updated": "2016-07-15",
-    "created": "2015-10-11"
+    "created": "2015-10-11",
+    "archived": false
+  },
+  {
+    "name": "audit_log_parser",
+    "url": "https://github.com/winebarrel/audit_log_parser",
+    "categories": [
+      "Logging"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
+    "description": "It is a library for parsing linux's audit log.",
+    "stars": 5,
+    "updated": "2020-03-31",
+    "created": "2018-11-02",
+    "archived": true
+  },
+  {
+    "name": "fluent-plugin-filter-parse-audit-log",
+    "url": "https://github.com/winebarrel/fluent-plugin-filter-parse-audit-log",
+    "categories": [
+      "Logging"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
+    "description": "",
+    "stars": 4,
+    "updated": "2021-03-16",
+    "created": "2018-11-03",
+    "archived": true
   },
   {
     "name": "fluent-plugin-munin-node",
@@ -1702,7 +2327,8 @@
     "description": "Fluentd input plugin for Munin node.",
     "stars": 4,
     "updated": "2015-09-16",
-    "created": "2015-09-13"
+    "created": "2015-09-13",
+    "archived": false
   },
   {
     "name": "postfix_status_line",
@@ -1718,7 +2344,25 @@
     "description": "Postfix Status Line Log Parser implemented by C.",
     "stars": 4,
     "updated": "2017-03-05",
-    "created": "2015-12-21"
+    "created": "2015-12-21",
+    "archived": false
+  },
+  {
+    "name": "fluent-plugin-zabbix-agent",
+    "url": "https://github.com/winebarrel/fluent-plugin-zabbix-agent",
+    "categories": [
+      "Logging"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
+    "description": "Fluentd input plugin for Zabbix agent.",
+    "stars": 2,
+    "updated": "2018-12-06",
+    "created": "2015-09-12",
+    "archived": true
   },
   {
     "name": "agg",
@@ -1734,7 +2378,8 @@
     "description": "Aggregate log records by time.",
     "stars": 1,
     "updated": "2016-06-30",
-    "created": "2016-06-26"
+    "created": "2016-06-26",
+    "archived": false
   },
   {
     "name": "fluent-plugin-raven-decoder",
@@ -1749,7 +2394,8 @@
     "description": "Fluentd plugin to decode Raven data.",
     "stars": 1,
     "updated": "2015-05-27",
-    "created": "2015-05-20"
+    "created": "2015-05-20",
+    "archived": false
   },
   {
     "name": "fluent-plugin-rtail",
@@ -1765,7 +2411,24 @@
     "description": "Fluentd output plugin for rtail.",
     "stars": 0,
     "updated": "2016-12-25",
-    "created": "2016-12-25"
+    "created": "2016-12-25",
+    "archived": false
+  },
+  {
+    "name": "fluent-plugin-dd",
+    "url": "https://github.com/winebarrel/fluent-plugin-dd",
+    "categories": [
+      "Monitoring"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Output plugin for Datadog",
+    "stars": 18,
+    "updated": "2019-11-25",
+    "created": "2014-02-21",
+    "archived": true
   },
   {
     "name": "ddcost",
@@ -1781,7 +2444,8 @@
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
     "updated": "2026-08-07",
-    "created": "2023-06-03"
+    "created": "2023-06-03",
+    "archived": false
   },
   {
     "name": "fstaid",
@@ -1797,7 +2461,8 @@
     "description": "fstaid is a daemon that monitors the health condition of the server and executes the script if there is any problem.",
     "stars": 6,
     "updated": "2017-08-25",
-    "created": "2017-04-10"
+    "created": "2017-04-10",
+    "archived": false
   },
   {
     "name": "ddcat",
@@ -1813,7 +2478,8 @@
     "description": "CLI to display Datadog Logs.",
     "stars": 3,
     "updated": "2024-07-01",
-    "created": "2023-07-26"
+    "created": "2023-07-26",
+    "archived": false
   },
   {
     "name": "ddusage",
@@ -1829,7 +2495,8 @@
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
     "updated": "2026-08-07",
-    "created": "2023-12-19"
+    "created": "2023-12-19",
+    "archived": false
   },
   {
     "name": "ddmcproxy",
@@ -1845,7 +2512,8 @@
     "description": "A multi-org proxy for the Datadog MCP server: mirrors every Datadog MCP tool and adds an org argument so a single client connection can target multiple Datadog organizations.",
     "stars": 0,
     "updated": "2026-08-03",
-    "created": "2026-07-11"
+    "created": "2026-07-11",
+    "archived": false
   },
   {
     "name": "grpc-healthcheck-server",
@@ -1861,7 +2529,8 @@
     "description": "gRPC health check server implementation",
     "stars": 0,
     "updated": "2021-09-07",
-    "created": "2021-09-07"
+    "created": "2021-09-07",
+    "archived": false
   },
   {
     "name": "ridgepole",
@@ -1876,7 +2545,42 @@
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1116,
     "updated": "2026-08-08",
-    "created": "2014-05-04"
+    "created": "2014-05-04",
+    "archived": false
+  },
+  {
+    "name": "activerecord-mysql-reconnect",
+    "url": "https://github.com/winebarrel/activerecord-mysql-reconnect",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "TSQL",
+    "languages": [
+      "TSQL",
+      "Ruby"
+    ],
+    "description": "It is the library to reconnect automatically when ActiveRecord is disconnected from MySQL.",
+    "stars": 55,
+    "updated": "2020-05-06",
+    "created": "2013-10-11",
+    "archived": true
+  },
+  {
+    "name": "qrn",
+    "url": "https://github.com/winebarrel/qrn",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "qrn is a database load testing tool.",
+    "stars": 36,
+    "updated": "2023-12-18",
+    "created": "2020-05-13",
+    "archived": true
   },
   {
     "name": "active_record_mysql_xverify",
@@ -1892,7 +2596,24 @@
     "description": "",
     "stars": 24,
     "updated": "2025-11-24",
-    "created": "2018-11-15"
+    "created": "2018-11-15",
+    "archived": false
+  },
+  {
+    "name": "arel-mysql-index-hint",
+    "url": "https://github.com/winebarrel/arel-mysql-index-hint",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Add index hint to MySQL query in Arel.",
+    "stars": 12,
+    "updated": "2016-04-28",
+    "created": "2015-04-16",
+    "archived": true
   },
   {
     "name": "genlog",
@@ -1908,7 +2629,8 @@
     "description": "genlog is MySQL General Query Log parser.",
     "stars": 12,
     "updated": "2026-07-20",
-    "created": "2020-05-27"
+    "created": "2020-05-27",
+    "archived": false
   },
   {
     "name": "qube",
@@ -1924,7 +2646,8 @@
     "description": "qube is a DB load testing tool.",
     "stars": 11,
     "updated": "2026-08-03",
-    "created": "2023-10-29"
+    "created": "2023-10-29",
+    "archived": false
   },
   {
     "name": "mysql_casual_explain",
@@ -1940,7 +2663,25 @@
     "description": "Highlight problematic MySQL explain results.",
     "stars": 9,
     "updated": "2026-06-22",
-    "created": "2020-08-05"
+    "created": "2020-08-05",
+    "archived": false
+  },
+  {
+    "name": "spring_onion",
+    "url": "https://github.com/winebarrel/spring_onion",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Dockerfile"
+    ],
+    "description": "Log MySQL queries with EXPLAIN that may be slow.'",
+    "stars": 9,
+    "updated": "2023-08-24",
+    "created": "2020-07-17",
+    "archived": true
   },
   {
     "name": "binrpt",
@@ -1956,7 +2697,8 @@
     "description": "binrpt is a daemon that reads MySQL binlog and executes replication SQL.",
     "stars": 8,
     "updated": "2024-08-27",
-    "created": "2020-10-17"
+    "created": "2020-10-17",
+    "archived": false
   },
   {
     "name": "qrev",
@@ -1972,7 +2714,8 @@
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
     "updated": "2026-08-05",
-    "created": "2025-10-11"
+    "created": "2025-10-11",
+    "archived": false
   },
   {
     "name": "pgslap",
@@ -1988,7 +2731,8 @@
     "description": "pgslap is a PostgreSQL load testing tool like mysqlslap.",
     "stars": 7,
     "updated": "2025-04-08",
-    "created": "2021-07-21"
+    "created": "2021-07-21",
+    "archived": false
   },
   {
     "name": "qb",
@@ -2004,7 +2748,8 @@
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
     "updated": "2026-07-16",
-    "created": "2022-05-08"
+    "created": "2022-05-08",
+    "archived": false
   },
   {
     "name": "qlap",
@@ -2020,7 +2765,8 @@
     "description": "qlap is a MySQL load testing tool like mysqlslap.",
     "stars": 6,
     "updated": "2025-04-08",
-    "created": "2021-01-11"
+    "created": "2021-01-11",
+    "archived": false
   },
   {
     "name": "arproxy-plugin-mysql_casual_log",
@@ -2035,7 +2781,8 @@
     "description": "Plug-in that colorize the bad query for Arproxy.",
     "stars": 3,
     "updated": "2015-05-15",
-    "created": "2015-05-15"
+    "created": "2015-05-15",
+    "archived": false
   },
   {
     "name": "myschema",
@@ -2051,7 +2798,8 @@
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
     "updated": "2026-07-31",
-    "created": "2026-05-02"
+    "created": "2026-05-02",
+    "archived": false
   },
   {
     "name": "mysql2_query_filter",
@@ -2066,7 +2814,8 @@
     "description": "Filtering framework for Mysql2.",
     "stars": 2,
     "updated": "2015-05-16",
-    "created": "2015-05-09"
+    "created": "2015-05-09",
+    "archived": false
   },
   {
     "name": "mysql2_query_filter-plugin-casual_log",
@@ -2081,7 +2830,8 @@
     "description": "Plug-in that colorize the bad query for Mysql2QueryFilter.",
     "stars": 2,
     "updated": "2015-05-16",
-    "created": "2015-05-09"
+    "created": "2015-05-09",
+    "archived": false
   },
   {
     "name": "mysql_make_scrambled_password",
@@ -2097,7 +2847,8 @@
     "description": "Execute MySQL PASSWORD() function in Ruby.",
     "stars": 2,
     "updated": "2019-05-16",
-    "created": "2016-06-23"
+    "created": "2016-06-23",
+    "archived": false
   },
   {
     "name": "activerecord-mysql-pkdump",
@@ -2112,7 +2863,8 @@
     "description": "Dump type information of non-standard MySQL primary keys",
     "stars": 1,
     "updated": "2014-11-18",
-    "created": "2014-11-17"
+    "created": "2014-11-17",
+    "archived": false
   },
   {
     "name": "dbping",
@@ -2128,7 +2880,25 @@
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 1,
     "updated": "2026-08-03",
-    "created": "2024-11-18"
+    "created": "2024-11-18",
+    "archived": false
+  },
+  {
+    "name": "mypasswd",
+    "url": "https://github.com/winebarrel/mypasswd",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Calculate a hashed password for MySQL.",
+    "stars": 1,
+    "updated": "2019-09-27",
+    "created": "2016-06-26",
+    "archived": true
   },
   {
     "name": "xgl",
@@ -2144,7 +2914,8 @@
     "description": "MySQL General Query Log parser.",
     "stars": 1,
     "updated": "2021-06-29",
-    "created": "2021-01-06"
+    "created": "2021-01-06",
+    "archived": false
   },
   {
     "name": "mysql2-keepalive",
@@ -2160,7 +2931,8 @@
     "description": "TCP keepalive extension for Mysql2 gem",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2013-03-09"
+    "created": "2013-03-09",
+    "archived": false
   },
   {
     "name": "mysql2_query_filter-plugin-log",
@@ -2175,7 +2947,8 @@
     "description": "Logging plug-in for Mysql2QueryFilter.",
     "stars": 0,
     "updated": "2015-05-16",
-    "created": "2015-05-09"
+    "created": "2015-05-09",
+    "archived": false
   },
   {
     "name": "qm",
@@ -2191,7 +2964,8 @@
     "description": "pt-fingerprint for JSON Lines.",
     "stars": 0,
     "updated": "2020-07-20",
-    "created": "2020-07-20"
+    "created": "2020-07-20",
+    "archived": false
   },
   {
     "name": "qrnlog",
@@ -2207,7 +2981,8 @@
     "description": "qrnlog is a qrn log normalization tool.",
     "stars": 0,
     "updated": "2020-07-15",
-    "created": "2020-07-13"
+    "created": "2020-07-13",
+    "archived": false
   },
   {
     "name": "ruby-binlog",
@@ -2223,7 +2998,8 @@
     "description": "Ruby bindings for MySQL binary log replication API",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2012-08-25"
+    "created": "2012-08-25",
+    "archived": false
   },
   {
     "name": "ruby-pt-fingerprint",
@@ -2239,7 +3015,8 @@
     "description": "Ruby bindings for Percona Toolkit query fingerprint",
     "stars": 0,
     "updated": "2021-03-16",
-    "created": "2021-03-16"
+    "created": "2021-03-16",
+    "archived": false
   },
   {
     "name": "tiny_mysql",
@@ -2255,7 +3032,8 @@
     "description": "Lightweight MySQL client built on mysql command",
     "stars": 0,
     "updated": "2017-03-08",
-    "created": "2017-03-03"
+    "created": "2017-03-03",
+    "archived": false
   },
   {
     "name": "amzcard",
@@ -2271,7 +3049,8 @@
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
     "updated": "2026-08-04",
-    "created": "2026-05-30"
+    "created": "2026-05-30",
+    "archived": false
   },
   {
     "name": "bracecomp",
@@ -2287,7 +3066,8 @@
     "description": "Brace expansion library for string patterns",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-09-05"
+    "created": "2011-09-05",
+    "archived": false
   },
   {
     "name": "active_record_postgresql_xverify",
@@ -2303,7 +3083,8 @@
     "description": "",
     "stars": 9,
     "updated": "2025-11-24",
-    "created": "2019-06-05"
+    "created": "2019-06-05",
+    "archived": false
   },
   {
     "name": "poslog",
@@ -2319,7 +3100,8 @@
     "description": "Parser to extract SQL from postgresql.log",
     "stars": 2,
     "updated": "2026-07-20",
-    "created": "2022-05-30"
+    "created": "2022-05-30",
+    "archived": false
   },
   {
     "name": "pgls",
@@ -2335,7 +3117,8 @@
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
     "updated": "2026-07-28",
-    "created": "2026-05-05"
+    "created": "2026-05-05",
+    "archived": false
   },
   {
     "name": "pgls-vscode",
@@ -2351,7 +3134,8 @@
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
     "updated": "2026-08-07",
-    "created": "2026-05-05"
+    "created": "2026-05-05",
+    "archived": false
   },
   {
     "name": "psqlfmt",
@@ -2367,7 +3151,8 @@
     "description": "psqlfmt is a PostgreSQL SQL formatter.",
     "stars": 0,
     "updated": "2026-07-21",
-    "created": "2026-04-14"
+    "created": "2026-04-14",
+    "archived": false
   },
   {
     "name": "ruby-jq",
@@ -2383,7 +3168,8 @@
     "description": "Ruby bindings for jq.",
     "stars": 84,
     "updated": "2022-12-28",
-    "created": "2013-11-12"
+    "created": "2013-11-12",
+    "archived": false
   },
   {
     "name": "ruby-handlersocket",
@@ -2396,7 +3182,71 @@
     "description": "Ruby bindings for HandlerSocket-Plugin",
     "stars": 35,
     "updated": "2022-06-05",
-    "created": "2011-01-03"
+    "created": "2011-01-03",
+    "archived": false
+  },
+  {
+    "name": "rhcl",
+    "url": "https://github.com/winebarrel/rhcl",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Pure Ruby HCL parser",
+    "stars": 15,
+    "updated": "2014-09-21",
+    "created": "2014-08-13",
+    "archived": true
+  },
+  {
+    "name": "uptimerobot",
+    "url": "https://github.com/winebarrel/uptimerobot",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Uptime Robot API client for Ruby.",
+    "stars": 14,
+    "updated": "2019-05-22",
+    "created": "2014-12-24",
+    "archived": true
+  },
+  {
+    "name": "zv",
+    "url": "https://github.com/winebarrel/zv",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "HTML"
+    ],
+    "description": "Zabbix Graph Dashbord",
+    "stars": 13,
+    "updated": "2015-10-02",
+    "created": "2015-09-25",
+    "archived": true
+  },
+  {
+    "name": "activerecord-cassandra-adapter",
+    "url": "https://github.com/winebarrel/activerecord-cassandra-adapter",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [],
+    "description": "activerecord-cassandra-adapter is a Cassandra adapter for ActiveRecord.",
+    "stars": 11,
+    "updated": "2022-06-05",
+    "created": "2011-01-03",
+    "archived": true
   },
   {
     "name": "fluent-plugin-filter-parse-postfix",
@@ -2412,7 +3262,8 @@
     "description": "",
     "stars": 10,
     "updated": "2020-07-08",
-    "created": "2015-12-21"
+    "created": "2015-12-21",
+    "archived": false
   },
   {
     "name": "zabbix-client",
@@ -2427,7 +3278,8 @@
     "description": "This is a simple client of Zabbix API.",
     "stars": 8,
     "updated": "2016-03-04",
-    "created": "2014-08-30"
+    "created": "2014-08-30",
+    "archived": false
   },
   {
     "name": "erbh",
@@ -2442,7 +3294,8 @@
     "description": "Simple ERB helper.",
     "stars": 4,
     "updated": "2022-01-15",
-    "created": "2016-04-10"
+    "created": "2016-04-10",
+    "archived": false
   },
   {
     "name": "ath",
@@ -2458,7 +3311,8 @@
     "description": "ath is a interactive Amazon Athena shell.",
     "stars": 3,
     "updated": "2017-07-07",
-    "created": "2017-07-03"
+    "created": "2017-07-03",
+    "archived": false
   },
   {
     "name": "es-desk",
@@ -2474,7 +3328,25 @@
     "description": "It is an application for testing Elasticsearch index.",
     "stars": 3,
     "updated": "2018-04-04",
-    "created": "2017-12-04"
+    "created": "2017-12-04",
+    "archived": false
+  },
+  {
+    "name": "fluent-plugin-filter-jq",
+    "url": "https://github.com/winebarrel/fluent-plugin-filter-jq",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
+    "description": "Filter Plugin to create a new record containing the values converted by jq.",
+    "stars": 3,
+    "updated": "2017-10-26",
+    "created": "2015-07-12",
+    "archived": true
   },
   {
     "name": "rspec-match_ruby",
@@ -2490,7 +3362,8 @@
     "description": "It is Ruby code matcher.",
     "stars": 3,
     "updated": "2026-07-27",
-    "created": "2017-12-13"
+    "created": "2017-12-13",
+    "archived": false
   },
   {
     "name": "deep_sort",
@@ -2506,7 +3379,8 @@
     "description": "Sort Array/Hash/Enumerable recursively.",
     "stars": 2,
     "updated": "2016-08-21",
-    "created": "2016-08-19"
+    "created": "2016-08-19",
+    "archived": false
   },
   {
     "name": "easycron",
@@ -2522,7 +3396,8 @@
     "description": "EasyCron API Ruby Client.",
     "stars": 2,
     "updated": "2016-12-04",
-    "created": "2016-12-04"
+    "created": "2016-12-04",
+    "archived": false
   },
   {
     "name": "rspec-match_fuzzy",
@@ -2538,7 +3413,58 @@
     "description": "String matcher to ignore whitespace.",
     "stars": 2,
     "updated": "2026-02-16",
-    "created": "2016-04-09"
+    "created": "2016-04-09",
+    "archived": false
+  },
+  {
+    "name": "statuscake",
+    "url": "https://github.com/winebarrel/statuscake",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "It is a Status Cake API client library.",
+    "stars": 2,
+    "updated": "2017-07-05",
+    "created": "2015-01-02",
+    "archived": true
+  },
+  {
+    "name": "fluent-plugin-filter-object-flatten",
+    "url": "https://github.com/winebarrel/fluent-plugin-filter-object-flatten",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
+    "description": "Filter Plugin to convert the hash record to records of key-value pairs.",
+    "stars": 1,
+    "updated": "2017-10-30",
+    "created": "2015-07-12",
+    "archived": true
+  },
+  {
+    "name": "fluent-plugin-filter-record-map",
+    "url": "https://github.com/winebarrel/fluent-plugin-filter-record-map",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
+    "description": "Filter Plugin to create a new record containing the values converted by Ruby script.",
+    "stars": 1,
+    "updated": "2015-10-22",
+    "created": "2015-07-12",
+    "archived": true
   },
   {
     "name": "hash_modern_inspect",
@@ -2554,7 +3480,42 @@
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
     "updated": "2026-07-27",
-    "created": "2016-04-09"
+    "created": "2016-04-09",
+    "archived": false
+  },
+  {
+    "name": "macsay",
+    "url": "https://github.com/winebarrel/macsay",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "C"
+    ],
+    "description": "Simple Ruby bindings for NSSpeechSynthesizer.",
+    "stars": 1,
+    "updated": "2021-05-06",
+    "created": "2020-03-28",
+    "archived": true
+  },
+  {
+    "name": "pd_event_v2",
+    "url": "https://github.com/winebarrel/pd_event_v2",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby",
+      "Shell"
+    ],
+    "description": "PagerDuty Events API v2 Ruby Client.",
+    "stars": 1,
+    "updated": "2020-03-01",
+    "created": "2019-11-29",
+    "archived": true
   },
   {
     "name": "pp_sort_hash",
@@ -2570,7 +3531,8 @@
     "description": "Pretty print a sorted hash by key.",
     "stars": 1,
     "updated": "2016-08-19",
-    "created": "2016-08-19"
+    "created": "2016-08-19",
+    "archived": false
   },
   {
     "name": "pycf",
@@ -2585,7 +3547,24 @@
     "description": "Configuration file parser for Python 2.7 basic configuration file.",
     "stars": 1,
     "updated": "2015-06-13",
-    "created": "2015-06-13"
+    "created": "2015-06-13",
+    "archived": false
+  },
+  {
+    "name": "zabtm",
+    "url": "https://github.com/winebarrel/zabtm",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "It is a tool to manage Zabbix by DSL.",
+    "stars": 1,
+    "updated": "2014-09-01",
+    "created": "2014-08-31",
+    "archived": true
   },
   {
     "name": "activerecord-alt-mongo-adapter",
@@ -2601,7 +3580,24 @@
     "description": "MongoDB adapter for ActiveRecord",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2010-03-30"
+    "created": "2010-03-30",
+    "archived": false
+  },
+  {
+    "name": "arel_columns_hash",
+    "url": "https://github.com/winebarrel/arel_columns_hash",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Monkey patch for fix Arel column_cache. (use AR model columns_hash)",
+    "stars": 0,
+    "updated": "2015-04-22",
+    "created": "2015-03-15",
+    "archived": true
   },
   {
     "name": "arproxy-plugin-stdout",
@@ -2616,7 +3612,8 @@
     "description": "STDOUT output plug-in for Arproxy.",
     "stars": 0,
     "updated": "2015-05-11",
-    "created": "2015-05-11"
+    "created": "2015-05-11",
+    "archived": false
   },
   {
     "name": "bayon-ruby",
@@ -2632,7 +3629,8 @@
     "description": "Ruby bindings for Bayon clustering library",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2009-06-13"
+    "created": "2009-06-13",
+    "archived": false
   },
   {
     "name": "fluent-plugin-rinflux",
@@ -2648,7 +3646,8 @@
     "description": "Output plugin for InfluxDB.",
     "stars": 0,
     "updated": "2015-07-18",
-    "created": "2015-07-18"
+    "created": "2015-07-18",
+    "archived": false
   },
   {
     "name": "google-api_client-keychain_store",
@@ -2663,7 +3662,8 @@
     "description": "KeychainStore for Google API Client.",
     "stars": 0,
     "updated": "2015-03-09",
-    "created": "2015-02-21"
+    "created": "2015-02-21",
+    "archived": false
   },
   {
     "name": "hash_order_helper",
@@ -2679,7 +3679,8 @@
     "description": "Add methods to manipulate the order of the entries in the Hash object.",
     "stars": 0,
     "updated": "2017-04-16",
-    "created": "2016-04-10"
+    "created": "2016-04-10",
+    "archived": false
   },
   {
     "name": "js2json",
@@ -2694,7 +3695,8 @@
     "description": "It is a library to convert from JavaScript to JSON.",
     "stars": 0,
     "updated": "2014-03-16",
-    "created": "2014-03-16"
+    "created": "2014-03-16",
+    "archived": false
   },
   {
     "name": "librato-client",
@@ -2710,7 +3712,8 @@
     "description": "Librato API Client for for Ruby.",
     "stars": 0,
     "updated": "2015-09-17",
-    "created": "2015-08-08"
+    "created": "2015-08-08",
+    "archived": false
   },
   {
     "name": "lisp.rb",
@@ -2725,7 +3728,8 @@
     "description": "Ruby port of Lispy",
     "stars": 0,
     "updated": "2014-12-20",
-    "created": "2014-12-20"
+    "created": "2014-12-20",
+    "archived": false
   },
   {
     "name": "object_flatten",
@@ -2741,7 +3745,8 @@
     "description": "ObjectFlatten converts the hash to an array of key-value pairs.",
     "stars": 0,
     "updated": "2015-07-12",
-    "created": "2015-07-12"
+    "created": "2015-07-12",
+    "archived": false
   },
   {
     "name": "rack_custom_tmpdir",
@@ -2757,7 +3762,8 @@
     "description": "Rack middleware to change temporary directory of file upload.",
     "stars": 0,
     "updated": "2017-07-27",
-    "created": "2017-07-27"
+    "created": "2017-07-27",
+    "archived": false
   },
   {
     "name": "rinflux",
@@ -2773,7 +3779,8 @@
     "description": "It is unofficial low level ruby client library for InfluxDB.",
     "stars": 0,
     "updated": "2015-07-18",
-    "created": "2015-07-18"
+    "created": "2015-07-18",
+    "archived": false
   },
   {
     "name": "rspec-match_table",
@@ -2789,7 +3796,25 @@
     "description": "It is array of hashes matcher.",
     "stars": 0,
     "updated": "2021-03-16",
-    "created": "2017-12-27"
+    "created": "2017-12-27",
+    "archived": false
+  },
+  {
+    "name": "ruby-json-win32",
+    "url": "https://github.com/winebarrel/ruby-json-win32",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "C",
+    "languages": [
+      "C",
+      "Ruby"
+    ],
+    "description": "Ruby JSON gem for Windows",
+    "stars": 0,
+    "updated": "2022-06-05",
+    "created": "2011-07-17",
+    "archived": true
   },
   {
     "name": "ruby-mawk",
@@ -2805,7 +3830,8 @@
     "description": "Ruby bindings for mawk text processing",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2011-04-10"
+    "created": "2011-04-10",
+    "archived": false
   },
   {
     "name": "segv",
@@ -2821,7 +3847,8 @@
     "description": "Cause SEGV in Ruby.",
     "stars": 0,
     "updated": "2016-09-23",
-    "created": "2016-09-23"
+    "created": "2016-09-23",
+    "archived": false
   },
   {
     "name": "sparsehash-ruby",
@@ -2837,7 +3864,8 @@
     "description": "Ruby bindings for Google Sparse Hash library",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2009-05-19"
+    "created": "2009-05-19",
+    "archived": false
   },
   {
     "name": "udiff",
@@ -2853,7 +3881,24 @@
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
     "updated": "2026-07-26",
-    "created": "2026-03-22"
+    "created": "2026-03-22",
+    "archived": false
+  },
+  {
+    "name": "zabbix_protocol",
+    "url": "https://github.com/winebarrel/zabbix_protocol",
+    "categories": [
+      "Ruby gem"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Zabbix protocols builder/parser.",
+    "stars": 0,
+    "updated": "2016-04-28",
+    "created": "2015-03-07",
+    "archived": true
   },
   {
     "name": "jlsort",
@@ -2869,7 +3914,8 @@
     "description": "Sort JSON Lines using External merge sort",
     "stars": 5,
     "updated": "2024-11-25",
-    "created": "2021-08-14"
+    "created": "2021-08-14",
+    "archived": false
   },
   {
     "name": "jljoin",
@@ -2885,7 +3931,24 @@
     "description": "Read two NDJSON files and combine lines with common member values.",
     "stars": 1,
     "updated": "2023-05-08",
-    "created": "2021-08-29"
+    "created": "2021-08-29",
+    "archived": false
+  },
+  {
+    "name": "emsort",
+    "url": "https://github.com/winebarrel/emsort",
+    "categories": [
+      "Rust tool"
+    ],
+    "language": "Rust",
+    "languages": [
+      "Rust"
+    ],
+    "description": "Rust external merge sort implementation.",
+    "stars": 0,
+    "updated": "2021-08-14",
+    "created": "2021-05-30",
+    "archived": true
   },
   {
     "name": "ex_merge_sort",
@@ -2900,7 +3963,8 @@
     "description": "Rust external merge sort library.",
     "stars": 0,
     "updated": "2021-08-22",
-    "created": "2021-08-14"
+    "created": "2021-08-14",
+    "archived": false
   },
   {
     "name": "ex_merge_sort_by_key",
@@ -2915,7 +3979,8 @@
     "description": "Rust external merge sort library using sort_by_cached_key.",
     "stars": 0,
     "updated": "2021-08-29",
-    "created": "2021-08-22"
+    "created": "2021-08-22",
+    "archived": false
   },
   {
     "name": "jluniq",
@@ -2931,7 +3996,8 @@
     "description": "Remove duplicate key member lines from sorted NDJSON.",
     "stars": 0,
     "updated": "2021-08-30",
-    "created": "2021-08-29"
+    "created": "2021-08-29",
+    "archived": false
   },
   {
     "name": "pistachio",
@@ -2947,7 +4013,8 @@
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 21,
     "updated": "2026-08-08",
-    "created": "2026-02-21"
+    "created": "2026-02-21",
+    "archived": false
   },
   {
     "name": "terraform-provider-lambdazip",
@@ -2963,7 +4030,8 @@
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
     "updated": "2026-08-03",
-    "created": "2024-02-03"
+    "created": "2024-02-03",
+    "archived": false
   },
   {
     "name": "terraform-provider-redash",
@@ -2979,7 +4047,8 @@
     "description": "Terraform provider for Redash.",
     "stars": 10,
     "updated": "2026-07-25",
-    "created": "2023-04-25"
+    "created": "2023-04-25",
+    "archived": false
   },
   {
     "name": "terraform-provider-iamencode",
@@ -2995,7 +4064,8 @@
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 6,
     "updated": "2026-08-06",
-    "created": "2026-05-18"
+    "created": "2026-05-18",
+    "archived": false
   },
   {
     "name": "vscode-tfstate-show",
@@ -3011,7 +4081,8 @@
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
     "updated": "2026-08-02",
-    "created": "2023-12-17"
+    "created": "2023-12-17",
+    "archived": false
   },
   {
     "name": "terraform-provider-cronplan",
@@ -3027,7 +4098,8 @@
     "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
     "stars": 2,
     "updated": "2026-07-25",
-    "created": "2023-09-30"
+    "created": "2023-09-30",
+    "archived": false
   },
   {
     "name": "terraform-provider-firebaseremoteconfig",
@@ -3043,7 +4115,8 @@
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
     "updated": "2026-07-30",
-    "created": "2025-07-09"
+    "created": "2025-07-09",
+    "archived": false
   },
   {
     "name": "terraform-provider-oneshot",
@@ -3059,7 +4132,8 @@
     "description": "Terraform provider for running one-shot commands.",
     "stars": 1,
     "updated": "2026-07-24",
-    "created": "2024-09-21"
+    "created": "2024-09-21",
+    "archived": false
   },
   {
     "name": "terraform-provider-op",
@@ -3075,7 +4149,8 @@
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
     "updated": "2026-07-25",
-    "created": "2023-08-20"
+    "created": "2023-08-20",
+    "archived": false
   },
   {
     "name": "terraform-provider-rds",
@@ -3091,7 +4166,8 @@
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
     "updated": "2026-08-05",
-    "created": "2022-07-16"
+    "created": "2022-07-16",
+    "archived": false
   },
   {
     "name": "tflocalexpand",
@@ -3107,7 +4183,8 @@
     "description": "tflocalexpand is a tool to expand Terraform locals references into their underlying expressions.",
     "stars": 1,
     "updated": "2026-06-02",
-    "created": "2026-05-22"
+    "created": "2026-05-22",
+    "archived": false
   },
   {
     "name": "iampd2j",
@@ -3123,7 +4200,8 @@
     "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2026-05-20"
+    "created": "2026-05-20",
+    "archived": false
   },
   {
     "name": "terraform-provider-googlesheets",
@@ -3139,7 +4217,8 @@
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
     "updated": "2026-08-04",
-    "created": "2025-04-17"
+    "created": "2025-04-17",
+    "archived": false
   },
   {
     "name": "terraform-provider-lambdaconfig",
@@ -3155,7 +4234,8 @@
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
     "updated": "2026-08-05",
-    "created": "2025-04-05"
+    "created": "2025-04-05",
+    "archived": false
   },
   {
     "name": "terraform-provider-multireplace",
@@ -3171,7 +4251,8 @@
     "description": "Terraform provider for multi-pattern string replacement",
     "stars": 0,
     "updated": "2026-07-30",
-    "created": "2025-07-12"
+    "created": "2025-07-12",
+    "archived": false
   },
   {
     "name": "terraform-provider-route53",
@@ -3187,7 +4268,8 @@
     "description": "Terraform provider for AWS Route53 DNS",
     "stars": 0,
     "updated": "2021-02-19",
-    "created": "2021-02-19"
+    "created": "2021-02-19",
+    "archived": false
   },
   {
     "name": "terraform-provider-sleep",
@@ -3203,7 +4285,8 @@
     "description": "Terraform provider of the function to pause.",
     "stars": 0,
     "updated": "2026-07-20",
-    "created": "2025-08-21"
+    "created": "2025-08-21",
+    "archived": false
   },
   {
     "name": "terraform-provider-statuspage",
@@ -3219,7 +4302,8 @@
     "description": "Terraform provider for Statuspage.io.",
     "stars": 0,
     "updated": "2026-03-04",
-    "created": "2026-03-01"
+    "created": "2026-03-01",
+    "archived": false
   },
   {
     "name": "tfdsprune",
@@ -3235,7 +4319,8 @@
     "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2026-05-27"
+    "created": "2026-05-27",
+    "archived": false
   },
   {
     "name": "tfjson2hcl",
@@ -3251,7 +4336,8 @@
     "description": "A tool to convert heredoc JSON in Terraform files into jsonencode({...})",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2026-06-21"
+    "created": "2026-06-21",
+    "archived": false
   },
   {
     "name": "tflat",
@@ -3267,7 +4353,8 @@
     "description": "Flatten Terraform modules into the parent with moved blocks for state migration.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2026-05-22"
+    "created": "2026-05-22",
+    "archived": false
   },
   {
     "name": "tfquiet",
@@ -3283,7 +4370,8 @@
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2026-05-24"
+    "created": "2026-05-24",
+    "archived": false
   },
   {
     "name": "tfrename",
@@ -3299,7 +4387,8 @@
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
     "updated": "2026-07-22",
-    "created": "2026-05-22"
+    "created": "2026-05-22",
+    "archived": false
   },
   {
     "name": "tfunfold",
@@ -3315,7 +4404,8 @@
     "description": "tfunfold is a tool to expand Terraform for_each / count into individual resources or modules with moved blocks.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2026-06-16"
+    "created": "2026-06-16",
+    "archived": false
   },
   {
     "name": "vscode-tfrename",
@@ -3331,7 +4421,8 @@
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
     "updated": "2026-08-07",
-    "created": "2026-05-30"
+    "created": "2026-05-30",
+    "archived": false
   },
   {
     "name": "orderedmap",
@@ -3347,7 +4438,8 @@
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
     "updated": "2026-07-16",
-    "created": "2026-02-28"
+    "created": "2026-02-28",
+    "archived": false
   },
   {
     "name": "esaop",
@@ -3363,7 +4455,8 @@
     "description": "A web application that redirects human-readable URLs to esa.io posts.",
     "stars": 0,
     "updated": "2026-07-20",
-    "created": "2022-01-19"
+    "created": "2022-01-19",
+    "archived": false
   },
   {
     "name": "gemcard",
@@ -3378,8 +4471,9 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-08",
-    "created": "2026-06-14"
+    "updated": "2026-08-09",
+    "created": "2026-06-14",
+    "archived": false
   },
   {
     "name": "PagerCall",
@@ -3395,7 +4489,8 @@
     "description": "PagerCall is a utility app that shows PagerDuty status on the menu bar.",
     "stars": 10,
     "updated": "2026-07-10",
-    "created": "2024-09-30"
+    "created": "2024-09-30",
+    "archived": false
   },
   {
     "name": "Neco",
@@ -3410,7 +4505,8 @@
     "description": "An oneko / xneko-style desktop pet: a cat that chases your mouse cursor, for macOS.",
     "stars": 2,
     "updated": "2026-07-12",
-    "created": "2026-07-11"
+    "created": "2026-07-11",
+    "archived": false
   },
   {
     "name": "VerticalBattery",
@@ -3426,7 +4522,24 @@
     "description": "Small vertical battery icon on menu bar.",
     "stars": 2,
     "updated": "2026-06-20",
-    "created": "2025-01-13"
+    "created": "2025-01-13",
+    "archived": false
+  },
+  {
+    "name": "ClickLock",
+    "url": "https://github.com/winebarrel/ClickLock",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift"
+    ],
+    "description": "This is an app that locks the macOS screen by clicking the icon on the menu bar.",
+    "stars": 1,
+    "updated": "2025-08-18",
+    "created": "2024-03-09",
+    "archived": true
   },
   {
     "name": "HatebuFilter",
@@ -3442,7 +4555,24 @@
     "description": "「はてブフィルター」は指定されたキーワードを含む はてなブックマーク (https://b.hatena.ne.jp/) のエントリを非表示にするSafari機能拡張です。",
     "stars": 1,
     "updated": "2026-06-18",
-    "created": "2026-01-25"
+    "created": "2026-01-25",
+    "archived": false
+  },
+  {
+    "name": "PDStatus",
+    "url": "https://github.com/winebarrel/PDStatus",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift"
+    ],
+    "description": "PDStatus is a utility app that shows PagerDuty status on the menu bar.",
+    "stars": 1,
+    "updated": "2024-11-03",
+    "created": "2024-01-06",
+    "archived": true
   },
   {
     "name": "Pullse",
@@ -3458,7 +4588,8 @@
     "description": "Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.",
     "stars": 1,
     "updated": "2026-08-08",
-    "created": "2024-11-17"
+    "created": "2024-11-17",
+    "archived": false
   },
   {
     "name": "CursorIME",
@@ -3473,7 +4604,8 @@
     "description": "macOS utility that shows an \"あ\" badge next to the mouse cursor while Japanese input is active",
     "stars": 0,
     "updated": "2026-07-13",
-    "created": "2026-07-10"
+    "created": "2026-07-10",
+    "archived": false
   },
   {
     "name": "SimpleResize",
@@ -3488,7 +4620,25 @@
     "description": "iOS向けのシンプルな画像リサイズアプリです。",
     "stars": 0,
     "updated": "2026-04-27",
-    "created": "2026-03-20"
+    "created": "2026-03-20",
+    "archived": false
+  },
+  {
+    "name": "Succ",
+    "url": "https://github.com/winebarrel/Succ",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift",
+      "Makefile"
+    ],
+    "description": "Succ is an application that notifies the user of pull requests that have passed testing and have been approved, or pull requests that have failed testing.",
+    "stars": 0,
+    "updated": "2024-12-01",
+    "created": "2024-02-21",
+    "archived": true
   },
   {
     "name": "TenkiMap",
@@ -3503,7 +4653,8 @@
     "description": "気象庁の府県天気予報とAMeDAS観測値を地図上にオーバーレイ表示するiOSアプリ",
     "stars": 0,
     "updated": "2026-04-29",
-    "created": "2026-04-25"
+    "created": "2026-04-25",
+    "archived": false
   },
   {
     "name": "ps_f",
@@ -3518,6 +4669,7 @@
     "description": "Emulate ps awxuf on macOS (BSD style)",
     "stars": 0,
     "updated": "2022-06-05",
-    "created": "2012-12-28"
+    "created": "2012-12-28",
+    "archived": false
   }
 ]

@@ -9,12 +9,14 @@ script_dir="$repo_dir/scripts"
 tmp="$(mktemp -d)"
 trap 'rm -rf "$tmp"' EXIT
 
-fields='name,description,primaryLanguage,languages,repositoryTopics,stargazerCount,pushedAt,createdAt,url,isFork'
+fields='name,description,primaryLanguage,languages,repositoryTopics,stargazerCount,pushedAt,createdAt,url,isFork,isArchived'
 
+# Archived repos are kept (flagged with `archived` in tools.json and badged on
+# the page); only forks are filtered out.
 echo "fetching repos…"
-gh repo list winebarrel --limit 500 --no-archived --source --json "$fields" > "$tmp/winebarrel.json"
-gh repo list ridgepole  --limit 100 --no-archived          --json "$fields" > "$tmp/ridgepole.json"
-gh repo list quetarohq  --limit 100 --no-archived          --json "$fields" > "$tmp/quetarohq.json"
+gh repo list winebarrel --limit 500 --source --json "$fields" > "$tmp/winebarrel.json"
+gh repo list ridgepole  --limit 100          --json "$fields" > "$tmp/ridgepole.json"
+gh repo list quetarohq  --limit 100          --json "$fields" > "$tmp/quetarohq.json"
 
 # Specific repos from the kanmu org (not the whole org).
 # Use unauthenticated REST API to bypass the org's SAML enforcement on
@@ -35,7 +37,8 @@ for r in $kanmu_repos; do
       pushedAt: .pushed_at,
       createdAt: .created_at,
       url: .html_url,
-      isFork: .fork
+      isFork: .fork,
+      isArchived: .archived
     }
   ' >> "$tmp/kanmu.ndjson"
 done
@@ -75,7 +78,7 @@ jq -s 'add' "$tmp/winebarrel.json" "$tmp/ridgepole.json" "$tmp/quetarohq.json" "
       map(. + {createdAt: ($m[.url | sub("https://github.com/"; "")] // (.createdAt | .[0:10]))})
     ' \
   | jq -f "$script_dir/categorize.jq" \
-  | jq '[.[] | select(.include) | {name, url, categories, language, languages, description, stars, updated, created}]
+  | jq '[.[] | select(.include) | {name, url, categories, language, languages, description, stars, updated, created, archived}]
         | sort_by(.categories[0], -.stars, .name)' \
   > "$repo_dir/tools.json"
 
