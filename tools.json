@@ -62,7 +62,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
-    "updated": "2026-07-27",
+    "updated": "2026-08-10",
     "created": "2017-09-11",
     "archived": false
   },
@@ -2879,7 +2879,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 1,
-    "updated": "2026-08-03",
+    "updated": "2026-08-10",
     "created": "2024-11-18",
     "archived": false
   },
@@ -3133,7 +3133,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-08-07",
+    "updated": "2026-08-10",
     "created": "2026-05-05",
     "archived": false
   },
@@ -4437,7 +4437,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-08-07",
+    "updated": "2026-08-10",
     "created": "2026-05-30",
     "archived": false
   },
