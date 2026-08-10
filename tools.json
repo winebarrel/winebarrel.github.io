@@ -212,7 +212,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-08-03",
+    "updated": "2026-08-10",
     "created": "2024-07-04",
     "archived": false
   },
@@ -481,7 +481,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-08-03",
+    "updated": "2026-08-10",
     "created": "2022-09-19",
     "archived": false
   },
@@ -866,7 +866,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-08-03",
+    "updated": "2026-08-10",
     "created": "2025-02-22",
     "archived": false
   },
@@ -1650,7 +1650,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-08-03",
+    "updated": "2026-08-10",
     "created": "2023-03-11",
     "archived": false
   },
@@ -1683,7 +1683,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-08-03",
+    "updated": "2026-08-10",
     "created": "2024-02-11",
     "archived": false
   },
@@ -1920,7 +1920,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-08-03",
+    "updated": "2026-08-10",
     "created": "2023-06-17",
     "archived": false
   },
@@ -2544,7 +2544,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1116,
-    "updated": "2026-08-08",
+    "updated": "2026-08-10",
     "created": "2014-05-04",
     "archived": false
   },
@@ -4187,6 +4187,23 @@
     "archived": false
   },
   {
+    "name": "atlantis-configtest",
+    "url": "https://github.com/winebarrel/atlantis-configtest",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Validate the structure of Atlantis configuration files",
+    "stars": 0,
+    "updated": "2026-08-10",
+    "created": "2026-08-10",
+    "archived": false
+  },
+  {
     "name": "iampd2j",
     "url": "https://github.com/winebarrel/iampd2j",
     "categories": [
@@ -4488,7 +4505,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-09",
+    "updated": "2026-08-10",
     "created": "2026-06-14",
     "archived": false
   },
@@ -4637,8 +4654,25 @@
     ],
     "description": "A macOS screen saver that recreates Mystify Your Mind from Windows 95",
     "stars": 0,
-    "updated": "2026-08-09",
+    "updated": "2026-08-10",
     "created": "2026-08-09",
+    "archived": false
+  },
+  {
+    "name": "NecoSaver",
+    "url": "https://github.com/winebarrel/NecoSaver",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift",
+      "Makefile"
+    ],
+    "description": "A macOS screen saver where the oneko cat wanders the screen, leaving paw prints behind.",
+    "stars": 0,
+    "updated": "2026-08-10",
+    "created": "2026-08-10",
     "archived": false
   },
   {

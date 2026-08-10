@@ -6,7 +6,23 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 09 Aug 2026 22:21:12 GMT</lastBuildDate>
+<lastBuildDate>Mon, 10 Aug 2026 14:42:13 GMT</lastBuildDate>
+<item>
+  <title>NecoSaver</title>
+  <link>https://github.com/winebarrel/NecoSaver</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/NecoSaver</guid>
+  <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+  <description>A macOS screen saver where the oneko cat wanders the screen, leaving paw prints behind.</description>
+  <category>macOS / iOS</category>
+</item>
+<item>
+  <title>atlantis-configtest</title>
+  <link>https://github.com/winebarrel/atlantis-configtest</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/atlantis-configtest</guid>
+  <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
+  <description>Validate the structure of Atlantis configuration files</description>
+  <category>Terraform</category>
+</item>
 <item>
   <title>Macstify</title>
   <link>https://github.com/winebarrel/Macstify</link>
@@ -390,22 +406,6 @@
   <pubDate>Sat, 12 Jul 2025 00:00:00 GMT</pubDate>
   <description>Terraform provider for multi-pattern string replacement</description>
   <category>Terraform</category>
-</item>
-<item>
-  <title>terraform-provider-firebaseremoteconfig</title>
-  <link>https://github.com/winebarrel/terraform-provider-firebaseremoteconfig</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-firebaseremoteconfig</guid>
-  <pubDate>Wed, 09 Jul 2025 00:00:00 GMT</pubDate>
-  <description>Terraform provider for Firebase Remote Config.</description>
-  <category>Terraform</category>
-</item>
-<item>
-  <title>esub</title>
-  <link>https://github.com/winebarrel/esub</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/esub</guid>
-  <pubDate>Tue, 10 Jun 2025 00:00:00 GMT</pubDate>
-  <description>A library to replace string placeholders with environment variables.</description>
-  <category>Go tool</category>
 </item>
 </channel>
 </rss>
