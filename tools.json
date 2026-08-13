@@ -380,7 +380,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-08-12",
+    "updated": "2026-08-13",
     "created": "2024-12-04",
     "archived": false
   },
@@ -515,7 +515,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-08-07",
+    "updated": "2026-08-13",
     "created": "2026-07-27",
     "archived": false
   },
@@ -582,7 +582,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-08-10",
+    "updated": "2026-08-12",
     "created": "2022-12-08",
     "archived": false
   },
@@ -2494,7 +2494,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-08-09",
+    "updated": "2026-08-13",
     "created": "2023-12-19",
     "archived": false
   },
@@ -2797,7 +2797,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-08-11",
+    "updated": "2026-08-13",
     "created": "2026-05-02",
     "archived": false
   },
@@ -4505,7 +4505,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-12",
+    "updated": "2026-08-13",
     "created": "2026-06-14",
     "archived": false
   },
