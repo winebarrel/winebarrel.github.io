@@ -79,7 +79,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 39,
-    "updated": "2026-07-23",
+    "updated": "2026-08-13",
     "created": "2022-10-16",
     "archived": false
   },
@@ -318,6 +318,23 @@
     "archived": false
   },
   {
+    "name": "awsmcproxy",
+    "url": "https://github.com/winebarrel/awsmcproxy",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
+    "stars": 3,
+    "updated": "2026-08-09",
+    "created": "2026-08-09",
+    "archived": false
+  },
+  {
     "name": "clala",
     "url": "https://github.com/winebarrel/clala",
     "categories": [
@@ -397,25 +414,8 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-08-10",
+    "updated": "2026-08-13",
     "created": "2022-05-29",
-    "archived": false
-  },
-  {
-    "name": "awsmcproxy",
-    "url": "https://github.com/winebarrel/awsmcproxy",
-    "categories": [
-      "AWS"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Makefile"
-    ],
-    "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
-    "stars": 2,
-    "updated": "2026-08-09",
-    "created": "2026-08-09",
     "archived": false
   },
   {
@@ -464,7 +464,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-08-10",
+    "updated": "2026-08-13",
     "created": "2024-01-05",
     "archived": false
   },
@@ -582,7 +582,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-08-12",
+    "updated": "2026-08-13",
     "created": "2022-12-08",
     "archived": false
   },
@@ -1129,7 +1129,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-08-09",
+    "updated": "2026-08-13",
     "created": "2023-08-18",
     "archived": false
   },
@@ -1517,7 +1517,7 @@
     ],
     "description": "Wrapper command for docker-credential-ecr-login to add environment variables.",
     "stars": 0,
-    "updated": "2026-07-16",
+    "updated": "2026-08-13",
     "created": "2023-03-04",
     "archived": false
   },
@@ -2443,7 +2443,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-08-12",
+    "updated": "2026-08-13",
     "created": "2023-06-03",
     "archived": false
   },
@@ -2747,7 +2747,7 @@
     ],
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
-    "updated": "2026-07-16",
+    "updated": "2026-08-13",
     "created": "2022-05-08",
     "archived": false
   },
@@ -2799,6 +2799,23 @@
     "stars": 3,
     "updated": "2026-08-13",
     "created": "2026-05-02",
+    "archived": false
+  },
+  {
+    "name": "dbping",
+    "url": "https://github.com/winebarrel/dbping",
+    "categories": [
+      "MySQL"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "PING utility for databases (MySQL/PostgreSQL)",
+    "stars": 2,
+    "updated": "2026-08-10",
+    "created": "2024-11-18",
     "archived": false
   },
   {
@@ -2864,23 +2881,6 @@
     "stars": 1,
     "updated": "2014-11-18",
     "created": "2014-11-17",
-    "archived": false
-  },
-  {
-    "name": "dbping",
-    "url": "https://github.com/winebarrel/dbping",
-    "categories": [
-      "MySQL"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Makefile"
-    ],
-    "description": "PING utility for databases (MySQL/PostgreSQL)",
-    "stars": 1,
-    "updated": "2026-08-10",
-    "created": "2024-11-18",
     "archived": false
   },
   {
@@ -4046,7 +4046,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-07-25",
+    "updated": "2026-08-13",
     "created": "2023-04-25",
     "archived": false
   },
@@ -4063,7 +4063,7 @@
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 6,
-    "updated": "2026-08-06",
+    "updated": "2026-08-14",
     "created": "2026-05-18",
     "archived": false
   },
@@ -4148,7 +4148,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-07-25",
+    "updated": "2026-08-13",
     "created": "2023-08-20",
     "archived": false
   },
@@ -4165,7 +4165,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-08-10",
+    "updated": "2026-08-13",
     "created": "2022-07-16",
     "archived": false
   },
@@ -4269,6 +4269,23 @@
     "stars": 0,
     "updated": "2026-07-30",
     "created": "2025-07-12",
+    "archived": false
+  },
+  {
+    "name": "terraform-provider-pgconfig",
+    "url": "https://github.com/winebarrel/terraform-provider-pgconfig",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Terraform provider for managing PostgreSQL role/database configuration parameters (ALTER ROLE/DATABASE ... SET), e.g. per-role pgaudit.",
+    "stars": 0,
+    "updated": "2026-08-14",
+    "created": "2026-08-14",
     "archived": false
   },
   {
@@ -4505,7 +4522,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-13",
+    "updated": "2026-08-14",
     "created": "2026-06-14",
     "archived": false
   },
