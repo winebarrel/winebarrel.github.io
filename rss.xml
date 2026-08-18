@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 17 Aug 2026 18:05:59 GMT</lastBuildDate>
+<lastBuildDate>Tue, 18 Aug 2026 18:05:37 GMT</lastBuildDate>
 <item>
   <title>terraform-provider-pgconfig</title>
   <link>https://github.com/winebarrel/terraform-provider-pgconfig</link>

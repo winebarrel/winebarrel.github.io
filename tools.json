@@ -515,7 +515,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-08-13",
+    "updated": "2026-08-17",
     "created": "2026-07-27",
     "archived": false
   },
@@ -1000,7 +1000,7 @@
     ],
     "description": "Mask 1Password CLI password using ANSI color.",
     "stars": 0,
-    "updated": "2026-07-27",
+    "updated": "2026-08-17",
     "created": "2023-02-27",
     "archived": false
   },
@@ -1062,7 +1062,7 @@
     ],
     "description": "CLI for esa.io.",
     "stars": 19,
-    "updated": "2026-08-03",
+    "updated": "2026-08-17",
     "created": "2022-01-09",
     "archived": false
   },
@@ -1835,7 +1835,7 @@
     ],
     "description": "A tool to convert JSON to HCL.",
     "stars": 6,
-    "updated": "2026-07-20",
+    "updated": "2026-08-18",
     "created": "2024-03-31",
     "archived": false
   },
@@ -1937,7 +1937,7 @@
     ],
     "description": "Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.",
     "stars": 1,
-    "updated": "2026-07-20",
+    "updated": "2026-08-18",
     "created": "2024-04-01",
     "archived": false
   },
@@ -2056,7 +2056,7 @@
     ],
     "description": "ppcat is a tool to format JSON in the middle of text.",
     "stars": 0,
-    "updated": "2026-07-20",
+    "updated": "2026-08-17",
     "created": "2023-02-11",
     "archived": false
   },
@@ -2107,7 +2107,7 @@
     ],
     "description": "A library that recursively dumps structure information.",
     "stars": 0,
-    "updated": "2026-07-20",
+    "updated": "2026-08-17",
     "created": "2024-02-19",
     "archived": false
   },
@@ -2645,7 +2645,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-08-10",
+    "updated": "2026-08-17",
     "created": "2023-10-29",
     "archived": false
   },
@@ -2797,7 +2797,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-08-17",
+    "updated": "2026-08-18",
     "created": "2026-05-02",
     "archived": false
   },
@@ -2814,7 +2814,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 2,
-    "updated": "2026-08-10",
+    "updated": "2026-08-17",
     "created": "2024-11-18",
     "archived": false
   },
@@ -3048,7 +3048,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-08-11",
+    "updated": "2026-08-18",
     "created": "2026-05-30",
     "archived": false
   },
@@ -3099,7 +3099,7 @@
     ],
     "description": "Parser to extract SQL from postgresql.log",
     "stars": 2,
-    "updated": "2026-07-20",
+    "updated": "2026-08-17",
     "created": "2022-05-30",
     "archived": false
   },
@@ -3116,7 +3116,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-08-17",
+    "updated": "2026-08-18",
     "created": "2026-05-05",
     "archived": false
   },
@@ -4012,7 +4012,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 21,
-    "updated": "2026-08-17",
+    "updated": "2026-08-18",
     "created": "2026-02-21",
     "archived": false
   },
@@ -4097,7 +4097,7 @@
     ],
     "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
     "stars": 2,
-    "updated": "2026-07-25",
+    "updated": "2026-08-17",
     "created": "2023-09-30",
     "archived": false
   },
@@ -4131,7 +4131,7 @@
     ],
     "description": "Terraform provider for running one-shot commands.",
     "stars": 1,
-    "updated": "2026-07-24",
+    "updated": "2026-08-17",
     "created": "2024-09-21",
     "archived": false
   },
@@ -4420,7 +4420,7 @@
     ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-18",
     "created": "2026-05-22",
     "archived": false
   },
@@ -4522,7 +4522,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-18",
     "created": "2026-06-14",
     "archived": false
   },
