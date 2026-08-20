@@ -79,7 +79,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 39,
-    "updated": "2026-08-13",
+    "updated": "2026-08-19",
     "created": "2022-10-16",
     "archived": false
   },
@@ -464,7 +464,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-08-14",
+    "updated": "2026-08-19",
     "created": "2024-01-05",
     "archived": false
   },
@@ -950,7 +950,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-20",
     "created": "2025-08-31",
     "archived": false
   },
@@ -983,7 +983,7 @@
     ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-19",
     "created": "2025-09-01",
     "archived": false
   },
@@ -1129,7 +1129,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-08-13",
+    "updated": "2026-08-19",
     "created": "2023-08-18",
     "archived": false
   },
@@ -1869,7 +1869,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-08-17",
+    "updated": "2026-08-19",
     "created": "2026-01-01",
     "archived": false
   },
@@ -2747,7 +2747,7 @@
     ],
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
-    "updated": "2026-08-13",
+    "updated": "2026-08-19",
     "created": "2022-05-08",
     "archived": false
   },
@@ -2797,7 +2797,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-08-18",
+    "updated": "2026-08-19",
     "created": "2026-05-02",
     "archived": false
   },
@@ -3116,7 +3116,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-08-18",
+    "updated": "2026-08-19",
     "created": "2026-05-05",
     "archived": false
   },
@@ -3133,7 +3133,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-08-12",
+    "updated": "2026-08-19",
     "created": "2026-05-05",
     "archived": false
   },
@@ -3150,7 +3150,7 @@
     ],
     "description": "psqlfmt is a PostgreSQL SQL formatter.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-19",
     "created": "2026-04-14",
     "archived": false
   },
@@ -4012,7 +4012,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 21,
-    "updated": "2026-08-18",
+    "updated": "2026-08-20",
     "created": "2026-02-21",
     "archived": false
   },
@@ -4029,7 +4029,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-08-17",
+    "updated": "2026-08-19",
     "created": "2024-02-03",
     "archived": false
   },
@@ -4046,7 +4046,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-08-17",
+    "updated": "2026-08-19",
     "created": "2023-04-25",
     "archived": false
   },
@@ -4063,7 +4063,7 @@
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 6,
-    "updated": "2026-08-17",
+    "updated": "2026-08-19",
     "created": "2026-05-18",
     "archived": false
   },
@@ -4148,7 +4148,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-08-13",
+    "updated": "2026-08-19",
     "created": "2023-08-20",
     "archived": false
   },
@@ -4352,7 +4352,7 @@
     ],
     "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-19",
     "created": "2026-05-27",
     "archived": false
   },
@@ -4437,7 +4437,7 @@
     ],
     "description": "tfunfold is a tool to expand Terraform for_each / count into individual resources or modules with moved blocks.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-19",
     "created": "2026-06-16",
     "archived": false
   },
@@ -4522,7 +4522,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-19",
+    "updated": "2026-08-20",
     "created": "2026-06-14",
     "archived": false
   },
