@@ -79,7 +79,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 39,
-    "updated": "2026-08-19",
+    "updated": "2026-08-22",
     "created": "2022-10-16",
     "archived": false
   },
@@ -330,7 +330,7 @@
     ],
     "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
     "stars": 3,
-    "updated": "2026-08-17",
+    "updated": "2026-08-21",
     "created": "2026-08-09",
     "archived": false
   },
@@ -414,7 +414,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-08-20",
+    "updated": "2026-08-22",
     "created": "2022-05-29",
     "archived": false
   },
@@ -464,7 +464,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-08-20",
+    "updated": "2026-08-22",
     "created": "2024-01-05",
     "archived": false
   },
@@ -515,7 +515,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-08-17",
+    "updated": "2026-08-21",
     "created": "2026-07-27",
     "archived": false
   },
@@ -815,7 +815,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-08-20",
+    "updated": "2026-08-21",
     "created": "2026-02-07",
     "archived": false
   },
@@ -1129,7 +1129,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-08-19",
+    "updated": "2026-08-22",
     "created": "2023-08-18",
     "archived": false
   },
@@ -1517,7 +1517,7 @@
     ],
     "description": "Wrapper command for docker-credential-ecr-login to add environment variables.",
     "stars": 0,
-    "updated": "2026-08-19",
+    "updated": "2026-08-22",
     "created": "2023-03-04",
     "archived": false
   },
@@ -1801,7 +1801,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-08-17",
+    "updated": "2026-08-22",
     "created": "2023-02-11",
     "archived": false
   },
@@ -2443,7 +2443,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-08-19",
+    "updated": "2026-08-22",
     "created": "2023-06-03",
     "archived": false
   },
@@ -2494,7 +2494,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-08-19",
+    "updated": "2026-08-22",
     "created": "2023-12-19",
     "archived": false
   },
@@ -2747,7 +2747,7 @@
     ],
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
-    "updated": "2026-08-19",
+    "updated": "2026-08-22",
     "created": "2022-05-08",
     "archived": false
   },
@@ -3048,7 +3048,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-08-18",
+    "updated": "2026-08-21",
     "created": "2026-05-30",
     "archived": false
   },
@@ -4046,7 +4046,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-08-19",
+    "updated": "2026-08-22",
     "created": "2023-04-25",
     "archived": false
   },
@@ -4063,7 +4063,7 @@
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 6,
-    "updated": "2026-08-19",
+    "updated": "2026-08-22",
     "created": "2026-05-18",
     "archived": false
   },
@@ -4148,7 +4148,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-08-19",
+    "updated": "2026-08-22",
     "created": "2023-08-20",
     "archived": false
   },
@@ -4165,7 +4165,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-08-20",
+    "updated": "2026-08-22",
     "created": "2022-07-16",
     "archived": false
   },
@@ -4522,7 +4522,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-21",
+    "updated": "2026-08-22",
     "created": "2026-06-14",
     "archived": false
   },
