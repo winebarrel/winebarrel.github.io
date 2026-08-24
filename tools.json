@@ -212,7 +212,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2024-07-04",
     "archived": false
   },
@@ -296,7 +296,7 @@
     ],
     "description": "Golang library for using AWS Parameters and Secrets Lambda Extension.",
     "stars": 4,
-    "updated": "2026-08-03",
+    "updated": "2026-08-24",
     "created": "2024-02-05",
     "archived": false
   },
@@ -414,7 +414,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-08-22",
+    "updated": "2026-08-23",
     "created": "2022-05-29",
     "archived": false
   },
@@ -481,7 +481,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2022-09-19",
     "archived": false
   },
@@ -866,7 +866,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2025-02-22",
     "archived": false
   },
@@ -899,7 +899,7 @@
     ],
     "description": "Goth provider for esa.",
     "stars": 1,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2021-11-21",
     "archived": false
   },
@@ -1062,7 +1062,7 @@
     ],
     "description": "CLI for esa.io.",
     "stars": 18,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2022-01-09",
     "archived": false
   },
@@ -1180,7 +1180,7 @@
     ],
     "description": "CLI to convert currency using Yahoo! finance API.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2023-12-24",
     "archived": false
   },
@@ -1650,7 +1650,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2023-03-11",
     "archived": false
   },
@@ -1683,7 +1683,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2024-02-11",
     "archived": false
   },
@@ -1818,7 +1818,7 @@
     ],
     "description": "Write a histogram in Terminal.",
     "stars": 9,
-    "updated": "2026-07-20",
+    "updated": "2026-08-24",
     "created": "2016-06-15",
     "archived": false
   },
@@ -1835,7 +1835,7 @@
     ],
     "description": "A tool to convert JSON to HCL.",
     "stars": 6,
-    "updated": "2026-08-18",
+    "updated": "2026-08-24",
     "created": "2024-03-31",
     "archived": false
   },
@@ -1920,7 +1920,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2023-06-17",
     "archived": false
   },
@@ -1937,7 +1937,7 @@
     ],
     "description": "Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.",
     "stars": 1,
-    "updated": "2026-08-18",
+    "updated": "2026-08-24",
     "created": "2024-04-01",
     "archived": false
   },
@@ -1954,7 +1954,7 @@
     ],
     "description": "Go library for generating random strings",
     "stars": 1,
-    "updated": "2026-07-20",
+    "updated": "2026-08-24",
     "created": "2021-04-07",
     "archived": false
   },
@@ -2107,7 +2107,7 @@
     ],
     "description": "A library that recursively dumps structure information.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2024-02-19",
     "archived": false
   },
@@ -2124,7 +2124,7 @@
     ],
     "description": "Time Calculator.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2023-12-23",
     "archived": false
   },
@@ -2209,7 +2209,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-08-16",
+    "updated": "2026-08-23",
     "created": "2024-01-14",
     "archived": false
   },
@@ -2628,7 +2628,7 @@
     ],
     "description": "genlog is MySQL General Query Log parser.",
     "stars": 12,
-    "updated": "2026-07-20",
+    "updated": "2026-08-24",
     "created": "2020-05-27",
     "archived": false
   },
@@ -2814,7 +2814,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 2,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2024-11-18",
     "archived": false
   },
@@ -4011,8 +4011,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 21,
-    "updated": "2026-08-23",
+    "stars": 22,
+    "updated": "2026-08-24",
     "created": "2026-02-21",
     "archived": false
   },
@@ -4080,7 +4080,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-08-16",
+    "updated": "2026-08-23",
     "created": "2023-12-17",
     "archived": false
   },
@@ -4097,7 +4097,7 @@
     ],
     "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
     "stars": 2,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2023-09-30",
     "archived": false
   },
