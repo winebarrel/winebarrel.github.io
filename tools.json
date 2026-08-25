@@ -815,7 +815,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-08-21",
+    "updated": "2026-08-25",
     "created": "2026-02-07",
     "archived": false
   },
@@ -1000,7 +1000,7 @@
     ],
     "description": "Mask 1Password CLI password using ANSI color.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2023-02-27",
     "archived": false
   },
@@ -2056,7 +2056,7 @@
     ],
     "description": "ppcat is a tool to format JSON in the middle of text.",
     "stars": 0,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2023-02-11",
     "archived": false
   },
@@ -2645,7 +2645,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2023-10-29",
     "archived": false
   },
@@ -3099,7 +3099,7 @@
     ],
     "description": "Parser to extract SQL from postgresql.log",
     "stars": 2,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2022-05-30",
     "archived": false
   },
@@ -3133,7 +3133,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-08-21",
+    "updated": "2026-08-25",
     "created": "2026-05-05",
     "archived": false
   },
@@ -4012,7 +4012,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 22,
-    "updated": "2026-08-24",
+    "updated": "2026-08-25",
     "created": "2026-02-21",
     "archived": false
   },
@@ -4131,7 +4131,7 @@
     ],
     "description": "Terraform provider for running one-shot commands.",
     "stars": 1,
-    "updated": "2026-08-17",
+    "updated": "2026-08-24",
     "created": "2024-09-21",
     "archived": false
   },
@@ -4454,7 +4454,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-08-21",
+    "updated": "2026-08-25",
     "created": "2026-05-30",
     "archived": false
   },
@@ -4522,7 +4522,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-23",
+    "updated": "2026-08-25",
     "created": "2026-06-14",
     "archived": false
   },
