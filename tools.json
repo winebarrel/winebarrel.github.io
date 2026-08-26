@@ -313,7 +313,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-08-23",
+    "updated": "2026-08-25",
     "created": "2022-02-23",
     "archived": false
   },
@@ -397,7 +397,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-08-19",
+    "updated": "2026-08-26",
     "created": "2024-12-04",
     "archived": false
   },
@@ -414,7 +414,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-08-23",
+    "updated": "2026-08-25",
     "created": "2022-05-29",
     "archived": false
   },
@@ -464,7 +464,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-08-22",
+    "updated": "2026-08-26",
     "created": "2024-01-05",
     "archived": false
   },
@@ -515,7 +515,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-08-21",
+    "updated": "2026-08-26",
     "created": "2026-07-27",
     "archived": false
   },
@@ -582,7 +582,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-08-20",
+    "updated": "2026-08-25",
     "created": "2022-12-08",
     "archived": false
   },
@@ -649,7 +649,7 @@
     ],
     "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
     "stars": 0,
-    "updated": "2026-08-20",
+    "updated": "2026-08-25",
     "created": "2026-08-03",
     "archived": false
   },
@@ -798,7 +798,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-08-20",
+    "updated": "2026-08-25",
     "created": "2025-04-14",
     "archived": false
   },
@@ -2713,7 +2713,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-08-20",
+    "updated": "2026-08-26",
     "created": "2025-10-11",
     "archived": false
   },
@@ -2797,7 +2797,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-08-19",
+    "updated": "2026-08-26",
     "created": "2026-05-02",
     "archived": false
   },
@@ -4012,7 +4012,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 22,
-    "updated": "2026-08-25",
+    "updated": "2026-08-26",
     "created": "2026-02-21",
     "archived": false
   },
@@ -4165,7 +4165,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-08-22",
+    "updated": "2026-08-25",
     "created": "2022-07-16",
     "archived": false
   },
@@ -4250,7 +4250,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-08-20",
+    "updated": "2026-08-25",
     "created": "2025-04-05",
     "archived": false
   },
@@ -4284,7 +4284,7 @@
     ],
     "description": "Terraform provider for managing PostgreSQL role/database configuration parameters (ALTER ROLE/DATABASE ... SET), e.g. per-role pgaudit.",
     "stars": 0,
-    "updated": "2026-08-20",
+    "updated": "2026-08-25",
     "created": "2026-08-14",
     "archived": false
   },
@@ -4454,7 +4454,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-08-25",
+    "updated": "2026-08-26",
     "created": "2026-05-30",
     "archived": false
   },
@@ -4488,7 +4488,7 @@
     ],
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
-    "updated": "2026-08-19",
+    "updated": "2026-08-26",
     "created": "2026-02-28",
     "archived": false
   },
@@ -4522,7 +4522,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-25",
+    "updated": "2026-08-26",
     "created": "2026-06-14",
     "archived": false
   },
