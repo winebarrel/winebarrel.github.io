@@ -34,6 +34,23 @@
     "archived": true
   },
   {
+    "name": "cronplan",
+    "url": "https://github.com/winebarrel/cronplan",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "HTML"
+    ],
+    "description": "Cron expression parser for Amazon EventBridge.",
+    "stars": 40,
+    "updated": "2026-08-22",
+    "created": "2022-10-16",
+    "archived": false
+  },
+  {
     "name": "ddbcli",
     "url": "https://github.com/winebarrel/ddbcli",
     "categories": [
@@ -64,23 +81,6 @@
     "stars": 40,
     "updated": "2026-08-10",
     "created": "2017-09-11",
-    "archived": false
-  },
-  {
-    "name": "cronplan",
-    "url": "https://github.com/winebarrel/cronplan",
-    "categories": [
-      "AWS"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "HTML"
-    ],
-    "description": "Cron expression parser for Amazon EventBridge.",
-    "stars": 39,
-    "updated": "2026-08-22",
-    "created": "2022-10-16",
     "archived": false
   },
   {
@@ -700,7 +700,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-08-14",
+    "updated": "2026-08-29",
     "created": "2025-07-17",
     "archived": false
   },
@@ -3133,7 +3133,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-08-26",
+    "updated": "2026-08-29",
     "created": "2026-05-05",
     "archived": false
   },
@@ -4012,7 +4012,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 22,
-    "updated": "2026-08-28",
+    "updated": "2026-08-29",
     "created": "2026-02-21",
     "archived": false
   },
@@ -4522,7 +4522,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-28",
+    "updated": "2026-08-29",
     "created": "2026-06-14",
     "archived": false
   },
