@@ -2192,7 +2192,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-08-23",
+    "updated": "2026-08-30",
     "created": "2023-03-18",
     "archived": false
   },
@@ -3150,7 +3150,7 @@
     ],
     "description": "psqlfmt is a PostgreSQL SQL formatter.",
     "stars": 0,
-    "updated": "2026-08-19",
+    "updated": "2026-08-30",
     "created": "2026-04-14",
     "archived": false
   },
@@ -4012,7 +4012,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 22,
-    "updated": "2026-08-29",
+    "updated": "2026-08-30",
     "created": "2026-02-21",
     "archived": false
   },
@@ -4522,7 +4522,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-29",
+    "updated": "2026-08-30",
     "created": "2026-06-14",
     "archived": false
   },
