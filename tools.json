@@ -79,7 +79,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
-    "updated": "2026-08-10",
+    "updated": "2026-08-31",
     "created": "2017-09-11",
     "archived": false
   },
@@ -481,7 +481,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-08-24",
+    "updated": "2026-08-31",
     "created": "2022-09-19",
     "archived": false
   },
@@ -1667,7 +1667,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-08-24",
+    "updated": "2026-08-31",
     "created": "2023-03-11",
     "archived": false
   },
@@ -2056,7 +2056,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-08-28",
+    "updated": "2026-08-31",
     "created": "2025-05-18",
     "archived": false
   },
@@ -2557,7 +2557,8 @@
     ],
     "language": "Ruby",
     "languages": [
-      "Ruby"
+      "Ruby",
+      "PLpgSQL"
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1117,
@@ -2730,7 +2731,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-08-28",
+    "updated": "2026-08-31",
     "created": "2025-10-11",
     "archived": false
   },
@@ -2831,7 +2832,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 2,
-    "updated": "2026-08-24",
+    "updated": "2026-08-31",
     "created": "2024-11-18",
     "archived": false
   },
@@ -4029,7 +4030,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 23,
-    "updated": "2026-08-30",
+    "updated": "2026-08-31",
     "created": "2026-02-21",
     "archived": false
   },
