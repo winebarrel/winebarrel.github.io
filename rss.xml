@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 31 Aug 2026 18:01:46 GMT</lastBuildDate>
+<lastBuildDate>Tue, 01 Sep 2026 04:00:13 GMT</lastBuildDate>
+<item>
+  <title>sr</title>
+  <link>https://github.com/winebarrel/sr</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/sr</guid>
+  <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+  <description>Run a command against a different AWS IAM Identity Center permission set, without editing ~/.aws/config</description>
+  <category>AWS</category>
+</item>
 <item>
   <title>azpim</title>
   <link>https://github.com/winebarrel/azpim</link>
@@ -398,14 +406,6 @@
   <pubDate>Sun, 31 Aug 2025 00:00:00 GMT</pubDate>
   <description>Simple HTTP proxy with Google Oauth2 access token verification.</description>
   <category>Auth / Security</category>
-</item>
-<item>
-  <title>terraform-provider-sleep</title>
-  <link>https://github.com/winebarrel/terraform-provider-sleep</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-sleep</guid>
-  <pubDate>Thu, 21 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Terraform provider of the function to pause.</description>
-  <category>Terraform</category>
 </item>
 </channel>
 </rss>
