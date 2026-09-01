@@ -3151,7 +3151,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-08-19",
+    "updated": "2026-09-01",
     "created": "2026-05-05",
     "archived": false
   },
@@ -4557,7 +4557,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-08-31",
+    "updated": "2026-09-01",
     "created": "2026-06-14",
     "archived": false
   },
