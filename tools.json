@@ -3290,6 +3290,24 @@
     "pinned": false
   },
   {
+    "name": "pistachio",
+    "url": "https://github.com/winebarrel/pistachio",
+    "categories": [
+      "PostgreSQL"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Shell"
+    ],
+    "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
+    "stars": 23,
+    "updated": "2026-09-01",
+    "created": "2026-02-21",
+    "archived": false,
+    "pinned": true
+  },
+  {
     "name": "active_record_postgresql_xverify",
     "url": "https://github.com/winebarrel/active_record_postgresql_xverify",
     "categories": [
@@ -4274,24 +4292,6 @@
     "created": "2021-08-29",
     "archived": false,
     "pinned": false
-  },
-  {
-    "name": "pistachio",
-    "url": "https://github.com/winebarrel/pistachio",
-    "categories": [
-      "Terraform"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Shell"
-    ],
-    "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 23,
-    "updated": "2026-09-01",
-    "created": "2026-02-21",
-    "archived": false,
-    "pinned": true
   },
   {
     "name": "terraform-provider-lambdazip",
