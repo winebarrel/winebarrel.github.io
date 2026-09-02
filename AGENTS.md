@@ -44,7 +44,8 @@ Sorted by `(categories[0] asc, stars desc, name asc)`. Each entry:
   "stars":       800,
   "updated":     "2024-01-01",
   "created":     "2014-01-01",
-  "archived":    false
+  "archived":    false,
+  "pinned":      false
 }
 ```
 
@@ -55,6 +56,14 @@ Sorted by `(categories[0] asc, stars desc, name asc)`. Each entry:
 and get an "Archived" badge on the card, but the page hides them by default —
 the "Hide archived" checkbox is on unless `#archived=1` is in the URL. Chip
 counts, the pie charts and the `n / m` tally all follow that setting.
+
+`pinned` is a hand-curated flag (it mirrors the Pinned section of the GitHub
+profile). Pinned tools get a 📌 badge on the card and are repeated in a
+"Pinned" section at the top of the list, above whatever sort is active. The
+section follows the current filters (search, category, language, archived)
+and sorts by stars. The list of pinned repos lives in `pinned_repos` inside
+`scripts/categorize.jq` so `regenerate.sh` keeps it — to pin or unpin
+something, edit that list (and `tools.json` if you don't want to regenerate).
 
 `categories` is an array — a tool can belong to multiple categories.
 The **first element is the "primary" category** and decides which section the

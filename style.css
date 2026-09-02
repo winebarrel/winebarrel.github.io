@@ -422,6 +422,22 @@ ul.cards {
 @media (prefers-color-scheme: dark) {
   .archived-badge { color: #e0b84c; }
 }
+/* pinned repos: a 📌 in the card head, plus a "Pinned" section up top */
+.pin-badge {
+  flex: none;
+  font-size: .8rem;
+  line-height: 1;
+  cursor: default;
+}
+.card.is-pinned { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
+main section.pinned {
+  margin-top: 0;
+  padding: 1rem 1rem 1.1rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--border));
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--accent) 5%, var(--card-bg));
+}
+main section.pinned h2 { margin-bottom: .85rem; }
 /* archived repos stay listed, just visually quieter */
 .card.is-archived { border-style: dashed; }
 .card.is-archived h3 a { color: var(--muted); }

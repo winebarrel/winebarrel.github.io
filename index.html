@@ -436,9 +436,13 @@
     const archived = t.archived
       ? `<span class="archived-badge" title="This repository is archived (read-only)">Archived</span>`
       : '';
+    const pinned = t.pinned
+      ? `<span class="pin-badge" title="Pinned" aria-label="Pinned">📌</span>`
+      : '';
     return `
-      <li class="card${t.archived ? ' is-archived' : ''}">
+      <li class="card${t.archived ? ' is-archived' : ''}${t.pinned ? ' is-pinned' : ''}">
         <h3>
+          ${pinned}
           <a href="${t.url}">${highlight(t.name, state.q)}</a>
           ${archived}
           <button type="button" class="readme-btn" data-readme="${escapeAttr(t.url)}" data-name="${escapeAttr(t.name)}" title="View README" aria-label="View README">README</button>
@@ -477,6 +481,19 @@
       app.innerHTML = `<p class="loading">no results.</p>`;
       return;
     }
+
+    // Pinned tools sit in their own section above the list, whatever the
+    // sort. They follow the current filters and stay in the main list too.
+    const pinnedItems = filtered.filter(t => t.pinned).sort((a, b) => {
+      const d = (b.stars || 0) - (a.stars || 0);
+      return d !== 0 ? d : a.name.localeCompare(b.name);
+    });
+    const pinnedHtml = pinnedItems.length ? `
+      <section id="pinned" class="pinned">
+        <h2>📌 Pinned <span class="count">${pinnedItems.length}</span></h2>
+        <ul class="cards">${pinnedItems.map(cardHtml).join('')}</ul>
+      </section>
+    ` : '';
 
     if (state.sort === 'category') {
       const grouped = new Map();
@@ -544,6 +561,7 @@
         `;
       }).join('');
     }
+    app.insertAdjacentHTML('afterbegin', pinnedHtml);
   }
 
   // events
