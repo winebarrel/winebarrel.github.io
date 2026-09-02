@@ -48,7 +48,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 40,
-    "updated": "2026-08-22",
+    "updated": "2026-09-02",
     "created": "2022-10-16",
     "archived": false,
     "pinned": true
@@ -86,7 +86,7 @@
     "updated": "2026-08-31",
     "created": "2017-09-11",
     "archived": false,
-    "pinned": true
+    "pinned": false
   },
   {
     "name": "ecs-exec-pf",
@@ -349,7 +349,7 @@
     ],
     "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
     "stars": 3,
-    "updated": "2026-08-27",
+    "updated": "2026-09-01",
     "created": "2026-08-09",
     "archived": false,
     "pinned": false
@@ -438,7 +438,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "created": "2022-05-29",
     "archived": false,
     "pinned": false
@@ -545,7 +545,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-08-27",
+    "updated": "2026-09-01",
     "created": "2026-07-27",
     "archived": false,
     "pinned": false
@@ -741,7 +741,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -1024,7 +1024,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-08-31",
+    "updated": "2026-09-02",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -1214,7 +1214,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-08-22",
+    "updated": "2026-09-01",
     "created": "2023-08-18",
     "archived": false,
     "pinned": false
@@ -1643,7 +1643,7 @@
     ],
     "description": "Wrapper command for docker-credential-ecr-login to add environment variables.",
     "stars": 0,
-    "updated": "2026-08-26",
+    "updated": "2026-09-02",
     "created": "2023-03-04",
     "archived": false,
     "pinned": false
@@ -2196,7 +2196,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-08-31",
+    "updated": "2026-09-02",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -2624,7 +2624,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-08-22",
+    "updated": "2026-09-01",
     "created": "2023-06-03",
     "archived": false,
     "pinned": false
@@ -2678,7 +2678,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-08-22",
+    "updated": "2026-09-01",
     "created": "2023-12-19",
     "archived": false,
     "pinned": false
@@ -2947,7 +2947,7 @@
     ],
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
-    "updated": "2026-08-22",
+    "updated": "2026-09-02",
     "created": "2022-05-08",
     "archived": false,
     "pinned": false
@@ -3302,7 +3302,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 23,
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4306,7 +4306,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-08-27",
+    "updated": "2026-09-02",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4324,7 +4324,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-08-22",
+    "updated": "2026-09-02",
     "created": "2023-04-25",
     "archived": false,
     "pinned": false
@@ -4378,7 +4378,7 @@
     ],
     "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
     "stars": 2,
-    "updated": "2026-08-24",
+    "updated": "2026-09-02",
     "created": "2023-09-30",
     "archived": false,
     "pinned": false
@@ -4396,7 +4396,7 @@
     ],
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
-    "updated": "2026-07-30",
+    "updated": "2026-09-02",
     "created": "2025-07-09",
     "archived": false,
     "pinned": false
@@ -4414,7 +4414,7 @@
     ],
     "description": "Terraform provider for running one-shot commands.",
     "stars": 1,
-    "updated": "2026-08-24",
+    "updated": "2026-09-02",
     "created": "2024-09-21",
     "archived": false,
     "pinned": false
@@ -4432,7 +4432,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-08-22",
+    "updated": "2026-09-01",
     "created": "2023-08-20",
     "archived": false,
     "pinned": false
@@ -4450,7 +4450,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "created": "2022-07-16",
     "archived": false,
     "pinned": false
@@ -4522,7 +4522,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-08-31",
+    "updated": "2026-09-02",
     "created": "2025-04-17",
     "archived": false,
     "pinned": false
@@ -4558,7 +4558,7 @@
     ],
     "description": "Terraform provider for multi-pattern string replacement",
     "stars": 0,
-    "updated": "2026-08-19",
+    "updated": "2026-09-02",
     "created": "2025-07-12",
     "archived": false,
     "pinned": false
@@ -4576,7 +4576,7 @@
     ],
     "description": "Terraform provider for managing PostgreSQL role/database configuration parameters (ALTER ROLE/DATABASE ... SET), e.g. per-role pgaudit.",
     "stars": 0,
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "created": "2026-08-14",
     "archived": false,
     "pinned": false
@@ -4828,7 +4828,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
@@ -4866,7 +4866,7 @@
     "updated": "2026-07-12",
     "created": "2026-07-11",
     "archived": false,
-    "pinned": false
+    "pinned": true
   },
   {
     "name": "VerticalBattery",
