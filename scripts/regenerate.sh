@@ -78,11 +78,15 @@ jq -s 'add' "$tmp/winebarrel.json" "$tmp/ridgepole.json" "$tmp/quetarohq.json" "
       map(. + {createdAt: ($m[.url | sub("https://github.com/"; "")] // (.createdAt | .[0:10]))})
     ' \
   | jq -f "$script_dir/categorize.jq" \
-  | jq '[.[] | select(.include) | {name, url, categories, language, languages, description, stars, updated, created, archived, pinned}]
+  | jq '[.[] | select(.include) | {name, url, categories, language, languages, description, stars, updated, created, archived}]
         | sort_by(.categories[0], -.stars, .name)' \
   > "$repo_dir/tools.json"
 
 echo "tools.json entries: $(jq 'length' "$repo_dir/tools.json")"
+
+# `pinned` comes from the GitHub profiles' Pinned section, not from the repo
+# list, so it is filled in as a separate pass.
+"$script_dir/sync-pinned.sh"
 
 echo "building rss.xml…"
 "$script_dir/build-rss.sh"

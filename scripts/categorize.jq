@@ -6,10 +6,6 @@ def desc_lc: ((.description // "") | ascii_downcase);
 def topics_str: (topics_arr | join(",") | ascii_downcase);
 def hay: "\(name_lc) \(desc_lc) \(topics_str)";
 
-# Repos shown in the "Pinned" section at the top of the page (mirrors the
-# Pinned section of the GitHub profile). The page orders them by stars.
-def pinned_repos: ["pistachio", "redash-go", "qube", "faraday_middleware-aws-sigv4", "cronplan", "PagerCall"];
-
 def category:
   hay as $h |
   lang as $l |
@@ -60,7 +56,6 @@ def category:
     updated: (.pushedAt | split("T")[0]),
     created: (.createdAt | split("T")[0]),
     archived: (.isArchived // false),
-    pinned: ((.name as $n | pinned_repos | index($n)) != null),
     topics: topics_arr,
     include: ((.name as $n | (["pt", "docker-pkg-build", "elixir_counter", "go-gcshape-verification", "hello-world"] | index($n)) == null) and ((.name | startswith("homebrew-")) | not) and ((.name | endswith(".github.io")) | not) and ((.name | test("example"; "i")) | not) and (.stargazerCount >= 3 or (topics_arr | length) > 0 or ((.description // "") | length) > 10))
 } ]

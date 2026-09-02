@@ -16,7 +16,8 @@ tools.json              data — array of tool objects, sorted by category then 
 og.png                  Open Graph preview image (1200x630)
 rss.xml                 RSS 2.0 feed of newest tools (top 50 by `created`)
 scripts/categorize.jq   jq script that assigns a category to each repo
-scripts/regenerate.sh   refetches all repos and rewrites tools.json (+ rss.xml)
+scripts/regenerate.sh   refetches all repos and rewrites tools.json (+ pins, rss.xml)
+scripts/sync-pinned.sh  syncs the `pinned` flag with the GitHub profiles' Pinned section
 scripts/build-rss.sh    generates rss.xml from tools.json
 ```
 
@@ -57,13 +58,14 @@ and get an "Archived" badge on the card, but the page hides them by default —
 the "Hide archived" checkbox is on unless `#archived=1` is in the URL. Chip
 counts, the pie charts and the `n / m` tally all follow that setting.
 
-`pinned` is a hand-curated flag (it mirrors the Pinned section of the GitHub
-profile). Pinned tools get a 📌 badge on the card and are repeated in a
-"Pinned" section at the top of the list, above whatever sort is active. The
-section follows the current filters (search, category, language, archived)
-and sorts by stars. The list of pinned repos lives in `pinned_repos` inside
-`scripts/categorize.jq` so `regenerate.sh` keeps it — to pin or unpin
-something, edit that list (and `tools.json` if you don't want to regenerate).
+`pinned` mirrors the Pinned section of the GitHub profiles (winebarrel,
+ridgepole, quetarohq). Pinned tools get a 📌 badge on the card and are
+repeated in a "Pinned" section at the top of the list, above whatever sort
+is active. The section follows the current filters (search, category,
+language, archived) and sorts by stars. To change what is pinned, pin or
+unpin the repo on GitHub and run `./scripts/sync-pinned.sh` (see below);
+`regenerate.sh` runs the same sync. Only repos that pass the include filter
+can show up — the sync warns about pinned repos that aren't in `tools.json`.
 
 `categories` is an array — a tool can belong to multiple categories.
 The **first element is the "primary" category** and decides which section the
@@ -92,6 +94,16 @@ After editing `tools.json`, rebuild the RSS feed:
 ./scripts/build-rss.sh
 ```
 
+### Sync pins from GitHub
+
+```sh
+./scripts/sync-pinned.sh
+```
+
+Fetches the Pinned section of the three profiles (GraphQL, needs an
+authenticated `gh`) and rewrites the `pinned` flag in `tools.json` in place.
+Nothing else is touched, so this is safe to run on its own.
+
 ### Refresh from GitHub (bulk)
 
 ```sh
@@ -99,7 +111,7 @@ After editing `tools.json`, rebuild the RSS feed:
 ```
 
 This refetches the three accounts (archived included, forks excluded), runs `categorize.jq`,
-applies the include filter, and overwrites `tools.json`.
+applies the include filter, overwrites `tools.json`, and then runs the pin sync.
 
 Review the diff and re-curate manually before committing — auto-generation
 will re-add things you previously removed.
