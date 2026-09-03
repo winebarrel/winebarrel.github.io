@@ -349,7 +349,7 @@
     ],
     "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
     "stars": 3,
-    "updated": "2026-09-01",
+    "updated": "2026-09-03",
     "created": "2026-08-09",
     "archived": false,
     "pinned": false
@@ -545,7 +545,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "created": "2026-07-27",
     "archived": false,
     "pinned": false
@@ -851,6 +851,24 @@
     "pinned": false
   },
   {
+    "name": "rolewait",
+    "url": "https://github.com/winebarrel/rolewait",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Wait until an AWS IAM Identity Center permission set granted by PIM can be assumed",
+    "stars": 0,
+    "updated": "2026-09-03",
+    "created": "2026-09-03",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "s3lock",
     "url": "https://github.com/winebarrel/s3lock",
     "categories": [
@@ -917,7 +935,7 @@
     ],
     "description": "Run a command against a different AWS IAM Identity Center permission set, without editing ~/.aws/config",
     "stars": 0,
-    "updated": "2026-09-01",
+    "updated": "2026-09-03",
     "created": "2026-09-01",
     "archived": false,
     "pinned": false
@@ -1059,7 +1077,7 @@
     ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
-    "updated": "2026-08-19",
+    "updated": "2026-09-03",
     "created": "2025-09-01",
     "archived": false,
     "pinned": false
@@ -2358,7 +2376,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-08-30",
+    "updated": "2026-09-02",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -2376,7 +2394,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-08-30",
+    "updated": "2026-09-03",
     "created": "2024-01-14",
     "archived": false,
     "pinned": false
@@ -2624,7 +2642,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-09-01",
+    "updated": "2026-09-03",
     "created": "2023-06-03",
     "archived": false,
     "pinned": false
@@ -2678,7 +2696,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-09-01",
+    "updated": "2026-09-02",
     "created": "2023-12-19",
     "archived": false,
     "pinned": false
@@ -2911,7 +2929,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-09-02",
+    "updated": "2026-09-03",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3000,7 +3018,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-08-26",
+    "updated": "2026-09-02",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3266,7 +3284,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-08-27",
+    "updated": "2026-09-03",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -3301,8 +3319,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 23,
-    "updated": "2026-09-02",
+    "stars": 24,
+    "updated": "2026-09-03",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3374,7 +3392,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-08-31",
+    "updated": "2026-09-03",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -4360,7 +4378,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-08-30",
+    "updated": "2026-09-03",
     "created": "2023-12-17",
     "archived": false,
     "pinned": false
@@ -4756,7 +4774,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-08-31",
+    "updated": "2026-09-03",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -4828,7 +4846,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-02",
+    "updated": "2026-09-03",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false

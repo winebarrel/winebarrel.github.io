@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Wed, 02 Sep 2026 18:01:39 GMT</lastBuildDate>
+<lastBuildDate>Thu, 03 Sep 2026 18:01:42 GMT</lastBuildDate>
+<item>
+  <title>rolewait</title>
+  <link>https://github.com/winebarrel/rolewait</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/rolewait</guid>
+  <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+  <description>Wait until an AWS IAM Identity Center permission set granted by PIM can be assumed</description>
+  <category>AWS</category>
+</item>
 <item>
   <title>sr</title>
   <link>https://github.com/winebarrel/sr</link>
@@ -397,14 +405,6 @@
   <guid isPermaLink="true">https://github.com/winebarrel/kap</guid>
   <pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate>
   <description>Simple HTTP proxy with Auth key.</description>
-  <category>Auth / Security</category>
-</item>
-<item>
-  <title>gap</title>
-  <link>https://github.com/winebarrel/gap</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/gap</guid>
-  <pubDate>Sun, 31 Aug 2025 00:00:00 GMT</pubDate>
-  <description>Simple HTTP proxy with Google Oauth2 access token verification.</description>
   <category>Auth / Security</category>
 </item>
 </channel>
