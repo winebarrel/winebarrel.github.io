@@ -349,7 +349,7 @@
     ],
     "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
     "stars": 3,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "created": "2026-08-09",
     "archived": false,
     "pinned": false
@@ -545,7 +545,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-09-02",
+    "updated": "2026-09-04",
     "created": "2026-07-27",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-09-01",
+    "updated": "2026-09-04",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -741,7 +741,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-09-02",
+    "updated": "2026-09-03",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -1962,7 +1962,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-08-22",
+    "updated": "2026-09-04",
     "created": "2023-02-11",
     "archived": false,
     "pinned": true
@@ -3018,7 +3018,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-09-02",
+    "updated": "2026-09-03",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3320,7 +3320,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 24,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3374,7 +3374,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-09-01",
+    "updated": "2026-09-04",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -3392,7 +3392,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -4492,6 +4492,24 @@
     "pinned": false
   },
   {
+    "name": "tfquiet",
+    "url": "https://github.com/winebarrel/tfquiet",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Terraform plan output formatter to reduce noise",
+    "stars": 1,
+    "updated": "2026-08-19",
+    "created": "2026-05-24",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "atlantis-configtest",
     "url": "https://github.com/winebarrel/atlantis-configtest",
     "categories": [
@@ -4708,24 +4726,6 @@
     "pinned": false
   },
   {
-    "name": "tfquiet",
-    "url": "https://github.com/winebarrel/tfquiet",
-    "categories": [
-      "Terraform"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Makefile"
-    ],
-    "description": "Terraform plan output formatter to reduce noise",
-    "stars": 0,
-    "updated": "2026-08-19",
-    "created": "2026-05-24",
-    "archived": false,
-    "pinned": false
-  },
-  {
     "name": "tfrename",
     "url": "https://github.com/winebarrel/tfrename",
     "categories": [
@@ -4774,7 +4774,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -4846,7 +4846,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
