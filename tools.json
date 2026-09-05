@@ -331,7 +331,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-09-01",
+    "updated": "2026-09-04",
     "created": "2022-02-23",
     "archived": false,
     "pinned": false
@@ -438,7 +438,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-09-02",
+    "updated": "2026-09-04",
     "created": "2022-05-29",
     "archived": false,
     "pinned": false
@@ -491,7 +491,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-09-01",
+    "updated": "2026-09-04",
     "created": "2024-01-05",
     "archived": false,
     "pinned": false
@@ -687,7 +687,7 @@
     ],
     "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
     "stars": 0,
-    "updated": "2026-09-01",
+    "updated": "2026-09-04",
     "created": "2026-08-03",
     "archived": false,
     "pinned": false
@@ -741,7 +741,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -845,7 +845,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-09-01",
+    "updated": "2026-09-04",
     "created": "2025-04-14",
     "archived": false,
     "pinned": false
@@ -881,7 +881,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-09-01",
+    "updated": "2026-09-04",
     "created": "2026-02-07",
     "archived": false,
     "pinned": false
@@ -2929,7 +2929,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-09-03",
+    "updated": "2026-09-04",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3320,7 +3320,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 24,
-    "updated": "2026-09-04",
+    "updated": "2026-09-05",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4468,7 +4468,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-09-02",
+    "updated": "2026-09-04",
     "created": "2022-07-16",
     "archived": false,
     "pinned": false
@@ -4576,7 +4576,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-09-01",
+    "updated": "2026-09-04",
     "created": "2025-04-05",
     "archived": false,
     "pinned": false
@@ -4612,7 +4612,7 @@
     ],
     "description": "Terraform provider for managing PostgreSQL role/database configuration parameters (ALTER ROLE/DATABASE ... SET), e.g. per-role pgaudit.",
     "stars": 0,
-    "updated": "2026-09-02",
+    "updated": "2026-09-04",
     "created": "2026-08-14",
     "archived": false,
     "pinned": false
@@ -4846,7 +4846,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-04",
+    "updated": "2026-09-05",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
