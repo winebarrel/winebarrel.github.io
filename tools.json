@@ -863,7 +863,7 @@
     ],
     "description": "Wait until an AWS IAM Identity Center permission set granted by PIM can be assumed",
     "stars": 0,
-    "updated": "2026-09-03",
+    "updated": "2026-09-06",
     "created": "2026-09-03",
     "archived": false,
     "pinned": false
@@ -935,7 +935,7 @@
     ],
     "description": "Run a command against a different AWS IAM Identity Center permission set, without editing ~/.aws/config",
     "stars": 0,
-    "updated": "2026-09-03",
+    "updated": "2026-09-06",
     "created": "2026-09-01",
     "archived": false,
     "pinned": false
@@ -2376,7 +2376,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-09-02",
+    "updated": "2026-09-06",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -3320,7 +3320,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 24,
-    "updated": "2026-09-05",
+    "updated": "2026-09-06",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4846,7 +4846,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-05",
+    "updated": "2026-09-06",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
