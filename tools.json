@@ -224,7 +224,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-08-31",
+    "updated": "2026-09-07",
     "created": "2024-07-04",
     "archived": false,
     "pinned": false
@@ -509,7 +509,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-08-31",
+    "updated": "2026-09-07",
     "created": "2022-09-19",
     "archived": false,
     "pinned": false
@@ -953,7 +953,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-08-31",
+    "updated": "2026-09-07",
     "created": "2025-02-22",
     "archived": false,
     "pinned": false
@@ -1749,7 +1749,7 @@
     ],
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
-    "updated": "2026-08-09",
+    "updated": "2026-09-07",
     "created": "2025-11-08",
     "archived": false,
     "pinned": false
@@ -1802,7 +1802,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-08-31",
+    "updated": "2026-09-07",
     "created": "2023-03-11",
     "archived": false,
     "pinned": false
@@ -1837,7 +1837,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-08-31",
+    "updated": "2026-09-07",
     "created": "2024-02-11",
     "archived": false,
     "pinned": false
@@ -2088,7 +2088,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-08-31",
+    "updated": "2026-09-07",
     "created": "2023-06-17",
     "archived": false,
     "pinned": false
@@ -2394,7 +2394,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-09-03",
+    "updated": "2026-09-06",
     "created": "2024-01-14",
     "archived": false,
     "pinned": false
@@ -3036,7 +3036,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 2,
-    "updated": "2026-08-31",
+    "updated": "2026-09-07",
     "created": "2024-11-18",
     "archived": false,
     "pinned": false
@@ -3320,7 +3320,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 24,
-    "updated": "2026-09-06",
+    "updated": "2026-09-07",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4378,7 +4378,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-09-03",
+    "updated": "2026-09-06",
     "created": "2023-12-17",
     "archived": false,
     "pinned": false
@@ -4846,7 +4846,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-06",
+    "updated": "2026-09-07",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
