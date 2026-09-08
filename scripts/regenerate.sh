@@ -90,3 +90,6 @@ echo "tools.json entries: $(jq 'length' "$repo_dir/tools.json")"
 
 echo "building rss.xml…"
 "$script_dir/build-rss.sh"
+
+echo "building activity.svg…"
+"$script_dir/build-activity.sh"

@@ -280,6 +280,32 @@ mark {
   margin-bottom: .75rem;
   color: var(--muted);
 }
+
+/* Commit activity map — collapsed by default; it is a tall image. */
+.actmap > summary {
+  font-size: .9rem;
+  font-weight: 600;
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+}
+.actmap > summary::-webkit-details-marker { display: none; }
+.actmap > summary::before {
+  content: "\25B8";
+  font-size: .8em;
+  transition: transform .15s;
+}
+.actmap[open] > summary::before { transform: rotate(90deg); }
+.actmap > summary:hover { color: var(--accent); }
+.actmap img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: .75rem;
+}
 .pie-wrap {
   display: grid;
   grid-template-columns: auto 1fr;

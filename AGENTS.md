@@ -2,7 +2,8 @@
 
 A single static page listing tools and libraries from the GitHub accounts
 [`winebarrel`](https://github.com/winebarrel), [`ridgepole`](https://github.com/ridgepole),
-and [`quetarohq`](https://github.com/quetarohq), grouped by category.
+and [`quetarohq`](https://github.com/quetarohq), plus a handful of named repos
+from [`kanmu`](https://github.com/kanmu), grouped by category.
 
 Published at https://winebarrel.github.io/ via GitHub Pages
 (repo: `main` branch root → `<user>.github.io` user site).
@@ -15,10 +16,13 @@ style.css               styles (light/dark via prefers-color-scheme)
 tools.json              data — array of tool objects, sorted by category then stars
 og.png                  Open Graph preview image (1200x630)
 rss.xml                 RSS 2.0 feed of newest tools (top 50 by `created`)
+activity.svg            commit address map of the last 52 weeks (see below)
 scripts/categorize.jq   jq script that assigns a category to each repo
-scripts/regenerate.sh   refetches all repos and rewrites tools.json (+ pins, rss.xml)
+scripts/regenerate.sh   refetches all repos and rewrites tools.json (+ pins, rss.xml, activity.svg)
 scripts/sync-pinned.sh  syncs the `pinned` flag with the GitHub profiles' Pinned section
 scripts/build-rss.sh    generates rss.xml from tools.json
+scripts/build-activity.sh  fetches commit stats and generates activity.svg
+scripts/activity-svg.py    renders the SVG (stdlib only, called by build-activity.sh)
 ```
 
 No build step. To preview locally:
@@ -110,11 +114,48 @@ Nothing else is touched, so this is safe to run on its own.
 ./scripts/regenerate.sh
 ```
 
-This refetches the three accounts (archived included, forks excluded), runs `categorize.jq`,
-applies the include filter, overwrites `tools.json`, and then runs the pin sync.
+This refetches the three accounts (archived included, forks excluded) plus the
+repos named in `kanmu_repos`, runs `categorize.jq`, applies the include filter,
+overwrites `tools.json`, and then runs the pin sync, the RSS build, and the
+activity map build.
+
+The `kanmu` repos are fetched through the **unauthenticated** REST API and
+reshaped into the same schema — the OAuth token `gh` uses is not SSO-authorized
+for that org, so an authenticated call returns 403. Same trick in
+`build-activity.sh`.
 
 Review the diff and re-curate manually before committing — auto-generation
 will re-add things you previously removed.
+
+## Activity map (`activity.svg`)
+
+```sh
+./scripts/build-activity.sh
+```
+
+Fetches `/stats/commit_activity` for every repo in `tools.json` touched in the
+last ~430 days and renders `activity.svg`, shown on the page inside a collapsed
+`<details>` in the `#stats` section (`figure.stats-wide`, after the
+"Created per month" bars). It is a plain `<img>`, so it themes itself through
+`prefers-color-scheme` inside the SVG rather than through the page's CSS
+variables — keep the tokens in `activity-svg.py` (`LIGHT` / `DARK`) in sync
+with `style.css` if the palette changes.
+
+The whole 52-week history is flattened into one address space and wrapped at
+96 columns: one square = one commit, read left→right / top→bottom, oldest
+first. Within each month the commits are grouped per product, so each product
+gets one contiguous block sized by how much it was worked on that month.
+Hue = category, shade = product within that category, stepped rules = month
+boundaries.
+
+Category → hue is a **fixed** mapping in `CATS` at the top of
+`activity-svg.py`; categories not listed there fall into the gray "Other"
+slot. Add a new category there (and keep the order) rather than letting the
+colours follow whatever ranks highest that month.
+
+The stats endpoints are computed lazily by GitHub — a cold repo answers `202`
+with an empty body, so the fetch retries with a backoff. A repo that never
+answers is warned about on stderr and treated as having no activity.
 
 ## Filtering rules
 
