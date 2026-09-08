@@ -55,11 +55,12 @@ DARK = {"bg": "#161922", "ink": "#e6e6e6", "ink2": "#9aa0a6",
 FONT = ('-apple-system, BlinkMacSystemFont, "Helvetica Neue", '
         '"Hiragino Sans", "Noto Sans JP", sans-serif')
 
-COLS = 96      # address-space width, in commits
-PITCH = 10     # cell pitch in px
-GAP = 1        # surface gap between cells
+COLS = 80      # address-space width, in commits
+PITCH = 12     # cell pitch in px
+GAP = 1.5      # surface gap between cells
 GX, GY = 108, 104
-LABEL_MIN = 9  # shortest run (in cells) that gets an in-place product label
+LABEL_MIN = 6  # shortest run (in cells) that gets an in-place product label
+LABEL_PX = 9.5 # in-place label size; ~5.6px per character at this size
 
 
 # ------------------------------------------------------- sRGB <-> OKLCH ----
@@ -188,13 +189,13 @@ def build_address_space(prods):
             keys.append(k)
 
     cells, months = [], []
-    for k in keys:
+    for mi, k in enumerate(keys):
         months.append((len(cells), datetime.date(k[0], k[1], 1).strftime("%b %Y")))
         ws = [i for i, x in enumerate(wmonth) if x == k]
         for r in prods:
             n = sum(r["weeks"][w] for w in ws if w < len(r["weeks"]))
             if n:
-                cells.extend([r["pid"]] * n)
+                cells.extend([(r["pid"], mi)] * n)
     return cells, months, week0, nweeks
 
 
@@ -214,10 +215,10 @@ def render(prods, cells, months, week0, nweeks):
     i = 0
     while i < total:
         row, col = divmod(i, COLS)
-        pid, j = cells[i], i
-        while j < total and cells[j] == pid and j // COLS == row:
+        key, j = cells[i], i
+        while j < total and cells[j] == key and j // COLS == row:
             j += 1
-        runs.append((row, col, j - i, pid))
+        runs.append((row, col, j - i, key[0], key[1]))
         i = j
 
     out = []
@@ -256,7 +257,7 @@ def render(prods, cells, months, week0, nweeks):
       % (L0, GY - 14))
 
     A('<g class="cell">')
-    for row, col, ln, pid in runs:
+    for row, col, ln, pid, _mi in runs:
         x, y = GX + col * PITCH, GY + row * PITCH
         for k in range(ln):
             A('<rect x="%d" y="%d" width="%d" height="%d" rx="1.4" fill="var(--c%d)"/>'
@@ -283,26 +284,28 @@ def render(prods, cells, months, week0, nweeks):
             A('<path d="M %s %s H %s V %s H %s" fill="none" stroke="var(--rule)" stroke-width="1"/>'
               % (GX - 11, ly - 3.5, GX - 7.5, want - 3.5, GX - 4))
 
-    # in-place labels on each product's longest run
+    # in-place labels: every allocation gets named, not just the biggest one.
+    # A product's month block can wrap across rows, so the label goes on the
+    # longest row-segment of each (product, month) pair.
     best = {}
-    for row, col, ln, pid in runs:
-        if ln > best.get(pid, (0,))[0]:
-            best[pid] = (ln, row, col)
-    for pid, (ln, row, col) in best.items():
+    for row, col, ln, pid, mi in runs:
+        if ln > best.get((pid, mi), (0,))[0]:
+            best[(pid, mi)] = (ln, row, col)
+    for (pid, _mi), (ln, row, col) in sorted(best.items()):
         if ln < LABEL_MIN:
             continue
         nm = byid[pid]["name"]
         room = ln * PITCH - GAP - 6
-        if len(nm) * 5.2 > room:
-            nm = nm[:max(3, int(room / 5.2) - 1)] + "…"
-        A('<text x="%s" y="%s" font-size="8.6" font-weight="600" fill="var(--k%d)">%s</text>'
-          % (GX + col * PITCH + 3, GY + row * PITCH + 7.1, pid, esc(nm)))
+        if len(nm) * (LABEL_PX * 0.58) > room:
+            nm = nm[:max(2, int(room / (LABEL_PX * 0.58)) - 1)] + "…"
+        A('<text x="%s" y="%s" font-size="%s" font-weight="600" fill="var(--k%d)">%s</text>'
+          % (GX + col * PITCH + 3, GY + row * PITCH + PITCH - 3.4, LABEL_PX, pid, esc(nm)))
 
     # hover targets: one per run, so the raw .svg has native tooltips too
     A('<g fill="transparent">')
-    for row, col, ln, pid in runs:
+    for row, col, ln, pid, _mi in runs:
         r = byid[pid]
-        A('<rect x="%s" y="%s" width="%d" height="%d"><title>%s &#8212; %d commit%s here &#183; '
+        A('<rect x="%s" y="%s" width="%s" height="%s"><title>%s &#8212; %d commit%s here &#183; '
           '%d in 52w &#183; %s</title></rect>'
           % (GX + col * PITCH - GAP / 2, GY + row * PITCH - GAP / 2, ln * PITCH, PITCH,
              esc(r["name"]), ln, "s" if ln > 1 else "", r["total"], esc(r["grp"])))

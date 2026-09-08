@@ -142,11 +142,17 @@ variables — keep the tokens in `activity-svg.py` (`LIGHT` / `DARK`) in sync
 with `style.css` if the palette changes.
 
 The whole 52-week history is flattened into one address space and wrapped at
-96 columns: one square = one commit, read left→right / top→bottom, oldest
+80 columns: one square = one commit, read left→right / top→bottom, oldest
 first. Within each month the commits are grouped per product, so each product
 gets one contiguous block sized by how much it was worked on that month.
 Hue = category, shade = product within that category, stepped rules = month
 boundaries.
+
+Every allocation is labelled in place, not just the biggest one per product —
+a product that gets touched in eight different months is named eight times, so
+you can tell what a block is without a legend lookup. The label goes on the
+longest row-segment of each (product, month) pair and is dropped when the
+block is under `LABEL_MIN` cells wide.
 
 Category → hue is a **fixed** mapping in `CATS` at the top of
 `activity-svg.py`; categories not listed there fall into the gray "Other"
