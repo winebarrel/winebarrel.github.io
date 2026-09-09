@@ -331,7 +331,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-09-04",
+    "updated": "2026-09-08",
     "created": "2022-02-23",
     "archived": false,
     "pinned": false
@@ -420,7 +420,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 3,
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "created": "2024-12-04",
     "archived": false,
     "pinned": false
@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-09-04",
+    "updated": "2026-09-09",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -899,7 +899,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-09-04",
+    "updated": "2026-09-08",
     "created": "2026-02-07",
     "archived": false,
     "pinned": false
@@ -1042,7 +1042,7 @@
     ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
-    "updated": "2026-08-19",
+    "updated": "2026-09-08",
     "created": "2025-12-27",
     "archived": false,
     "pinned": false
@@ -1095,7 +1095,7 @@
     ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
-    "updated": "2026-09-03",
+    "updated": "2026-09-08",
     "created": "2025-09-01",
     "archived": false,
     "pinned": false
@@ -1221,6 +1221,24 @@
     "pinned": false
   },
   {
+    "name": "azpim",
+    "url": "https://github.com/winebarrel/azpim",
+    "categories": [
+      "CLI"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Activate and deactivate your Azure PIM assignments from the command line",
+    "stars": 2,
+    "updated": "2026-09-09",
+    "created": "2026-08-31",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "kinesis_cat",
     "url": "https://github.com/winebarrel/kinesis_cat",
     "categories": [
@@ -1252,24 +1270,6 @@
     "stars": 1,
     "updated": "2026-09-01",
     "created": "2023-08-18",
-    "archived": false,
-    "pinned": false
-  },
-  {
-    "name": "azpim",
-    "url": "https://github.com/winebarrel/azpim",
-    "categories": [
-      "CLI"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Makefile"
-    ],
-    "description": "Activate and deactivate your Azure PIM assignments from the command line",
-    "stars": 1,
-    "updated": "2026-08-31",
-    "created": "2026-08-31",
     "archived": false,
     "pinned": false
   },
@@ -3036,7 +3036,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-09-07",
+    "updated": "2026-09-09",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3338,7 +3338,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 24,
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4342,7 +4342,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-09-02",
+    "updated": "2026-09-09",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4360,7 +4360,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-09-02",
+    "updated": "2026-09-09",
     "created": "2023-04-25",
     "archived": false,
     "pinned": false
@@ -4414,7 +4414,7 @@
     ],
     "description": "Terraform provider to validate Amazon EventBridge Cron expressions.",
     "stars": 2,
-    "updated": "2026-09-02",
+    "updated": "2026-09-09",
     "created": "2023-09-30",
     "archived": false,
     "pinned": false
@@ -4432,7 +4432,7 @@
     ],
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "created": "2025-07-09",
     "archived": false,
     "pinned": false
@@ -4450,7 +4450,7 @@
     ],
     "description": "Terraform provider for running one-shot commands.",
     "stars": 1,
-    "updated": "2026-09-02",
+    "updated": "2026-09-09",
     "created": "2024-09-21",
     "archived": false,
     "pinned": false
@@ -4468,7 +4468,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-09-01",
+    "updated": "2026-09-09",
     "created": "2023-08-20",
     "archived": false,
     "pinned": false
@@ -4486,7 +4486,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-09-04",
+    "updated": "2026-09-09",
     "created": "2022-07-16",
     "archived": false,
     "pinned": false
@@ -4522,7 +4522,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 1,
-    "updated": "2026-08-19",
+    "updated": "2026-09-08",
     "created": "2026-05-24",
     "archived": false,
     "pinned": false
@@ -4594,7 +4594,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-09-04",
+    "updated": "2026-09-09",
     "created": "2025-04-05",
     "archived": false,
     "pinned": false
@@ -4612,7 +4612,7 @@
     ],
     "description": "Terraform provider for multi-pattern string replacement",
     "stars": 0,
-    "updated": "2026-09-02",
+    "updated": "2026-09-09",
     "created": "2025-07-12",
     "archived": false,
     "pinned": false
@@ -4630,7 +4630,7 @@
     ],
     "description": "Terraform provider for managing PostgreSQL role/database configuration parameters (ALTER ROLE/DATABASE ... SET), e.g. per-role pgaudit.",
     "stars": 0,
-    "updated": "2026-09-08",
+    "updated": "2026-09-09",
     "created": "2026-08-14",
     "archived": false,
     "pinned": false
@@ -4792,7 +4792,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-09-07",
+    "updated": "2026-09-09",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
