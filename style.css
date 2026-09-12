@@ -719,3 +719,23 @@ footer {
 }
 
 .loading { color: var(--muted); }
+
+/* credit link shown while the easter-egg cat is on */
+.neko-credit {
+  position: fixed;
+  right: .75rem;
+  bottom: .75rem;
+  z-index: 2147483645;
+  padding: .2rem .5rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--card-bg) 85%, transparent);
+  backdrop-filter: blur(4px);
+  color: var(--muted);
+  font-size: .72rem;
+  line-height: 1.4;
+}
+.neko-credit:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}

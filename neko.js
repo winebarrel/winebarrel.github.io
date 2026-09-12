@@ -210,7 +210,7 @@
   }
 
   // --- runtime: element, mouse tracking, fixed-timestep loop -----------------
-  let neko = null, canvas = null, ctx = null, raf = 0, acc = 0, last = 0;
+  let neko = null, canvas = null, ctx = null, raf = 0, acc = 0, last = 0, credit = null;
   // start the cat off-view at bottom-left; mouse target defaults to centre
   let mx = window.innerWidth / 2, my = window.innerHeight / 2;
 
@@ -255,6 +255,15 @@
     last = 0; acc = 0;
     window.addEventListener('mousemove', onMove);
     raf = requestAnimationFrame(loop);
+
+    // sprite credit — shown only while the cat is out
+    credit = document.createElement('a');
+    credit.className = 'neko-credit';
+    credit.href = 'https://github.com/winebarrel/Neco#sprites--license';
+    credit.target = '_blank';
+    credit.rel = 'noopener';
+    credit.textContent = 'cat sprites: Neco';
+    document.body.appendChild(credit);
   }
 
   function stop() {
@@ -263,6 +272,7 @@
     window.removeEventListener('mousemove', onMove);
     canvas.remove();
     canvas = null; ctx = null; neko = null;
+    if (credit) { credit.remove(); credit = null; }
   }
 
   // --- easter-egg trigger: the cat button in the header ----------------------
