@@ -262,7 +262,7 @@
     credit.href = 'https://github.com/winebarrel/Neco#sprites--license';
     credit.target = '_blank';
     credit.rel = 'noopener';
-    credit.textContent = 'About cat sprites';
+    credit.textContent = 'About the cat sprites';
     document.body.appendChild(credit);
   }
 
