@@ -723,7 +723,7 @@
     ],
     "description": "Sign in to AWS IAM Identity Center from a machine with no browser, using the OAuth 2.0 device authorization grant",
     "stars": 0,
-    "updated": "2026-09-08",
+    "updated": "2026-09-13",
     "created": "2026-09-08",
     "archived": false,
     "pinned": false
@@ -2394,7 +2394,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-09-06",
+    "updated": "2026-09-13",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -2412,7 +2412,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-09-06",
+    "updated": "2026-09-13",
     "created": "2024-01-14",
     "archived": false,
     "pinned": false
@@ -3337,8 +3337,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 25,
-    "updated": "2026-09-12",
+    "stars": 36,
+    "updated": "2026-09-13",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4342,7 +4342,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-09-09",
+    "updated": "2026-09-12",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4396,7 +4396,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-09-06",
+    "updated": "2026-09-13",
     "created": "2023-12-17",
     "archived": false,
     "pinned": false
