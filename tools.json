@@ -367,7 +367,7 @@
     ],
     "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
     "stars": 3,
-    "updated": "2026-09-11",
+    "updated": "2026-09-16",
     "created": "2026-08-09",
     "archived": false,
     "pinned": false
@@ -456,7 +456,7 @@
     ],
     "description": "Wrapper for ecspresso that creates task definitions at run time.",
     "stars": 2,
-    "updated": "2026-07-20",
+    "updated": "2026-09-17",
     "created": "2022-05-22",
     "archived": false,
     "pinned": false
@@ -545,7 +545,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-09-11",
+    "updated": "2026-09-16",
     "created": "2026-07-27",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-09-14",
+    "updated": "2026-09-17",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -899,7 +899,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-09-14",
+    "updated": "2026-09-17",
     "created": "2026-02-07",
     "archived": false,
     "pinned": false
@@ -1980,7 +1980,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-09-11",
+    "updated": "2026-09-17",
     "created": "2023-02-11",
     "archived": false,
     "pinned": true
@@ -2016,7 +2016,7 @@
     ],
     "description": "A tool to convert JSON to HCL.",
     "stars": 6,
-    "updated": "2026-08-24",
+    "updated": "2026-09-17",
     "created": "2024-03-31",
     "archived": false,
     "pinned": false
@@ -2052,7 +2052,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-08-19",
+    "updated": "2026-09-17",
     "created": "2026-01-01",
     "archived": false,
     "pinned": false
@@ -2875,7 +2875,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-09-14",
+    "updated": "2026-09-17",
     "created": "2023-10-29",
     "archived": false,
     "pinned": true
@@ -2947,7 +2947,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-09-15",
+    "updated": "2026-09-17",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3036,7 +3036,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-09-15",
+    "updated": "2026-09-17",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3338,7 +3338,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 53,
-    "updated": "2026-09-16",
+    "updated": "2026-09-17",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4360,7 +4360,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-09-11",
+    "updated": "2026-09-17",
     "created": "2023-04-25",
     "archived": false,
     "pinned": false
@@ -4504,7 +4504,7 @@
     ],
     "description": "tflocalexpand is a tool to expand Terraform locals references into their underlying expressions.",
     "stars": 1,
-    "updated": "2026-06-02",
+    "updated": "2026-09-17",
     "created": "2026-05-22",
     "archived": false,
     "pinned": false
@@ -4522,7 +4522,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 1,
-    "updated": "2026-09-08",
+    "updated": "2026-09-17",
     "created": "2026-05-24",
     "archived": false,
     "pinned": false
@@ -4558,7 +4558,7 @@
     ],
     "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
     "stars": 0,
-    "updated": "2026-09-15",
+    "updated": "2026-09-17",
     "created": "2026-05-20",
     "archived": false,
     "pinned": false
@@ -4702,7 +4702,7 @@
     ],
     "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
     "stars": 0,
-    "updated": "2026-09-15",
+    "updated": "2026-09-17",
     "created": "2026-05-27",
     "archived": false,
     "pinned": false
@@ -4720,7 +4720,7 @@
     ],
     "description": "A tool to convert heredoc JSON in Terraform files into jsonencode({...})",
     "stars": 0,
-    "updated": "2026-09-15",
+    "updated": "2026-09-17",
     "created": "2026-06-21",
     "archived": false,
     "pinned": false
@@ -4738,7 +4738,7 @@
     ],
     "description": "Flatten Terraform modules into the parent with moved blocks for state migration.",
     "stars": 0,
-    "updated": "2026-09-15",
+    "updated": "2026-09-17",
     "created": "2026-05-22",
     "archived": false,
     "pinned": false
@@ -4756,7 +4756,7 @@
     ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
-    "updated": "2026-09-16",
+    "updated": "2026-09-17",
     "created": "2026-05-22",
     "archived": false,
     "pinned": false
@@ -4774,7 +4774,7 @@
     ],
     "description": "tfunfold is a tool to expand Terraform for_each / count into individual resources or modules with moved blocks.",
     "stars": 0,
-    "updated": "2026-09-15",
+    "updated": "2026-09-17",
     "created": "2026-06-16",
     "archived": false,
     "pinned": false
@@ -4864,7 +4864,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-16",
+    "updated": "2026-09-17",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
