@@ -491,7 +491,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-09-14",
+    "updated": "2026-09-17",
     "created": "2024-01-05",
     "archived": false,
     "pinned": false
@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-09-15",
+    "updated": "2026-09-18",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -1980,7 +1980,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-09-17",
+    "updated": "2026-09-18",
     "created": "2023-02-11",
     "archived": false,
     "pinned": true
@@ -2660,7 +2660,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-09-03",
+    "updated": "2026-09-18",
     "created": "2023-06-03",
     "archived": false,
     "pinned": false
@@ -2714,7 +2714,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-09-02",
+    "updated": "2026-09-18",
     "created": "2023-12-19",
     "archived": false,
     "pinned": false
@@ -3338,7 +3338,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 53,
-    "updated": "2026-09-17",
+    "updated": "2026-09-18",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4202,7 +4202,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-09-15",
+    "updated": "2026-09-17",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4864,7 +4864,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-17",
+    "updated": "2026-09-18",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
