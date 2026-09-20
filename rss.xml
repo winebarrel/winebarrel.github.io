@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 19 Sep 2026 18:01:48 GMT</lastBuildDate>
+<lastBuildDate>Sun, 20 Sep 2026 18:01:52 GMT</lastBuildDate>
+<item>
+  <title>pistachio-on-github-actions</title>
+  <link>https://github.com/winebarrel/pistachio-on-github-actions</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/pistachio-on-github-actions</guid>
+  <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+  <description>A demo of pistachio running in CI: a pull request shows the schema diff, merging it applies the diff to a real PostgreSQL database.</description>
+  <category>PostgreSQL</category>
+</item>
 <item>
   <title>awsdag</title>
   <link>https://github.com/winebarrel/awsdag</link>
@@ -398,14 +406,6 @@
   <pubDate>Sat, 11 Oct 2025 00:00:00 GMT</pubDate>
   <description>qrev is a SQL execution history management tool.</description>
   <category>MySQL</category>
-</item>
-<item>
-  <title>sglob</title>
-  <link>https://github.com/winebarrel/sglob</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/sglob</guid>
-  <pubDate>Sat, 06 Sep 2025 00:00:00 GMT</pubDate>
-  <description>sglob is a small globbing library for string.</description>
-  <category>Go tool</category>
 </item>
 </channel>
 </rss>

@@ -1980,7 +1980,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-09-18",
+    "updated": "2026-09-20",
     "created": "2023-02-11",
     "archived": false,
     "pinned": true
@@ -2394,7 +2394,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-09-13",
+    "updated": "2026-09-20",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -3338,7 +3338,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 54,
-    "updated": "2026-09-19",
+    "updated": "2026-09-20",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3413,6 +3413,24 @@
     "updated": "2026-09-19",
     "created": "2026-05-05",
     "archived": false,
+    "pinned": false
+  },
+  {
+    "name": "pistachio-on-github-actions",
+    "url": "https://github.com/winebarrel/pistachio-on-github-actions",
+    "categories": [
+      "PostgreSQL"
+    ],
+    "language": "HCL",
+    "languages": [
+      "HCL",
+      "PLpgSQL"
+    ],
+    "description": "A demo of pistachio running in CI: a pull request shows the schema diff, merging it applies the diff to a real PostgreSQL database.",
+    "stars": 0,
+    "updated": "2026-09-20",
+    "created": "2026-09-20",
+    "archived": true,
     "pinned": false
   },
   {
@@ -4342,7 +4360,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-09-15",
+    "updated": "2026-09-19",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4864,7 +4882,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-19",
+    "updated": "2026-09-20",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
