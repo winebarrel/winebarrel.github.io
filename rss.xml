@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sun, 20 Sep 2026 18:01:52 GMT</lastBuildDate>
+<lastBuildDate>Mon, 21 Sep 2026 08:40:11 GMT</lastBuildDate>
+<item>
+  <title>terraform-provider-arn</title>
+  <link>https://github.com/winebarrel/terraform-provider-arn</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/terraform-provider-arn</guid>
+  <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+  <description>Terraform functions that build AWS ARNs, one per AWS resource type</description>
+  <category>Terraform</category>
+</item>
 <item>
   <title>pistachio-on-github-actions</title>
   <link>https://github.com/winebarrel/pistachio-on-github-actions</link>
@@ -398,14 +406,6 @@
   <pubDate>Sat, 08 Nov 2025 00:00:00 GMT</pubDate>
   <description>lastcmt is a CLI that comments on a pull request and minimizes previous comments.</description>
   <category>Git / GitHub</category>
-</item>
-<item>
-  <title>qrev</title>
-  <link>https://github.com/winebarrel/qrev</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/qrev</guid>
-  <pubDate>Sat, 11 Oct 2025 00:00:00 GMT</pubDate>
-  <description>qrev is a SQL execution history management tool.</description>
-  <category>MySQL</category>
 </item>
 </channel>
 </rss>
