@@ -83,7 +83,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
-    "updated": "2026-09-15",
+    "updated": "2026-09-21",
     "created": "2017-09-11",
     "archived": false,
     "pinned": false
@@ -367,7 +367,7 @@
     ],
     "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
     "stars": 3,
-    "updated": "2026-09-16",
+    "updated": "2026-09-21",
     "created": "2026-08-09",
     "archived": false,
     "pinned": false
@@ -2016,7 +2016,7 @@
     ],
     "description": "A tool to convert JSON to HCL.",
     "stars": 6,
-    "updated": "2026-09-17",
+    "updated": "2026-09-21",
     "created": "2024-03-31",
     "archived": false,
     "pinned": false
@@ -2732,7 +2732,7 @@
     ],
     "description": "A multi-org proxy for the Datadog MCP server: mirrors every Datadog MCP tool and adds an org argument so a single client connection can target multiple Datadog organizations.",
     "stars": 0,
-    "updated": "2026-08-26",
+    "updated": "2026-09-21",
     "created": "2026-07-11",
     "archived": false,
     "pinned": false
@@ -3054,7 +3054,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 2,
-    "updated": "2026-09-14",
+    "updated": "2026-09-21",
     "created": "2024-11-18",
     "archived": false,
     "pinned": false
@@ -3795,7 +3795,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-07-27",
+    "updated": "2026-09-21",
     "created": "2016-04-09",
     "archived": false,
     "pinned": false
@@ -4438,6 +4438,24 @@
     "pinned": false
   },
   {
+    "name": "terraform-provider-arn",
+    "url": "https://github.com/winebarrel/terraform-provider-arn",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Go Template"
+    ],
+    "description": "Terraform functions that build AWS ARNs, one per AWS resource type",
+    "stars": 1,
+    "updated": "2026-09-21",
+    "created": "2026-09-21",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "terraform-provider-firebaseremoteconfig",
     "url": "https://github.com/winebarrel/terraform-provider-firebaseremoteconfig",
     "categories": [
@@ -4578,24 +4596,6 @@
     "stars": 0,
     "updated": "2026-09-17",
     "created": "2026-05-20",
-    "archived": false,
-    "pinned": false
-  },
-  {
-    "name": "terraform-provider-arn",
-    "url": "https://github.com/winebarrel/terraform-provider-arn",
-    "categories": [
-      "Terraform"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Go Template"
-    ],
-    "description": "Terraform functions that build AWS ARNs, one per AWS resource type",
-    "stars": 0,
-    "updated": "2026-09-21",
-    "created": "2026-09-21",
     "archived": false,
     "pinned": false
   },
