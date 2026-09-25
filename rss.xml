@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 24 Sep 2026 18:01:52 GMT</lastBuildDate>
+<lastBuildDate>Fri, 25 Sep 2026 18:01:48 GMT</lastBuildDate>
 <item>
   <title>terraform-provider-arn</title>
   <link>https://github.com/winebarrel/terraform-provider-arn</link>
