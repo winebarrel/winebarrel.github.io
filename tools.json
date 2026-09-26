@@ -994,6 +994,24 @@
     "pinned": false
   },
   {
+    "name": "cotty",
+    "url": "https://github.com/winebarrel/cotty",
+    "categories": [
+      "Auth / Security"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "Share a terminal session with an AI agent over MCP: ssh logins, serial consoles and more",
+    "stars": 1,
+    "updated": "2026-09-26",
+    "created": "2026-09-26",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "goth-esa",
     "url": "https://github.com/winebarrel/goth-esa",
     "categories": [
@@ -3337,8 +3355,8 @@
       "Makefile"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 55,
-    "updated": "2026-09-25",
+    "stars": 56,
+    "updated": "2026-09-26",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3410,7 +3428,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-09-25",
+    "updated": "2026-09-26",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -4220,7 +4238,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-09-23",
+    "updated": "2026-09-25",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4828,7 +4846,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-09-24",
+    "updated": "2026-09-25",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -4900,7 +4918,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-25",
+    "updated": "2026-09-26",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
