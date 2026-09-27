@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-09-25",
+    "updated": "2026-09-27",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -1998,7 +1998,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-09-20",
+    "updated": "2026-09-27",
     "created": "2023-02-11",
     "archived": false,
     "pinned": true
@@ -2412,7 +2412,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-09-20",
+    "updated": "2026-09-27",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -3352,11 +3352,11 @@
     "language": "Go",
     "languages": [
       "Go",
-      "Makefile"
+      "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 56,
-    "updated": "2026-09-26",
+    "updated": "2026-09-27",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4918,7 +4918,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-26",
+    "updated": "2026-09-27",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
