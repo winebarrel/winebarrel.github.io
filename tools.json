@@ -1251,7 +1251,7 @@
     ],
     "description": "Activate and deactivate your Azure PIM assignments from the command line",
     "stars": 2,
-    "updated": "2026-09-25",
+    "updated": "2026-09-29",
     "created": "2026-08-31",
     "archived": false,
     "pinned": false
@@ -2893,7 +2893,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-09-21",
+    "updated": "2026-09-28",
     "created": "2023-10-29",
     "archived": false,
     "pinned": true
@@ -2965,7 +2965,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-09-24",
+    "updated": "2026-09-29",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3054,7 +3054,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-09-24",
+    "updated": "2026-09-29",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3320,7 +3320,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-09-16",
+    "updated": "2026-09-29",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -3354,9 +3354,9 @@
       "Go",
       "Shell"
     ],
-    "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
+    "description": "Declarative schema management for PostgreSQL. Write the schema as SQL; pista plan prints the DDL, pista apply runs it.",
     "stars": 56,
-    "updated": "2026-09-28",
+    "updated": "2026-09-29",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3428,7 +3428,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-09-26",
+    "updated": "2026-09-28",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -3688,7 +3688,7 @@
     ],
     "description": "It is Ruby code matcher.",
     "stars": 3,
-    "updated": "2026-09-21",
+    "updated": "2026-09-28",
     "created": "2017-12-13",
     "archived": false,
     "pinned": false
@@ -4846,7 +4846,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-09-25",
+    "updated": "2026-09-28",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -4882,7 +4882,7 @@
     ],
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
-    "updated": "2026-09-11",
+    "updated": "2026-09-29",
     "created": "2026-02-28",
     "archived": false,
     "pinned": false
@@ -4918,7 +4918,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-09-28",
+    "updated": "2026-09-29",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false

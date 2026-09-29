@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Mon, 28 Sep 2026 18:02:33 GMT</lastBuildDate>
+<lastBuildDate>Tue, 29 Sep 2026 18:02:26 GMT</lastBuildDate>
 <item>
   <title>cotty</title>
   <link>https://github.com/winebarrel/cotty</link>
@@ -340,7 +340,7 @@
   <link>https://github.com/winebarrel/pistachio</link>
   <guid isPermaLink="true">https://github.com/winebarrel/pistachio</guid>
   <pubDate>Sat, 21 Feb 2026 00:00:00 GMT</pubDate>
-  <description>pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.</description>
+  <description>Declarative schema management for PostgreSQL. Write the schema as SQL; pista plan prints the DDL, pista apply runs it.</description>
   <category>PostgreSQL</category>
 </item>
 <item>
