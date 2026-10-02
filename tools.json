@@ -2412,7 +2412,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-09-27",
+    "updated": "2026-10-02",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -3356,7 +3356,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 57,
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4396,7 +4396,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "created": "2023-04-25",
     "archived": false,
     "pinned": false
@@ -4846,7 +4846,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -4918,7 +4918,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
