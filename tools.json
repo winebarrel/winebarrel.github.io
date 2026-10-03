@@ -1006,7 +1006,7 @@
     ],
     "description": "Share a terminal session with an AI agent over MCP: ssh logins, serial consoles and more",
     "stars": 1,
-    "updated": "2026-09-26",
+    "updated": "2026-10-03",
     "created": "2026-09-26",
     "archived": false,
     "pinned": false
@@ -3054,7 +3054,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-10-01",
+    "updated": "2026-10-02",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3355,8 +3355,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 57,
-    "updated": "2026-10-02",
+    "stars": 58,
+    "updated": "2026-10-03",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4378,7 +4378,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-10-01",
+    "updated": "2026-10-03",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4594,7 +4594,7 @@
     ],
     "description": "Validate the structure of Atlantis configuration files",
     "stars": 0,
-    "updated": "2026-08-20",
+    "updated": "2026-10-03",
     "created": "2026-08-10",
     "archived": false,
     "pinned": false
@@ -4918,7 +4918,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-02",
+    "updated": "2026-10-03",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
