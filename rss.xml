@@ -6,7 +6,7 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 03 Oct 2026 18:33:32 GMT</lastBuildDate>
+<lastBuildDate>Sun, 04 Oct 2026 18:20:23 GMT</lastBuildDate>
 <item>
   <title>cotty</title>
   <link>https://github.com/winebarrel/cotty</link>
