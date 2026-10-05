@@ -224,7 +224,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-09-28",
+    "updated": "2026-10-05",
     "created": "2024-07-04",
     "archived": false,
     "pinned": false
@@ -1838,7 +1838,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-09-28",
+    "updated": "2026-10-05",
     "created": "2023-03-11",
     "archived": false,
     "pinned": false
@@ -1873,7 +1873,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-09-28",
+    "updated": "2026-10-05",
     "created": "2024-02-11",
     "archived": false,
     "pinned": false
@@ -2124,7 +2124,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-09-28",
+    "updated": "2026-10-05",
     "created": "2023-06-17",
     "archived": false,
     "pinned": false
@@ -2430,7 +2430,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-09-27",
+    "updated": "2026-10-04",
     "created": "2024-01-14",
     "archived": false,
     "pinned": false
@@ -3054,7 +3054,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-10-02",
+    "updated": "2026-10-05",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3356,7 +3356,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 58,
-    "updated": "2026-10-04",
+    "updated": "2026-10-05",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3428,7 +3428,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-10-02",
+    "updated": "2026-10-05",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -4238,7 +4238,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-09-27",
+    "updated": "2026-10-04",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4396,7 +4396,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-10-02",
+    "updated": "2026-10-05",
     "created": "2023-04-25",
     "archived": false,
     "pinned": false
@@ -4432,7 +4432,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-09-27",
+    "updated": "2026-10-04",
     "created": "2023-12-17",
     "archived": false,
     "pinned": false
@@ -4468,7 +4468,7 @@
     ],
     "description": "Terraform functions that build AWS ARNs, one per AWS resource type",
     "stars": 1,
-    "updated": "2026-09-28",
+    "updated": "2026-10-05",
     "created": "2026-09-21",
     "archived": false,
     "pinned": false
@@ -4846,7 +4846,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-10-02",
+    "updated": "2026-10-05",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -4900,7 +4900,7 @@
     ],
     "description": "A web application that redirects human-readable URLs to esa.io posts.",
     "stars": 0,
-    "updated": "2026-07-20",
+    "updated": "2026-10-05",
     "created": "2022-01-19",
     "archived": false,
     "pinned": false
@@ -4918,7 +4918,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-04",
+    "updated": "2026-10-05",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
