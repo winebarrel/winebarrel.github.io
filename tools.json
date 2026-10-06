@@ -1006,7 +1006,7 @@
     ],
     "description": "Share a terminal session with an AI agent over MCP: ssh logins, serial consoles and more",
     "stars": 1,
-    "updated": "2026-10-03",
+    "updated": "2026-10-06",
     "created": "2026-09-26",
     "archived": false,
     "pinned": false
@@ -1998,7 +1998,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-10-01",
+    "updated": "2026-10-05",
     "created": "2023-02-11",
     "archived": false,
     "pinned": true
@@ -2893,7 +2893,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-09-28",
+    "updated": "2026-10-05",
     "created": "2023-10-29",
     "archived": false,
     "pinned": true
@@ -3356,7 +3356,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 58,
-    "updated": "2026-10-05",
+    "updated": "2026-10-06",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4432,7 +4432,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-10-04",
+    "updated": "2026-10-06",
     "created": "2023-12-17",
     "archived": false,
     "pinned": false
@@ -4918,7 +4918,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-05",
+    "updated": "2026-10-06",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
@@ -5041,7 +5041,7 @@
     ],
     "description": "Pullse is a utility app that notifies you of GitHub Pull Requests that have been approved or failed testing.",
     "stars": 1,
-    "updated": "2026-10-01",
+    "updated": "2026-10-06",
     "created": "2024-11-17",
     "archived": false,
     "pinned": false
