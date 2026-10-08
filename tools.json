@@ -491,7 +491,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2024-01-05",
     "archived": false,
     "pinned": false
@@ -545,7 +545,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-10-01",
+    "updated": "2026-10-07",
     "created": "2026-07-27",
     "archived": false,
     "pinned": false
@@ -1078,7 +1078,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-10-01",
+    "updated": "2026-10-07",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -2250,7 +2250,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-10-01",
+    "updated": "2026-10-07",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -3001,7 +3001,7 @@
     ],
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
-    "updated": "2026-09-08",
+    "updated": "2026-10-08",
     "created": "2022-05-08",
     "archived": false,
     "pinned": false
@@ -3356,7 +3356,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 58,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4378,7 +4378,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-10-03",
+    "updated": "2026-10-08",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4522,7 +4522,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-09-09",
+    "updated": "2026-10-08",
     "created": "2023-08-20",
     "archived": false,
     "pinned": false
@@ -4594,7 +4594,7 @@
     ],
     "description": "Validate the structure of Atlantis configuration files",
     "stars": 0,
-    "updated": "2026-10-03",
+    "updated": "2026-10-08",
     "created": "2026-08-10",
     "archived": false,
     "pinned": false
@@ -4846,7 +4846,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-10-05",
+    "updated": "2026-10-08",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -4918,7 +4918,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
