@@ -48,7 +48,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 40,
-    "updated": "2026-09-02",
+    "updated": "2026-10-08",
     "created": "2022-10-16",
     "archived": false,
     "pinned": true
@@ -349,7 +349,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2022-02-23",
     "archived": false,
     "pinned": false
@@ -438,7 +438,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2022-05-29",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-10-07",
+    "updated": "2026-10-09",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -687,7 +687,7 @@
     ],
     "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2026-08-03",
     "archived": false,
     "pinned": false
@@ -723,7 +723,7 @@
     ],
     "description": "Sign in to AWS IAM Identity Center from a machine with no browser, using the OAuth 2.0 device authorization grant",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2026-09-08",
     "archived": false,
     "pinned": false
@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -863,7 +863,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2025-04-14",
     "archived": false,
     "pinned": false
@@ -881,7 +881,7 @@
     ],
     "description": "Wait until an AWS IAM Identity Center permission set granted by PIM can be assumed",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2026-09-03",
     "archived": false,
     "pinned": false
@@ -899,7 +899,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2026-02-07",
     "archived": false,
     "pinned": false
@@ -953,7 +953,7 @@
     ],
     "description": "Run a command against a different AWS IAM Identity Center permission set, without editing ~/.aws/config",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2026-09-01",
     "archived": false,
     "pinned": false
@@ -1060,7 +1060,7 @@
     ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
-    "updated": "2026-09-08",
+    "updated": "2026-10-09",
     "created": "2025-12-27",
     "archived": false,
     "pinned": false
@@ -1286,7 +1286,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-09-01",
+    "updated": "2026-10-08",
     "created": "2023-08-18",
     "archived": false,
     "pinned": false
@@ -1555,7 +1555,7 @@
     ],
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 1,
-    "updated": "2026-09-08",
+    "updated": "2026-10-09",
     "created": "2025-12-13",
     "archived": false,
     "pinned": false
@@ -1697,7 +1697,7 @@
     ],
     "description": "Wrapper command for docker-credential-ecr-login to add environment variables.",
     "stars": 0,
-    "updated": "2026-09-02",
+    "updated": "2026-10-08",
     "created": "2023-03-04",
     "archived": false,
     "pinned": false
@@ -2732,7 +2732,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-09-25",
+    "updated": "2026-10-08",
     "created": "2023-12-19",
     "archived": false,
     "pinned": false
@@ -2965,7 +2965,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3001,7 +3001,7 @@
     ],
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
-    "updated": "2026-10-08",
+    "updated": "2026-10-09",
     "created": "2022-05-08",
     "archived": false,
     "pinned": false
@@ -3355,8 +3355,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 58,
-    "updated": "2026-10-08",
+    "stars": 59,
+    "updated": "2026-10-09",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4396,7 +4396,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-10-05",
+    "updated": "2026-10-08",
     "created": "2023-04-25",
     "archived": false,
     "pinned": false
@@ -4414,7 +4414,7 @@
     ],
     "description": "Terraform provider with user-defined functions that validate an IAM policy document",
     "stars": 7,
-    "updated": "2026-09-08",
+    "updated": "2026-10-09",
     "created": "2026-05-18",
     "archived": false,
     "pinned": false
@@ -4540,7 +4540,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2022-07-16",
     "archived": false,
     "pinned": false
@@ -4576,7 +4576,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 1,
-    "updated": "2026-09-17",
+    "updated": "2026-10-09",
     "created": "2026-05-24",
     "archived": false,
     "pinned": false
@@ -4648,7 +4648,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2025-04-05",
     "archived": false,
     "pinned": false
@@ -4684,7 +4684,7 @@
     ],
     "description": "Terraform provider for managing PostgreSQL role/database configuration parameters (ALTER ROLE/DATABASE ... SET), e.g. per-role pgaudit.",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-08",
     "created": "2026-08-14",
     "archived": false,
     "pinned": false
@@ -4918,7 +4918,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-08",
+    "updated": "2026-10-09",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
