@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 09 Oct 2026 18:02:07 GMT</lastBuildDate>
+<lastBuildDate>Sat, 10 Oct 2026 18:02:12 GMT</lastBuildDate>
+<item>
+  <title>pgstub</title>
+  <link>https://github.com/winebarrel/pgstub</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/pgstub</guid>
+  <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+  <description>PostgreSQL wire protocol stub for tests: expect statements, or record a real server and replay it in CI</description>
+  <category>PostgreSQL</category>
+</item>
 <item>
   <title>cotty</title>
   <link>https://github.com/winebarrel/cotty</link>
@@ -398,14 +406,6 @@
   <pubDate>Sat, 27 Dec 2025 00:00:00 GMT</pubDate>
   <description>Digest authentication proxy that stores authentication information in a cookie.</description>
   <category>Auth / Security</category>
-</item>
-<item>
-  <title>kodama</title>
-  <link>https://github.com/winebarrel/kodama</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/kodama</guid>
-  <pubDate>Sat, 13 Dec 2025 00:00:00 GMT</pubDate>
-  <description>kodama is a DNS server that returns any private IP address.</description>
-  <category>DNS / Network</category>
 </item>
 </channel>
 </rss>
