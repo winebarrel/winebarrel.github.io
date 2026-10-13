@@ -48,7 +48,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 40,
-    "updated": "2026-10-12",
+    "updated": "2026-10-13",
     "created": "2022-10-16",
     "archived": false,
     "pinned": true
@@ -509,7 +509,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-09-28",
+    "updated": "2026-10-12",
     "created": "2022-09-19",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-10-10",
+    "updated": "2026-10-13",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -1078,7 +1078,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-13",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -1340,7 +1340,7 @@
     ],
     "description": "CLI to convert currency using Yahoo! finance API.",
     "stars": 0,
-    "updated": "2026-08-24",
+    "updated": "2026-10-13",
     "created": "2023-12-24",
     "archived": false,
     "pinned": false
@@ -1785,7 +1785,7 @@
     ],
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
-    "updated": "2026-09-08",
+    "updated": "2026-10-13",
     "created": "2025-11-08",
     "archived": false,
     "pinned": false
@@ -2250,7 +2250,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-10-09",
+    "updated": "2026-10-13",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -2732,7 +2732,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog usages in a table.",
     "stars": 1,
-    "updated": "2026-10-08",
+    "updated": "2026-10-13",
     "created": "2023-12-19",
     "archived": false,
     "pinned": false
@@ -3054,7 +3054,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-10-11",
+    "updated": "2026-10-13",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3356,7 +3356,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 60,
-    "updated": "2026-10-12",
+    "updated": "2026-10-13",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3410,7 +3410,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-10-01",
+    "updated": "2026-10-13",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -3428,7 +3428,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-13",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -3831,7 +3831,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-09-28",
+    "updated": "2026-10-13",
     "created": "2016-04-09",
     "archived": false,
     "pinned": false
@@ -4256,7 +4256,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-10-09",
+    "updated": "2026-10-13",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4648,7 +4648,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-10-07",
+    "updated": "2026-10-13",
     "created": "2025-04-17",
     "archived": false,
     "pinned": false
@@ -4864,7 +4864,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-13",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -4936,7 +4936,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-12",
+    "updated": "2026-10-13",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
