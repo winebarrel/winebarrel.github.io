@@ -313,7 +313,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 4,
-    "updated": "2026-10-01",
+    "updated": "2026-10-14",
     "created": "2024-12-04",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-10-13",
+    "updated": "2026-10-14",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -1950,6 +1950,23 @@
     "pinned": false
   },
   {
+    "name": "pistachio-coverage",
+    "url": "https://github.com/winebarrel/pistachio-coverage",
+    "categories": [
+      "Git / GitHub"
+    ],
+    "language": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "description": "Coverage report of https://github.com/winebarrel/pistachio",
+    "stars": 0,
+    "updated": "2026-10-15",
+    "created": "2026-10-15",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "sysvbanner-go",
     "url": "https://github.com/winebarrel/sysvbanner-go",
     "categories": [
@@ -2786,7 +2803,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1122,
-    "updated": "2026-10-12",
+    "updated": "2026-10-15",
     "created": "2014-05-04",
     "archived": false,
     "pinned": false
@@ -2965,7 +2982,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-10-10",
+    "updated": "2026-10-15",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3356,7 +3373,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 60,
-    "updated": "2026-10-14",
+    "updated": "2026-10-15",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4666,7 +4683,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-15",
     "created": "2025-04-05",
     "archived": false,
     "pinned": false
@@ -4936,7 +4953,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-14",
+    "updated": "2026-10-15",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
