@@ -48,7 +48,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 40,
-    "updated": "2026-10-13",
+    "updated": "2026-10-20",
     "created": "2022-10-16",
     "archived": false,
     "pinned": true
@@ -438,7 +438,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-10-10",
+    "updated": "2026-10-20",
     "created": "2022-05-29",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-10-15",
+    "updated": "2026-10-20",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -863,7 +863,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-21",
     "created": "2025-04-14",
     "archived": false,
     "pinned": false
@@ -1961,8 +1961,8 @@
     ],
     "description": "Coverage report of https://github.com/winebarrel/pistachio",
     "stars": 0,
-    "updated": "2026-10-20",
-    "created": "2026-10-20",
+    "updated": "2026-10-21",
+    "created": "2026-10-21",
     "archived": false,
     "pinned": false
   },
@@ -2267,7 +2267,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-10-14",
+    "updated": "2026-10-21",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -3337,7 +3337,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-10-01",
+    "updated": "2026-10-21",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -3372,8 +3372,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 64,
-    "updated": "2026-10-20",
+    "stars": 65,
+    "updated": "2026-10-21",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4413,7 +4413,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4431,7 +4431,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 10,
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "created": "2023-04-25",
     "archived": false,
     "pinned": false
@@ -4629,7 +4629,7 @@
     ],
     "description": "Validate the structure of Atlantis configuration files",
     "stars": 0,
-    "updated": "2026-10-08",
+    "updated": "2026-10-21",
     "created": "2026-08-10",
     "archived": false,
     "pinned": false
@@ -4665,7 +4665,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "created": "2025-04-17",
     "archived": false,
     "pinned": false
@@ -4683,7 +4683,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-10-15",
+    "updated": "2026-10-20",
     "created": "2025-04-05",
     "archived": false,
     "pinned": false
@@ -4953,7 +4953,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-19",
+    "updated": "2026-10-21",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
