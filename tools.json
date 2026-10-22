@@ -349,7 +349,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-10-10",
+    "updated": "2026-10-21",
     "created": "2022-02-23",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-10-20",
+    "updated": "2026-10-22",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -881,7 +881,7 @@
     ],
     "description": "Wait until an AWS IAM Identity Center permission set granted by PIM can be assumed",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-21",
     "created": "2026-09-03",
     "archived": false,
     "pinned": false
@@ -899,7 +899,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-21",
     "created": "2026-02-07",
     "archived": false,
     "pinned": false
@@ -1006,7 +1006,7 @@
     ],
     "description": "Share a terminal session with an AI agent over MCP: ssh logins, serial consoles and more",
     "stars": 1,
-    "updated": "2026-10-10",
+    "updated": "2026-10-22",
     "created": "2026-09-26",
     "archived": false,
     "pinned": false
@@ -1078,7 +1078,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -1961,8 +1961,8 @@
     ],
     "description": "Coverage report of https://github.com/winebarrel/pistachio",
     "stars": 0,
-    "updated": "2026-10-21",
-    "created": "2026-10-21",
+    "updated": "2026-10-22",
+    "created": "2026-10-22",
     "archived": false,
     "pinned": false
   },
@@ -2015,7 +2015,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-10-13",
+    "updated": "2026-10-22",
     "created": "2023-02-11",
     "archived": false,
     "pinned": true
@@ -2982,7 +2982,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-10-15",
+    "updated": "2026-10-21",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3071,7 +3071,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-10-20",
+    "updated": "2026-10-22",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3373,7 +3373,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 65,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3445,7 +3445,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-10-20",
+    "updated": "2026-10-22",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -4273,7 +4273,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4413,7 +4413,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4683,7 +4683,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-10-20",
+    "updated": "2026-10-21",
     "created": "2025-04-05",
     "archived": false,
     "pinned": false
@@ -4953,7 +4953,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
@@ -5093,7 +5093,7 @@
     ],
     "description": "macOS utility that shows an \"あ\" badge next to the mouse cursor while Japanese input is active",
     "stars": 0,
-    "updated": "2026-07-13",
+    "updated": "2026-10-22",
     "created": "2026-07-10",
     "archived": false,
     "pinned": false
