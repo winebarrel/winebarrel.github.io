@@ -349,7 +349,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2022-02-23",
     "archived": false,
     "pinned": false
@@ -438,7 +438,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-10-20",
+    "updated": "2026-10-22",
     "created": "2022-05-29",
     "archived": false,
     "pinned": false
@@ -491,7 +491,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-10-20",
+    "updated": "2026-10-22",
     "created": "2024-01-05",
     "archived": false,
     "pinned": false
@@ -687,7 +687,7 @@
     ],
     "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-22",
     "created": "2026-08-03",
     "archived": false,
     "pinned": false
@@ -723,7 +723,7 @@
     ],
     "description": "Sign in to AWS IAM Identity Center from a machine with no browser, using the OAuth 2.0 device authorization grant",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-22",
     "created": "2026-09-08",
     "archived": false,
     "pinned": false
@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -863,7 +863,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2025-04-14",
     "archived": false,
     "pinned": false
@@ -881,7 +881,7 @@
     ],
     "description": "Wait until an AWS IAM Identity Center permission set granted by PIM can be assumed",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2026-09-03",
     "archived": false,
     "pinned": false
@@ -899,7 +899,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2026-02-07",
     "archived": false,
     "pinned": false
@@ -953,7 +953,7 @@
     ],
     "description": "Run a command against a different AWS IAM Identity Center permission set, without editing ~/.aws/config",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-22",
     "created": "2026-09-01",
     "archived": false,
     "pinned": false
@@ -1078,7 +1078,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -1961,8 +1961,8 @@
     ],
     "description": "Coverage report of https://github.com/winebarrel/pistachio",
     "stars": 0,
-    "updated": "2026-10-22",
-    "created": "2026-10-22",
+    "updated": "2026-10-23",
+    "created": "2026-10-23",
     "archived": false,
     "pinned": false
   },
@@ -2267,7 +2267,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -2982,7 +2982,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3071,7 +3071,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-10-22",
+    "updated": "2026-10-23",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3373,7 +3373,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 65,
-    "updated": "2026-10-22",
+    "updated": "2026-10-23",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4273,7 +4273,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-23",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4413,7 +4413,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-10-22",
+    "updated": "2026-10-23",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4575,7 +4575,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-10-20",
+    "updated": "2026-10-22",
     "created": "2022-07-16",
     "archived": false,
     "pinned": false
@@ -4665,7 +4665,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2025-04-17",
     "archived": false,
     "pinned": false
@@ -4683,7 +4683,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-22",
     "created": "2025-04-05",
     "archived": false,
     "pinned": false
@@ -4719,7 +4719,7 @@
     ],
     "description": "Terraform provider for managing PostgreSQL role/database configuration parameters (ALTER ROLE/DATABASE ... SET), e.g. per-role pgaudit.",
     "stars": 0,
-    "updated": "2026-10-10",
+    "updated": "2026-10-22",
     "created": "2026-08-14",
     "archived": false,
     "pinned": false
@@ -4953,7 +4953,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-22",
+    "updated": "2026-10-23",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
