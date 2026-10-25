@@ -1961,8 +1961,8 @@
     ],
     "description": "Coverage report of https://github.com/winebarrel/pistachio",
     "stars": 0,
-    "updated": "2026-10-24",
-    "created": "2026-10-24",
+    "updated": "2026-10-25",
+    "created": "2026-10-25",
     "archived": false,
     "pinned": false
   },
@@ -2429,7 +2429,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-10-18",
+    "updated": "2026-10-25",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -3071,7 +3071,7 @@
     ],
     "description": "Declarative schema management for MySQL.",
     "stars": 3,
-    "updated": "2026-10-23",
+    "updated": "2026-10-25",
     "created": "2026-05-02",
     "archived": false,
     "pinned": false
@@ -3373,7 +3373,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 65,
-    "updated": "2026-10-24",
+    "updated": "2026-10-25",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4629,7 +4629,7 @@
     ],
     "description": "Validate the structure of Atlantis configuration files",
     "stars": 0,
-    "updated": "2026-10-21",
+    "updated": "2026-10-25",
     "created": "2026-08-10",
     "archived": false,
     "pinned": false
@@ -4917,7 +4917,7 @@
     ],
     "description": "A generic, thread-safe ordered map for Go that preserves insertion order using container/list.",
     "stars": 0,
-    "updated": "2026-09-29",
+    "updated": "2026-10-25",
     "created": "2026-02-28",
     "archived": false,
     "pinned": false
@@ -4953,7 +4953,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-24",
+    "updated": "2026-10-25",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
