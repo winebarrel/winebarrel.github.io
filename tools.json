@@ -1950,23 +1950,6 @@
     "pinned": false
   },
   {
-    "name": "pistachio-coverage",
-    "url": "https://github.com/winebarrel/pistachio-coverage",
-    "categories": [
-      "Git / GitHub"
-    ],
-    "language": "HTML",
-    "languages": [
-      "HTML"
-    ],
-    "description": "Coverage report of https://github.com/winebarrel/pistachio",
-    "stars": 0,
-    "updated": "2026-10-26",
-    "created": "2026-10-26",
-    "archived": false,
-    "pinned": false
-  },
-  {
     "name": "sysvbanner-go",
     "url": "https://github.com/winebarrel/sysvbanner-go",
     "categories": [

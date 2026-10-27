@@ -173,6 +173,7 @@ when **all** of these hold:
 - name does **not** start with `homebrew-` (these are Homebrew tap repos, not tools themselves)
 - name does **not** end with `.github.io` (these are GitHub Pages sites, including this one)
 - name does **not** contain `example` (case-insensitive — these are demo/sample repos)
+- name does **not** end with `-demo` or `-coverage` (case-insensitive — demo apps and coverage report sites)
 - AND one of:
   - `stargazerCount >= 3`, or
   - has at least one topic, or
