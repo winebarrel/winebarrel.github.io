@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 27 Oct 2026 18:02:31 GMT</lastBuildDate>
+<lastBuildDate>Wed, 28 Oct 2026 18:02:08 GMT</lastBuildDate>
+<item>
+  <title>Biffy</title>
+  <link>https://github.com/winebarrel/Biffy</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/Biffy</guid>
+  <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+  <description>Biffy is a utility app that shows unread Gmail messages on the menu bar.</description>
+  <category>macOS / iOS</category>
+</item>
 <item>
   <title>pgstub</title>
   <link>https://github.com/winebarrel/pgstub</link>
@@ -398,14 +406,6 @@
   <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
   <description>json2go is a tool to convert JSON to Go struct.</description>
   <category>Go tool</category>
-</item>
-<item>
-  <title>dap</title>
-  <link>https://github.com/winebarrel/dap</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/dap</guid>
-  <pubDate>Sat, 27 Dec 2025 00:00:00 GMT</pubDate>
-  <description>Digest authentication proxy that stores authentication information in a cookie.</description>
-  <category>Auth / Security</category>
 </item>
 </channel>
 </rss>

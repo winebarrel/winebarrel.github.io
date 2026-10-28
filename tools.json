@@ -83,7 +83,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "created": "2017-09-11",
     "archived": false,
     "pinned": false
@@ -313,7 +313,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 4,
-    "updated": "2026-10-14",
+    "updated": "2026-10-28",
     "created": "2024-12-04",
     "archived": false,
     "pinned": false
@@ -349,7 +349,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "created": "2022-02-23",
     "archived": false,
     "pinned": false
@@ -438,7 +438,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "created": "2022-05-29",
     "archived": false,
     "pinned": false
@@ -491,7 +491,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "created": "2024-01-05",
     "archived": false,
     "pinned": false
@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -953,7 +953,7 @@
     ],
     "description": "Run a command against a different AWS IAM Identity Center permission set, without editing ~/.aws/config",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "created": "2026-09-01",
     "archived": false,
     "pinned": false
@@ -3320,7 +3320,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-10-24",
+    "updated": "2026-10-28",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -3356,7 +3356,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 65,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3428,7 +3428,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -4702,7 +4702,7 @@
     ],
     "description": "Terraform provider for managing PostgreSQL role/database configuration parameters (ALTER ROLE/DATABASE ... SET), e.g. per-role pgaudit.",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-10-27",
     "created": "2026-08-14",
     "archived": false,
     "pinned": false
@@ -4864,7 +4864,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -4936,7 +4936,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-27",
+    "updated": "2026-10-28",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
@@ -5061,6 +5061,24 @@
     "stars": 1,
     "updated": "2026-10-06",
     "created": "2024-11-17",
+    "archived": false,
+    "pinned": false
+  },
+  {
+    "name": "Biffy",
+    "url": "https://github.com/winebarrel/Biffy",
+    "categories": [
+      "macOS / iOS"
+    ],
+    "language": "Swift",
+    "languages": [
+      "Swift",
+      "Makefile"
+    ],
+    "description": "Biffy is a utility app that shows unread Gmail messages on the menu bar.",
+    "stars": 0,
+    "updated": "2026-10-28",
+    "created": "2026-10-28",
     "archived": false,
     "pinned": false
   },
