@@ -545,7 +545,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "created": "2026-07-27",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-10-27",
+    "updated": "2026-10-29",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -1078,7 +1078,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -2250,7 +2250,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -3320,7 +3320,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -3355,8 +3355,8 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 65,
-    "updated": "2026-10-28",
+    "stars": 67,
+    "updated": "2026-10-29",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -4384,6 +4384,24 @@
     "pinned": false
   },
   {
+    "name": "terraform-provider-redash",
+    "url": "https://github.com/winebarrel/terraform-provider-redash",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "PLpgSQL"
+    ],
+    "description": "Terraform provider for Redash.",
+    "stars": 11,
+    "updated": "2026-10-27",
+    "created": "2023-04-25",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "terraform-provider-lambdazip",
     "url": "https://github.com/winebarrel/terraform-provider-lambdazip",
     "categories": [
@@ -4398,24 +4416,6 @@
     "stars": 10,
     "updated": "2026-10-24",
     "created": "2024-02-03",
-    "archived": false,
-    "pinned": false
-  },
-  {
-    "name": "terraform-provider-redash",
-    "url": "https://github.com/winebarrel/terraform-provider-redash",
-    "categories": [
-      "Terraform"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "PLpgSQL"
-    ],
-    "description": "Terraform provider for Redash.",
-    "stars": 10,
-    "updated": "2026-10-27",
-    "created": "2023-04-25",
     "archived": false,
     "pinned": false
   },
@@ -4648,7 +4648,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-10-28",
     "created": "2025-04-17",
     "archived": false,
     "pinned": false
@@ -4936,7 +4936,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-28",
+    "updated": "2026-10-29",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
