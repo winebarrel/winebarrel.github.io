@@ -2070,7 +2070,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-09-17",
+    "updated": "2026-10-31",
     "created": "2026-01-01",
     "archived": false,
     "pinned": false
@@ -2412,7 +2412,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-10-25",
+    "updated": "2026-11-01",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -4594,7 +4594,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 1,
-    "updated": "2026-10-09",
+    "updated": "2026-10-31",
     "created": "2026-05-24",
     "archived": false,
     "pinned": false
@@ -4936,7 +4936,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-10-31",
+    "updated": "2026-11-01",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
