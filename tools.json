@@ -83,7 +83,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 40,
-    "updated": "2026-10-28",
+    "updated": "2026-11-02",
     "created": "2017-09-11",
     "archived": false,
     "pinned": false
@@ -224,7 +224,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2024-07-04",
     "archived": false,
     "pinned": false
@@ -491,7 +491,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-10-30",
+    "updated": "2026-11-02",
     "created": "2024-01-05",
     "archived": false,
     "pinned": false
@@ -509,7 +509,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2022-09-19",
     "archived": false,
     "pinned": false
@@ -687,7 +687,7 @@
     ],
     "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
     "stars": 0,
-    "updated": "2026-10-30",
+    "updated": "2026-11-02",
     "created": "2026-08-03",
     "archived": false,
     "pinned": false
@@ -723,7 +723,7 @@
     ],
     "description": "Sign in to AWS IAM Identity Center from a machine with no browser, using the OAuth 2.0 device authorization grant",
     "stars": 0,
-    "updated": "2026-10-30",
+    "updated": "2026-11-02",
     "created": "2026-09-08",
     "archived": false,
     "pinned": false
@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-10-30",
+    "updated": "2026-11-02",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -863,7 +863,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-10-30",
+    "updated": "2026-11-02",
     "created": "2025-04-14",
     "archived": false,
     "pinned": false
@@ -881,7 +881,7 @@
     ],
     "description": "Wait until an AWS IAM Identity Center permission set granted by PIM can be assumed",
     "stars": 0,
-    "updated": "2026-10-30",
+    "updated": "2026-11-02",
     "created": "2026-09-03",
     "archived": false,
     "pinned": false
@@ -899,7 +899,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-10-30",
+    "updated": "2026-11-02",
     "created": "2026-02-07",
     "archived": false,
     "pinned": false
@@ -953,7 +953,7 @@
     ],
     "description": "Run a command against a different AWS IAM Identity Center permission set, without editing ~/.aws/config",
     "stars": 0,
-    "updated": "2026-10-30",
+    "updated": "2026-11-02",
     "created": "2026-09-01",
     "archived": false,
     "pinned": false
@@ -971,7 +971,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2025-02-22",
     "archived": false,
     "pinned": false
@@ -1006,7 +1006,7 @@
     ],
     "description": "Share a terminal session with an AI agent over MCP: ssh logins, serial consoles and more",
     "stars": 1,
-    "updated": "2026-10-22",
+    "updated": "2026-11-02",
     "created": "2026-09-26",
     "archived": false,
     "pinned": false
@@ -1060,7 +1060,7 @@
     ],
     "description": "Digest authentication proxy that stores authentication information in a cookie.",
     "stars": 0,
-    "updated": "2026-10-09",
+    "updated": "2026-11-02",
     "created": "2025-12-27",
     "archived": false,
     "pinned": false
@@ -1078,7 +1078,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-10-28",
+    "updated": "2026-11-02",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -1113,7 +1113,7 @@
     ],
     "description": "Simple HTTP proxy with Auth key.",
     "stars": 0,
-    "updated": "2026-10-09",
+    "updated": "2026-11-02",
     "created": "2025-09-01",
     "archived": false,
     "pinned": false
@@ -1197,7 +1197,7 @@
     ],
     "description": "CLI for esa.io.",
     "stars": 18,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2022-01-09",
     "archived": false,
     "pinned": false
@@ -1286,7 +1286,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-10-20",
+    "updated": "2026-11-02",
     "created": "2023-08-18",
     "archived": false,
     "pinned": false
@@ -1340,7 +1340,7 @@
     ],
     "description": "CLI to convert currency using Yahoo! finance API.",
     "stars": 0,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2023-12-24",
     "archived": false,
     "pinned": false
@@ -1785,7 +1785,7 @@
     ],
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
-    "updated": "2026-10-13",
+    "updated": "2026-11-02",
     "created": "2025-11-08",
     "archived": false,
     "pinned": false
@@ -1838,7 +1838,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2023-03-11",
     "archived": false,
     "pinned": false
@@ -1873,7 +1873,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2024-02-11",
     "archived": false,
     "pinned": false
@@ -2070,7 +2070,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "created": "2026-01-01",
     "archived": false,
     "pinned": false
@@ -2124,7 +2124,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2023-06-17",
     "archived": false,
     "pinned": false
@@ -2142,7 +2142,7 @@
     ],
     "description": "Remove blank lines from the beginning and end of the file. Also, make duplicate blank lines into one.",
     "stars": 1,
-    "updated": "2026-08-24",
+    "updated": "2026-11-02",
     "created": "2024-04-01",
     "archived": false,
     "pinned": false
@@ -2250,7 +2250,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-10-28",
+    "updated": "2026-11-02",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -2336,11 +2336,11 @@
     "language": "Go",
     "languages": [
       "Go",
-      "Makefile"
+      "Tape"
     ],
     "description": "Time Calculator.",
     "stars": 0,
-    "updated": "2026-08-24",
+    "updated": "2026-11-02",
     "created": "2023-12-23",
     "archived": false,
     "pinned": false
@@ -2430,7 +2430,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-10-25",
+    "updated": "2026-11-01",
     "created": "2024-01-14",
     "archived": false,
     "pinned": false
@@ -2678,7 +2678,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-10-20",
+    "updated": "2026-11-02",
     "created": "2023-06-03",
     "archived": false,
     "pinned": false
@@ -2786,7 +2786,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1123,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2014-05-04",
     "archived": false,
     "pinned": false
@@ -2965,7 +2965,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3072,7 +3072,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 2,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2024-11-18",
     "archived": false,
     "pinned": false
@@ -3355,7 +3355,7 @@
       "Shell"
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
-    "stars": 67,
+    "stars": 68,
     "updated": "2026-10-31",
     "created": "2026-02-21",
     "archived": false,
@@ -3446,7 +3446,7 @@
     ],
     "description": "PostgreSQL wire protocol stub for tests: expect statements, or record a real server and replay it in CI",
     "stars": 0,
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "created": "2026-10-10",
     "archived": false,
     "pinned": false
@@ -3831,7 +3831,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2016-04-09",
     "archived": false,
     "pinned": false
@@ -4256,7 +4256,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-10-31",
+    "updated": "2026-11-01",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4450,7 +4450,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-10-25",
+    "updated": "2026-11-01",
     "created": "2023-12-17",
     "archived": false,
     "pinned": false
@@ -4486,7 +4486,7 @@
     ],
     "description": "Terraform functions that build AWS ARNs, one per AWS resource type",
     "stars": 1,
-    "updated": "2026-10-26",
+    "updated": "2026-11-02",
     "created": "2026-09-21",
     "archived": false,
     "pinned": false
@@ -4594,7 +4594,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 1,
-    "updated": "2026-10-31",
+    "updated": "2026-11-02",
     "created": "2026-05-24",
     "archived": false,
     "pinned": false
@@ -4630,7 +4630,7 @@
     ],
     "description": "Convert Terraform aws_iam_policy_document data sources to inline jsonencode() expressions",
     "stars": 0,
-    "updated": "2026-09-17",
+    "updated": "2026-11-02",
     "created": "2026-05-20",
     "archived": false,
     "pinned": false
@@ -4774,7 +4774,7 @@
     ],
     "description": "tfdsprune is a tool to remove unused Terraform data source definitions.",
     "stars": 0,
-    "updated": "2026-09-17",
+    "updated": "2026-11-02",
     "created": "2026-05-27",
     "archived": false,
     "pinned": false
@@ -4792,7 +4792,7 @@
     ],
     "description": "A tool to convert heredoc JSON in Terraform files into jsonencode({...})",
     "stars": 0,
-    "updated": "2026-09-17",
+    "updated": "2026-11-02",
     "created": "2026-06-21",
     "archived": false,
     "pinned": false
@@ -4810,7 +4810,7 @@
     ],
     "description": "Flatten Terraform modules into the parent with moved blocks for state migration.",
     "stars": 0,
-    "updated": "2026-09-17",
+    "updated": "2026-11-02",
     "created": "2026-05-22",
     "archived": false,
     "pinned": false
@@ -4828,7 +4828,7 @@
     ],
     "description": "Rename Terraform resources, data sources, modules, variables, outputs, and locals across .tf files",
     "stars": 0,
-    "updated": "2026-09-23",
+    "updated": "2026-11-02",
     "created": "2026-05-22",
     "archived": false,
     "pinned": false
@@ -4846,7 +4846,7 @@
     ],
     "description": "tfunfold is a tool to expand Terraform for_each / count into individual resources or modules with moved blocks.",
     "stars": 0,
-    "updated": "2026-09-17",
+    "updated": "2026-11-02",
     "created": "2026-06-16",
     "archived": false,
     "pinned": false
@@ -4936,7 +4936,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-11-01",
+    "updated": "2026-11-02",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
