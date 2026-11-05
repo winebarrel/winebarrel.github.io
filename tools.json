@@ -349,7 +349,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 3,
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "created": "2022-02-23",
     "archived": false,
     "pinned": false
@@ -438,7 +438,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "created": "2022-05-29",
     "archived": false,
     "pinned": false
@@ -491,7 +491,7 @@
     ],
     "description": "Retrieves a list of all email addresses that are on the suppression list for Amazon SES.",
     "stars": 2,
-    "updated": "2026-11-02",
+    "updated": "2026-11-04",
     "created": "2024-01-05",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-10-31",
+    "updated": "2026-11-04",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -687,7 +687,7 @@
     ],
     "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
     "stars": 0,
-    "updated": "2026-11-02",
+    "updated": "2026-11-04",
     "created": "2026-08-03",
     "archived": false,
     "pinned": false
@@ -723,7 +723,7 @@
     ],
     "description": "Sign in to AWS IAM Identity Center from a machine with no browser, using the OAuth 2.0 device authorization grant",
     "stars": 0,
-    "updated": "2026-11-02",
+    "updated": "2026-11-04",
     "created": "2026-09-08",
     "archived": false,
     "pinned": false
@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-11-02",
+    "updated": "2026-11-05",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -863,7 +863,7 @@
     ],
     "description": "rdslog is a tool to download RDS logs using the DownloadCompleteDBLogFile API.",
     "stars": 0,
-    "updated": "2026-11-02",
+    "updated": "2026-11-04",
     "created": "2025-04-14",
     "archived": false,
     "pinned": false
@@ -899,7 +899,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-11-04",
+    "updated": "2026-11-05",
     "created": "2026-02-07",
     "archived": false,
     "pinned": false
@@ -953,7 +953,7 @@
     ],
     "description": "Run a command against a different AWS IAM Identity Center permission set, without editing ~/.aws/config",
     "stars": 0,
-    "updated": "2026-11-02",
+    "updated": "2026-11-05",
     "created": "2026-09-01",
     "archived": false,
     "pinned": false
@@ -1078,7 +1078,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-11-02",
+    "updated": "2026-11-04",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -2070,7 +2070,7 @@
     ],
     "description": "json2go is a tool to convert JSON to Go struct.",
     "stars": 2,
-    "updated": "2026-11-02",
+    "updated": "2026-11-04",
     "created": "2026-01-01",
     "archived": false,
     "pinned": false
@@ -2250,7 +2250,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-11-02",
+    "updated": "2026-11-04",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -3320,7 +3320,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-10-29",
+    "updated": "2026-11-04",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -3446,7 +3446,7 @@
     ],
     "description": "PostgreSQL wire protocol stub for tests: expect statements, or record a real server and replay it in CI",
     "stars": 0,
-    "updated": "2026-11-02",
+    "updated": "2026-11-05",
     "created": "2026-10-10",
     "archived": false,
     "pinned": false
@@ -4558,7 +4558,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-10-30",
+    "updated": "2026-11-04",
     "created": "2022-07-16",
     "archived": false,
     "pinned": false
@@ -4594,7 +4594,7 @@
     ],
     "description": "Terraform plan output formatter to reduce noise",
     "stars": 1,
-    "updated": "2026-11-02",
+    "updated": "2026-11-04",
     "created": "2026-05-24",
     "archived": false,
     "pinned": false
@@ -4648,7 +4648,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-10-28",
+    "updated": "2026-11-04",
     "created": "2025-04-17",
     "archived": false,
     "pinned": false
@@ -4702,7 +4702,7 @@
     ],
     "description": "Terraform provider for managing PostgreSQL role/database configuration parameters (ALTER ROLE/DATABASE ... SET), e.g. per-role pgaudit.",
     "stars": 0,
-    "updated": "2026-10-31",
+    "updated": "2026-11-05",
     "created": "2026-08-14",
     "archived": false,
     "pinned": false
@@ -4954,7 +4954,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-11-04",
+    "updated": "2026-11-05",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
