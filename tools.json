@@ -2412,7 +2412,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-11-01",
+    "updated": "2026-11-08",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -3356,7 +3356,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 68,
-    "updated": "2026-11-07",
+    "updated": "2026-11-08",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3446,7 +3446,7 @@
     ],
     "description": "pgsandpit is a Go testing library that gives each test a PostgreSQL session wrapped in a transaction and rolls it back when the test ends.",
     "stars": 0,
-    "updated": "2026-11-07",
+    "updated": "2026-11-08",
     "created": "2026-11-07",
     "archived": false,
     "pinned": false
@@ -3464,7 +3464,7 @@
     ],
     "description": "PostgreSQL wire protocol stub for tests: expect statements, or record a real server and replay it in CI",
     "stars": 0,
-    "updated": "2026-11-07",
+    "updated": "2026-11-08",
     "created": "2026-10-10",
     "archived": false,
     "pinned": false
@@ -4972,7 +4972,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-11-07",
+    "updated": "2026-11-08",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
