@@ -36,6 +36,23 @@
     "pinned": false
   },
   {
+    "name": "faraday_middleware-aws-sigv4",
+    "url": "https://github.com/winebarrel/faraday_middleware-aws-sigv4",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
+    "stars": 41,
+    "updated": "2026-11-09",
+    "created": "2017-09-11",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "cronplan",
     "url": "https://github.com/winebarrel/cronplan",
     "categories": [
@@ -68,23 +85,6 @@
     "stars": 40,
     "updated": "2019-10-18",
     "created": "2013-05-06",
-    "archived": false,
-    "pinned": false
-  },
-  {
-    "name": "faraday_middleware-aws-sigv4",
-    "url": "https://github.com/winebarrel/faraday_middleware-aws-sigv4",
-    "categories": [
-      "AWS"
-    ],
-    "language": "Ruby",
-    "languages": [
-      "Ruby"
-    ],
-    "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
-    "stars": 40,
-    "updated": "2026-11-02",
-    "created": "2017-09-11",
     "archived": false,
     "pinned": false
   },
@@ -224,7 +224,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2024-07-04",
     "archived": false,
     "pinned": false
@@ -509,7 +509,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2022-09-19",
     "archived": false,
     "pinned": false
@@ -971,7 +971,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2025-02-22",
     "archived": false,
     "pinned": false
@@ -1555,7 +1555,7 @@
     ],
     "description": "kodama is a DNS server that returns any private IP address.",
     "stars": 1,
-    "updated": "2026-10-09",
+    "updated": "2026-11-09",
     "created": "2025-12-13",
     "archived": false,
     "pinned": false
@@ -1785,7 +1785,7 @@
     ],
     "description": "lastcmt is a CLI that comments on a pull request and minimizes previous comments.",
     "stars": 4,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2025-11-08",
     "archived": false,
     "pinned": false
@@ -1838,7 +1838,7 @@
     ],
     "description": "A chrome extension that adds a link to an issue to the title of GitHub Actions.",
     "stars": 2,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2023-03-11",
     "archived": false,
     "pinned": false
@@ -1856,7 +1856,7 @@
     ],
     "description": "List up CODEOWNERS of all repositories.",
     "stars": 1,
-    "updated": "2026-08-17",
+    "updated": "2026-11-09",
     "created": "2024-09-03",
     "archived": false,
     "pinned": false
@@ -1873,7 +1873,7 @@
     ],
     "description": "Hide comment checkbox for \"Finish your review\" on GitHub.",
     "stars": 1,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2024-02-11",
     "archived": false,
     "pinned": false
@@ -2124,7 +2124,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2023-06-17",
     "archived": false,
     "pinned": false
@@ -2430,7 +2430,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-11-01",
+    "updated": "2026-11-08",
     "created": "2024-01-14",
     "archived": false,
     "pinned": false
@@ -2786,7 +2786,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1122,
-    "updated": "2026-11-04",
+    "updated": "2026-11-09",
     "created": "2014-05-04",
     "archived": false,
     "pinned": false
@@ -3072,7 +3072,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 2,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2024-11-18",
     "archived": false,
     "pinned": false
@@ -3416,6 +3416,24 @@
     "pinned": false
   },
   {
+    "name": "pgsandpit",
+    "url": "https://github.com/winebarrel/pgsandpit",
+    "categories": [
+      "PostgreSQL"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Makefile"
+    ],
+    "description": "pgsandpit is a Go testing library that gives each test a PostgreSQL session wrapped in a transaction and rolls it back when the test ends.",
+    "stars": 1,
+    "updated": "2026-11-08",
+    "created": "2026-11-07",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "pgls-vscode",
     "url": "https://github.com/winebarrel/pgls-vscode",
     "categories": [
@@ -3434,24 +3452,6 @@
     "pinned": false
   },
   {
-    "name": "pgsandpit",
-    "url": "https://github.com/winebarrel/pgsandpit",
-    "categories": [
-      "PostgreSQL"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Makefile"
-    ],
-    "description": "pgsandpit is a Go testing library that gives each test a PostgreSQL session wrapped in a transaction and rolls it back when the test ends.",
-    "stars": 0,
-    "updated": "2026-11-08",
-    "created": "2026-11-07",
-    "archived": false,
-    "pinned": false
-  },
-  {
     "name": "pgstub",
     "url": "https://github.com/winebarrel/pgstub",
     "categories": [
@@ -3464,7 +3464,7 @@
     ],
     "description": "PostgreSQL wire protocol stub for tests: expect statements, or record a real server and replay it in CI",
     "stars": 0,
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "created": "2026-10-10",
     "archived": false,
     "pinned": false
@@ -3849,7 +3849,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2016-04-09",
     "archived": false,
     "pinned": false
@@ -4274,7 +4274,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-11-06",
+    "updated": "2026-11-08",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4414,7 +4414,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 11,
-    "updated": "2026-10-27",
+    "updated": "2026-11-09",
     "created": "2023-04-25",
     "archived": false,
     "pinned": false
@@ -4468,7 +4468,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-11-01",
+    "updated": "2026-11-08",
     "created": "2023-12-17",
     "archived": false,
     "pinned": false
@@ -4504,7 +4504,7 @@
     ],
     "description": "Terraform functions that build AWS ARNs, one per AWS resource type",
     "stars": 1,
-    "updated": "2026-11-02",
+    "updated": "2026-11-09",
     "created": "2026-09-21",
     "archived": false,
     "pinned": false
@@ -4972,7 +4972,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-11-08",
+    "updated": "2026-11-09",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
