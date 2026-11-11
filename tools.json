@@ -65,7 +65,7 @@
     ],
     "description": "Cron expression parser for Amazon EventBridge.",
     "stars": 40,
-    "updated": "2026-10-20",
+    "updated": "2026-11-10",
     "created": "2022-10-16",
     "archived": false,
     "pinned": true
@@ -313,7 +313,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 4,
-    "updated": "2026-11-04",
+    "updated": "2026-11-11",
     "created": "2024-12-04",
     "archived": false,
     "pinned": false
@@ -420,7 +420,7 @@
     ],
     "description": "A tool to get temporary credentials from AWS SSO.",
     "stars": 3,
-    "updated": "2026-11-10",
+    "updated": "2026-11-11",
     "created": "2022-05-29",
     "archived": false,
     "pinned": false
@@ -438,7 +438,7 @@
     ],
     "description": "apt-transport-s3-go is a Go port of apt-transport-s3.",
     "stars": 2,
-    "updated": "2026-11-09",
+    "updated": "2026-11-11",
     "created": "2022-02-23",
     "archived": false,
     "pinned": false
@@ -687,7 +687,7 @@
     ],
     "description": "Get a web identity token (JWT) from AWS STS GetWebIdentityToken",
     "stars": 0,
-    "updated": "2026-11-09",
+    "updated": "2026-11-11",
     "created": "2026-08-03",
     "archived": false,
     "pinned": false
@@ -723,7 +723,7 @@
     ],
     "description": "Sign in to AWS IAM Identity Center from a machine with no browser, using the OAuth 2.0 device authorization grant",
     "stars": 0,
-    "updated": "2026-11-10",
+    "updated": "2026-11-11",
     "created": "2026-09-08",
     "archived": false,
     "pinned": false
@@ -881,7 +881,7 @@
     ],
     "description": "Wait until an AWS IAM Identity Center permission set granted by PIM can be assumed",
     "stars": 0,
-    "updated": "2026-11-10",
+    "updated": "2026-11-11",
     "created": "2026-09-03",
     "archived": false,
     "pinned": false
@@ -953,7 +953,7 @@
     ],
     "description": "Run a command against a different AWS IAM Identity Center permission set, without editing ~/.aws/config",
     "stars": 0,
-    "updated": "2026-11-09",
+    "updated": "2026-11-10",
     "created": "2026-09-01",
     "archived": false,
     "pinned": false
@@ -1078,7 +1078,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-11-04",
+    "updated": "2026-11-10",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -1286,7 +1286,7 @@
     ],
     "description": "CLI to get airtable records.",
     "stars": 1,
-    "updated": "2026-11-02",
+    "updated": "2026-11-11",
     "created": "2023-08-18",
     "archived": false,
     "pinned": false
@@ -1697,7 +1697,7 @@
     ],
     "description": "Wrapper command for docker-credential-ecr-login to add environment variables.",
     "stars": 0,
-    "updated": "2026-11-10",
+    "updated": "2026-11-11",
     "created": "2023-03-04",
     "archived": false,
     "pinned": false
@@ -2250,7 +2250,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-11-09",
+    "updated": "2026-11-10",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -2678,7 +2678,7 @@
     ],
     "description": "A tool that shows a breakdown of Datadog costs in a table.",
     "stars": 13,
-    "updated": "2026-11-02",
+    "updated": "2026-11-10",
     "created": "2023-06-03",
     "archived": false,
     "pinned": false
@@ -2965,7 +2965,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-11-09",
+    "updated": "2026-11-11",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3001,7 +3001,7 @@
     ],
     "description": "qb is a MySQL benchmarking tool using TPC-B(same as pgbench).",
     "stars": 6,
-    "updated": "2026-11-09",
+    "updated": "2026-11-10",
     "created": "2022-05-08",
     "archived": false,
     "pinned": false
@@ -4414,7 +4414,7 @@
     ],
     "description": "Terraform provider for Redash.",
     "stars": 11,
-    "updated": "2026-11-09",
+    "updated": "2026-11-11",
     "created": "2023-04-25",
     "archived": false,
     "pinned": false
@@ -4558,7 +4558,7 @@
     ],
     "description": "Terraform provider for 1Password CLI.",
     "stars": 1,
-    "updated": "2026-10-20",
+    "updated": "2026-11-10",
     "created": "2023-08-20",
     "archived": false,
     "pinned": false
@@ -4576,7 +4576,7 @@
     ],
     "description": "It is a provider to get the amount of memory for each instance class of RDS.",
     "stars": 1,
-    "updated": "2026-11-09",
+    "updated": "2026-11-11",
     "created": "2022-07-16",
     "archived": false,
     "pinned": false
@@ -4666,7 +4666,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-11-09",
+    "updated": "2026-11-10",
     "created": "2025-04-17",
     "archived": false,
     "pinned": false
@@ -4900,7 +4900,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-11-09",
+    "updated": "2026-11-11",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
