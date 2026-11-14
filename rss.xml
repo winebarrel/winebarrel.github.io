@@ -6,7 +6,15 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 13 Nov 2026 18:01:55 GMT</lastBuildDate>
+<lastBuildDate>Sat, 14 Nov 2026 18:01:45 GMT</lastBuildDate>
+<item>
+  <title>hazel</title>
+  <link>https://github.com/winebarrel/hazel</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/hazel</guid>
+  <pubDate>Sat, 14 Nov 2026 00:00:00 GMT</pubDate>
+  <description>hazel is a declarative schema management tool for SQLite with a Terraform-like plan/apply workflow.</description>
+  <category>Terraform</category>
+</item>
 <item>
   <title>pgsandpit</title>
   <link>https://github.com/winebarrel/pgsandpit</link>
@@ -397,14 +405,6 @@
   <guid isPermaLink="true">https://github.com/winebarrel/conds</guid>
   <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
   <description>go get github.com/winebarrel/conds</description>
-  <category>Database</category>
-</item>
-<item>
-  <title>dbtyp</title>
-  <link>https://github.com/kanmu/dbtyp</link>
-  <guid isPermaLink="true">https://github.com/kanmu/dbtyp</guid>
-  <pubDate>Sat, 17 Jan 2026 00:00:00 GMT</pubDate>
-  <description>dbtyp is a library that associates types with *sql.DB</description>
   <category>Database</category>
 </item>
 </channel>

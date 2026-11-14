@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-11-11",
+    "updated": "2026-11-13",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -759,7 +759,7 @@
     ],
     "description": "def2env is a tool that extracts environment variables from ECS task definitions and executes commands.",
     "stars": 0,
-    "updated": "2026-11-13",
+    "updated": "2026-11-14",
     "created": "2025-07-17",
     "archived": false,
     "pinned": false
@@ -1078,7 +1078,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-11-12",
+    "updated": "2026-11-13",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -4474,6 +4474,24 @@
     "pinned": false
   },
   {
+    "name": "hazel",
+    "url": "https://github.com/winebarrel/hazel",
+    "categories": [
+      "Terraform"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Shell"
+    ],
+    "description": "hazel is a declarative schema management tool for SQLite with a Terraform-like plan/apply workflow.",
+    "stars": 2,
+    "updated": "2026-11-14",
+    "created": "2026-11-14",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "terraform-provider-cronplan",
     "url": "https://github.com/winebarrel/terraform-provider-cronplan",
     "categories": [
@@ -4522,7 +4540,7 @@
     ],
     "description": "Terraform provider for Firebase Remote Config.",
     "stars": 1,
-    "updated": "2026-11-09",
+    "updated": "2026-11-14",
     "created": "2025-07-09",
     "archived": false,
     "pinned": false
@@ -4972,7 +4990,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-11-13",
+    "updated": "2026-11-14",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
