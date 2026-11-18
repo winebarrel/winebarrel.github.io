@@ -6,7 +6,23 @@
 <description>Tools and libraries by @winebarrel, @ridgepole, and @quetarohq.</description>
 <language>en</language>
 <atom:link href="https://winebarrel.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 17 Nov 2026 18:02:27 GMT</lastBuildDate>
+<lastBuildDate>Wed, 18 Nov 2026 18:01:59 GMT</lastBuildDate>
+<item>
+  <title>tfpath</title>
+  <link>https://github.com/winebarrel/tfpath</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/tfpath</guid>
+  <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Query values from Terraform configurations, including modules, as JSON.</description>
+  <category>Terraform</category>
+</item>
+<item>
+  <title>sfntest</title>
+  <link>https://github.com/winebarrel/sfntest</link>
+  <guid isPermaLink="true">https://github.com/winebarrel/sfntest</guid>
+  <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+  <description>Unit test AWS Step Functions state machines locally in Go: run ASL definitions (JSONPath and JSONata, distributed Map) with mocked service calls</description>
+  <category>AWS</category>
+</item>
 <item>
   <title>hazel</title>
   <link>https://github.com/winebarrel/hazel</link>
@@ -390,22 +406,6 @@
   <pubDate>Sat, 07 Feb 2026 00:00:00 GMT</pubDate>
   <description>s3lock is a locking command using S3.</description>
   <category>AWS</category>
-</item>
-<item>
-  <title>HatebuFilter</title>
-  <link>https://github.com/winebarrel/HatebuFilter</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/HatebuFilter</guid>
-  <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-  <description>「はてブフィルター」は指定されたキーワードを含む はてなブックマーク (https://b.hatena.ne.jp/) のエントリを非表示にするSafari機能拡張です。</description>
-  <category>macOS / iOS</category>
-</item>
-<item>
-  <title>conds</title>
-  <link>https://github.com/winebarrel/conds</link>
-  <guid isPermaLink="true">https://github.com/winebarrel/conds</guid>
-  <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
-  <description>go get github.com/winebarrel/conds</description>
-  <category>Database</category>
 </item>
 </channel>
 </rss>
