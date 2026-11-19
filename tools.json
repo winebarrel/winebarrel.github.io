@@ -1597,6 +1597,24 @@
     "pinned": false
   },
   {
+    "name": "hazel",
+    "url": "https://github.com/winebarrel/hazel",
+    "categories": [
+      "Database"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go",
+      "Shell"
+    ],
+    "description": "hazel is a declarative schema management tool for SQLite with a Terraform-like plan/apply workflow.",
+    "stars": 5,
+    "updated": "2026-11-15",
+    "created": "2026-11-14",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "pt-online-schema-change-fast-rebuild-constraints",
     "url": "https://github.com/winebarrel/pt-online-schema-change-fast-rebuild-constraints",
     "categories": [
@@ -4470,24 +4488,6 @@
     "stars": 7,
     "updated": "2026-11-09",
     "created": "2026-05-18",
-    "archived": false,
-    "pinned": false
-  },
-  {
-    "name": "hazel",
-    "url": "https://github.com/winebarrel/hazel",
-    "categories": [
-      "Terraform"
-    ],
-    "language": "Go",
-    "languages": [
-      "Go",
-      "Shell"
-    ],
-    "description": "hazel is a declarative schema management tool for SQLite with a Terraform-like plan/apply workflow.",
-    "stars": 5,
-    "updated": "2026-11-15",
-    "created": "2026-11-14",
     "archived": false,
     "pinned": false
   },

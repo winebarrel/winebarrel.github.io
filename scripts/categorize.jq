@@ -16,6 +16,7 @@ def category:
   elif $n == "linkedlist" then "Utility"
   elif $n == "gemcard" then "Web / Browser"
   elif $n == "pistachio" then "PostgreSQL"
+  elif $n == "hazel" then "Database"
   elif ($h | test("terraform|terraformer|\\btf\\b|tflint|tfstate")) then "Terraform"
   elif ($h | test("kubernetes|k8s|kubectl|helm\\b")) then "Kubernetes"
   elif ($h | test("\\baws\\b|\\bs3\\b|\\bec2\\b|dynamodb|cloudwatch|\\blambda\\b|cloudformation|\\becs\\b|\\brds\\b|\\biam\\b")) then "AWS"
