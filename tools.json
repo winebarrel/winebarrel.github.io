@@ -2034,7 +2034,7 @@
     ],
     "description": "Redash API client for Go that supports almost all APIs.",
     "stars": 13,
-    "updated": "2026-11-13",
+    "updated": "2026-11-20",
     "created": "2023-02-11",
     "archived": false,
     "pinned": true
@@ -3392,7 +3392,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 68,
-    "updated": "2026-11-19",
+    "updated": "2026-11-21",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3482,7 +3482,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-11-16",
+    "updated": "2026-11-21",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -4900,7 +4900,7 @@
     ],
     "description": "Query values from Terraform configurations, including modules, as JSON.",
     "stars": 0,
-    "updated": "2026-11-19",
+    "updated": "2026-11-21",
     "created": "2026-11-18",
     "archived": false,
     "pinned": false
@@ -4954,7 +4954,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-11-16",
+    "updated": "2026-11-20",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -5026,7 +5026,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-11-20",
+    "updated": "2026-11-21",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
