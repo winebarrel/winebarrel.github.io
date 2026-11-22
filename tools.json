@@ -1364,6 +1364,23 @@
     "pinned": false
   },
   {
+    "name": "rbjq",
+    "url": "https://github.com/winebarrel/rbjq",
+    "categories": [
+      "CLI"
+    ],
+    "language": "Ruby",
+    "languages": [
+      "Ruby"
+    ],
+    "description": "A pure Ruby implementation of jq, compatible with jq 1.8. Usable as a library and as a command line tool.",
+    "stars": 0,
+    "updated": "2026-11-22",
+    "created": "2026-11-22",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "xjr",
     "url": "https://github.com/winebarrel/xjr",
     "categories": [
@@ -2448,7 +2465,7 @@
     ],
     "description": "VS Code Extension that reopens the specified folder or parent folder.",
     "stars": 1,
-    "updated": "2026-11-15",
+    "updated": "2026-11-22",
     "created": "2023-03-18",
     "archived": false,
     "pinned": false
@@ -3446,7 +3463,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-10-27",
+    "updated": "2026-11-21",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -3536,7 +3553,7 @@
     ],
     "description": "psqlfmt is a PostgreSQL SQL formatter.",
     "stars": 0,
-    "updated": "2026-10-01",
+    "updated": "2026-11-21",
     "created": "2026-04-14",
     "archived": false,
     "pinned": false
@@ -3554,9 +3571,9 @@
     ],
     "description": "Ruby bindings for jq.",
     "stars": 84,
-    "updated": "2022-12-28",
+    "updated": "2026-11-22",
     "created": "2013-11-12",
-    "archived": false,
+    "archived": true,
     "pinned": false
   },
   {
@@ -4468,7 +4485,7 @@
     ],
     "description": "Terraform provider creating zip file for AWS Lambda.",
     "stars": 10,
-    "updated": "2026-11-19",
+    "updated": "2026-11-22",
     "created": "2024-02-03",
     "archived": false,
     "pinned": false
@@ -4666,7 +4683,7 @@
     ],
     "description": "Validate the structure of Atlantis configuration files",
     "stars": 0,
-    "updated": "2026-11-16",
+    "updated": "2026-11-22",
     "created": "2026-08-10",
     "archived": false,
     "pinned": false
@@ -4720,7 +4737,7 @@
     ],
     "description": "Terraform provider for AWS Lambda function concurrency configuration.",
     "stars": 0,
-    "updated": "2026-10-30",
+    "updated": "2026-11-21",
     "created": "2025-04-05",
     "archived": false,
     "pinned": false
@@ -4900,7 +4917,7 @@
     ],
     "description": "Query values from Terraform configurations, including modules, as JSON.",
     "stars": 0,
-    "updated": "2026-11-21",
+    "updated": "2026-11-22",
     "created": "2026-11-18",
     "archived": false,
     "pinned": false
