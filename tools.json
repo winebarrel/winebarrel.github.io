@@ -47,7 +47,7 @@
     ],
     "description": "Faraday middleware for AWS Signature Version 4 using aws-sigv4.",
     "stars": 41,
-    "updated": "2026-11-09",
+    "updated": "2026-11-23",
     "created": "2017-09-11",
     "archived": false,
     "pinned": false
@@ -224,7 +224,7 @@
     ],
     "description": "A tool that retrieves AWS Secrets Manager secret values, sets them to environment variables, and executes commands.",
     "stars": 6,
-    "updated": "2026-11-16",
+    "updated": "2026-11-23",
     "created": "2024-07-04",
     "archived": false,
     "pinned": false
@@ -509,7 +509,7 @@
     ],
     "description": "sqsf is a tool to receive AWS SQS messages like `tail -f`.",
     "stars": 2,
-    "updated": "2026-11-16",
+    "updated": "2026-11-23",
     "created": "2022-09-19",
     "archived": false,
     "pinned": false
@@ -851,6 +851,24 @@
     "pinned": false
   },
   {
+    "name": "rddbsh",
+    "url": "https://github.com/winebarrel/rddbsh",
+    "categories": [
+      "AWS"
+    ],
+    "language": "Rust",
+    "languages": [
+      "Rust",
+      "Shell"
+    ],
+    "description": "rddbsh is a SQL-like interactive shell for Amazon DynamoDB, a Rust port of ddbsh.",
+    "stars": 0,
+    "updated": "2026-11-23",
+    "created": "2026-11-23",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "rdslog",
     "url": "https://github.com/winebarrel/rdslog",
     "categories": [
@@ -989,7 +1007,7 @@
     ],
     "description": "ssowrap is a single binary tool that run a command using AWS SSO credentials.",
     "stars": 0,
-    "updated": "2026-11-16",
+    "updated": "2026-11-23",
     "created": "2025-02-22",
     "archived": false,
     "pinned": false
@@ -1215,7 +1233,7 @@
     ],
     "description": "CLI for esa.io.",
     "stars": 18,
-    "updated": "2026-11-02",
+    "updated": "2026-11-23",
     "created": "2022-01-09",
     "archived": false,
     "pinned": false
@@ -1626,7 +1644,7 @@
     ],
     "description": "hazel is a declarative schema management tool for SQLite with a Terraform-like plan/apply workflow.",
     "stars": 5,
-    "updated": "2026-11-15",
+    "updated": "2026-11-23",
     "created": "2026-11-14",
     "archived": false,
     "pinned": false
@@ -2177,7 +2195,7 @@
     ],
     "description": "Go language library to check Japanese holidays using Google Calendar.",
     "stars": 1,
-    "updated": "2026-11-16",
+    "updated": "2026-11-23",
     "created": "2023-06-17",
     "archived": false,
     "pinned": false
@@ -2483,7 +2501,7 @@
     ],
     "description": "VS Code extension to filter text by selected text.",
     "stars": 1,
-    "updated": "2026-11-15",
+    "updated": "2026-11-22",
     "created": "2024-01-14",
     "archived": false,
     "pinned": false
@@ -2839,7 +2857,7 @@
     ],
     "description": "Ridgepole is a tool to manage DB schema.  It defines DB schema using Rails DSL, and updates DB schema according to DSL. (like Chef/Puppet)",
     "stars": 1118,
-    "updated": "2026-11-15",
+    "updated": "2026-11-23",
     "created": "2014-05-04",
     "archived": false,
     "pinned": false
@@ -3018,7 +3036,7 @@
     ],
     "description": "qrev is a SQL execution history management tool.",
     "stars": 8,
-    "updated": "2026-11-20",
+    "updated": "2026-11-22",
     "created": "2025-10-11",
     "archived": false,
     "pinned": false
@@ -3125,7 +3143,7 @@
     ],
     "description": "PING utility for databases (MySQL/PostgreSQL)",
     "stars": 2,
-    "updated": "2026-11-16",
+    "updated": "2026-11-23",
     "created": "2024-11-18",
     "archived": false,
     "pinned": false
@@ -3409,7 +3427,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 68,
-    "updated": "2026-11-21",
+    "updated": "2026-11-23",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3902,7 +3920,7 @@
     ],
     "description": "Inspect Hash object as modern format.",
     "stars": 1,
-    "updated": "2026-11-09",
+    "updated": "2026-11-23",
     "created": "2016-04-09",
     "archived": false,
     "pinned": false
@@ -4327,7 +4345,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-11-20",
+    "updated": "2026-11-22",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4521,7 +4539,7 @@
     ],
     "description": "Run terraform state show in VSCode.",
     "stars": 3,
-    "updated": "2026-11-15",
+    "updated": "2026-11-22",
     "created": "2023-12-17",
     "archived": false,
     "pinned": false
@@ -4557,7 +4575,7 @@
     ],
     "description": "Terraform functions that build AWS ARNs, one per AWS resource type",
     "stars": 1,
-    "updated": "2026-11-16",
+    "updated": "2026-11-23",
     "created": "2026-09-21",
     "archived": false,
     "pinned": false
@@ -5043,7 +5061,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-11-21",
+    "updated": "2026-11-23",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
