@@ -349,7 +349,7 @@
     ],
     "description": "A multi-profile proxy for the AWS MCP Server: opens one SigV4-signed connection per AWS profile and adds a profile argument to every tool, so a single client connection can reach multiple AWS accounts. Needs no config file, no uvx and no mcp-proxy-for-aws.",
     "stars": 3,
-    "updated": "2026-11-17",
+    "updated": "2026-11-24",
     "created": "2026-08-09",
     "archived": false,
     "pinned": false
@@ -545,7 +545,7 @@
     ],
     "description": "Real-time, tail -f-style viewer for Amazon CloudWatch Logs, rendered in a browser terminal (Live Tail + WebSocket fan-out)",
     "stars": 1,
-    "updated": "2026-11-18",
+    "updated": "2026-11-24",
     "created": "2026-07-27",
     "archived": false,
     "pinned": false
@@ -616,7 +616,7 @@
     ],
     "description": "Quetaro is a job queue system using SQS, Lambda and PostgreSQL.",
     "stars": 1,
-    "updated": "2026-11-20",
+    "updated": "2026-11-24",
     "created": "2022-12-08",
     "archived": false,
     "pinned": false
@@ -863,7 +863,7 @@
     ],
     "description": "rddbsh is a SQL-like interactive shell for Amazon DynamoDB, a Rust port of ddbsh.",
     "stars": 0,
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "created": "2026-11-23",
     "archived": false,
     "pinned": false
@@ -1644,7 +1644,7 @@
     ],
     "description": "hazel is a declarative schema management tool for SQLite with a Terraform-like plan/apply workflow.",
     "stars": 5,
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "created": "2026-11-14",
     "archived": false,
     "pinned": false
@@ -2273,6 +2273,23 @@
     "pinned": false
   },
   {
+    "name": "conftestrepl",
+    "url": "https://github.com/winebarrel/conftestrepl",
+    "categories": [
+      "Go tool"
+    ],
+    "language": "Go",
+    "languages": [
+      "Go"
+    ],
+    "description": "A TUI REPL for writing Rego policies against conftest inputs.",
+    "stars": 0,
+    "updated": "2026-11-24",
+    "created": "2026-11-24",
+    "archived": false,
+    "pinned": false
+  },
+  {
     "name": "esub",
     "url": "https://github.com/winebarrel/esub",
     "categories": [
@@ -2821,7 +2838,7 @@
     ],
     "description": "A multi-org proxy for the Datadog MCP server: mirrors every Datadog MCP tool and adds an org argument so a single client connection can target multiple Datadog organizations.",
     "stars": 0,
-    "updated": "2026-11-06",
+    "updated": "2026-11-24",
     "created": "2026-07-11",
     "archived": false,
     "pinned": false
@@ -2964,7 +2981,7 @@
     ],
     "description": "qube is a DB load testing tool.",
     "stars": 11,
-    "updated": "2026-11-16",
+    "updated": "2026-11-23",
     "created": "2023-10-29",
     "archived": false,
     "pinned": true
@@ -3427,7 +3444,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 68,
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3481,7 +3498,7 @@
     ],
     "description": "A PostgreSQL language server. Provides completion, hover, and diagnostics for SQL — both inside .sql files and inside SQL string literals embedded in .go source.",
     "stars": 1,
-    "updated": "2026-11-21",
+    "updated": "2026-11-24",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -3499,7 +3516,7 @@
     ],
     "description": "pgsandpit is a Go testing library that gives each test a PostgreSQL session wrapped in a transaction and rolls it back when the test ends.",
     "stars": 1,
-    "updated": "2026-11-18",
+    "updated": "2026-11-24",
     "created": "2026-11-07",
     "archived": false,
     "pinned": false
@@ -3517,7 +3534,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-11-21",
+    "updated": "2026-11-23",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -3795,7 +3812,7 @@
     ],
     "description": "It is Ruby code matcher.",
     "stars": 3,
-    "updated": "2026-11-09",
+    "updated": "2026-11-23",
     "created": "2017-12-13",
     "archived": false,
     "pinned": false
@@ -4345,7 +4362,7 @@
     ],
     "description": "Pure Ruby unified diff library. No external dependencies, no shelling out to diff.",
     "stars": 0,
-    "updated": "2026-11-22",
+    "updated": "2026-11-24",
     "created": "2026-03-22",
     "archived": false,
     "pinned": false
@@ -4611,7 +4628,7 @@
     ],
     "description": "Terraform provider for running one-shot commands.",
     "stars": 1,
-    "updated": "2026-10-14",
+    "updated": "2026-11-23",
     "created": "2024-09-21",
     "archived": false,
     "pinned": false
@@ -4989,7 +5006,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-11-20",
+    "updated": "2026-11-23",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -5061,7 +5078,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
