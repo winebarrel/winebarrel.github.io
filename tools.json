@@ -313,7 +313,7 @@
     ],
     "description": "rdsauth is a tool to generate an auth token used to connect to a db with IAM credentials.",
     "stars": 4,
-    "updated": "2026-11-18",
+    "updated": "2026-11-25",
     "created": "2024-12-04",
     "archived": false,
     "pinned": false
@@ -899,7 +899,7 @@
     ],
     "description": "Wait until an AWS IAM Identity Center permission set granted by PIM can be assumed",
     "stars": 0,
-    "updated": "2026-11-20",
+    "updated": "2026-11-24",
     "created": "2026-09-03",
     "archived": false,
     "pinned": false
@@ -917,7 +917,7 @@
     ],
     "description": "s3lock is a locking command using S3.",
     "stars": 0,
-    "updated": "2026-11-20",
+    "updated": "2026-11-24",
     "created": "2026-02-07",
     "archived": false,
     "pinned": false
@@ -1114,7 +1114,7 @@
     ],
     "description": "Simple HTTP proxy with Google Oauth2 access token verification.",
     "stars": 0,
-    "updated": "2026-11-17",
+    "updated": "2026-11-25",
     "created": "2025-08-31",
     "archived": false,
     "pinned": false
@@ -1644,7 +1644,7 @@
     ],
     "description": "hazel is a declarative schema management tool for SQLite with a Terraform-like plan/apply workflow.",
     "stars": 5,
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "created": "2026-11-14",
     "archived": false,
     "pinned": false
@@ -2284,7 +2284,7 @@
     ],
     "description": "A TUI REPL for writing Rego policies against conftest inputs.",
     "stars": 0,
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "created": "2026-11-24",
     "archived": false,
     "pinned": false
@@ -2338,7 +2338,7 @@
     ],
     "description": "plsort is a tool that sorts YouTube playlist items in lexicographic order by title.",
     "stars": 0,
-    "updated": "2026-11-17",
+    "updated": "2026-11-25",
     "created": "2025-05-18",
     "archived": false,
     "pinned": false
@@ -3408,7 +3408,7 @@
     ],
     "description": "Cloudflare Workers app that turns Amazon product URLs into OGP-friendly links for X (Twitter) cards",
     "stars": 0,
-    "updated": "2026-11-15",
+    "updated": "2026-11-24",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -3444,7 +3444,7 @@
     ],
     "description": "pistachio is a declarative schema management tool for PostgreSQL with a Terraform-like plan/apply workflow.",
     "stars": 68,
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "created": "2026-02-21",
     "archived": false,
     "pinned": true
@@ -3534,7 +3534,7 @@
     ],
     "description": "VSCode client for the pgls PostgreSQL language server.",
     "stars": 0,
-    "updated": "2026-11-23",
+    "updated": "2026-11-24",
     "created": "2026-05-05",
     "archived": false,
     "pinned": false
@@ -4754,7 +4754,7 @@
     ],
     "description": "Terraform provider for retrieving data from Google Sheets.",
     "stars": 0,
-    "updated": "2026-11-17",
+    "updated": "2026-11-24",
     "created": "2025-04-17",
     "archived": false,
     "pinned": false
@@ -5006,7 +5006,7 @@
     ],
     "description": "VS Code extension that renames Terraform resources via the tfrename CLI.",
     "stars": 0,
-    "updated": "2026-11-23",
+    "updated": "2026-11-25",
     "created": "2026-05-30",
     "archived": false,
     "pinned": false
@@ -5078,7 +5078,7 @@
     ],
     "description": "Cloudflare Workers app that turns RubyGems URLs into OGP-friendly links for X (Twitter) and Slack cards",
     "stars": 0,
-    "updated": "2026-11-24",
+    "updated": "2026-11-25",
     "created": "2026-06-14",
     "archived": false,
     "pinned": false
